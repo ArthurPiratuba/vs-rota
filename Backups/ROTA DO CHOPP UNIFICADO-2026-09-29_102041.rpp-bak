@@ -220,6 +220,31 @@
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4112D39-4586-4407-8CCA-CBFD9793654D}
+      IID 324
+      NAME Screenshot_2.png
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8423C6E3-F150-4296-BCF0-90A539A1AB8D}
+      <SOURCE VIDEO
+        FILE "Media\Screenshot_2.png"
+      >
+      <EXT
+        ORIGINAL_FILENAME C:\Users\arthu\Desktop\Screenshot_2.png
+      >
+    >
   >
   <TRACK {D6A101E6-38D2-4227-B3E2-30CFC60E0212}
     NAME "01 - CLICK - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO - CLICK"

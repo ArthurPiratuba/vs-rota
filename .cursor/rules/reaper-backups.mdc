@@ -1,0 +1,42 @@
+---
+description: Backup obrigatorio antes de alterar .rpp; backups nao sao fonte confiavel
+alwaysApply: true
+---
+
+# Backups do projeto Reaper (vs-rota)
+
+## Antes de qualquer alteracao
+
+Sempre criar backup **antes** de modificar:
+
+- `ROTA DO CHOPP UNIFICADO.rpp`
+- Qualquer `.rpp` em `ABERTO/`
+- Dados derivados criticos (`data/region_markers.json` se for sobrescrever)
+
+Usar o script:
+
+```bash
+python scripts/backup_rpp.py
+python scripts/backup_rpp.py "caminho/para/arquivo.rpp"   # opcional
+```
+
+Ou, em scripts Python que editam o `.rpp`, chamar `backup_rpp(path)` no inicio de `main()`.
+
+Nome do backup: `Backups/<nome>-YYYY-MM-DD_HHMMSS.rpp-bak`
+
+## Backups nao sao confiaveis por padrao
+
+- **Nao assumir** que um arquivo em `Backups/` esta correto ou completo.
+- Backups servem para comparar ou recuperar **trechos** apos checagem (diff, git, JSON canonico).
+- Exemplo real: backups de maio/2026 ja tinham cores das regions zeradas (`1 0 1 R`); o commit git e `data/region_markers.json` tinham as cores certas.
+- Para **cores das regions**, usar `data/region_markers.json` + `scripts/corrigir_regions_rpp.py`, nao restaurar o `.rpp` inteiro de `Backups/` sem verificar MARKER.
+
+## Ordem de recuperacao preferida
+
+1. `git show HEAD:"ROTA DO CHOPP UNIFICADO.rpp"` (ou commit conhecido bom)
+2. `data/region_markers.json` para MARKER/cores
+3. `Backups/*.rpp-bak` apenas apos `diff` ou inspecao manual
+
+## Scripts que alteram o .rpp
+
+Devem fazer backup automaticamente: `renomear_tracks_rpp.py`, `corrigir_regions_rpp.py`, `unificar_reaper.py` (ao gravar saida).

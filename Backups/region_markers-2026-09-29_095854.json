@@ -1,0 +1,259 @@
+{
+  "starts": [
+    {
+      "index": 1,
+      "start": "0",
+      "name": "ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO",
+      "tail": "1 19442794 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 2,
+      "start": "343.7860625",
+      "name": "AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
+      "tail": "1 28912668 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 3,
+      "start": "702.82953188775514",
+      "name": "BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
+      "tail": "1 24036843 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 4,
+      "start": "1019.444928713152",
+      "name": "BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+      "tail": "1 26245887 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 5,
+      "start": "1651.2534321145126",
+      "name": "CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA",
+      "tail": "1 28294610 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 6,
+      "start": "2002.2412552437643",
+      "name": "CATCHAQUEIRA - LUZ DA MINHA VIDA",
+      "tail": "1 31239601 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 7,
+      "start": "2407.91374957483",
+      "name": "CULPA É SUA - RISCA FACA - LUA E A NOITE",
+      "tail": "1 31066013 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 8,
+      "start": "2960.9693504818597",
+      "name": "DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA",
+      "tail": "1 28187252 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 9,
+      "start": "3266.2836361961454",
+      "name": "ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
+      "tail": "1 32607676 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 10,
+      "start": "3822.3399854024947",
+      "name": "FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
+      "tail": "1 23391432 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 11,
+      "start": "4288.6525477607711",
+      "name": "GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+      "tail": "1 33520518 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 12,
+      "start": "4841.2239763321995",
+      "name": "GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
+      "tail": "1 27154943 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 13,
+      "start": "5357.1947699829934",
+      "name": "LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
+      "tail": "1 26792715 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 14,
+      "start": "5870.9464026360547",
+      "name": "MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
+      "tail": "1 31616973 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 15,
+      "start": "6176.4070375566898",
+      "name": "MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
+      "tail": "1 18853999 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 16,
+      "start": "6567.4239763322003",
+      "name": "NOSSO AMOR TERMINOU - ASSINO COM X",
+      "tail": "1 26982380 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 17,
+      "start": "7018.4239763322003",
+      "name": "NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
+      "tail": "1 29264628 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 18,
+      "start": "7522.3638856292528",
+      "name": "OLHOS NEGROS - ALÔ MEU AMOR",
+      "tail": "1 33512578 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 19,
+      "start": "7957.0138856292524",
+      "name": "PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
+      "tail": "1 22637940 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 20,
+      "start": "8555.7083527494342",
+      "name": "PERIGOSA E LINDA - CUMPADI E CUMADI",
+      "tail": "1 22313325 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 21,
+      "start": "8945.9715046768724",
+      "name": "REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
+      "tail": "1 22374258 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 22,
+      "start": "9558.2675817743784",
+      "name": "SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
+      "tail": "1 26748028 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    },
+    {
+      "index": 23,
+      "start": "10120.35331873583",
+      "name": "VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
+      "tail": "9 25343222 1 R {00000000-0000-0000-0000-000000000000} 0 1"
+    }
+  ],
+  "ends": [
+    {
+      "index": 1,
+      "end": "341.7860625",
+      "tail": "1"
+    },
+    {
+      "index": 2,
+      "end": "700.82953188775514",
+      "tail": "1"
+    },
+    {
+      "index": 3,
+      "end": "1017.444928713152",
+      "tail": "1"
+    },
+    {
+      "index": 4,
+      "end": "1649.2534321145126",
+      "tail": "1"
+    },
+    {
+      "index": 5,
+      "end": "2000.2412552437643",
+      "tail": "1"
+    },
+    {
+      "index": 6,
+      "end": "2405.91374957483",
+      "tail": "1"
+    },
+    {
+      "index": 7,
+      "end": "2958.9693504818597",
+      "tail": "1"
+    },
+    {
+      "index": 8,
+      "end": "3264.2836361961454",
+      "tail": "1"
+    },
+    {
+      "index": 9,
+      "end": "3820.3399854024947",
+      "tail": "1"
+    },
+    {
+      "index": 10,
+      "end": "4286.6525477607711",
+      "tail": "1"
+    },
+    {
+      "index": 11,
+      "end": "4839.2239763321995",
+      "tail": "1"
+    },
+    {
+      "index": 12,
+      "end": "5355.1947699829934",
+      "tail": "1"
+    },
+    {
+      "index": 13,
+      "end": "5868.9464026360547",
+      "tail": "1"
+    },
+    {
+      "index": 14,
+      "end": "6174.4070375566898",
+      "tail": "1"
+    },
+    {
+      "index": 15,
+      "end": "6565.4239763322003",
+      "tail": "1"
+    },
+    {
+      "index": 16,
+      "end": "7016.4239763322003",
+      "tail": "1"
+    },
+    {
+      "index": 17,
+      "end": "7520.3638856292528",
+      "tail": "1"
+    },
+    {
+      "index": 18,
+      "end": "7955.0138856292524",
+      "tail": "1"
+    },
+    {
+      "index": 19,
+      "end": "8553.7083527494342",
+      "tail": "1"
+    },
+    {
+      "index": 20,
+      "end": "8943.9715046768724",
+      "tail": "1"
+    },
+    {
+      "index": 21,
+      "end": "9556.2675817743784",
+      "tail": "1"
+    },
+    {
+      "index": 22,
+      "end": "10118.35331873583",
+      "tail": "1"
+    },
+    {
+      "index": 23,
+      "end": "10609.704384495468",
+      "tail": "9"
+    }
+  ]
+}
