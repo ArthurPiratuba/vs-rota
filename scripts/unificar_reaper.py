@@ -392,11 +392,15 @@ def get_file_basename(track_text: str) -> str | None:
 
 
 def is_click_regencia_name(track_name: str) -> bool:
-    return track_name.endswith(" - CLICK") or track_name.endswith(" - REGÊNCIA")
+    from renomear_tracks_rpp import role_from_track_name
+
+    return role_from_track_name(track_name) is not None
 
 
 def click_target_volume(track_name: str) -> float | None:
-    if track_name.endswith(" - CLICK"):
+    from renomear_tracks_rpp import role_from_track_name
+
+    if role_from_track_name(track_name) == "click":
         return CLICK_VOLUME_LINEAR
     return None
 

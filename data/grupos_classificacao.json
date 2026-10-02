@@ -1,40 +1,40 @@
 {
-  "atualizado": "2026-10-01T19:09:25",
+  "atualizado": "2026-10-01T21:08:02",
   "grupos": [
     {
       "id": "click",
       "nome": "Click",
-      "master": "GRUPO CLICK",
+      "master": "CLICK",
       "cor": "#ff3030"
     },
     {
       "id": "regencia",
       "nome": "Regência",
-      "master": "GRUPO REGÊNCIA",
+      "master": "REGÊNCIA",
       "cor": "#3d7dff"
     },
     {
       "id": "metais",
       "nome": "Metais",
-      "master": "GRUPO METAIS",
+      "master": "METAIS",
       "cor": "#e6a817"
     },
     {
       "id": "teclas",
       "nome": "Teclas",
-      "master": "GRUPO TECLAS",
+      "master": "TECLAS",
       "cor": "#b450dc"
     },
     {
       "id": "cordas",
       "nome": "Cordas",
-      "master": "GRUPO CORDAS",
+      "master": "CORDAS",
       "cor": "#2ea85a"
     },
     {
       "id": "percussao",
       "nome": "Percussão",
-      "master": "GRUPO PERCUSSÃO",
+      "master": "PERCUSSÃO",
       "cor": "#ff6e1e"
     }
   ],
@@ -63,7 +63,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "01 - CLICK - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO - CLICK",
+          "trilha": "01 - CLICK - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO",
           "bloco": "01 - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO",
           "stem": "CLICK",
           "grupo": "click",
@@ -72,7 +72,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "01 - REGÊNCIA - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO - REGÊNCIA",
+          "trilha": "01 - REGÊNCIA - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO",
           "bloco": "01 - ALAMBIQUE - PODE PASSAR O RODO - SOFRO E CHORO",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -176,7 +176,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "02 - CLICK - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA - CLICK",
+          "trilha": "02 - CLICK - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "bloco": "02 - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "stem": "CLICK",
           "grupo": "click",
@@ -185,7 +185,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "02 - REGÊNCIA - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA - REGÊNCIA",
+          "trilha": "02 - REGÊNCIA - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "bloco": "02 - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -289,36 +289,36 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "03 - CLICK-GLUED - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA - CLICK",
+          "trilha": "03 - CLICK - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "bloco": "03 - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
-          "stem": "CLICK-GLUED",
+          "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
           "revisar": false,
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "03 - REGÊNCIA E CONTAGEM-GLUED - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA - REGÊNCIA",
+          "trilha": "03 - REGÊNCIA - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "bloco": "03 - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
-          "stem": "REGÊNCIA E CONTAGEM-GLUED",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "03 - MARIMBA-GLUED - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
+          "trilha": "03 - MARIMBA - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "bloco": "03 - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
-          "stem": "MARIMBA-GLUED",
+          "stem": "MARIMBA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
           "revisar": false,
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "03 - VS BARCO-GLUED - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
+          "trilha": "03 - VS BARCO - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "bloco": "03 - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
-          "stem": "VS BARCO-GLUED",
+          "stem": "VS BARCO",
           "grupo": null,
           "grupo_nome": "Fora",
           "revisar": true,
@@ -366,7 +366,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "04 - CLICK - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE - CLICK",
+          "trilha": "04 - CLICK - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "CLICK",
           "grupo": "click",
@@ -375,9 +375,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "04 - REGÊNCIA 2 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE - REGÊNCIA",
+          "trilha": "04 - REGÊNCIA - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "stem": "REGÊNCIA 2",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -461,7 +461,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "05 - CLICK - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA - CLICK",
+          "trilha": "05 - CLICK - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA",
           "bloco": "05 - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA",
           "stem": "CLICK",
           "grupo": "click",
@@ -470,9 +470,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "05 - CONTAGEM E REGÊNCIAS - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA - REGÊNCIA",
+          "trilha": "05 - REGÊNCIA - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA",
           "bloco": "05 - CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA",
-          "stem": "CONTAGEM E REGÊNCIAS",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -538,7 +538,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "06 - CLICK - CATCHAQUEIRA - LUZ DA MINHA VIDA - CLICK",
+          "trilha": "06 - CLICK - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "bloco": "06 - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "stem": "CLICK",
           "grupo": "click",
@@ -547,9 +547,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "06 - REGÊNCIA E CONTAGEM NOVO - CATCHAQUEIRA - LUZ DA MINHA VIDA - REGÊNCIA",
+          "trilha": "06 - REGÊNCIA - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "bloco": "06 - CATCHAQUEIRA - LUZ DA MINHA VIDA",
-          "stem": "REGÊNCIA E CONTAGEM NOVO",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -624,7 +624,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "07 - CLICK 142 - CULPA É SUA - RISCA FACA - LUA E A NOITE - CLICK",
+          "trilha": "07 - CLICK 142 - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "bloco": "07 - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "stem": "CLICK 142",
           "grupo": "click",
@@ -633,9 +633,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "07 - REGÊNCIA E CONTAGEM - CULPA É SUA - RISCA FACA - LUA E A NOITE - REGÊNCIA",
+          "trilha": "07 - REGÊNCIA - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "bloco": "07 - CULPA É SUA - RISCA FACA - LUA E A NOITE",
-          "stem": "REGÊNCIA E CONTAGEM",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -719,7 +719,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "08 - CLICK - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA - CLICK",
+          "trilha": "08 - CLICK - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA",
           "bloco": "08 - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA",
           "stem": "CLICK",
           "grupo": "click",
@@ -728,7 +728,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "08 - REGÊNCIA - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA - REGÊNCIA",
+          "trilha": "08 - REGÊNCIA - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA",
           "bloco": "08 - DO OUTRO LADO DA CIDADE - ESTRADA DA VIDA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -778,7 +778,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "09 - CLICK - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR - CLICK",
+          "trilha": "09 - CLICK - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
           "bloco": "09 - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
           "stem": "CLICK",
           "grupo": "click",
@@ -787,9 +787,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "09 - REGÊNCIA E CONTAGEM NOVO - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR - REGÊNCIA",
+          "trilha": "09 - REGÊNCIA - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
           "bloco": "09 - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
-          "stem": "REGÊNCIA E CONTAGEM NOVO",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -855,7 +855,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "10 - CLICK - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8 - CLICK",
+          "trilha": "10 - CLICK - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "bloco": "10 - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "stem": "CLICK",
           "grupo": "click",
@@ -864,7 +864,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "10 - REGÊNCIA - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8 - REGÊNCIA",
+          "trilha": "10 - REGÊNCIA - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "bloco": "10 - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -932,7 +932,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "11 - CLICK - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK - CLICK",
+          "trilha": "11 - CLICK - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "CLICK",
           "grupo": "click",
@@ -941,7 +941,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "11 - REGÊNCIA - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK - REGÊNCIA",
+          "trilha": "11 - REGÊNCIA - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1027,7 +1027,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "12 - CLICK - GUARDANAPO - TRANSGÊNICA - CASO MARCADO - CLICK",
+          "trilha": "12 - CLICK - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "bloco": "12 - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "stem": "CLICK",
           "grupo": "click",
@@ -1036,7 +1036,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "12 - REGÊNCIA - GUARDANAPO - TRANSGÊNICA - CASO MARCADO - REGÊNCIA",
+          "trilha": "12 - REGÊNCIA - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "bloco": "12 - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1113,7 +1113,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "13 - CLICK - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE - CLICK",
+          "trilha": "13 - CLICK - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "bloco": "13 - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "stem": "CLICK",
           "grupo": "click",
@@ -1122,7 +1122,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "13 - REGÊNCIA - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE - REGÊNCIA",
+          "trilha": "13 - REGÊNCIA - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "bloco": "13 - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1190,7 +1190,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "14 - CLICK - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER - CLICK",
+          "trilha": "14 - CLICK - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "bloco": "14 - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "stem": "CLICK",
           "grupo": "click",
@@ -1199,7 +1199,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "14 - REGÊNCIA - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER - REGÊNCIA",
+          "trilha": "14 - REGÊNCIA - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "bloco": "14 - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1294,7 +1294,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "15 - CLICK - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE - CLICK",
+          "trilha": "15 - CLICK - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "bloco": "15 - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "stem": "CLICK",
           "grupo": "click",
@@ -1303,7 +1303,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "15 - REGÊNCIA - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE - REGÊNCIA",
+          "trilha": "15 - REGÊNCIA - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "bloco": "15 - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1407,7 +1407,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "16 - CLICK - NOSSO AMOR TERMINOU - ASSINO COM X - CLICK",
+          "trilha": "16 - CLICK - NOSSO AMOR TERMINOU - ASSINO COM X",
           "bloco": "16 - NOSSO AMOR TERMINOU - ASSINO COM X",
           "stem": "CLICK",
           "grupo": "click",
@@ -1416,7 +1416,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "16 - REGÊNCIA - NOSSO AMOR TERMINOU - ASSINO COM X - REGÊNCIA",
+          "trilha": "16 - REGÊNCIA - NOSSO AMOR TERMINOU - ASSINO COM X",
           "bloco": "16 - NOSSO AMOR TERMINOU - ASSINO COM X",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1493,7 +1493,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "17 - CLICK 136 - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO - CLICK",
+          "trilha": "17 - CLICK 136 - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
           "bloco": "17 - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
           "stem": "CLICK 136",
           "grupo": "click",
@@ -1502,9 +1502,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "17 - CONTAGEM E REGÊNCIAS - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO - REGÊNCIA",
+          "trilha": "17 - REGÊNCIA - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
           "bloco": "17 - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
-          "stem": "CONTAGEM E REGÊNCIAS",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -1588,7 +1588,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "18 - CLICK - OLHOS NEGROS - ALÔ MEU AMOR - CLICK",
+          "trilha": "18 - CLICK - OLHOS NEGROS - ALÔ MEU AMOR",
           "bloco": "18 - OLHOS NEGROS - ALÔ MEU AMOR",
           "stem": "CLICK",
           "grupo": "click",
@@ -1597,9 +1597,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "18 - REGÊNCIA E CONTAGEM - OLHOS NEGROS - ALÔ MEU AMOR - REGÊNCIA",
+          "trilha": "18 - REGÊNCIA - OLHOS NEGROS - ALÔ MEU AMOR",
           "bloco": "18 - OLHOS NEGROS - ALÔ MEU AMOR",
-          "stem": "REGÊNCIA E CONTAGEM",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -1683,7 +1683,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "19 - CLICK - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA - CLICK",
+          "trilha": "19 - CLICK - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "bloco": "19 - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "CLICK",
           "grupo": "click",
@@ -1692,7 +1692,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "19 - REGÊNCIA - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA - REGÊNCIA",
+          "trilha": "19 - REGÊNCIA - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "bloco": "19 - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1733,7 +1733,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "20 - CLICK - PERIGOSA E LINDA - CUMPADI E CUMADI - CLICK",
+          "trilha": "20 - CLICK - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "bloco": "20 - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "stem": "CLICK",
           "grupo": "click",
@@ -1742,7 +1742,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "20 - REGÊNCIA - PERIGOSA E LINDA - CUMPADI E CUMADI - REGÊNCIA",
+          "trilha": "20 - REGÊNCIA - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "bloco": "20 - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1819,7 +1819,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "21 - CLICK - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR - CLICK",
+          "trilha": "21 - CLICK - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "bloco": "21 - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "stem": "CLICK",
           "grupo": "click",
@@ -1828,7 +1828,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "21 - REGÊNCIA - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR - REGÊNCIA",
+          "trilha": "21 - REGÊNCIA - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "bloco": "21 - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1905,7 +1905,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "22 - CLICK - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR - CLICK",
+          "trilha": "22 - CLICK - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "bloco": "22 - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "stem": "CLICK",
           "grupo": "click",
@@ -1914,7 +1914,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "22 - REGÊNCIA - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR - REGÊNCIA",
+          "trilha": "22 - REGÊNCIA - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "bloco": "22 - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -1982,7 +1982,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "23 - CLICK - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE - CLICK",
+          "trilha": "23 - CLICK - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "bloco": "23 - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "stem": "CLICK",
           "grupo": "click",
@@ -1991,7 +1991,7 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "23 - REGÊNCIA - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE - REGÊNCIA",
+          "trilha": "23 - REGÊNCIA - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "bloco": "23 - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
@@ -2095,7 +2095,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "24 - CLICK - ALÔ GALERA - CLICK",
+          "trilha": "24 - CLICK - ALÔ GALERA",
           "bloco": "24 - ALÔ GALERA",
           "stem": "CLICK",
           "grupo": "click",
@@ -2104,9 +2104,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "24 - CONTAGEM E REGÊNCIA - ALÔ GALERA - REGÊNCIA",
+          "trilha": "24 - REGÊNCIA - ALÔ GALERA",
           "bloco": "24 - ALÔ GALERA",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2208,7 +2208,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "25 - CLICK 136 - BARRIL DE CHOPP - CLICK",
+          "trilha": "25 - CLICK 136 - BARRIL DE CHOPP",
           "bloco": "25 - BARRIL DE CHOPP",
           "stem": "CLICK 136",
           "grupo": "click",
@@ -2217,9 +2217,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "25 - CONTAGEM E REGÊNCIA - BARRIL DE CHOPP - REGÊNCIA",
+          "trilha": "25 - REGÊNCIA - BARRIL DE CHOPP",
           "bloco": "25 - BARRIL DE CHOPP",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2321,7 +2321,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "26 - CLICK 138 - BEIJA BEIJA - CLICK",
+          "trilha": "26 - CLICK 138 - BEIJA BEIJA",
           "bloco": "26 - BEIJA BEIJA",
           "stem": "CLICK 138",
           "grupo": "click",
@@ -2330,9 +2330,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "26 - CONTAGEM E REGÊNCIA - BEIJA BEIJA - REGÊNCIA",
+          "trilha": "26 - REGÊNCIA - BEIJA BEIJA",
           "bloco": "26 - BEIJA BEIJA",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2416,7 +2416,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "27 - CLICK 168 - CAMISA MANCHADA - CLICK",
+          "trilha": "27 - CLICK 168 - CAMISA MANCHADA",
           "bloco": "27 - CAMISA MANCHADA",
           "stem": "CLICK 168",
           "grupo": "click",
@@ -2425,9 +2425,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "27 - CONTAGEM E REGÊNCIA - CAMISA MANCHADA - REGÊNCIA",
+          "trilha": "27 - REGÊNCIA - CAMISA MANCHADA",
           "bloco": "27 - CAMISA MANCHADA",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2511,7 +2511,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "28 - CLICK - CORONEL BOOGEY MARCHA DO COELHO - CLICK",
+          "trilha": "28 - CLICK - CORONEL BOOGEY MARCHA DO COELHO",
           "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
           "stem": "CLICK",
           "grupo": "click",
@@ -2520,9 +2520,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "28 - REGÊNCIA E CONTAGEM - CORONEL BOOGEY MARCHA DO COELHO - REGÊNCIA",
+          "trilha": "28 - REGÊNCIA - CORONEL BOOGEY MARCHA DO COELHO",
           "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
-          "stem": "REGÊNCIA E CONTAGEM",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2714,7 +2714,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "29 - CLICK - DAI QUE MIORO - CLICK",
+          "trilha": "29 - CLICK - DAI QUE MIORO",
           "bloco": "29 - DAI QUE MIORO",
           "stem": "CLICK",
           "grupo": "click",
@@ -2723,9 +2723,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "29 - CONTAGEM E REGÊNCIA - DAI QUE MIORO - REGÊNCIA",
+          "trilha": "29 - REGÊNCIA - DAI QUE MIORO",
           "bloco": "29 - DAI QUE MIORO",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2827,7 +2827,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "30 - CLICK 135 - HEYO HEYO - CLICK",
+          "trilha": "30 - CLICK 135 - HEYO HEYO",
           "bloco": "30 - HEYO HEYO",
           "stem": "CLICK 135",
           "grupo": "click",
@@ -2836,9 +2836,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "30 - CONTAGEM E REGÊNCIA - HEYO HEYO - REGÊNCIA",
+          "trilha": "30 - REGÊNCIA - HEYO HEYO",
           "bloco": "30 - HEYO HEYO",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -2967,7 +2967,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "31 - CLICK 138 - NOVA IORQUE - CLICK",
+          "trilha": "31 - CLICK 138 - NOVA IORQUE",
           "bloco": "31 - NOVA IORQUE",
           "stem": "CLICK 138",
           "grupo": "click",
@@ -2976,9 +2976,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "31 - CONTAGEM E REGÊNCIA - NOVA IORQUE - REGÊNCIA",
+          "trilha": "31 - REGÊNCIA - NOVA IORQUE",
           "bloco": "31 - NOVA IORQUE",
-          "stem": "CONTAGEM E REGÊNCIA",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,
@@ -3089,7 +3089,7 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "32 - CLICK 138 - PONTO CHICK - CLICK",
+          "trilha": "32 - CLICK 138 - PONTO CHICK",
           "bloco": "32 - PONTO CHICK",
           "stem": "CLICK 138",
           "grupo": "click",
@@ -3098,9 +3098,9 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "32 - REGÊNCIA E CONTAGEM - PONTO CHICK - REGÊNCIA",
+          "trilha": "32 - REGÊNCIA - PONTO CHICK",
           "bloco": "32 - PONTO CHICK",
-          "stem": "REGÊNCIA E CONTAGEM",
+          "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
           "revisar": false,

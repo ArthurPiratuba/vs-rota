@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Padroniza NAME das tracks no .rpp unificado.
 
-Formato: {NN} - {stem} - {bloco} [- CLICK|REGÊNCIA]
+Click e regência: {NN} - CLICK [BPM] - {bloco}
+Demais: {NN} - {stem} - {bloco}
 Nao altera nomes de arquivos no disco nem linhas FILE. Para cores das regions:
 scripts/corrigir_regions_rpp.py + data/region_markers.json
 """
@@ -70,19 +71,63 @@ def classify_role(filename: str, old_track_name: str) -> str | None:
 
 
 def stem_display(filename: str) -> str:
-    """Stem sem extensao para track NAME (caixa alta)."""
+    """Stem sem extensao para track NAME. Glue nao entra no nome."""
     stem = filename
     for ext in (".mp3.mpeg", ".mpeg", ".mp3", ".wav"):
         if stem.lower().endswith(ext):
             stem = stem[: -len(ext)]
             break
-    return stem.upper()
+    stem = stem.upper()
+    stem = re.sub(r"[\s\-]*GLUED\b", "", stem)
+    return re.sub(r"\s+", " ", stem).strip(" -")
+
+
+BPM_AFTER_ROLE = re.compile(
+    r"(?:CLICK|REGÊNCIA|REGENCIA)\s+(\d{2,3})\b",
+    re.IGNORECASE,
+)
+ROLE_TRACK_PATTERN = re.compile(
+    r"^\d{2} - (CLICK|REGÊNCIA)(?: (\d{2,3}))? - .+"
+)
+
+
+def extract_bpm(*texts: str) -> int | None:
+    """BPM só quando o número já está colado em CLICK ou REGÊNCIA, entre 70 e 220."""
+    for text in texts:
+        if not text:
+            continue
+        match = BPM_AFTER_ROLE.search(text)
+        if not match:
+            continue
+        bpm = int(match.group(1))
+        if 70 <= bpm <= 220:
+            return bpm
+    return None
+
+
+def format_click_regencia_name(order: int, role: str, song_name: str, bpm: int | None) -> str:
+    head = f"{order:02d} - {role}"
+    if bpm:
+        head += f" {bpm}"
+    return f"{head} - {song_name}"
+
+
+def role_from_track_name(name: str) -> str | None:
+    """click/regencia de uma faixa de bloco. Os faders CLICK e REGÊNCIA não entram."""
+    match = ROLE_TRACK_PATTERN.match(name)
+    if match:
+        return "click" if match.group(1) == "CLICK" else "regencia"
+    if name.endswith(" - CLICK"):
+        return "click"
+    if name.endswith(" - REGÊNCIA"):
+        return "regencia"
+    return None
 
 
 def build_track_name(order: int, filename: str, song_name: str, role: str | None) -> str:
+    if role in ("CLICK", "REGÊNCIA"):
+        return format_click_regencia_name(order, role, song_name, extract_bpm(filename))
     parts = [f"{order:02d}", stem_display(filename), song_name]
-    if role:
-        parts.append(role)
     return " - ".join(parts)
 
 
@@ -112,6 +157,23 @@ def extract_track_blocks(rpp_text: str) -> list[str]:
     return tracks
 
 
+ITEM_NAME_PATTERN = re.compile(r"^(      NAME )(.+)$", re.MULTILINE)
+
+
+def item_label(filename: str, role: str | None, source_name: str) -> str:
+    bpm = extract_bpm(filename, source_name)
+    if role == "CLICK":
+        return f"CLICK {bpm}" if bpm else "CLICK"
+    if role == "REGÊNCIA":
+        return f"REGÊNCIA {bpm}" if bpm else "REGÊNCIA"
+    return stem_display(filename)
+
+
+def apply_item_label(track_text: str, label: str) -> str:
+    rendered = format_rpp_name(label)
+    return ITEM_NAME_PATTERN.sub(lambda m: f"{m.group(1)}{rendered}", track_text, count=1)
+
+
 def rename_track_block(track_text: str) -> tuple[str, bool]:
     file_match = FILE_PATTERN.search(track_text)
     if not file_match:
@@ -129,15 +191,22 @@ def rename_track_block(track_text: str) -> tuple[str, bool]:
     old_name = parse_quoted_name(name_match.group(2).strip())
     role = classify_role(filename, old_name)
     new_name = build_track_name(order, filename, song_name, role)
-    if new_name == old_name:
-        return track_text, False
+    new_text = track_text
+    changed = False
+    if new_name != old_name:
+        new_text = TRACK_NAME_PATTERN.sub(
+            lambda m: f"{m.group(1)}{format_rpp_name(new_name)}",
+            new_text,
+            count=1,
+        )
+        changed = True
 
-    new_text = TRACK_NAME_PATTERN.sub(
-        lambda m: f"{m.group(1)}{format_rpp_name(new_name)}",
-        track_text,
-        count=1,
-    )
-    return new_text, True
+    label = item_label(filename, role, old_name)
+    item_match = ITEM_NAME_PATTERN.search(new_text)
+    if item_match and parse_quoted_name(item_match.group(2).strip()) != label:
+        new_text = apply_item_label(new_text, label)
+        changed = True
+    return new_text, changed
 
 
 def replace_track_blocks(rpp_text: str, tracks: list[str]) -> str:

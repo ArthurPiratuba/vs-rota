@@ -50,7 +50,7 @@ GRUPOS = (
     {
         "id": "click",
         "nome": "Click",
-        "master": "GRUPO CLICK",
+        "master": "CLICK",
         "bit": 1,
         "cor": "#ff3030",
         "peakcol": rgb_to_peakcol(255, 48, 48),
@@ -58,7 +58,7 @@ GRUPOS = (
     {
         "id": "regencia",
         "nome": "Regência",
-        "master": "GRUPO REGÊNCIA",
+        "master": "REGÊNCIA",
         "bit": 2,
         "cor": "#3d7dff",
         "peakcol": PEAKCOL_BLUE,
@@ -66,7 +66,7 @@ GRUPOS = (
     {
         "id": "metais",
         "nome": "Metais",
-        "master": "GRUPO METAIS",
+        "master": "METAIS",
         "bit": 4,
         "cor": "#e6a817",
         "peakcol": rgb_to_peakcol(255, 176, 32),
@@ -74,7 +74,7 @@ GRUPOS = (
     {
         "id": "teclas",
         "nome": "Teclas",
-        "master": "GRUPO TECLAS",
+        "master": "TECLAS",
         "bit": 8,
         "cor": "#b450dc",
         "peakcol": rgb_to_peakcol(176, 80, 220),
@@ -82,7 +82,7 @@ GRUPOS = (
     {
         "id": "cordas",
         "nome": "Cordas",
-        "master": "GRUPO CORDAS",
+        "master": "CORDAS",
         "bit": 16,
         "cor": "#2ea85a",
         "peakcol": rgb_to_peakcol(46, 168, 90),
@@ -90,7 +90,7 @@ GRUPOS = (
     {
         "id": "percussao",
         "nome": "Percussão",
-        "master": "GRUPO PERCUSSÃO",
+        "master": "PERCUSSÃO",
         "bit": 32,
         "cor": "#ff6e1e",
         "peakcol": rgb_to_peakcol(255, 110, 30),
@@ -263,11 +263,9 @@ def classificar_stem(stem: str, papel: str | None) -> tuple[str | None, bool, st
 
 
 def papel_da_trilha(name: str) -> str | None:
-    if name.endswith(" - CLICK"):
-        return "click"
-    if name.endswith(" - REGÊNCIA"):
-        return "regencia"
-    return None
+    from renomear_tracks_rpp import role_from_track_name
+
+    return role_from_track_name(name)
 
 
 def stem_da_trilha(name: str, bloco: str) -> str:
