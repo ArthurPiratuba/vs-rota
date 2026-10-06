@@ -2,7 +2,8 @@
 """Seis faders de grupo no início do projeto, na ordem do show.
 
 Click, Regência, Metais, Teclas, Cordas, Percussão.
-Volume por VCA e mute ligado. A trilha continua na pasta da música.
+Cada fader é o barramento da família: volume, pan, mute, solo e medidor.
+A trilha continua na pasta da música e o áudio passa pelo grupo uma vez só.
 """
 
 from __future__ import annotations
@@ -38,9 +39,11 @@ HTML_PATH = WORKSPACE / "relatorio" / "grupos.html"
 
 MUTE_MASTER_INDEX = 4
 MUTE_SLAVE_INDEX = 5
-VCA_MASTER_INDEX = 20
-VCA_SLAVE_INDEX = 21
+SOLO_MASTER_INDEX = 6
+SOLO_SLAVE_INDEX = 7
 GROUP_FLAGS_PATTERN = re.compile(r"^    GROUP_FLAGS .+\n", re.MULTILINE)
+AUXRECV_PATTERN = re.compile(r"^    AUXRECV .+\n", re.MULTILINE)
+MAINSEND_PATTERN = re.compile(r"^    MAINSEND \d+", re.MULTILINE)
 VU_PATTERN = re.compile(r"^    VU .+\n", re.MULTILINE)
 PEAKCOL_PATTERN = re.compile(r"^(\s*PEAKCOL )(\d+)(.*)$", re.MULTILINE)
 MONITOR_PATTERN = re.compile(r"^\d{2} - MONITOR$")
@@ -344,21 +347,35 @@ def aplicar_correcoes(faixas: list[Faixa], correcoes: list[dict]) -> list[Faixa]
 
 
 def format_group_flags(bit: int) -> str:
-    values = [0] * (VCA_SLAVE_INDEX + 1)
+    values = [0] * (SOLO_MASTER_INDEX + 1)
     values[MUTE_MASTER_INDEX] = bit
-    values[VCA_MASTER_INDEX] = bit
-    while values and values[-1] == 0:
-        values.pop()
+    values[SOLO_MASTER_INDEX] = bit
     return " ".join(str(value) for value in values)
 
 
 def format_slave_flags(bit: int) -> str:
-    values = [0] * (VCA_SLAVE_INDEX + 1)
+    values = [0] * (SOLO_SLAVE_INDEX + 1)
     values[MUTE_SLAVE_INDEX] = bit
-    values[VCA_SLAVE_INDEX] = bit
-    while values and values[-1] == 0:
-        values.pop()
+    values[SOLO_SLAVE_INDEX] = bit
     return " ".join(str(value) for value in values)
+
+
+def set_mainsend(block: str, enabled: int) -> str:
+    if not MAINSEND_PATTERN.search(block):
+        raise ValueError(f"Track sem MAINSEND: {get_track_name(block)}")
+    return MAINSEND_PATTERN.sub(f"    MAINSEND {enabled}", block, count=1)
+
+
+def set_receives(block: str, sources: list[int]) -> str:
+    block = AUXRECV_PATTERN.sub("", block)
+    if not sources:
+        return block
+    lines = "".join(
+        f"    AUXRECV {index} 0 1 0 0 0 0 0 0 -1:U 0 -1 ''\n" for index in sources
+    )
+    if not MAINSEND_PATTERN.search(block):
+        raise ValueError(f"Track sem MAINSEND: {get_track_name(block)}")
+    return MAINSEND_PATTERN.sub(lines + "    MAINSEND 1", block, count=1)
 
 
 def set_group_flags(block: str, flags: str) -> str:
@@ -441,10 +458,20 @@ def gravar_projeto(rpp_path: Path, faixas: list[Faixa]) -> None:
             continue
         faixa = por_nome.get(name)
         if faixa is None or not faixa.grupo:
-            novos.append(clear_group_flags(block))
+            novos.append(set_mainsend(clear_group_flags(block), 1))
             continue
         bit = GRUPO_POR_ID[faixa.grupo]["bit"]
-        novos.append(set_group_flags(block, format_slave_flags(bit)))
+        novos.append(set_mainsend(set_group_flags(block, format_slave_flags(bit)), 0))
+
+    por_indice = {get_track_name(block): index for index, block in enumerate(novos)}
+    for grupo in GRUPOS:
+        fontes = [
+            por_indice[faixa.trilha]
+            for faixa in faixas
+            if faixa.grupo == grupo["id"] and faixa.trilha in por_indice
+        ]
+        master_index = por_indice[grupo["master"]]
+        novos[master_index] = set_receives(novos[master_index], fontes)
 
     dest = backup_rpp(rpp_path)
     print(f"Backup: {dest}")
