@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-02T13:04:56",
+  "atualizado": "2026-10-07T19:21:31",
   "grupos": [
     {
       "id": "click",
@@ -39,15 +39,15 @@
     }
   ],
   "contagens": {
-    "click": 32,
+    "click": 33,
     "regencia": 32,
     "metais": 65,
     "teclas": 63,
     "cordas": 47,
-    "percussao": 27,
+    "percussao": 28,
     "fora": 33,
     "revisar": 34,
-    "monitor": 32
+    "monitor": 33
   },
   "blocos": [
     {
@@ -3186,6 +3186,38 @@
           "grupo_nome": "Metais",
           "revisar": false,
           "motivo": "Sopro ou metais, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "33 - LOOP DE VANEIRA",
+      "faixas": [
+        {
+          "trilha": "33 - MONITOR",
+          "bloco": "33 - LOOP DE VANEIRA",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "33 - CLICK 82 - LOOP DE VANEIRA",
+          "bloco": "33 - LOOP DE VANEIRA",
+          "stem": "CLICK 82",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "33 - PERCUSSÃO - LOOP DE VANEIRA",
+          "bloco": "33 - LOOP DE VANEIRA",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
         }
       ]
     }

@@ -44,6 +44,7 @@ SOLO_SLAVE_INDEX = 7
 GROUP_FLAGS_PATTERN = re.compile(r"^    GROUP_FLAGS .+\n", re.MULTILINE)
 AUXRECV_PATTERN = re.compile(r"^    AUXRECV .+\n", re.MULTILINE)
 MAINSEND_PATTERN = re.compile(r"^    MAINSEND \d+", re.MULTILINE)
+MIDIOUT_PATTERN = re.compile(r"^    MIDIOUT ", re.MULTILINE)
 VU_PATTERN = re.compile(r"^    VU .+\n", re.MULTILINE)
 PEAKCOL_PATTERN = re.compile(r"^(\s*PEAKCOL )(\d+)(.*)$", re.MULTILINE)
 MONITOR_PATTERN = re.compile(r"^\d{2} - MONITOR$")
@@ -373,6 +374,9 @@ def set_receives(block: str, sources: list[int]) -> str:
     lines = "".join(
         f"    AUXRECV {index} 0 1 0 0 0 0 0 0 -1:U 0 -1 ''\n" for index in sources
     )
+    # O Reaper grava os AUXRECV antes do MIDIOUT; na mesma ordem o diff fica limpo.
+    if MIDIOUT_PATTERN.search(block):
+        return MIDIOUT_PATTERN.sub(lambda m: lines + m.group(0), block, count=1)
     if not MAINSEND_PATTERN.search(block):
         raise ValueError(f"Track sem MAINSEND: {get_track_name(block)}")
     return MAINSEND_PATTERN.sub(lines + "    MAINSEND 1", block, count=1)
