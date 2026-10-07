@@ -7,11 +7,20 @@ como texto. Rode tudo com `python -X utf8` a partir da raiz.
 ## Antes de gravar
 
 - Feche o **Reaper**: aberto, ele regrava o `.rpp` antigo e prende os mp3.
-- Feche o **`.pptx`** do repertório no PowerPoint: aberto, o arquivo fica travado.
+- Feche o **`Repertório Rota do Chopp VS.pptx`** no PowerPoint: aberto, o arquivo fica travado.
 - Todo script mostra o plano sem `--aplicar` e só grava com ele. Confira o
   plano com o usuário antes de aplicar.
 - Backups: `.rpp` em `Backups/`; `.pptx` e `.pdf` ao lado deles, como
   `-AAAA-MM-DD_HHMMSS.*.bak`.
+
+## Repertório (PowerPoint)
+
+Em `O:\OneDrive\Trabalho\Banda\Rota do Chopp\REPERTÓRIO`:
+
+- `Repertório Rota do Chopp VS.pptx` / `.pdf`: só os blocos VS, um slide por
+  bloco, na ordem (slide N = VS BLOCO N). É o único que os scripts editam.
+- `Repertório Rota do Chopp.pptx` / `.pdf`: os blocos sem VS. **Nunca abra,
+  edite, exporte nem faça backup dele**; é do usuário.
 
 ## Convenções de um bloco
 
@@ -27,8 +36,8 @@ como texto. Rode tudo com `python -X utf8` a partir da raiz.
 | Cores | Click e regência vermelhos; monitor amarelo; o resto com a cor da region. |
 | Grupos | Faders no início do projeto: CLICK, REGÊNCIA, METAIS, TECLAS, CORDAS, PERCUSSÃO. Cada trilha vai a um grupo pelo nome do stem (`scripts/grupos_tracks.py`) e não vai direto ao master. Voz, guia, VS e backing ficam fora. Ajustes manuais em `data/correcoes_grupos.json`. |
 | Monitor | Item de vídeo `MONITOR\base.png` com o cartaz no Video processor, gerado do slide. Começa no fim da region anterior e termina 1 ms antes do fim da sua (o último vai até o fim). |
-| Slide | `VS BLOCO N` (vermelho) e uma linha por música: nome em branco e tom em vermelho (`??` quando não se sabe; não invente tom). O slide do bloco N é o slide 63+N do `.pptx` (`PPTX` em `scripts/inserir_texto_monitor.py`). |
-| PDF | `Repertório Rota do Chopp.pdf`, ao lado do `.pptx`, exportado pelo PowerPoint (COM via `pwsh`). |
+| Slide | `VS BLOCO N` (vermelho) e uma linha por música: nome em branco e tom em vermelho (`??` quando não se sabe; não invente tom). O slide do bloco N é o slide N de `Repertório Rota do Chopp VS.pptx` (`PPTX` em `scripts/inserir_texto_monitor.py`). |
+| PDF | `Repertório Rota do Chopp VS.pdf`, ao lado do `.pptx`, exportado pelo PowerPoint (COM via `pwsh`). |
 | Exports | `EXPORT_REGIONS/NN - <nome>.mp3` em **mono**, 320 kbps; `EXPORT_VIDEOS/NN - <nome>.mp4` com o cartaz. |
 
 Grafia no slide: Título com `e/o/a/de/da/do/na/no/em...` minúsculos. Música que
@@ -46,7 +55,7 @@ python -X utf8 scripts/adicionar_bloco.py "NOME|Texto do Slide@Tom" --bpm 82 --a
 ```
 
 Ele cria a pasta, a region, as tracks, o monitor com cartaz, refaz o
-roteamento dos grupos, acrescenta o slide no fim do `.pptx`, exporta o PDF, o
+roteamento dos grupos, acrescenta o slide no fim do `.pptx` VS, exporta o PDF, o
 mp3 mono e o mp4 do bloco, e apaga os mp3 de entrada (`--manter-origem` para
 não apagar). Precisa de exatamente 1 click; regência é opcional.
 

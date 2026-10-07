@@ -26,10 +26,12 @@ from unificar_reaper import get_track_name, new_guid  # noqa: E402
 
 WORKSPACE = Path(__file__).resolve().parent.parent
 RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+# So os blocos VS: o slide N e o VS BLOCO N. O "Repertório Rota do Chopp.pptx"
+# (sem VS) e do usuario e nenhum script o abre.
 PPTX = Path(
-    r"O:\OneDrive\Trabalho\Banda\Rota do Chopp\REPERTÓRIO\Repertório Rota do Chopp.pptx"
+    r"O:\OneDrive\Trabalho\Banda\Rota do Chopp\REPERTÓRIO\Repertório Rota do Chopp VS.pptx"
 )
-SLIDE_DO_BLOCO_1 = 64
+SLIDE_DO_BLOCO_1 = 1
 MONITOR_DIR = WORKSPACE / "MONITOR"
 BASE_PNG = MONITOR_DIR / "base.png"
 FUNDO = (0, 0, 0)

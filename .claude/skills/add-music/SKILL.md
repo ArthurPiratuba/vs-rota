@@ -19,8 +19,8 @@ So muda o nome. Nao mexa em tempo, item, volume, cor, grupo, FX nem no audio.
 | Tracks no `.rpp` | `24 - ALÔ GALERA...`, `24 - CLICK - ALÔ GALERA...` |
 | Caminhos `FILE` e a pasta | `ABERTO\24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO\CLICK.mp3` |
 | `data/region_markers.json`, `data/grupos_classificacao.json`, `relatorio/grupos.html` | mesmos nomes |
-| Slide do bloco no PowerPoint (`PPTX` em `scripts/inserir_texto_monitor.py`, slide 63+N) | linha nova `Essa Cama Eu Não Vendo ??` (nome branco, tom vermelho) |
-| PDF do repertorio (`Repertório Rota do Chopp.pdf`, ao lado do `.pptx`) | exportado de novo pelo PowerPoint (COM via `pwsh`), todas as paginas |
+| Slide do bloco em `Repertório Rota do Chopp VS.pptx` (`PPTX` em `scripts/inserir_texto_monitor.py`, slide N) | linha nova `Essa Cama Eu Não Vendo ??` (nome branco, tom vermelho) |
+| PDF dos VS (`Repertório Rota do Chopp VS.pdf`, ao lado do `.pptx`) | exportado de novo pelo PowerPoint (COM via `pwsh`), todas as paginas |
 | Cartaz da track `NN - MONITOR` (codigo do Video processor) | gerado de novo a partir do slide |
 | `EXPORT_REGIONS/NN - <nome>.mp3` | renomeado; se nao existir, exportado **em mono** (`scripts/exportar_regions_mp3.py`, sempre mono, 320 kbps) |
 | `EXPORT_VIDEOS/NN - <nome>.mp4` e `_cartaz/NN.png` | refeitos, o cartaz fica gravado no video |
@@ -44,10 +44,11 @@ da importacao e fica como esta.
 
 1. Confirme com o usuario a lista por bloco, ja normalizada (acentos, grafia
    da referencia), antes de gravar.
-2. Peca para **fechar o Reaper** e o **`.pptx` no PowerPoint**. Com o Reaper
+2. Peca para **fechar o Reaper** e o **`Repertório Rota do Chopp VS.pptx` no PowerPoint**. Com o Reaper
    aberto o script nao grava: ele regravaria o `.rpp` antigo e prende os mp3
    da pasta. Com o `.pptx` aberto o PowerPoint trava o arquivo e o script para
-   logo no inicio, ate no plano (nem sempre existe o `~$Repertório...pptx`).
+   logo no inicio, ate no plano (nem sempre existe o `~$Repertório...pptx`). O `Repertório Rota do Chopp.pptx`
+   (sem VS) nunca e tocado.
 3. Para cada bloco, rode o plano e confira:
    ```
    python -X utf8 scripts/adicionar_musicas_bloco.py 24 "essa cama nao vendo" "OUTRA@Re"
@@ -88,6 +89,6 @@ python -X utf8 scripts/adicionar_musicas_bloco.py --trocar "CAMA NÃO VENDO=ESSA
 - `git diff` do `.rpp`: so linhas `MARKER N`, `NAME`, `FILE` e o `<CODE>` da
   track `NN - MONITOR` do bloco.
 - Leia o slide de volta (`linhas_do_slide`) e confira o mp4 novo em `EXPORT_VIDEOS`.
-- O PDF novo tem o mesmo numero de paginas do anterior (hoje 95) e a pagina do
+- O PDF novo tem o mesmo numero de paginas do anterior (hoje 33, uma por bloco) e a pagina do
   bloco mostra a musica nova. O Windows PowerShell 5 nao acessa o PowerPoint
   pelo COM nesta maquina; o script usa `pwsh`.
