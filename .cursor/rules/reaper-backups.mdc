@@ -9,20 +9,20 @@ alwaysApply: true
 
 Sempre criar backup **antes** de modificar:
 
-- `ROTA DO CHOPP UNIFICADO.rpp`
+- `VS - ROTA/VS - ROTA.rpp`, `VS - LAB/VS - LAB.rpp` (cada projeto na sua pasta)
 - Qualquer `.rpp` em `ABERTO/`
 - Dados derivados criticos (`data/region_markers.json` se for sobrescrever)
 
 Usar o script:
 
 ```bash
-python scripts/backup_rpp.py
+python scripts/backup_rpp.py --projeto "VS - ROTA"
 python scripts/backup_rpp.py "caminho/para/arquivo.rpp"   # opcional
 ```
 
 Ou, em scripts Python que editam o `.rpp`, chamar `backup_rpp(path)` no inicio de `main()`.
 
-Nome do backup: `Backups/<nome>-YYYY-MM-DD_HHMMSS.rpp-bak`
+Nome do backup: `<projeto>/Backups/<nome>-YYYY-MM-DD_HHMMSS.rpp-bak`
 
 ## Backups nao sao confiaveis por padrao
 
@@ -33,7 +33,7 @@ Nome do backup: `Backups/<nome>-YYYY-MM-DD_HHMMSS.rpp-bak`
 
 ## Ordem de recuperacao preferida
 
-1. `git show HEAD:"ROTA DO CHOPP UNIFICADO.rpp"` (ou commit conhecido bom)
+1. `git show HEAD:"VS - ROTA/VS - ROTA.rpp"` (ou commit conhecido bom)
 2. `data/region_markers.json` para MARKER/cores
 3. `Backups/*.rpp-bak` apenas apos `diff` ou inspecao manual
 
