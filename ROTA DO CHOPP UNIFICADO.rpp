@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.81/win64" 1791333395 0
+<REAPER_PROJECT 0.1 "7.81/win64" 1791415112 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -7,7 +7,7 @@
   ENVATTACH 3
   POOLEDENVATTACH 0
   TCPUIFLAGS 0
-  MIXERUIFLAGS 11 48 0
+  MIXERUIFLAGS 11 48 32937
   ENVFADESZ10 40
   PEAKGAIN 1
   FEEDBACK 0
@@ -19,9 +19,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 11584
-  ZOOM 1.66163419659847 19119 0
-  VZOOMEX 0 1392
+  CURSOR 17196.264384495469
+  ZOOM 1.18051248663923 20110 0
+  VZOOMEX 0 2192
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -68,8 +68,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 11065.936221230162 11722.915813066897
-  SELECTION2 11065.936221230162 11722.915813066897
+  SELECTION 17196.264384495469 17928.816221230161
+  SELECTION2 17196.264384495469 17928.816221230161
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -77,7 +77,7 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 0.12609984410629 0 -1 -1 1
+  MASTER_VOLUME 1 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_PANLAWFLAGS 3
   MASTER_FX 1
@@ -150,8 +150,8 @@
   MARKER 23 10609.704384495468 "" 1
   MARKER 24 10611.704384495468 "ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ" 1 31989854 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 24 11063.936221230162 "" 1
-  MARKER 25 11065.936221230162 "BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR" 9 31989892 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 25 11722.915813066897 "" 9
+  MARKER 25 11065.936221230162 "BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR" 1 31989892 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 25 11722.915813066897 "" 1
   MARKER 26 11724.915813066897 "BEIJA BEIJA - MARRECA - KERBFERT" 1 31989930 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 26 12233.807241638326 "" 1
   MARKER 27 12235.807241638326 "CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA" 1 31989967 1 R {00000000-0000-0000-0000-000000000000} 0 1
@@ -166,8 +166,12 @@
   MARKER 31 14503.37295592404 "" 1
   MARKER 32 14505.37295592404 "PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA" 1 21307624 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 32 15167.733772250571 "" 1
-  MARKER 33 15169.733772250571 "LOOP DE VANEIRA" 1 21242088 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 33 15169.733772250571 "LOOP DE VANEIRA 82 BPM" 1 21242088 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 33 16228.032547760775 "" 1
+  MARKER 34 16230.032547760775 "LOOP DE VANEIRA 90 BPM" 1 21176552 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 34 17194.264384495469 "" 1
+  MARKER 35 17196.264384495469 "NA HORA DE AMAR" 9 21111016 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 35 17928.816221230161 "" 9
   <PROJBAY
   >
   <TRACK {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
@@ -228,6 +232,8 @@
     AUXRECV 344 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 358 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 371 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 375 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 379 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -288,6 +294,7 @@
     AUXRECV 329 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 345 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 359 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 380 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -472,6 +479,7 @@
     AUXRECV 355 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 360 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 361 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 389 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -481,7 +489,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.75752320261436 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -547,6 +555,10 @@
     AUXRECV 348 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 353 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 354 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 381 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 385 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 386 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 387 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -556,7 +568,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
+    VOLPAN 0.82268743809333 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -603,6 +615,9 @@
     AUXRECV 320 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 350 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 372 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 376 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 382 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 388 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -14878,7 +14893,7 @@
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 1 1
-    BUSCOMP 0 0 0 0 0
+    BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
@@ -14912,7 +14927,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15061,7 +15076,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 1 0 1
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15111,7 +15126,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 2 0 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15160,7 +15175,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15210,7 +15225,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15260,7 +15275,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15310,7 +15325,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15360,7 +15375,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15410,7 +15425,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15460,7 +15475,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15510,7 +15525,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -15560,7 +15575,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 0 0 0 0 0 0
+    TRACKHEIGHT 0 1 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -20490,7 +20505,7 @@
     <ITEM
       POSITION 14503.37295592404
       SNAPOFFS 0
-      LENGTH 664.3598163266
+      LENGTH 664.35981632660003
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
@@ -21160,7 +21175,7 @@
     >
   >
   <TRACK {FE9AFFD2-00E4-47C2-A4A3-FC8D970FDDE8}
-    NAME "33 - LOOP DE VANEIRA"
+    NAME "33 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 21242088
     BEAT -1
     AUTOMODE 0
@@ -21173,6 +21188,7 @@
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
@@ -21182,7 +21198,7 @@
     FX 1
     TRACKID {FE9AFFD2-00E4-47C2-A4A3-FC8D970FDDE8}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
   >
   <TRACK {37C3D149-BED9-475A-B938-A9996A9D01DB}
@@ -21199,6 +21215,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
@@ -21208,16 +21225,16 @@
     FX 1
     TRACKID {37C3D149-BED9-475A-B938-A9996A9D01DB}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 15167.733772250571
       SNAPOFFS 0
-      LENGTH 1060.2987755102
+      LENGTH 1060.2977755101999
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {EC0F14ED-B5BB-4741-A8F0-411E3609BBFB}
@@ -21241,7 +21258,7 @@
             |// Cartaz do bloco, texto editavel
             |font="Arial";
             |ini=15167.733772250571;
-            |fim=16228.032547760775;
+            |fim=16228.0315477608;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -21292,14 +21309,16 @@
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
         >
+        MULTIFXLINK 0
         PRESETNAME "Cartaz VS"
+        FLOATPOS 0 0 0 0
         FXID {AAFE633F-D345-457D-93B2-CE74B5E7560A}
         WAK 0 0
       >
     >
   >
   <TRACK {0B371FA6-0DFF-496E-93E1-ACA7C8B0DD69}
-    NAME "33 - CLICK 82 - LOOP DE VANEIRA"
+    NAME "33 - CLICK 82 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -21323,7 +21342,7 @@
     FX 1
     TRACKID {0B371FA6-0DFF-496E-93E1-ACA7C8B0DD69}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15169.733772250571
@@ -21331,8 +21350,8 @@
       LENGTH 1058.298775510204
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {C7596143-CA17-44C4-8922-06AF7169B53F}
@@ -21344,12 +21363,12 @@
       CHANMODE 0
       GUID {5EC6E004-82F0-4AC0-94CC-A1DF1F50B5EB}
       <SOURCE MP3
-        FILE "ABERTO\33 - LOOP DE VANEIRA\CLICK 82.mp3" 1
+        FILE "ABERTO\33 - LOOP DE VANEIRA 82 BPM\CLICK 82.mp3" 1
       >
     >
   >
   <TRACK {AF7B767E-4527-47CD-93C8-8527E6E313C7}
-    NAME "33 - PERCUSSÃO - LOOP DE VANEIRA"
+    NAME "33 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 21242088
     BEAT -1
     AUTOMODE 0
@@ -21373,7 +21392,7 @@
     FX 1
     TRACKID {AF7B767E-4527-47CD-93C8-8527E6E313C7}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15169.733772250571
@@ -21381,8 +21400,8 @@
       LENGTH 1058.298775510204
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {160B0C66-838E-4EC6-A60D-E4A1045723FC}
@@ -21394,7 +21413,941 @@
       CHANMODE 0
       GUID {86A197AB-6CEF-415D-A8CC-290D92CDF398}
       <SOURCE MP3
-        FILE "ABERTO\33 - LOOP DE VANEIRA\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\33 - LOOP DE VANEIRA 82 BPM\PERCUSSÃO.mp3" 1
+      >
+    >
+  >
+  <TRACK {56AE3F61-BF5C-408F-9029-0E48EAA02A2E}
+    NAME "34 - LOOP DE VANEIRA 90 BPM"
+    PEAKCOL 21176552
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 2 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {56AE3F61-BF5C-408F-9029-0E48EAA02A2E}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
+  <TRACK {89AC8FCE-9F0A-41B8-AAE9-9999BC0B85A6}
+    NAME "34 - MONITOR"
+    PEAKCOL 16842751
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {89AC8FCE-9F0A-41B8-AAE9-9999BC0B85A6}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 16228.032547760775
+      SNAPOFFS 0
+      LENGTH 966.23083673470001
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E1B41400-D2ED-4FF0-AC55-DBAB2E13A8D9}
+      IID 507
+      NAME "VS BLOCO 34"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {900B1B3A-1708-4D39-8629-EDA6D7D2767A}
+      <SOURCE VIDEO
+        FILE "MONITOR\base.png"
+      >
+      <TAKEFX
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VIDEO_EFFECT "Video processor" ""
+          <CODE
+            |// Cartaz do bloco, texto editavel
+            |font="Arial";
+            |ini=16228.032547760775;
+            |fim=17194.2633844955;
+            |(project_time<ini || project_time>=fim) ? 0 : (
+            |project_wh_valid===0 ? input_info(-2,project_w,project_h);
+            |gfx_a2=0;
+            |gfx_blit(-2,1);
+            |gfx_set(0,0,0,1);
+            |gfx_fillrect(0,0,project_w,project_h);
+            |px=project_h*0.13;
+            |gfx_setfont(px,font);
+            |#S=" ";
+            |gfx_str_measure(#S,spw,sph);
+            |#T="VS BLOCO 34";
+            |gfx_str_measure(#T,tw,th);
+            |widest=tw;
+            |#L="Loop de Vaneira";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="90 BPM";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |n=2;
+            |step=px*1.35;
+            |total=step*n;
+            |maxw=project_w*0.92;
+            |maxh=project_h*0.88;
+            |scale=1;
+            |widest>maxw ? scale=maxw/widest;
+            |total*scale>maxh ? scale=maxh/total;
+            |px*=scale;
+            |gfx_setfont(px,font);
+            |gfx_str_measure(#S,spw,sph);
+            |gfx_str_measure(#T,tw,th);
+            |step=px*1.35;
+            |y=(project_h-step*n)*0.5;
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |y+=step;
+            |#L="Loop de Vaneira";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="90 BPM";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |);
+          >
+          CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        >
+        MULTIFXLINK 0
+        PRESETNAME "Cartaz VS"
+        FLOATPOS 0 0 0 0
+        FXID {A1F42610-63DE-42F1-A99F-19C283A564D4}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {0B47059A-855D-4E26-84DC-9B0169DC4F1C}
+    NAME "34 - CLICK 90 - LOOP DE VANEIRA 90 BPM"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.562341 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 1 0 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {0B47059A-855D-4E26-84DC-9B0169DC4F1C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16230.032547760775
+      SNAPOFFS 0
+      LENGTH 964.23183673469396
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {59BD3494-6A2C-4B54-9B6E-DA3A884AC974}
+      IID 508
+      NAME "CLICK 90"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8866EF0-9EB8-439A-B22B-927F7EC2C9D0}
+      <SOURCE MP3
+        FILE "ABERTO\34 - LOOP DE VANEIRA 90 BPM\CLICK 90.mp3" 1
+      >
+    >
+  >
+  <TRACK {6D7ED600-4496-4CFD-8A19-2A7F6BF911E4}
+    NAME "34 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM"
+    PEAKCOL 21176552
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 32 0 32
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6D7ED600-4496-4CFD-8A19-2A7F6BF911E4}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16230.032547760775
+      SNAPOFFS 0
+      LENGTH 964.23183673469396
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E658CC7-2C2E-4E6D-AC8B-A7B0A51566CA}
+      IID 509
+      NAME PERCUSSÃO
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BCFBC2E4-0961-4FF4-B61D-46BFA188CBCE}
+      <SOURCE MP3
+        FILE "ABERTO\34 - LOOP DE VANEIRA 90 BPM\PERCUSSÃO.mp3" 1
+      >
+    >
+  >
+  <TRACK {CAA617EB-50CC-47FC-AF13-62DD70DB4585}
+    NAME "35 - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CAA617EB-50CC-47FC-AF13-62DD70DB4585}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
+  <TRACK {5BFA7C40-32DD-40A6-B597-DF23291FC6A9}
+    NAME "35 - MONITOR"
+    PEAKCOL 16842751
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5BFA7C40-32DD-40A6-B597-DF23291FC6A9}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 17194.264384495469
+      SNAPOFFS 0
+      LENGTH 734.55183673470003
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {35590FCD-83C6-4BA9-976F-4A46D99D874B}
+      IID 510
+      NAME "VS BLOCO 35"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {24056441-A00F-4340-AFB6-27A24939CD43}
+      <SOURCE VIDEO
+        FILE "MONITOR\base.png"
+      >
+      <TAKEFX
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VIDEO_EFFECT "Video processor" ""
+          <CODE
+            |// Cartaz do bloco, texto editavel
+            |font="Arial";
+            |ini=17194.264384495469;
+            |fim=17928.816221230161;
+            |(project_time<ini || project_time>=fim) ? 0 : (
+            |project_wh_valid===0 ? input_info(-2,project_w,project_h);
+            |gfx_a2=0;
+            |gfx_blit(-2,1);
+            |gfx_set(0,0,0,1);
+            |gfx_fillrect(0,0,project_w,project_h);
+            |px=project_h*0.13;
+            |gfx_setfont(px,font);
+            |#S=" ";
+            |gfx_str_measure(#S,spw,sph);
+            |#T="VS BLOCO 35";
+            |gfx_str_measure(#T,tw,th);
+            |widest=tw;
+            |#L="Na Hora de Amar";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |n=2;
+            |step=px*1.35;
+            |total=step*n;
+            |maxw=project_w*0.92;
+            |maxh=project_h*0.88;
+            |scale=1;
+            |widest>maxw ? scale=maxw/widest;
+            |total*scale>maxh ? scale=maxh/total;
+            |px*=scale;
+            |gfx_setfont(px,font);
+            |gfx_str_measure(#S,spw,sph);
+            |gfx_str_measure(#T,tw,th);
+            |step=px*1.35;
+            |y=(project_h-step*n)*0.5;
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |y+=step;
+            |#L="Na Hora de Amar";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |);
+          >
+          CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        >
+        MULTIFXLINK 0
+        PRESETNAME "Cartaz VS"
+        FLOATPOS 0 0 0 0
+        FXID {47D0B849-0DCF-42FC-88D9-7D87679BD3A9}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {7B7FA4B5-A6A6-42E6-8AEA-8B3B55BE957A}
+    NAME "35 - CLICK - NA HORA DE AMAR"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.562341 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 1 0 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7B7FA4B5-A6A6-42E6-8AEA-8B3B55BE957A}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {33F0A1AA-B4A7-4D62-855D-A5EFBCE78F9C}
+      IID 511
+      NAME CLICK
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC23FA3F-D467-4F78-9C8C-BE6DBF55C59E}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\CLICK.mp3" 1
+      >
+    >
+  >
+  <TRACK {E0D6A008-2BC8-43AD-875D-0912C257B5CB}
+    NAME "35 - REGÊNCIA - NA HORA DE AMAR"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 2 0 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {E0D6A008-2BC8-43AD-875D-0912C257B5CB}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FBF86856-C2AC-4489-B500-02702FDC9AED}
+      IID 512
+      NAME "REGÊNCIA E CONTAGEM"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {72E77077-C968-4B22-BF84-CAE783676087}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\REGÊNCIA E CONTAGEM.mp3" 1
+      >
+    >
+  >
+  <TRACK {9FC699C8-49A3-4E95-A3FC-E8FCB0B92C3D}
+    NAME "35 - BASS - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9FC699C8-49A3-4E95-A3FC-E8FCB0B92C3D}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {08D003BA-3CCF-4587-BD13-C9E17C48FE68}
+      IID 513
+      NAME BASS
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ECBF87E2-C16B-4E0F-970B-CAD5033106E0}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\BASS.mp3" 1
+      >
+    >
+  >
+  <TRACK {A6BB7C48-2AFA-4E96-A9CC-6D437799266A}
+    NAME "35 - BATERIA - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 32 0 32
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A6BB7C48-2AFA-4E96-A9CC-6D437799266A}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9A5B7E03-EB26-4EAD-B0AC-2093F716D2B0}
+      IID 514
+      NAME BATERIA
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCB850F4-19F4-4BF3-9186-B0699AB71088}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\BATERIA.mp3" 1
+      >
+    >
+  >
+  <TRACK {55EB216D-87AF-4A71-87CA-0751504648D5}
+    NAME "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {55EB216D-87AF-4A71-87CA-0751504648D5}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {10C13246-939E-4824-8A9E-EAF116447328}
+      IID 515
+      NAME "GUIA NA HORA DE AMAR"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {182CB11D-E9B4-423C-8E70-37842975CAA5}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\GUIA NA HORA DE AMAR.mp3" 1
+      >
+    >
+  >
+  <TRACK {A819BF68-C50B-4E7F-8660-7A03E9B90BA6}
+    NAME "35 - GUIA VOZ - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A819BF68-C50B-4E7F-8660-7A03E9B90BA6}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {60BE929B-A5D5-4D68-B408-113EACA3ED16}
+      IID 516
+      NAME "GUIA VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {293CB90F-C4DC-47CF-AD05-6D5CE6B1826D}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\GUIA VOZ.mp3" 1
+      >
+    >
+  >
+  <TRACK {EE1509CE-B048-4C5A-AAAB-45C6C7D26CCD}
+    NAME "35 - GUITARRA BASE - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {EE1509CE-B048-4C5A-AAAB-45C6C7D26CCD}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B78E776D-E34B-465D-9B58-D2E0B47E8BB4}
+      IID 517
+      NAME "GUITARRA BASE"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5686814B-59F9-4E86-85C5-876D43BC2379}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\GUITARRA BASE.mp3" 1
+      >
+    >
+  >
+  <TRACK {08BD78F5-D029-4448-B699-E44A8B9F2179}
+    NAME "35 - GUITARRA SOLO - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {08BD78F5-D029-4448-B699-E44A8B9F2179}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {307CDFD4-D1EE-4CCA-9DE7-EC952EB8592D}
+      IID 518
+      NAME "GUITARRA SOLO"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40716745-9904-4444-BA38-A147549FB427}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\GUITARRA SOLO.mp3" 1
+      >
+    >
+  >
+  <TRACK {09692C7D-1CD5-4ADD-9133-57AF88118D8F}
+    NAME "35 - GUITARRA SOLO 2 - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {09692C7D-1CD5-4ADD-9133-57AF88118D8F}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7D569761-8BDC-4824-AB2A-AAEA95F85019}
+      IID 519
+      NAME "GUITARRA SOLO 2"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DD2C18A-5C3F-4AA9-B0AD-2728B8BD3780}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\GUITARRA SOLO 2.mp3" 1
+      >
+    >
+  >
+  <TRACK {4F75B20C-B5C3-4FC2-86F5-5C902B4C7D4D}
+    NAME "35 - PERCUSSÃO - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 32 0 32
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {4F75B20C-B5C3-4FC2-86F5-5C902B4C7D4D}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {87159BC9-5F2C-4C86-B1AD-851A0E1DACC9}
+      IID 520
+      NAME PERCUSSÃO
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {04318FAD-ADC3-4464-A108-735F04428C41}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\PERCUSSÃO.mp3" 1
+      >
+    >
+  >
+  <TRACK {8006B6CA-D220-4403-A9A1-7BFC8DF60B95}
+    NAME "35 - SANFONA SOLO - NA HORA DE AMAR"
+    PEAKCOL 21111016
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 8 0 8
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8006B6CA-D220-4403-A9A1-7BFC8DF60B95}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 17196.264384495469
+      SNAPOFFS 0
+      LENGTH 732.55183673469401
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FB7B36F9-15EA-42A8-98D3-0CAFF688147E}
+      IID 521
+      NAME "SANFONA SOLO"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FDF70E93-741B-446A-90F8-4C1E33325652}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR\SANFONA SOLO.mp3" 1
       >
     >
   >
@@ -21433,6 +22386,8 @@
       1073741855 1
       1073741856 1
       1073741857 1
+      1073741858 1
+      1073741859 1
     >
   >
 >

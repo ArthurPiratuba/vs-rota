@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T19:21:31",
+  "atualizado": "2026-10-07T19:53:34",
   "grupos": [
     {
       "id": "click",
@@ -39,15 +39,15 @@
     }
   ],
   "contagens": {
-    "click": 33,
-    "regencia": 32,
+    "click": 35,
+    "regencia": 33,
     "metais": 65,
-    "teclas": 63,
-    "cordas": 47,
-    "percussao": 28,
-    "fora": 33,
-    "revisar": 34,
-    "monitor": 33
+    "teclas": 64,
+    "cordas": 51,
+    "percussao": 31,
+    "fora": 35,
+    "revisar": 36,
+    "monitor": 35
   },
   "blocos": [
     {
@@ -3190,11 +3190,11 @@
       ]
     },
     {
-      "bloco": "33 - LOOP DE VANEIRA",
+      "bloco": "33 - LOOP DE VANEIRA 82 BPM",
       "faixas": [
         {
           "trilha": "33 - MONITOR",
-          "bloco": "33 - LOOP DE VANEIRA",
+          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3202,8 +3202,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "33 - CLICK 82 - LOOP DE VANEIRA",
-          "bloco": "33 - LOOP DE VANEIRA",
+          "trilha": "33 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
           "stem": "CLICK 82",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3211,13 +3211,158 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "33 - PERCUSSÃO - LOOP DE VANEIRA",
-          "bloco": "33 - LOOP DE VANEIRA",
+          "trilha": "33 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
+          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
           "revisar": false,
           "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+      "faixas": [
+        {
+          "trilha": "34 - MONITOR",
+          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "34 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
+          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "stem": "CLICK 90",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "34 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
+          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "35 - NA HORA DE AMAR",
+      "faixas": [
+        {
+          "trilha": "35 - MONITOR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "35 - CLICK - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "CLICK",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "35 - REGÊNCIA - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "REGÊNCIA",
+          "grupo": "regencia",
+          "grupo_nome": "Regência",
+          "revisar": false,
+          "motivo": "Regência de todas as músicas."
+        },
+        {
+          "trilha": "35 - BASS - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "BASS",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Baixo entrou em Cordas."
+        },
+        {
+          "trilha": "35 - BATERIA - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "BATERIA",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "GUIA NA HORA DE AMAR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": true,
+          "motivo": "Guia não é um naipe."
+        },
+        {
+          "trilha": "35 - GUIA VOZ - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "GUIA VOZ",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": true,
+          "motivo": "Guia não é um naipe."
+        },
+        {
+          "trilha": "35 - GUITARRA BASE - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "GUITARRA BASE",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - GUITARRA SOLO - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "GUITARRA SOLO",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - GUITARRA SOLO 2 - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "GUITARRA SOLO 2",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - PERCUSSÃO - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "35 - SANFONA SOLO - NA HORA DE AMAR",
+          "bloco": "35 - NA HORA DE AMAR",
+          "stem": "SANFONA SOLO",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
         }
       ]
     }
