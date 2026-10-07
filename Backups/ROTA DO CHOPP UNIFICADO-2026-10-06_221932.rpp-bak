@@ -156,15 +156,15 @@
   MARKER 26 12233.807241638326 "" 1
   MARKER 27 12235.807241638326 "CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA" 1 31989967 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 27 12637.648874291386 "" 1
-  MARKER 28 12639.648874291386 "CORONEL BOOGEY - MARCHA DO COELHO" 1 31203560 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 28 12639.648874291386 "CORONEL BOOGEY" 1 31203560 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 28 13038.77377225057 "" 1
-  MARKER 29 13040.77377225057 "DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA" 1 28713192 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 29 13040.77377225057 "DAI QUE MIORO" 1 28713192 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 29 13495.617853883223 "" 1
-  MARKER 30 13497.617853883223 "HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS" 1 26288360 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 30 13497.617853883223 "HEYO HEYO" 1 26288360 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 30 14013.353364087305 "" 1
-  MARKER 31 14015.353364087305 "NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA" 1 23797992 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 31 14015.353364087305 "NOVA IORQUE" 1 23797992 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 31 14503.37295592404 "" 1
-  MARKER 32 14505.37295592404 "PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA" 1 21307624 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 32 14505.37295592404 "PONTO CHICK" 1 21307624 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 32 15167.733772250571 "" 1
   <PROJBAY
   >
@@ -16836,7 +16836,7 @@
     >
   >
   <TRACK {EBB0C797-7E19-4292-ABCC-76EB341AD000}
-    NAME "28 - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -16939,13 +16939,7 @@
             |gfx_str_measure(#R,rw,rh);
             |linew=lw+spw+rw;
             |linew>widest ? widest=linew;
-            |#L="Marcha do Coelho";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |n=3;
+            |n=2;
             |step=px*1.35;
             |total=step*n;
             |maxw=project_w*0.92;
@@ -16972,16 +16966,6 @@
             |gfx_set(1,0,0,1);
             |gfx_str_draw(#R,x+lw+spw,y);
             |y+=step;
-            |#L="Marcha do Coelho";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
             |);
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -16995,7 +16979,7 @@
     >
   >
   <TRACK {78761B18-0458-4F59-BDA4-0D798C51B83D}
-    NAME "28 - CLICK - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - CLICK - CORONEL BOOGEY"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -17040,12 +17024,12 @@
       CHANMODE 0
       GUID {998E4B46-9087-4AD6-9B5F-7AB5800B485F}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\CLICK.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\CLICK.mp3" 1
       >
     >
   >
   <TRACK {8753E1AA-5818-44F1-9163-FA672D8F447B}
-    NAME "28 - REGÊNCIA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - REGÊNCIA - CORONEL BOOGEY"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -17090,12 +17074,12 @@
       CHANMODE 0
       GUID {2E857DC6-6EAB-475A-8BF6-21F3126A73F1}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\REGÊNCIA E CONTAGEM.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\REGÊNCIA E CONTAGEM.mp3" 1
       >
     >
   >
   <TRACK {A064B55F-634A-4D93-8D76-2529F5384FA3}
-    NAME "28 - ASSOBIO - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - ASSOBIO - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17140,12 +17124,12 @@
       CHANMODE 0
       GUID {7CC8A0F3-80AB-4550-A010-F1183B0AFF9D}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\ASSOBIO.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\ASSOBIO.mp3" 1
       >
     >
   >
   <TRACK {163F9B8E-995E-4A6B-9DFD-497565656C4F}
-    NAME "28 - BELLS - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - BELLS - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17190,12 +17174,12 @@
       CHANMODE 0
       GUID {53BB5AF4-A7F9-411B-B399-B8954AF51666}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\BELLS.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\BELLS.mp3" 1
       >
     >
   >
   <TRACK {FD0AB8B7-8794-4A0B-8B14-85D1A74FDB65}
-    NAME "28 - EFEITOS - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - EFEITOS - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17240,12 +17224,12 @@
       CHANMODE 0
       GUID {0CC55FB6-2C43-40E6-BFE6-B3FA44544534}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\EFEITOS.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\EFEITOS.mp3" 1
       >
     >
   >
   <TRACK {4E0153F3-F45C-4E0D-AD71-0060FBB08F97}
-    NAME "28 - FANTASIA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - FANTASIA - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17289,12 +17273,12 @@
       CHANMODE 0
       GUID {16713B2F-0A78-4256-9CFF-7534E49572B8}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\FANTASIA.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\FANTASIA.mp3" 1
       >
     >
   >
   <TRACK {C908F0D8-F92B-402D-B6D1-369BBD05A8CF}
-    NAME "28 - PERCUSSÃO - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - PERCUSSÃO - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17339,12 +17323,12 @@
       CHANMODE 0
       GUID {FD56430B-D2F9-43CF-964C-36B30386466B}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {AC2A7D7B-E07A-400F-B072-688D2959F36F}
-    NAME "28 - PIANO BASE - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - PIANO BASE - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17389,12 +17373,12 @@
       CHANMODE 0
       GUID {58D5F84A-0E26-4FCF-8C97-36CCE923EBE3}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\PIANO BASE.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\PIANO BASE.mp3" 1
       >
     >
   >
   <TRACK {B3E57C54-8BE8-456F-9B16-ECE6DE7D6F99}
-    NAME "28 - SAX 1 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - SAX 1 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17439,12 +17423,12 @@
       CHANMODE 0
       GUID {9C373B3C-E3A1-47B9-83AB-3261958178E6}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\SAX 1 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\SAX 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {6806D07A-1212-4ED4-809C-F52F352755FB}
-    NAME "28 - SAX 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - SAX 2 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17489,12 +17473,12 @@
       CHANMODE 0
       GUID {653DC211-7D02-4CCD-B1A3-C5359EBAF3D9}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\SAX 2 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\SAX 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {899E53E4-31AE-48CC-A112-6BD154485300}
-    NAME "28 - SAX 3 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - SAX 3 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17539,12 +17523,12 @@
       CHANMODE 0
       GUID {1D3CF79A-6036-475F-8AEE-5D71B4BD7221}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\SAX 3 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\SAX 3 VOZ.mp3" 1
       >
     >
   >
   <TRACK {E0C305CE-A2C4-46D8-9554-18B4D4932FE1}
-    NAME "28 - STRING BASE - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - STRING BASE - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17589,12 +17573,12 @@
       CHANMODE 0
       GUID {E55B2729-CCD0-403E-AECA-68A87662C314}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\STRING BASE.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\STRING BASE.mp3" 1
       >
     >
   >
   <TRACK {FE871874-A2CA-4CE3-9355-C59650A12B29}
-    NAME "28 - TROMBONE - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMBONE - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17639,12 +17623,12 @@
       CHANMODE 0
       GUID {27AB1C8D-729F-4F64-AF13-06DC12A94E5F}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMBONE.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMBONE.mp3" 1
       >
     >
   >
   <TRACK {58C3246B-1836-416A-9DF3-2C753CB73060}
-    NAME "28 - TROMBONE 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMBONE 2 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17689,12 +17673,12 @@
       CHANMODE 0
       GUID {A715E089-D246-4BB8-95E7-C827EAE18FEB}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMBONE 2 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMBONE 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {FCB9C689-012F-429C-A32D-A33D72438935}
-    NAME "28 - TROMBONE OITAVA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMBONE OITAVA - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17739,12 +17723,12 @@
       CHANMODE 0
       GUID {52A318B6-FC16-4E5A-95A4-5F5CF38ABBE5}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMBONE OITAVA.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMBONE OITAVA.mp3" 1
       >
     >
   >
   <TRACK {AB9F8C09-5882-42A2-BFDC-1E23136B2ECA}
-    NAME "28 - TROMPETE 1 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 1 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17789,12 +17773,12 @@
       CHANMODE 0
       GUID {2A0F22F9-DF62-45B6-B5D6-EA52F8EDBC06}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 1 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {F16CDDE5-F432-4DCF-A227-F83640860EB3}
-    NAME "28 - TROMPETE 1 VOZ ALTA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 1 VOZ ALTA - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17839,12 +17823,12 @@
       CHANMODE 0
       GUID {928373C2-02EE-45D5-BDFF-5A9069D6DE33}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 1 VOZ ALTA.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 1 VOZ ALTA.mp3" 1
       >
     >
   >
   <TRACK {932170DE-4780-4DBF-B6E2-D180D38D04EE}
-    NAME "28 - TROMPETE 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 2 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17889,12 +17873,12 @@
       CHANMODE 0
       GUID {9C6CC30C-67D0-448D-913F-D10D75E95F8F}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 2 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {225258FB-3168-4948-90BC-FF9B4703929A}
-    NAME "28 - TROMPETE 2 VOZ ALTA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 2 VOZ ALTA - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17939,12 +17923,12 @@
       CHANMODE 0
       GUID {6C34DBD5-53D8-4BA3-A6C4-AA01AF5E16E4}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 2 VOZ ALTA.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 2 VOZ ALTA.mp3" 1
       >
     >
   >
   <TRACK {920F5EA1-CBC7-4334-833C-25D24D204B7C}
-    NAME "28 - TROMPETE 2 VOZ BAIXA - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 2 VOZ BAIXA - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -17989,12 +17973,12 @@
       CHANMODE 0
       GUID {E5ED9E68-CFF9-4C91-B252-577B80BF4F98}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 2 VOZ BAIXA.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 2 VOZ BAIXA.mp3" 1
       >
     >
   >
   <TRACK {4BA5249D-BED3-44C7-9674-59BA88FB7E45}
-    NAME "28 - TROMPETE 3 VOZ - CORONEL BOOGEY - MARCHA DO COELHO"
+    NAME "28 - TROMPETE 3 VOZ - CORONEL BOOGEY"
     PEAKCOL 31203560
     BEAT -1
     AUTOMODE 0
@@ -18039,12 +18023,12 @@
       CHANMODE 0
       GUID {002417C1-7A9F-4879-A6DC-E7F2AC3BDD05}
       <SOURCE MP3
-        FILE "ABERTO\28 - CORONEL BOOGEY - MARCHA DO COELHO\TROMPETE 3 VOZ.mp3" 1
+        FILE "ABERTO\28 - CORONEL BOOGEY\TROMPETE 3 VOZ.mp3" 1
       >
     >
   >
   <TRACK {A91FA81A-80AF-4AF1-B947-F9F5822AD1FA}
-    NAME "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18147,25 +18131,7 @@
             |gfx_str_measure(#R,rw,rh);
             |linew=lw+spw+rw;
             |linew>widest ? widest=linew;
-            |#L="Latinha na Goteira";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Sol";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |#L="Morenaça";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Sol";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |#L="Misturinha";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Fa";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |n=5;
+            |n=2;
             |step=px*1.35;
             |total=step*n;
             |maxw=project_w*0.92;
@@ -18192,36 +18158,6 @@
             |gfx_set(1,0,0,1);
             |gfx_str_draw(#R,x+lw+spw,y);
             |y+=step;
-            |#L="Latinha na Goteira";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Sol";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
-            |#L="Morenaça";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Sol";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
-            |#L="Misturinha";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Fa";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
             |);
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -18235,7 +18171,7 @@
     >
   >
   <TRACK {F5345A69-1077-48E4-9875-490EB64748F4}
-    NAME "29 - CLICK - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - CLICK - DAI QUE MIORO"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -18280,12 +18216,12 @@
       CHANMODE 0
       GUID {FFE6C747-DAC7-47BD-B093-E41D3C0808E9}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\CLICK.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\CLICK.mp3" 1
       >
     >
   >
   <TRACK {80995FA3-023E-46CA-AD5A-E10DDDE30667}
-    NAME "29 - REGÊNCIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - REGÊNCIA - DAI QUE MIORO"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -18330,12 +18266,12 @@
       CHANMODE 0
       GUID {9D28F20C-5F34-448D-B2B1-1E5A1F06F4D6}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\CONTAGEM E REGÊNCIA.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\CONTAGEM E REGÊNCIA.mp3" 1
       >
     >
   >
   <TRACK {8EAE59E3-425D-4B9F-8F65-15BDF6289556}
-    NAME "29 - BASE FANTASIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - BASE FANTASIA - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18379,12 +18315,12 @@
       CHANMODE 0
       GUID {E1F64308-47E5-4296-9479-A0908B001B77}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\BASE FANTASIA.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\BASE FANTASIA.mp3" 1
       >
     >
   >
   <TRACK {BC780449-0356-464B-A074-47B97A5D22D1}
-    NAME "29 - CARRILHÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - CARRILHÃO - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18429,12 +18365,12 @@
       CHANMODE 0
       GUID {26D296AE-738C-447C-883C-262688EDCBE5}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\CARRILHÃO.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\CARRILHÃO.mp3" 1
       >
     >
   >
   <TRACK {BDD33642-A6D7-4A5D-BBA1-56440D54D629}
-    NAME "29 - GUIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - GUIA - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18478,12 +18414,12 @@
       CHANMODE 0
       GUID {722A9B53-6E46-491E-AA2C-FE0A62C07ECE}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\GUIA.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\GUIA.mp3" 1
       >
     >
   >
   <TRACK {1C2E6664-632A-436F-8CCF-D946860F86B8}
-    NAME "29 - PERCUSSÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - PERCUSSÃO - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18528,12 +18464,12 @@
       CHANMODE 0
       GUID {02C0BD38-D9B0-42A8-BF35-BA06C6924935}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {843E29E5-1D77-4E6E-AFBC-A113213A131A}
-    NAME "29 - SANFONA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - SANFONA - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18578,12 +18514,12 @@
       CHANMODE 0
       GUID {61C10928-2EC6-4E91-996A-03EA40EBF498}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\SANFONA.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\SANFONA.mp3" 1
       >
     >
   >
   <TRACK {11B3EC43-0DFC-4D1B-98F5-037007E968C9}
-    NAME "29 - STRINGS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - STRINGS - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18628,12 +18564,12 @@
       CHANMODE 0
       GUID {4D618535-9E16-47A4-8023-383761AC6957}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\STRINGS.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\STRINGS.mp3" 1
       >
     >
   >
   <TRACK {80E9B2C3-9452-4C9A-B185-82BEE3C9130C}
-    NAME "29 - TECLADOS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - TECLADOS - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18678,12 +18614,12 @@
       CHANMODE 0
       GUID {C06DAD7E-003F-4ACA-B7C8-3EEF27179D28}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\TECLADOS.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\TECLADOS.mp3" 1
       >
     >
   >
   <TRACK {55BE645B-D5AE-4ACE-981B-B9AC3BC0E555}
-    NAME "29 - TROMPETE 1 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - TROMPETE 1 VOZ - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18728,12 +18664,12 @@
       CHANMODE 0
       GUID {DA748A17-B18E-4F2C-AB78-2F3BEBAF10CA}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\TROMPETE 1 VOZ.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\TROMPETE 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {3EB6B7D3-3C7D-4A2E-A5AE-94C804FFA240}
-    NAME "29 - TROMPETE 2 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA"
+    NAME "29 - TROMPETE 2 VOZ - DAI QUE MIORO"
     PEAKCOL 28713192
     BEAT -1
     AUTOMODE 0
@@ -18778,12 +18714,12 @@
       CHANMODE 0
       GUID {47A4C30E-7647-4C24-B4EA-B159B1470AD3}
       <SOURCE MP3
-        FILE "ABERTO\29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA\TROMPETE 2 VOZ.mp3" 1
+        FILE "ABERTO\29 - DAI QUE MIORO\TROMPETE 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {82B22E56-13ED-4FE4-BC6A-9C5BC6D3FD31}
-    NAME "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -18886,19 +18822,7 @@
             |gfx_str_measure(#R,rw,rh);
             |linew=lw+spw+rw;
             |linew>widest ? widest=linew;
-            |#L="Zic Zac";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |#L="Salada de Frutas";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Do";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |n=4;
+            |n=2;
             |step=px*1.35;
             |total=step*n;
             |maxw=project_w*0.92;
@@ -18925,26 +18849,6 @@
             |gfx_set(1,0,0,1);
             |gfx_str_draw(#R,x+lw+spw,y);
             |y+=step;
-            |#L="Zic Zac";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
-            |#L="Salada de Frutas";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Do";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
             |);
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -18958,7 +18862,7 @@
     >
   >
   <TRACK {69913D04-A96C-47BD-AFC2-E17776CC1365}
-    NAME "30 - CLICK 135 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - CLICK 135 - HEYO HEYO"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -19003,12 +18907,12 @@
       CHANMODE 0
       GUID {B84CDB87-E1A1-4B7A-998E-ED8F92036C94}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\CLICK 135.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\CLICK 135.mp3" 1
       >
     >
   >
   <TRACK {8DAAC5B2-3651-4D5B-B902-D43D17859DF3}
-    NAME "30 - REGÊNCIA - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - REGÊNCIA - HEYO HEYO"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -19053,12 +18957,12 @@
       CHANMODE 0
       GUID {46483199-ECB1-45A7-89D8-75DE3CE0872E}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\CONTAGEM E REGÊNCIA.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\CONTAGEM E REGÊNCIA.mp3" 1
       >
     >
   >
   <TRACK {562B72F4-E076-4BBF-94E6-AC9E35078E8B}
-    NAME "30 - ÓRGÃO SOLO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - ÓRGÃO SOLO - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19103,12 +19007,12 @@
       CHANMODE 0
       GUID {23A30B9B-A554-44D1-AB03-EBCF4DCC199B}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\ÓRGÃO SOLO.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\ÓRGÃO SOLO.mp3" 1
       >
     >
   >
   <TRACK {186F6060-83BC-4D3A-B019-26D9C7DDB08A}
-    NAME "30 - PIANO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - PIANO - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19153,12 +19057,12 @@
       CHANMODE 0
       GUID {DC39A72A-5739-4075-B6D8-1758BC331C81}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\PIANO.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\PIANO.mp3" 1
       >
     >
   >
   <TRACK {62A4B8DE-B7C5-4C64-BFA8-D1543189F290}
-    NAME "30 - SANFONA BASE - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - SANFONA BASE - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19203,12 +19107,12 @@
       CHANMODE 0
       GUID {6FF7E0F7-051E-45C4-A4E0-39DF2EE5FB77}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\SANFONA BASE.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\SANFONA BASE.mp3" 1
       >
     >
   >
   <TRACK {B2128879-9215-42DE-8550-5A974C467DA3}
-    NAME "30 - SAX 1 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - SAX 1 VOZ - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19253,12 +19157,12 @@
       CHANMODE 0
       GUID {F5FB3E7F-C87E-4134-BE51-A690F4D5C968}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\SAX 1 VOZ.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\SAX 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {0C6D209A-8E1F-4305-90E8-B9F0CE62F925}
-    NAME "30 - SAX 2 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - SAX 2 VOZ - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19303,12 +19207,12 @@
       CHANMODE 0
       GUID {8C3973C8-FE4F-485A-9C18-4F9ADCB2E098}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\SAX 2 VOZ.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\SAX 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {D7ED2D0E-247B-4628-AC3F-007599C44C6C}
-    NAME "30 - STRINGS - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - STRINGS - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19353,12 +19257,12 @@
       CHANMODE 0
       GUID {7A404F73-8F66-41F3-9D10-BDA2BFA10B5F}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\STRINGS.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\STRINGS.mp3" 1
       >
     >
   >
   <TRACK {CCB78EAA-EBA6-4F5A-AE8B-1D0F06335AC8}
-    NAME "30 - TROMBONE HEYO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - TROMBONE HEYO - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19403,12 +19307,12 @@
       CHANMODE 0
       GUID {A83CAD33-9FFE-45D2-A873-352BBC0BAC3D}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\TROMBONE HEYO.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\TROMBONE HEYO.mp3" 1
       >
     >
   >
   <TRACK {CCB51882-D8C9-49A1-A83A-7816DCDE0BC3}
-    NAME "30 - TROMBONE OITAVA - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - TROMBONE OITAVA - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19453,12 +19357,12 @@
       CHANMODE 0
       GUID {B14421E9-F00D-4378-B460-FDFBA1FF4B0E}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\TROMBONE OITAVA.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\TROMBONE OITAVA.mp3" 1
       >
     >
   >
   <TRACK {33F34D6B-6543-4915-BDE6-6D332FE681F7}
-    NAME "30 - TROMPETE 1 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - TROMPETE 1 VOZ - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19503,12 +19407,12 @@
       CHANMODE 0
       GUID {67E1BC83-D100-419C-B470-5E5D0D41970B}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\TROMPETE 1 VOZ.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\TROMPETE 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {495BF026-4251-443A-BCB3-E636E0050CFD}
-    NAME "30 - TROMPETE 2 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - TROMPETE 2 VOZ - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19553,12 +19457,12 @@
       CHANMODE 0
       GUID {82856B89-76C3-4BBA-BB6B-A24747848258}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\TROMPETE 2 VOZ.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\TROMPETE 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {374076CA-4419-4A30-AFF8-F6FA6E4FED87}
-    NAME "30 - TROMPETE 8 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - TROMPETE 8 - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19603,12 +19507,12 @@
       CHANMODE 0
       GUID {0C8311D7-3C80-4CC7-AB19-969A8B8E43BE}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\TROMPETE 8.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\TROMPETE 8.mp3" 1
       >
     >
   >
   <TRACK {6AB4F260-4657-4213-9053-369529977DBE}
-    NAME "30 - VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS"
+    NAME "30 - VOZ - HEYO HEYO"
     PEAKCOL 26288360
     BEAT -1
     AUTOMODE 0
@@ -19652,12 +19556,12 @@
       CHANMODE 0
       GUID {D4C17DF6-B1A8-4D70-BA7E-9D003C094EF1}
       <SOURCE MP3
-        FILE "ABERTO\30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS\VOZ.mp3" 1
+        FILE "ABERTO\30 - HEYO HEYO\VOZ.mp3" 1
       >
     >
   >
   <TRACK {0B39B201-DA53-4FEF-BC89-D9EA9BCDAA24}
-    NAME "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -19760,19 +19664,7 @@
             |gfx_str_measure(#R,rw,rh);
             |linew=lw+spw+rw;
             |linew>widest ? widest=linew;
-            |#L="Meu Ex Amor";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |#L="O Que Tiver Que Vir Virá";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Ré";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |n=4;
+            |n=2;
             |step=px*1.35;
             |total=step*n;
             |maxw=project_w*0.92;
@@ -19799,26 +19691,6 @@
             |gfx_set(1,0,0,1);
             |gfx_str_draw(#R,x+lw+spw,y);
             |y+=step;
-            |#L="Meu Ex Amor";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
-            |#L="O Que Tiver Que Vir Virá";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="Ré";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
             |);
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -19832,7 +19704,7 @@
     >
   >
   <TRACK {975541A5-19A4-45AD-A2D8-75533F931430}
-    NAME "31 - CLICK 138 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - CLICK 138 - NOVA IORQUE"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -19877,12 +19749,12 @@
       CHANMODE 0
       GUID {70E4AB41-712F-4B13-869F-F26CAFA33752}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\CLICK 138.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {D87B6085-DD02-4ACA-9DEE-9D1D8BACFDA2}
-    NAME "31 - REGÊNCIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - REGÊNCIA - NOVA IORQUE"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -19927,12 +19799,12 @@
       CHANMODE 0
       GUID {4B133813-58E6-4F2D-B8DC-0CE9B9E910A2}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\CONTAGEM E REGÊNCIA.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\CONTAGEM E REGÊNCIA.mp3" 1
       >
     >
   >
   <TRACK {20AC6FCB-7E3F-4B5D-BB69-89496B6DBD13}
-    NAME "31 - EFEITOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - EFEITOS - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -19977,12 +19849,12 @@
       CHANMODE 0
       GUID {95511457-44BF-4FF2-9B5E-5E23F5F2A338}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\EFEITOS.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\EFEITOS.mp3" 1
       >
     >
   >
   <TRACK {4E920F29-1B5A-477B-8210-CAA888AD5D3A}
-    NAME "31 - GUIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - GUIA - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20026,12 +19898,12 @@
       CHANMODE 0
       GUID {79EC4ABB-7947-458F-A362-12CB5C511E65}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\GUIA.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\GUIA.mp3" 1
       >
     >
   >
   <TRACK {90CEAF2E-19CA-4766-8735-DCB857BD09D4}
-    NAME "31 - GUITARRA EX AMOR - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - GUITARRA EX AMOR - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20076,12 +19948,12 @@
       CHANMODE 0
       GUID {723784E5-97FA-4839-9C7B-1BDD5021CBC1}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\GUITARRA EX AMOR.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\GUITARRA EX AMOR.mp3" 1
       >
     >
   >
   <TRACK {3F4A4F5C-36B5-4222-8F55-EE5599FE1F59}
-    NAME "31 - METAIS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - METAIS - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20126,12 +19998,12 @@
       CHANMODE 0
       GUID {4378A48B-EC16-4D50-AFA6-E7205400EF5F}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\METAIS.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\METAIS.mp3" 1
       >
     >
   >
   <TRACK {C63E273F-240C-42FE-907C-16BBE2EAE0E5}
-    NAME "31 - PERCUSSÃO - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - PERCUSSÃO - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20176,12 +20048,12 @@
       CHANMODE 0
       GUID {4C8BA318-2A65-43B6-97D7-067DFDF08DCD}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {0AFE945B-C0E0-494B-AA45-3FD47EF93566}
-    NAME "31 - PIANOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - PIANOS - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20226,12 +20098,12 @@
       CHANMODE 0
       GUID {1437F6E8-CB01-453F-90D8-E94F98C2C3C6}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\PIANOS.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\PIANOS.mp3" 1
       >
     >
   >
   <TRACK {B5920DA0-17A3-4B91-901C-4EEF320EF2C9}
-    NAME "31 - SANFONA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - SANFONA - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20276,12 +20148,12 @@
       CHANMODE 0
       GUID {A3F96FB6-8F73-44D7-8E67-38FEB4DD0699}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\SANFONA.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\SANFONA.mp3" 1
       >
     >
   >
   <TRACK {D56615F7-A9E7-4A83-B529-548032C6C45C}
-    NAME "31 - STRING ARRANJOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - STRING ARRANJOS - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20326,12 +20198,12 @@
       CHANMODE 0
       GUID {9B4FBB69-5284-4CBA-8B0B-7C4F45568C38}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\STRING ARRANJOS.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\STRING ARRANJOS.mp3" 1
       >
     >
   >
   <TRACK {246AE5D3-629B-41A5-A862-04CB2C392909}
-    NAME "31 - STRINGS BASE - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - STRINGS BASE - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20376,12 +20248,12 @@
       CHANMODE 0
       GUID {173DC41B-BDCD-47D4-BD68-203E56DFCB57}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\STRINGS BASE.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\STRINGS BASE.mp3" 1
       >
     >
   >
   <TRACK {BAC69EB9-0239-4F69-AE43-FED0FA9F1CBD}
-    NAME "31 - TECLADO FANTASIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA"
+    NAME "31 - TECLADO FANTASIA - NOVA IORQUE"
     PEAKCOL 23797992
     BEAT -1
     AUTOMODE 0
@@ -20426,12 +20298,12 @@
       CHANMODE 0
       GUID {7FA4725A-D491-4671-8ADE-9B9A3BC9B5A4}
       <SOURCE MP3
-        FILE "ABERTO\31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA\TECLADO FANTASIA.mp3" 1
+        FILE "ABERTO\31 - NOVA IORQUE\TECLADO FANTASIA.mp3" 1
       >
     >
   >
   <TRACK {7BE2BD34-915D-4D2A-B975-20861C3F93F2}
-    NAME "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20534,19 +20406,7 @@
             |gfx_str_measure(#R,rw,rh);
             |linew=lw+spw+rw;
             |linew>widest ? widest=linew;
-            |#L="Rancho Grande";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |#L="Feliz em Festa";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |linew=lw+spw+rw;
-            |linew>widest ? widest=linew;
-            |n=4;
+            |n=2;
             |step=px*1.35;
             |total=step*n;
             |maxw=project_w*0.92;
@@ -20573,26 +20433,6 @@
             |gfx_set(1,0,0,1);
             |gfx_str_draw(#R,x+lw+spw,y);
             |y+=step;
-            |#L="Rancho Grande";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
-            |#L="Feliz em Festa";
-            |gfx_str_measure(#L,lw,lh);
-            |#R="??";
-            |gfx_str_measure(#R,rw,rh);
-            |x=(project_w-lw-spw-rw)*0.5;
-            |gfx_set(1,1,1,1);
-            |gfx_str_draw(#L,x,y);
-            |gfx_set(1,0,0,1);
-            |gfx_str_draw(#R,x+lw+spw,y);
-            |y+=step;
             |);
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
@@ -20606,7 +20446,7 @@
     >
   >
   <TRACK {34AF3238-1576-4993-B986-6ECA5FDA4151}
-    NAME "32 - CLICK 138 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - CLICK 138 - PONTO CHICK"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -20651,12 +20491,12 @@
       CHANMODE 0
       GUID {41488A13-3819-4CAC-BA7A-F4169B37788D}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\CLICK 138.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {FB1E2D66-A13F-4AD4-AA05-8355F021CDCC}
-    NAME "32 - REGÊNCIA - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - REGÊNCIA - PONTO CHICK"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -20701,12 +20541,12 @@
       CHANMODE 0
       GUID {3D52D31E-5587-4F41-A284-53BD44ADAF99}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\REGÊNCIA E CONTAGEM.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\REGÊNCIA E CONTAGEM.mp3" 1
       >
     >
   >
   <TRACK {000FBB8F-E374-4B9B-B779-B1ACE375A5F0}
-    NAME "32 - SANFONA BASE - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - SANFONA BASE - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20751,12 +20591,12 @@
       CHANMODE 0
       GUID {1E9764A0-FD0A-4315-AD6E-264E94D9EAB8}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\SANFONA BASE.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\SANFONA BASE.mp3" 1
       >
     >
   >
   <TRACK {02ECCDC5-C0C0-4B10-9AB8-7CBE80F53AA4}
-    NAME "32 - SANFONA SOLO - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - SANFONA SOLO - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20801,12 +20641,12 @@
       CHANMODE 0
       GUID {9BE0E902-48B9-4D1F-865E-EDEA20B5F49E}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\SANFONA SOLO.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\SANFONA SOLO.mp3" 1
       >
     >
   >
   <TRACK {72DE6581-0745-41F1-ABA4-C4AD657531A6}
-    NAME "32 - SAX 1 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - SAX 1 VOZ - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20851,12 +20691,12 @@
       CHANMODE 0
       GUID {B2FB419D-00B2-4E3C-9DF7-99D924F3133A}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\SAX 1 VOZ.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\SAX 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {518E0F52-5095-4C44-9A11-46D4A9D32ABE}
-    NAME "32 - SAX 2 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - SAX 2 VOZ - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20901,12 +20741,12 @@
       CHANMODE 0
       GUID {68B79F3A-2DB9-4210-9A68-6DF317B5215E}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\SAX 2 VOZ.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\SAX 2 VOZ.mp3" 1
       >
     >
   >
   <TRACK {EFC2DF3D-CF15-46FE-A827-2C51C5E691FE}
-    NAME "32 - TROMBONE - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - TROMBONE - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -20951,12 +20791,12 @@
       CHANMODE 0
       GUID {61A921E9-D9F5-407A-B5FE-C44E35042915}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\TROMBONE.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\TROMBONE.mp3" 1
       >
     >
   >
   <TRACK {43D96184-765C-4538-A954-22D45CCA014C}
-    NAME "32 - TROMBONE OITAVA - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - TROMBONE OITAVA - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -21001,12 +20841,12 @@
       CHANMODE 0
       GUID {7BD113FF-D86E-4636-81E4-F39D961DC0D6}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\TROMBONE OITAVA.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\TROMBONE OITAVA.mp3" 1
       >
     >
   >
   <TRACK {216116EE-77E7-43BE-8FBE-785B3FB065DF}
-    NAME "32 - TROMBONE SEGUNDA VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - TROMBONE SEGUNDA VOZ - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -21051,12 +20891,12 @@
       CHANMODE 0
       GUID {D511FBDA-BF81-4981-9435-DEAC84E6F09A}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\TROMBONE SEGUNDA VOZ.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\TROMBONE SEGUNDA VOZ.mp3" 1
       >
     >
   >
   <TRACK {6F381A3F-EE91-4D7D-AADC-ABFBB5618ECA}
-    NAME "32 - TROMPETE 1 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - TROMPETE 1 VOZ - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -21101,12 +20941,12 @@
       CHANMODE 0
       GUID {94956B5B-D759-4A6D-95C6-43FB69E6ABDA}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\TROMPETE 1 VOZ.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\TROMPETE 1 VOZ.mp3" 1
       >
     >
   >
   <TRACK {2B38F426-519B-409D-9A50-97D171842737}
-    NAME "32 - TROMPETE 2 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA"
+    NAME "32 - TROMPETE 2 VOZ - PONTO CHICK"
     PEAKCOL 21307624
     BEAT -1
     AUTOMODE 0
@@ -21151,7 +20991,7 @@
       CHANMODE 0
       GUID {A1F8976F-7EAF-4438-8C52-6B2B6C721CA6}
       <SOURCE MP3
-        FILE "ABERTO\32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA\TROMPETE 2 VOZ.mp3" 1
+        FILE "ABERTO\32 - PONTO CHICK\TROMPETE 2 VOZ.mp3" 1
       >
     >
   >

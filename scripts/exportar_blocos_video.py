@@ -110,8 +110,9 @@ def extract_track_blocks(text: str) -> list[str]:
 
 
 def track_name(block: str) -> str:
-    match = re.search(r'^    NAME "(.*)"', block, re.MULTILINE)
-    return match.group(1) if match else ""
+    # O Reaper grava sem aspas o nome sem espaco (os barramentos: NAME CLICK).
+    match = re.search(r'^    NAME (?:"(.*)"|(\S+))$', block, re.MULTILINE)
+    return (match.group(1) or match.group(2)) if match else ""
 
 
 def track_header(block: str) -> str:
@@ -144,7 +145,7 @@ def volumes_dos_grupos(blocks: list[str]) -> dict[str, float]:
     for block in blocks:
         name = track_name(block)
         if name in GRUPO_POR_BIT.values():
-            volumes[name] = track_volume(block)
+            volumes[name] = 0.0 if track_muted(block) else track_volume(block)
     return volumes
 
 

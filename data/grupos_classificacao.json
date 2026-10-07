@@ -920,11 +920,11 @@
       ]
     },
     {
-      "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+      "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
       "faixas": [
         {
           "trilha": "11 - MONITOR",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -932,8 +932,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "11 - CLICK - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - CLICK - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -941,8 +941,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "11 - REGÊNCIA - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - REGÊNCIA - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -950,8 +950,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "11 - METAIS - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - METAIS - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "METAIS",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -959,8 +959,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "11 - PERCUSSÃO - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - PERCUSSÃO - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -968,8 +968,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "11 - TECLADOS - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - TECLADOS - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "TECLADOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -977,8 +977,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "11 - VIOLÕES - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - VIOLÕES - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "VIOLÕES",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -986,8 +986,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "11 - VS BLOCO - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - VS BLOCO - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "VS BLOCO",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -995,8 +995,8 @@
           "motivo": "VS é guia ou mix de referência, não um naipe."
         },
         {
-          "trilha": "11 - GUITARRA SOLO 1 VOZ - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - GUITARRA SOLO 1 VOZ - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "GUITARRA SOLO 1 VOZ",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -1004,8 +1004,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "11 - GUITARRA SOLO 2 VOZ - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
-          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - CAMA NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "trilha": "11 - GUITARRA SOLO 2 VOZ - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
+          "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "GUITARRA SOLO 2 VOZ",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2083,11 +2083,11 @@
       ]
     },
     {
-      "bloco": "24 - ALÔ GALERA",
+      "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
       "faixas": [
         {
           "trilha": "24 - MONITOR",
-          "bloco": "24 - ALÔ GALERA",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2095,8 +2095,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "24 - CLICK - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - CLICK - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2104,8 +2104,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "24 - REGÊNCIA - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - REGÊNCIA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2113,8 +2113,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "24 - BASE FANTASIA - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - BASE FANTASIA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "BASE FANTASIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2122,8 +2122,8 @@
           "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
         },
         {
-          "trilha": "24 - CARRILHÃO - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - CARRILHÃO - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "CARRILHÃO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2131,8 +2131,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "24 - GUIA - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - GUIA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "GUIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2140,8 +2140,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "24 - PERCUSSÃO - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - PERCUSSÃO - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2149,8 +2149,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "24 - SANFONA - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - SANFONA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "SANFONA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2158,8 +2158,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "24 - STRINGS - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - STRINGS - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "STRINGS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2167,8 +2167,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "24 - TECLADOS - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - TECLADOS - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "TECLADOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2176,8 +2176,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "24 - TROMPETE 1 VOZ - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - TROMPETE 1 VOZ - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2185,8 +2185,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "24 - TROMPETE 2 VOZ - ALÔ GALERA",
-          "bloco": "24 - ALÔ GALERA",
+          "trilha": "24 - TROMPETE 2 VOZ - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
+          "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2196,11 +2196,11 @@
       ]
     },
     {
-      "bloco": "25 - BARRIL DE CHOPP",
+      "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
       "faixas": [
         {
           "trilha": "25 - MONITOR",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2208,8 +2208,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "25 - CLICK 136 - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - CLICK 136 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "CLICK 136",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2217,8 +2217,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "25 - REGÊNCIA - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - REGÊNCIA - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2226,8 +2226,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "25 - GUIA BARRIL - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - GUIA BARRIL - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "GUIA BARRIL",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2235,8 +2235,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "25 - SANFONA BASE - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - SANFONA BASE - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2244,8 +2244,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "25 - SANFONA SOLO - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - SANFONA SOLO - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "SANFONA SOLO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2253,8 +2253,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "25 - SAX 1 VOZ - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - SAX 1 VOZ - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "SAX 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2262,8 +2262,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "25 - SAX 2 VOZ - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - SAX 2 VOZ - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "SAX 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2271,8 +2271,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "25 - SAX 3 VOZ - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - SAX 3 VOZ - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "SAX 3 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2280,8 +2280,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "25 - TROMBONE - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - TROMBONE - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "TROMBONE",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2289,8 +2289,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "25 - TROMPETE 1 VOZ - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - TROMPETE 1 VOZ - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2298,8 +2298,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "25 - TROMPETE 2 VOZ - BARRIL DE CHOPP",
-          "bloco": "25 - BARRIL DE CHOPP",
+          "trilha": "25 - TROMPETE 2 VOZ - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
+          "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2309,11 +2309,11 @@
       ]
     },
     {
-      "bloco": "26 - BEIJA BEIJA",
+      "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
       "faixas": [
         {
           "trilha": "26 - MONITOR",
-          "bloco": "26 - BEIJA BEIJA",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2321,8 +2321,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "26 - CLICK 138 - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - CLICK 138 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2330,8 +2330,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "26 - REGÊNCIA - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - REGÊNCIA - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2339,8 +2339,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "26 - BASE PIANO - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - BASE PIANO - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "BASE PIANO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2348,8 +2348,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - SANFONA BASE - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - SANFONA BASE - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2357,8 +2357,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - SHAKER - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - SHAKER - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "SHAKER",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2366,8 +2366,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "26 - SINTETIZADOR - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - SINTETIZADOR - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "SINTETIZADOR",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2375,8 +2375,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - TROMBONE - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - TROMBONE - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "TROMBONE",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2384,8 +2384,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "26 - TROMPETE 1 VOZ - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - TROMPETE 1 VOZ - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2393,8 +2393,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "26 - TROMPETE 2 VOZ - BEIJA BEIJA",
-          "bloco": "26 - BEIJA BEIJA",
+          "trilha": "26 - TROMPETE 2 VOZ - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2404,11 +2404,11 @@
       ]
     },
     {
-      "bloco": "27 - CAMISA MANCHADA",
+      "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
       "faixas": [
         {
           "trilha": "27 - MONITOR",
-          "bloco": "27 - CAMISA MANCHADA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2416,8 +2416,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "27 - CLICK 168 - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - CLICK 168 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "CLICK 168",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2425,8 +2425,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "27 - REGÊNCIA - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - REGÊNCIA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2434,8 +2434,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "27 - BASE FANTASIA - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - BASE FANTASIA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "BASE FANTASIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2443,8 +2443,8 @@
           "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
         },
         {
-          "trilha": "27 - GUIA CAMISA MANCHADA - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - GUIA CAMISA MANCHADA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "GUIA CAMISA MANCHADA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2452,8 +2452,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "27 - PIANOS - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - PIANOS - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "PIANOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2461,8 +2461,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "27 - SANFONA CAMISA MANCHADA - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - SANFONA CAMISA MANCHADA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "SANFONA CAMISA MANCHADA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2470,8 +2470,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "27 - SHAKER - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - SHAKER - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "SHAKER",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2479,8 +2479,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "27 - TROMPETE 1 VOZ - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - TROMPETE 1 VOZ - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2488,8 +2488,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "27 - TROMPETE 2 VOZ - CAMISA MANCHADA",
-          "bloco": "27 - CAMISA MANCHADA",
+          "trilha": "27 - TROMPETE 2 VOZ - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
+          "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2499,11 +2499,11 @@
       ]
     },
     {
-      "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+      "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
       "faixas": [
         {
           "trilha": "28 - MONITOR",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2511,8 +2511,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "28 - CLICK - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - CLICK - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2520,8 +2520,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "28 - REGÊNCIA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - REGÊNCIA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2529,8 +2529,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "28 - ASSOBIO - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - ASSOBIO - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "ASSOBIO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2538,8 +2538,8 @@
           "motivo": "Assobio entrou em Teclas porque o grupo inclui efeitos."
         },
         {
-          "trilha": "28 - BELLS - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - BELLS - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "BELLS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2547,8 +2547,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "28 - EFEITOS - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - EFEITOS - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "EFEITOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2556,8 +2556,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "28 - FANTASIA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - FANTASIA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "FANTASIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2565,8 +2565,8 @@
           "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
         },
         {
-          "trilha": "28 - PERCUSSÃO - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - PERCUSSÃO - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2574,8 +2574,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "28 - PIANO BASE - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - PIANO BASE - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "PIANO BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2583,8 +2583,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "28 - SAX 1 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - SAX 1 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "SAX 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2592,8 +2592,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - SAX 2 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - SAX 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "SAX 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2601,8 +2601,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - SAX 3 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - SAX 3 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "SAX 3 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2610,8 +2610,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - STRING BASE - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - STRING BASE - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "STRING BASE",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2619,8 +2619,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "28 - TROMBONE - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMBONE - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMBONE",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2628,8 +2628,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMBONE 2 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMBONE 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMBONE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2637,8 +2637,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMBONE OITAVA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMBONE OITAVA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMBONE OITAVA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2646,8 +2646,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 1 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 1 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2655,8 +2655,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 1 VOZ ALTA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 1 VOZ ALTA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 1 VOZ ALTA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2664,8 +2664,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 2 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 2 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2673,8 +2673,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 2 VOZ ALTA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 2 VOZ ALTA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 2 VOZ ALTA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2682,8 +2682,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 2 VOZ BAIXA - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 2 VOZ BAIXA - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 2 VOZ BAIXA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2691,8 +2691,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "28 - TROMPETE 3 VOZ - CORONEL BOOGEY MARCHA DO COELHO",
-          "bloco": "28 - CORONEL BOOGEY MARCHA DO COELHO",
+          "trilha": "28 - TROMPETE 3 VOZ - CORONEL BOOGEY - MARCHA DO COELHO",
+          "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "TROMPETE 3 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2702,11 +2702,11 @@
       ]
     },
     {
-      "bloco": "29 - DAI QUE MIORO",
+      "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
       "faixas": [
         {
           "trilha": "29 - MONITOR",
-          "bloco": "29 - DAI QUE MIORO",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2714,8 +2714,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "29 - CLICK - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - CLICK - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2723,8 +2723,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "29 - REGÊNCIA - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - REGÊNCIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2732,8 +2732,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "29 - BASE FANTASIA - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - BASE FANTASIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "BASE FANTASIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2741,8 +2741,8 @@
           "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
         },
         {
-          "trilha": "29 - CARRILHÃO - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - CARRILHÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "CARRILHÃO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2750,8 +2750,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - GUIA - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - GUIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "GUIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2759,8 +2759,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "29 - PERCUSSÃO - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - PERCUSSÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2768,8 +2768,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "29 - SANFONA - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - SANFONA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "SANFONA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2777,8 +2777,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - STRINGS - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - STRINGS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "STRINGS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2786,8 +2786,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "29 - TECLADOS - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - TECLADOS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TECLADOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2795,8 +2795,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - TROMPETE 1 VOZ - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - TROMPETE 1 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2804,8 +2804,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "29 - TROMPETE 2 VOZ - DAI QUE MIORO",
-          "bloco": "29 - DAI QUE MIORO",
+          "trilha": "29 - TROMPETE 2 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2815,11 +2815,11 @@
       ]
     },
     {
-      "bloco": "30 - HEYO HEYO",
+      "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
       "faixas": [
         {
           "trilha": "30 - MONITOR",
-          "bloco": "30 - HEYO HEYO",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2827,8 +2827,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "30 - CLICK 135 - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - CLICK 135 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2836,8 +2836,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "30 - REGÊNCIA - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - REGÊNCIA - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2845,8 +2845,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "30 - ÓRGÃO SOLO - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - ÓRGÃO SOLO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "ÓRGÃO SOLO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2854,8 +2854,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "30 - PIANO - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - PIANO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "PIANO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2863,8 +2863,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "30 - SANFONA BASE - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - SANFONA BASE - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2872,8 +2872,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "30 - SAX 1 VOZ - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - SAX 1 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "SAX 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2881,8 +2881,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - SAX 2 VOZ - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - SAX 2 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "SAX 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2890,8 +2890,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - STRINGS - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - STRINGS - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "STRINGS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2899,8 +2899,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "30 - TROMBONE HEYO - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - TROMBONE HEYO - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "TROMBONE HEYO",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2908,8 +2908,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - TROMBONE OITAVA - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - TROMBONE OITAVA - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "TROMBONE OITAVA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2917,8 +2917,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - TROMPETE 1 VOZ - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - TROMPETE 1 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2926,8 +2926,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - TROMPETE 2 VOZ - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - TROMPETE 2 VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2935,8 +2935,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - TROMPETE 8 - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - TROMPETE 8 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "TROMPETE 8",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2944,8 +2944,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "30 - VOZ - HEYO HEYO",
-          "bloco": "30 - HEYO HEYO",
+          "trilha": "30 - VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
+          "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "VOZ",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2955,11 +2955,11 @@
       ]
     },
     {
-      "bloco": "31 - NOVA IORQUE",
+      "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
       "faixas": [
         {
           "trilha": "31 - MONITOR",
-          "bloco": "31 - NOVA IORQUE",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2967,8 +2967,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "31 - CLICK 138 - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - CLICK 138 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2976,8 +2976,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "31 - REGÊNCIA - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - REGÊNCIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2985,8 +2985,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "31 - EFEITOS - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - EFEITOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "EFEITOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2994,8 +2994,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "31 - GUIA - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - GUIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "GUIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3003,8 +3003,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "31 - GUITARRA EX AMOR - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - GUITARRA EX AMOR - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "GUITARRA EX AMOR",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3012,8 +3012,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "31 - METAIS - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - METAIS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "METAIS",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3021,8 +3021,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "31 - PERCUSSÃO - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - PERCUSSÃO - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3030,8 +3030,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "31 - PIANOS - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - PIANOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "PIANOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -3039,8 +3039,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "31 - SANFONA - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - SANFONA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "SANFONA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -3048,8 +3048,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "31 - STRING ARRANJOS - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - STRING ARRANJOS - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "STRING ARRANJOS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3057,8 +3057,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "31 - STRINGS BASE - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - STRINGS BASE - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "STRINGS BASE",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3066,8 +3066,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "31 - TECLADO FANTASIA - NOVA IORQUE",
-          "bloco": "31 - NOVA IORQUE",
+          "trilha": "31 - TECLADO FANTASIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
+          "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "TECLADO FANTASIA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -3077,11 +3077,11 @@
       ]
     },
     {
-      "bloco": "32 - PONTO CHICK",
+      "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
       "faixas": [
         {
           "trilha": "32 - MONITOR",
-          "bloco": "32 - PONTO CHICK",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3089,8 +3089,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "32 - CLICK 138 - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - CLICK 138 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3098,8 +3098,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "32 - REGÊNCIA - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - REGÊNCIA - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -3107,8 +3107,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "32 - SANFONA BASE - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - SANFONA BASE - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -3116,8 +3116,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "32 - SANFONA SOLO - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - SANFONA SOLO - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "SANFONA SOLO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -3125,8 +3125,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "32 - SAX 1 VOZ - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - SAX 1 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "SAX 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3134,8 +3134,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - SAX 2 VOZ - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - SAX 2 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "SAX 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3143,8 +3143,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - TROMBONE - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - TROMBONE - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "TROMBONE",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3152,8 +3152,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - TROMBONE OITAVA - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - TROMBONE OITAVA - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "TROMBONE OITAVA",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3161,8 +3161,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - TROMBONE SEGUNDA VOZ - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - TROMBONE SEGUNDA VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "TROMBONE SEGUNDA VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3170,8 +3170,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - TROMPETE 1 VOZ - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - TROMPETE 1 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3179,8 +3179,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "32 - TROMPETE 2 VOZ - PONTO CHICK",
-          "bloco": "32 - PONTO CHICK",
+          "trilha": "32 - TROMPETE 2 VOZ - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
+          "bloco": "32 - PONTO CHICK - RANCHO GRANDE - FELIZ EM FESTA",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
