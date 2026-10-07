@@ -1,0 +1,167 @@
+{
+  "atualizado": "2026-10-07T20:24:13",
+  "grupos": [
+    {
+      "id": "click",
+      "nome": "Click",
+      "master": "CLICK",
+      "cor": "#ff3030"
+    },
+    {
+      "id": "regencia",
+      "nome": "Regência",
+      "master": "REGÊNCIA",
+      "cor": "#3d7dff"
+    },
+    {
+      "id": "metais",
+      "nome": "Metais",
+      "master": "METAIS",
+      "cor": "#e6a817"
+    },
+    {
+      "id": "teclas",
+      "nome": "Teclas",
+      "master": "TECLAS",
+      "cor": "#b450dc"
+    },
+    {
+      "id": "cordas",
+      "nome": "Cordas",
+      "master": "CORDAS",
+      "cor": "#2ea85a"
+    },
+    {
+      "id": "percussao",
+      "nome": "Percussão",
+      "master": "PERCUSSÃO",
+      "cor": "#ff6e1e"
+    }
+  ],
+  "contagens": {
+    "click": 1,
+    "regencia": 1,
+    "metais": 0,
+    "teclas": 1,
+    "cordas": 4,
+    "percussao": 2,
+    "fora": 2,
+    "revisar": 2,
+    "monitor": 1
+  },
+  "blocos": [
+    {
+      "bloco": "01 - NA HORA DE AMAR",
+      "faixas": [
+        {
+          "trilha": "01 - MONITOR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "01 - CLICK - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "CLICK",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "01 - REGÊNCIA - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "REGÊNCIA",
+          "grupo": "regencia",
+          "grupo_nome": "Regência",
+          "revisar": false,
+          "motivo": "Regência de todas as músicas."
+        },
+        {
+          "trilha": "01 - BASS - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "BASS",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Baixo entrou em Cordas."
+        },
+        {
+          "trilha": "01 - BATERIA - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "BATERIA",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "01 - GUIA NA HORA DE AMAR - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "GUIA NA HORA DE AMAR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": true,
+          "motivo": "Guia não é um naipe."
+        },
+        {
+          "trilha": "01 - GUIA VOZ - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "GUIA VOZ",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": true,
+          "motivo": "Guia não é um naipe."
+        },
+        {
+          "trilha": "01 - GUITARRA BASE - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "GUITARRA BASE",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "01 - GUITARRA SOLO - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "GUITARRA SOLO",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "01 - GUITARRA SOLO 2 - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "GUITARRA SOLO 2",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "01 - PERCUSSÃO - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "01 - SANFONA SOLO - NA HORA DE AMAR",
+          "bloco": "01 - NA HORA DE AMAR",
+          "stem": "SANFONA SOLO",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
+        }
+      ]
+    }
+  ]
+}

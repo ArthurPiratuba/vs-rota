@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grupos da Rota do Chopp</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 "Segoe UI", sans-serif; background: #f4f0e8; color: #241c14; }
+  header { position: sticky; top: 0; z-index: 2; background: #241c14; color: #f4f0e8; padding: 16px 22px 14px; }
+  header h1 { margin: 0 0 4px; font-size: 20px; font-weight: 650; }
+  header p { margin: 0; color: #d9cfc2; font-size: 13px; }
+  .totais { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .chip { border: 0; border-radius: 999px; padding: 4px 10px; color: white; font: inherit; font-size: 13px; cursor: pointer; }
+  main { max-width: 980px; margin: 0 auto; padding: 18px 16px 80px; }
+  section { background: white; border-radius: 12px; margin: 0 0 14px; overflow: hidden; box-shadow: 0 1px 0 rgba(36,28,20,.08); }
+  h2 { margin: 0; padding: 12px 14px; font-size: 15px; background: #efe8dc; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 14px; vertical-align: top; border-top: 1px solid #efe8dc; }
+  th { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: #6d6256; font-weight: 650; }
+  .stem { font-weight: 650; }
+  .full { display: block; color: #6d6256; font-size: 12px; font-weight: 400; }
+  .motivo { color: #6d6256; font-size: 13px; }
+  tr.revisar { background: #fff6e8; }
+  .badge { display: inline-block; min-width: 74px; text-align: center; border-radius: 999px; padding: 2px 8px; color: white; font-size: 12px; font-weight: 650; }
+  .botoes { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+  .botoes button { border: 1px solid #d9cfc2; background: white; border-radius: 999px; padding: 3px 8px; font: inherit; font-size: 12px; cursor: pointer; }
+  .botoes button.ativo { color: white; border-color: transparent; }
+  .mudar { border: 0; background: transparent; color: #6d6256; text-decoration: underline; cursor: pointer; font: inherit; font-size: 12px; padding: 0; }
+  footer { position: sticky; bottom: 0; display: flex; gap: 12px; align-items: center; padding: 12px 16px; background: #fffaf3; border-top: 1px solid #e4d9c8; }
+  footer button { background: #241c14; color: white; border: 0; border-radius: 8px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  #status { font-size: 13px; color: #6d6256; }
+  .escondido { display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Grupos por bloco</h1>
+  <p>Seis faders, nesta ordem: Click, Regência, Metais, Teclas, Cordas, Percussão. O que não fecha em uma família fica de fora até você escolher.</p>
+  <div class="totais" id="totais"></div>
+</header>
+<main id="lista"></main>
+<footer>
+  <button id="salvar" type="button">Salvar correções no projeto</button>
+  <span id="status"></span>
+</footer>
+<script>
+const DADOS = {"opcoes": [{"id": "fora", "nome": "Fora", "cor": "#8a8175"}, {"id": "click", "nome": "Click", "cor": "#ff3030"}, {"id": "regencia", "nome": "Regência", "cor": "#3d7dff"}, {"id": "metais", "nome": "Metais", "cor": "#e6a817"}, {"id": "teclas", "nome": "Teclas", "cor": "#b450dc"}, {"id": "cordas", "nome": "Cordas", "cor": "#2ea85a"}, {"id": "percussao", "nome": "Percussão", "cor": "#ff6e1e"}], "blocos": [{"bloco": "01 - NA HORA DE AMAR", "faixas": [{"trilha": "01 - MONITOR", "bloco": "01 - NA HORA DE AMAR", "stem": "MONITOR", "grupo": null, "grupo_nome": "Fora", "revisar": false, "motivo": "Monitor de cifra. Não entra em grupo."}, {"trilha": "01 - CLICK - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "CLICK", "grupo": "click", "grupo_nome": "Click", "revisar": false, "motivo": "Click de todas as músicas."}, {"trilha": "01 - REGÊNCIA - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "REGÊNCIA", "grupo": "regencia", "grupo_nome": "Regência", "revisar": false, "motivo": "Regência de todas as músicas."}, {"trilha": "01 - BASS - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "BASS", "grupo": "cordas", "grupo_nome": "Cordas", "revisar": false, "motivo": "Baixo entrou em Cordas."}, {"trilha": "01 - BATERIA - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "BATERIA", "grupo": "percussao", "grupo_nome": "Percussão", "revisar": false, "motivo": "Percussão, pelo nome."}, {"trilha": "01 - GUIA NA HORA DE AMAR - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "GUIA NA HORA DE AMAR", "grupo": null, "grupo_nome": "Fora", "revisar": true, "motivo": "Guia não é um naipe."}, {"trilha": "01 - GUIA VOZ - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "GUIA VOZ", "grupo": null, "grupo_nome": "Fora", "revisar": true, "motivo": "Guia não é um naipe."}, {"trilha": "01 - GUITARRA BASE - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "GUITARRA BASE", "grupo": "cordas", "grupo_nome": "Cordas", "revisar": false, "motivo": "Corda, pelo nome."}, {"trilha": "01 - GUITARRA SOLO - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "GUITARRA SOLO", "grupo": "cordas", "grupo_nome": "Cordas", "revisar": false, "motivo": "Corda, pelo nome."}, {"trilha": "01 - GUITARRA SOLO 2 - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "GUITARRA SOLO 2", "grupo": "cordas", "grupo_nome": "Cordas", "revisar": false, "motivo": "Corda, pelo nome."}, {"trilha": "01 - PERCUSSÃO - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "PERCUSSÃO", "grupo": "percussao", "grupo_nome": "Percussão", "revisar": false, "motivo": "Percussão, pelo nome."}, {"trilha": "01 - SANFONA SOLO - NA HORA DE AMAR", "bloco": "01 - NA HORA DE AMAR", "stem": "SANFONA SOLO", "grupo": "teclas", "grupo_nome": "Teclas", "revisar": false, "motivo": "Tecla ou efeito, pelo nome."}]}], "contagens": {"click": 1, "regencia": 1, "metais": 0, "teclas": 1, "cordas": 4, "percussao": 2, "fora": 2, "revisar": 2, "monitor": 1}};
+const escolhido = new Map();
+const abertos = new Set();
+
+function cor(id) {
+  const op = DADOS.opcoes.find((item) => item.id === id);
+  return op ? op.cor : "#8a8175";
+}
+function nomeGrupo(id) {
+  const op = DADOS.opcoes.find((item) => item.id === (id || "fora"));
+  return op ? op.nome : "Fora";
+}
+
+function desenharTotais() {
+  const host = document.getElementById("totais");
+  host.innerHTML = "";
+  for (const op of DADOS.opcoes) {
+    if (op.id === "fora") continue;
+    const n = DADOS.contagens[op.id] || 0;
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.style.background = op.cor;
+    chip.textContent = op.nome + " " + n;
+    host.appendChild(chip);
+  }
+  const fora = document.createElement("span");
+  fora.className = "chip";
+  fora.style.background = "#8a8175";
+  fora.textContent = "Sem naipe " + (DADOS.contagens.fora || 0);
+  host.appendChild(fora);
+  const rev = document.createElement("span");
+  rev.className = "chip";
+  rev.style.background = "#9a6b2f";
+  rev.textContent = "Revisar " + (DADOS.contagens.revisar || 0);
+  host.appendChild(rev);
+}
+
+function botoes(faixa, host) {
+  const barra = document.createElement("div");
+  barra.className = "botoes";
+  const atual = escolhido.get(faixa.trilha) || faixa.grupo || "fora";
+  for (const op of DADOS.opcoes) {
+    const botao = document.createElement("button");
+    botao.type = "button";
+    botao.textContent = op.nome;
+    if (op.id === atual) {
+      botao.className = "ativo";
+      botao.style.background = op.cor;
+    }
+    botao.addEventListener("click", () => {
+      escolhido.set(faixa.trilha, op.id);
+      desenhar();
+    });
+    barra.appendChild(botao);
+  }
+  host.appendChild(barra);
+}
+
+function desenhar() {
+  const lista = document.getElementById("lista");
+  lista.innerHTML = "";
+  for (const bloco of DADOS.blocos) {
+    const section = document.createElement("section");
+    const titulo = document.createElement("h2");
+    titulo.textContent = bloco.bloco;
+    section.appendChild(titulo);
+    const tabela = document.createElement("table");
+    tabela.innerHTML = "<thead><tr><th>Trilha neste bloco</th><th>Grupo</th><th>Por quê</th></tr></thead>";
+    const corpo = document.createElement("tbody");
+    for (const faixa of bloco.faixas) {
+      const tr = document.createElement("tr");
+      if (faixa.revisar) tr.className = "revisar";
+      const grupoId = escolhido.get(faixa.trilha) || faixa.grupo || "fora";
+      const c1 = document.createElement("td");
+      c1.innerHTML = '<span class="stem"></span><span class="full"></span>';
+      c1.querySelector(".stem").textContent = faixa.stem;
+      c1.querySelector(".full").textContent = faixa.trilha;
+      const c2 = document.createElement("td");
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.style.background = cor(grupoId);
+      badge.textContent = nomeGrupo(grupoId);
+      c2.appendChild(badge);
+      const mostra = faixa.revisar || abertos.has(faixa.trilha);
+      if (mostra) botoes(faixa, c2);
+      else {
+        const mudar = document.createElement("button");
+        mudar.className = "mudar";
+        mudar.type = "button";
+        mudar.textContent = "mudar";
+        mudar.addEventListener("click", () => {
+          abertos.add(faixa.trilha);
+          desenhar();
+        });
+        c2.appendChild(document.createElement("br"));
+        c2.appendChild(mudar);
+      }
+      const c3 = document.createElement("td");
+      c3.className = "motivo";
+      c3.textContent = faixa.motivo;
+      tr.append(c1, c2, c3);
+      corpo.appendChild(tr);
+    }
+    tabela.appendChild(corpo);
+    section.appendChild(tabela);
+    lista.appendChild(section);
+  }
+}
+
+function correcoes() {
+  const lista = [];
+  for (const bloco of DADOS.blocos) {
+    for (const faixa of bloco.faixas) {
+      const grupo = escolhido.get(faixa.trilha);
+      const mudou = grupo && grupo !== (faixa.grupo || "fora");
+      if (!faixa.revisar && !mudou) continue;
+      lista.push({
+        trilha: faixa.trilha,
+        bloco: faixa.bloco,
+        stem: faixa.stem,
+        grupo: grupo || faixa.grupo || "fora",
+        antes: faixa.grupo
+      });
+    }
+  }
+  return { atualizado: new Date().toISOString(), correcoes: lista };
+}
+
+async function salvar() {
+  const status = document.getElementById("status");
+  const payload = correcoes();
+  const texto = JSON.stringify(payload, null, 2);
+  try {
+    const resposta = await fetch("/correcoes", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: texto
+    });
+    if (!resposta.ok) throw new Error(await resposta.text());
+    status.textContent = "Arquivo gravado e projeto atualizado. Recarregando.";
+    setTimeout(() => location.reload(), 400);
+    return;
+  } catch (erro) {
+    const blob = new Blob([texto], { type: "application/json" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "correcoes_grupos.json";
+    link.click();
+    status.textContent = "Baixou correcoes_grupos.json. Coloque em data/ e rode o script de aplicar.";
+  }
+}
+
+desenharTotais();
+desenhar();
+document.getElementById("salvar").addEventListener("click", salvar);
+</script>
+</body>
+</html>
