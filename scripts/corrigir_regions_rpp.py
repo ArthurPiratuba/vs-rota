@@ -17,8 +17,10 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from backup_rpp import backup_rpp  # noqa: E402
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 REGION_DATA = WORKSPACE / "data" / "region_markers.json"
 
 REGION_START = re.compile(
@@ -74,7 +76,7 @@ def main() -> None:
     if not REGION_DATA.exists():
         raise SystemExit(
             f"Arquivo {REGION_DATA} ausente. "
-            "Extraia do git: git show HEAD:\"ROTA DO CHOPP UNIFICADO.rpp\""
+            "Extraia do git: git show HEAD:\"<projeto>/<projeto>.rpp\""
         )
 
     start_tails, end_tails = load_canonical()

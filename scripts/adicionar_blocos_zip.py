@@ -46,8 +46,10 @@ from unificar_reaper import (  # noqa: E402
     replace_all_track_blocks,
 )
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 ABERTO = WORKSPACE / "ABERTO"
 REGION_DATA = WORKSPACE / "data" / "region_markers.json"
 BACKUPS = WORKSPACE / "Backups"

@@ -54,8 +54,10 @@ from inserir_texto_monitor import (  # noqa: E402
     slide_do_bloco,
 )
 
-WORKSPACE = _SCRIPTS.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 ABERTO = WORKSPACE / "ABERTO"
 REGION_MARKERS = WORKSPACE / "data" / "region_markers.json"
 TEXTOS_COM_NOMES = [

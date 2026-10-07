@@ -31,8 +31,10 @@ from unificar_reaper import (  # noqa: E402
     rgb_to_peakcol,
 )
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 CLASSIFICACAO_PATH = WORKSPACE / "data" / "grupos_classificacao.json"
 CORRECOES_PATH = WORKSPACE / "data" / "correcoes_grupos.json"
 HTML_PATH = WORKSPACE / "relatorio" / "grupos.html"

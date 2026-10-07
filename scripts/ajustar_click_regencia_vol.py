@@ -20,8 +20,10 @@ from unificar_reaper import (  # noqa: E402
     set_track_volume,
 )
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 
 
 def main() -> None:

@@ -18,8 +18,10 @@ if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from backup_rpp import backup_rpp  # noqa: E402
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 
 FILE_PATTERN = re.compile(r'^(\s*FILE )"(.*?)"(.*)$', re.MULTILINE)
 # Apenas NAME no nivel da track (4 espacos), nao do <ITEM> (6 espacos).

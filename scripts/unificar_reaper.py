@@ -2,7 +2,7 @@
 """Unifica os 23 projetos Reaper de ABERTO/ em um unico .rpp.
 
 Nota: ABERTO/ contem apenas audio. Regenerar exige os .rpp individuais
-(backup) ou editar o ROTA DO CHOPP UNIFICADO.rpp diretamente.
+(backup) ou editar o .rpp do projeto diretamente.
 """
 
 from __future__ import annotations
@@ -24,9 +24,11 @@ if str(_SCRIPTS) not in sys.path:
 from backup_rpp import backup_rpp  # noqa: E402
 from renomear_tracks_rpp import format_rpp_name, stem_display  # noqa: E402
 
-WORKSPACE = Path(__file__).resolve().parent.parent
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
 ABERTO = WORKSPACE / "ABERTO"
-OUTPUT = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+OUTPUT = projeto.RPP
 REGION_DATA = WORKSPACE / "data" / "region_markers.json"
 GAP_SECONDS = 2.0
 def rgb_to_peakcol(r: int, g: int, b: int) -> int:

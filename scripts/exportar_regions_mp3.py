@@ -32,7 +32,9 @@ from exportar_blocos_video import (  # noqa: E402
     volumes_dos_grupos,
 )
 
-WORKSPACE = _SCRIPTS.parent
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
 OUTPUT_DIR = WORKSPACE / "EXPORT_REGIONS"
 
 

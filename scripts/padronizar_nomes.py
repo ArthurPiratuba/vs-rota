@@ -30,8 +30,10 @@ from renomear_tracks_rpp import (  # noqa: E402
     stem_display,
 )
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 ABERTO = WORKSPACE / "ABERTO"
 REGION_DATA = WORKSPACE / "data" / "region_markers.json"
 MANIFEST_PATH = WORKSPACE / "data" / "rename_manifest.json"

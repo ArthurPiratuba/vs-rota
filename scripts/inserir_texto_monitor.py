@@ -24,13 +24,13 @@ from backup_rpp import backup_rpp  # noqa: E402
 from renomear_tracks_rpp import extract_track_blocks, replace_track_blocks  # noqa: E402
 from unificar_reaper import get_track_name, new_guid  # noqa: E402
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 # So os blocos VS: o slide N e o VS BLOCO N. O "Repertório Rota do Chopp.pptx"
 # (sem VS) e do usuario e nenhum script o abre.
-PPTX = Path(
-    r"O:\OneDrive\Trabalho\Banda\Rota do Chopp\REPERTÓRIO\Repertório Rota do Chopp VS.pptx"
-)
+PPTX = projeto.PPTX
 SLIDE_DO_BLOCO_1 = 1
 MONITOR_DIR = WORKSPACE / "MONITOR"
 BASE_PNG = MONITOR_DIR / "base.png"

@@ -8,8 +8,10 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-DEFAULT_RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+DEFAULT_RPP = projeto.RPP
 BACKUPS_DIR = WORKSPACE / "Backups"
 
 
@@ -21,6 +23,11 @@ def backup_rpp(source: Path | None = None) -> Path:
     BACKUPS_DIR.mkdir(exist_ok=True)
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
     dest = BACKUPS_DIR / f"{src.stem}-{stamp}.rpp-bak"
+    # Dois backups no mesmo segundo: o segundo nao pode apagar o primeiro.
+    n = 2
+    while dest.exists():
+        dest = BACKUPS_DIR / f"{src.stem}-{stamp}-{n}.rpp-bak"
+        n += 1
     shutil.copy2(src, dest)
     return dest
 

@@ -32,8 +32,10 @@ from inserir_texto_monitor import (  # noqa: E402
     slide_do_bloco,
 )
 
-WORKSPACE = Path(__file__).resolve().parent.parent
-RPP = WORKSPACE / "ROTA DO CHOPP UNIFICADO.rpp"
+import projeto  # noqa: E402
+
+WORKSPACE = projeto.WORKSPACE
+RPP = projeto.RPP
 OUTPUT_DIR = WORKSPACE / "EXPORT_VIDEOS"
 FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 FONTE = Path(r"C:\Windows\Fonts\arial.ttf")
