@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T20:26:26",
+  "atualizado": "2026-10-07T21:37:47",
   "grupos": [
     {
       "id": "click",
@@ -36,6 +36,12 @@
       "nome": "Percussão",
       "master": "PERCUSSÃO",
       "cor": "#ff6e1e"
+    },
+    {
+      "id": "voz",
+      "nome": "Voz",
+      "master": "VOZ",
+      "cor": "#ff4fa3"
     }
   ],
   "contagens": {
@@ -45,8 +51,9 @@
     "teclas": 63,
     "cordas": 47,
     "percussao": 29,
-    "fora": 33,
-    "revisar": 34,
+    "voz": 2,
+    "fora": 31,
+    "revisar": 32,
     "monitor": 34
   },
   "blocos": [
@@ -2039,10 +2046,10 @@
           "trilha": "23 - SEGUNDA VOZ - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "bloco": "23 - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "stem": "SEGUNDA VOZ",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Voz não entra em grupo de instrumento."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Voz, pelo nome."
         },
         {
           "trilha": "23 - TECLADO - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
@@ -2947,10 +2954,10 @@
           "trilha": "30 - VOZ - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "bloco": "30 - HEYO HEYO - ZIC ZAC - SALADA DE FRUTAS",
           "stem": "VOZ",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Voz não entra em grupo de instrumento."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Voz, pelo nome."
         }
       ]
     },

@@ -197,6 +197,68 @@
     FX 1
     TRACKID {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
     PERF 0
+    AUXRECV 8 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 21 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 34 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 43 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 54 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 63 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 73 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 84 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 91 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 100 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 109 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 120 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 130 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 139 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 151 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 164 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 174 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 185 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 196 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 202 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 212 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 222 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 231 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 244 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 257 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 270 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 281 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 292 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 315 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 328 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 344 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 358 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 371 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 375 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
+  <TRACK {A08B881C-D40B-45B4-9FA9-2A8A8EE007C0}
+    NAME REGÊNCIA
+    PEAKCOL 33551872
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 2 0 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A08B881C-D40B-45B4-9FA9-2A8A8EE007C0}
+    PERF 0
     AUXRECV 9 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 22 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 35 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
@@ -229,68 +291,6 @@
     AUXRECV 329 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 345 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 359 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 372 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 376 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    MIDIOUT -1 -1
-    MAINSEND 1 0
-  >
-  <TRACK {A08B881C-D40B-45B4-9FA9-2A8A8EE007C0}
-    NAME REGÊNCIA
-    PEAKCOL 33551872
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 64
-    GROUP_FLAGS 0 0 0 0 2 0 2
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {A08B881C-D40B-45B4-9FA9-2A8A8EE007C0}
-    PERF 0
-    AUXRECV 10 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 23 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 36 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 45 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 56 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 65 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 75 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 86 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 93 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 102 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 111 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 122 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 132 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 141 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 153 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 166 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 176 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 187 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 198 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 204 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 214 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 224 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 233 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 246 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 259 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 272 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 283 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 294 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 317 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 330 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 346 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 360 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -319,45 +319,46 @@
     FX 1
     TRACKID {7DE1B77E-82B3-4919-8964-5CC474AA34A3}
     PERF 0
-    AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 26 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 39 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 52 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 58 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 70 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 82 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 87 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 107 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 112 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 126 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 133 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 137 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 149 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 156 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 162 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 172 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 180 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 189 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 205 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 217 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 227 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 235 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 25 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 38 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 51 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 57 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 69 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 81 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 86 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 106 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 111 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 125 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 132 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 136 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 148 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 155 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 161 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 171 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 179 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 188 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 204 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 216 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 226 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 234 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 253 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 254 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 255 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 262 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 263 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 264 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 265 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 266 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 267 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 268 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 276 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 277 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 278 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 279 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 288 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 289 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 290 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 300 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 301 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 302 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 303 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 304 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 305 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 306 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 307 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
@@ -366,24 +367,23 @@
     AUXRECV 310 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 311 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 312 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 313 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 324 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 325 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 326 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 333 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 334 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 335 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 336 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 337 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 338 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 339 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 340 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 341 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 350 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 349 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 362 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 363 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 364 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 365 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 366 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 367 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 368 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 369 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -412,69 +412,69 @@
     FX 1
     TRACKID {AC83754C-99D0-48F6-A396-87CA009EEB2C}
     PERF 0
-    AUXRECV 16 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 18 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 28 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 32 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 37 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 15 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 17 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 27 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 31 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 36 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 46 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 47 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 48 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 49 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 57 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 56 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 58 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 59 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 60 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 66 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 69 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 77 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 88 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 95 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 65 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 68 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 76 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 87 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 94 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 103 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 104 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 105 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 114 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 128 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 135 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 113 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 127 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 134 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 143 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 144 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 145 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 155 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 158 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 168 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 154 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 157 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 167 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 177 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 178 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 179 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 191 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 194 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 206 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 209 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 190 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 193 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 205 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 208 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 224 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 225 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 226 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 237 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 239 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 242 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 248 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 251 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 253 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 236 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 238 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 241 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 247 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 250 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 252 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 260 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 261 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 262 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 272 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 273 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 274 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 276 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 275 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 285 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 286 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 287 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 294 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 295 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 296 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 297 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 300 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 319 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 322 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 324 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 299 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 318 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 321 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 323 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 330 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 331 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 332 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 333 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 347 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 346 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 351 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 352 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 353 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 356 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 355 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 360 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 361 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 362 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -503,53 +503,53 @@
     FX 1
     TRACKID {F984B8C6-8140-418A-9B52-C869462BCBA8}
     PERF 0
+    AUXRECV 10 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 11 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 12 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 17 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 19 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 16 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 18 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 23 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 24 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 25 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 28 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 29 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 30 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 39 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 40 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 41 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 49 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 50 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 51 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 61 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 60 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 79 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 80 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 81 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 89 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 88 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 96 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 97 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 98 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 115 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 114 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 116 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 117 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 118 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 122 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 123 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 124 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 143 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 146 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 148 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 159 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 161 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 142 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 145 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 147 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 158 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 160 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 168 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 169 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 170 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 171 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 181 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 182 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 183 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 188 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 192 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 207 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 216 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 218 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 234 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 252 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 304 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 323 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 336 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 349 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 187 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 191 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 206 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 215 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 217 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 233 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 251 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 303 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 322 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 335 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 348 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 353 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 354 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 355 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -578,66 +578,36 @@
     FX 1
     TRACKID {12D197A3-97E1-496D-B2CC-6DF82A081AC2}
     PERF 0
-    AUXRECV 15 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 27 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 46 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 71 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 76 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 94 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 103 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 113 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 127 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 134 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 142 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 154 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 157 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 167 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 177 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 190 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 200 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 210 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 215 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 228 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 236 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 250 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 275 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 288 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 299 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 321 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 351 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 373 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 377 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 26 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 45 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 70 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 75 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 93 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 102 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 112 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 126 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 133 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 141 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 153 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 156 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 166 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 176 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 189 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 199 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 209 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 214 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 227 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 235 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 249 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 274 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 287 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 298 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 320 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 350 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 372 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 376 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
-    MAINSEND 1 0
-  >
-  <TRACK {4D58A5AE-CCA9-4677-AC81-A40B313DD294}
-    NAME VOZ
-    PEAKCOL 27480063
-    BEAT -1
-    AUTOMODE 0
-    PANLAWFLAGS 3
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
-    FIXEDLANES 9 0 0 0 0
-    LANEREC -1 -1 -1 0
-    SEL 0
-    REC 0 0 1 0 0 0 0 0
-    VU 64
-    GROUP_FLAGS 0 0 0 0 64 0 64
-    TRACKHEIGHT 0 0 0 0 0 0 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {4D58A5AE-CCA9-4677-AC81-A40B313DD294}
-    PERF 0
-    AUXRECV 238 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 342 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    MIDIOUT -1
     MAINSEND 1 0
   >
   <TRACK {AAB555CA-49E3-4677-ADA6-A0975E02B52A}
@@ -13917,7 +13887,6 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    GROUP_FLAGS 0 0 0 0 0 64 0 64
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
@@ -13925,7 +13894,7 @@
     TRACKID {5DB21CA6-0A15-4813-860A-8D0011E6FE25}
     PERF 0
     MIDIOUT -1 -1
-    MAINSEND 0 0
+    MAINSEND 1 0
     <ITEM
       POSITION 10120.35331873583
       SNAPOFFS 0
@@ -19680,7 +19649,6 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    GROUP_FLAGS 0 0 0 0 0 64 0 64
     TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
@@ -19688,7 +19656,7 @@
     TRACKID {6AB4F260-4657-4213-9053-369529977DBE}
     PERF 0
     MIDIOUT -1 -1
-    MAINSEND 0 0
+    MAINSEND 1 0
     <ITEM
       POSITION 13497.617853883223
       SNAPOFFS 0

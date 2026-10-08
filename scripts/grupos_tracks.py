@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Seis faders de grupo no início do projeto, na ordem do show.
+"""Sete faders de grupo no início do projeto, na ordem do show.
 
-Click, Regência, Metais, Teclas, Cordas, Percussão.
+Click, Regência, Metais, Teclas, Cordas, Percussão, Voz.
 Cada fader é o barramento da família: volume, pan, mute, solo e medidor.
-A trilha continua na pasta da música e o áudio passa pelo grupo uma vez só.
+A trilha continua na pasta da música e o áudio passa pelo grupo uma vez só:
+cada trilha está em um grupo no máximo, nunca em dois.
 """
 
 from __future__ import annotations
@@ -101,6 +102,14 @@ GRUPOS = (
         "cor": "#ff6e1e",
         "peakcol": rgb_to_peakcol(255, 110, 30),
     },
+    {
+        "id": "voz",
+        "nome": "Voz",
+        "master": "VOZ",
+        "bit": 64,
+        "cor": "#ff4fa3",
+        "peakcol": rgb_to_peakcol(255, 79, 163),
+    },
 )
 GRUPO_POR_ID = {grupo["id"]: grupo for grupo in GRUPOS}
 MASTER_NOMES = {grupo["master"] for grupo in GRUPOS}
@@ -185,6 +194,8 @@ FAMILIAS: tuple[tuple[str, tuple[str, ...]], ...] = (
         ),
     ),
 )
+# Voz vem depois dos instrumentos: "TROMPETE 1 VOZ" e a linha do trompete.
+VOZ_CHAVES = ("VOZ", "VOCAL", "CORO")
 MOTIVO_FAMILIA = {
     "metais": "Sopro ou metais, pelo nome.",
     "teclas": "Tecla ou efeito, pelo nome.",
@@ -235,10 +246,8 @@ def ambiguous(folded: str) -> str | None:
         return "O stem mistura cordas e teclas."
     if "SOPRO E SANFONA" in folded or "SANFONA E SOPRO" in folded:
         return "O stem mistura sopro e sanfona."
-    if folded.startswith("GUIA"):
+    if folded.startswith("GUIA") and "VOZ" not in folded:
         return "Guia não é um naipe."
-    if folded in {"VOZ", "SEGUNDA VOZ"}:
-        return "Voz não entra em grupo de instrumento."
     if folded == "FANTASIA" or folded.startswith("BASE FANTASIA"):
         return "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
     return None
@@ -265,6 +274,8 @@ def classificar_stem(stem: str, papel: str | None) -> tuple[str | None, bool, st
                         revisar = True
                         motivo = nota
                 return grupo_id, revisar, motivo
+    if any(chave in folded for chave in VOZ_CHAVES):
+        return "voz", False, "Voz, pelo nome."
     return None, True, "O nome não diz a família. Ficou de fora."
 
 
@@ -470,6 +481,11 @@ def gravar_projeto(rpp_path: Path, faixas: list[Faixa]) -> None:
         novos.append(set_mainsend(set_group_flags(block, format_slave_flags(bit)), 0))
 
     por_indice = {get_track_name(block): index for index, block in enumerate(novos)}
+    if len(por_indice) != len(novos):
+        raise SystemExit("Duas tracks com o mesmo nome; o roteamento dos grupos ficaria ambíguo.")
+    em_grupo = [faixa.trilha for faixa in faixas if faixa.grupo]
+    if len(em_grupo) != len(set(em_grupo)):
+        raise SystemExit("Uma trilha caiu em mais de um grupo. Abortado.")
     for grupo in GRUPOS:
         fontes = [
             por_indice[faixa.trilha]

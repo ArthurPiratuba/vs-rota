@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T20:24:13",
+  "atualizado": "2026-10-07T21:37:47",
   "grupos": [
     {
       "id": "click",
@@ -36,6 +36,12 @@
       "nome": "Percussão",
       "master": "PERCUSSÃO",
       "cor": "#ff6e1e"
+    },
+    {
+      "id": "voz",
+      "nome": "Voz",
+      "master": "VOZ",
+      "cor": "#ff4fa3"
     }
   ],
   "contagens": {
@@ -45,8 +51,9 @@
     "teclas": 1,
     "cordas": 4,
     "percussao": 2,
-    "fora": 2,
-    "revisar": 2,
+    "voz": 1,
+    "fora": 1,
+    "revisar": 1,
     "monitor": 1
   },
   "blocos": [
@@ -111,10 +118,10 @@
           "trilha": "01 - GUIA VOZ - NA HORA DE AMAR",
           "bloco": "01 - NA HORA DE AMAR",
           "stem": "GUIA VOZ",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Voz, pelo nome."
         },
         {
           "trilha": "01 - GUITARRA BASE - NA HORA DE AMAR",
