@@ -2323,11 +2323,11 @@
       ]
     },
     {
-      "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+      "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
       "faixas": [
         {
           "trilha": "26 - MONITOR",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2335,8 +2335,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "26 - CLICK 138 - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - CLICK 138 - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2344,8 +2344,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "26 - REGÊNCIA - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - REGÊNCIA - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2353,8 +2353,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "26 - BASE PIANO - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - BASE PIANO - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "BASE PIANO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2362,8 +2362,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - SANFONA BASE - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - SANFONA BASE - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2371,8 +2371,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - SHAKER - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - SHAKER - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "SHAKER",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2380,8 +2380,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "26 - SINTETIZADOR - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - SINTETIZADOR - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "SINTETIZADOR",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2389,8 +2389,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "26 - TROMBONE - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - TROMBONE - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "TROMBONE",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2398,8 +2398,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "26 - TROMPETE 1 VOZ - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - TROMPETE 1 VOZ - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2407,8 +2407,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "26 - TROMPETE 2 VOZ - BEIJA BEIJA - MARRECA - KERBFERT",
-          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFERT",
+          "trilha": "26 - TROMPETE 2 VOZ - BEIJA BEIJA - MARRECA - KERBFEST",
+          "bloco": "26 - BEIJA BEIJA - MARRECA - KERBFEST",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
