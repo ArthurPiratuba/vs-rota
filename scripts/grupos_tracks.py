@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""Sete faders de grupo no início do projeto, na ordem do show.
+"""Oito faders de grupo no início do projeto, na ordem do show.
 
-Click, Regência, Metais, Teclas, Cordas, Percussão, Voz.
+Click, Regência, Metais, Teclas, Cordas, Percussão, Voz e Guias. Guias são
+as trilhas de apoio (GUIA no nome): referência para os músicos, não fazem
+parte do VS e quase sempre estão mutadas.
 Cada fader é o barramento da família: volume, pan, mute, solo e medidor.
 A trilha continua na pasta da música e o áudio passa pelo grupo uma vez só:
 cada trilha está em um grupo no máximo, nunca em dois.
@@ -51,6 +53,7 @@ MIDIOUT_PATTERN = re.compile(r"^    MIDIOUT ", re.MULTILINE)
 VU_PATTERN = re.compile(r"^    VU .+\n", re.MULTILINE)
 PEAKCOL_PATTERN = re.compile(r"^(\s*PEAKCOL )(\d+)(.*)$", re.MULTILINE)
 MONITOR_PATTERN = re.compile(r"^\d{2} - MONITOR$")
+MUTADA_PATTERN = re.compile(r"^    MUTESOLO [1-9]", re.MULTILINE)
 
 # Ordem dos faders, da esquerda para a direita.
 GRUPOS = (
@@ -109,6 +112,14 @@ GRUPOS = (
         "bit": 64,
         "cor": "#ff4fa3",
         "peakcol": rgb_to_peakcol(255, 79, 163),
+    },
+    {
+        "id": "guias",
+        "nome": "Guias",
+        "master": "GUIAS",
+        "bit": 128,
+        "cor": "#20b2aa",
+        "peakcol": rgb_to_peakcol(32, 178, 170),
     },
 )
 GRUPO_POR_ID = {grupo["id"]: grupo for grupo in GRUPOS}
@@ -246,8 +257,6 @@ def ambiguous(folded: str) -> str | None:
         return "O stem mistura cordas e teclas."
     if "SOPRO E SANFONA" in folded or "SANFONA E SOPRO" in folded:
         return "O stem mistura sopro e sanfona."
-    if folded.startswith("GUIA") and "VOZ" not in folded:
-        return "Guia não é um naipe."
     if folded == "FANTASIA" or folded.startswith("BASE FANTASIA"):
         return "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
     return None
@@ -261,6 +270,8 @@ def classificar_stem(stem: str, papel: str | None) -> tuple[str | None, bool, st
     folded = fold(stem)
     if folded == "MONITOR":
         return None, False, "Monitor de cifra. Não entra em grupo."
+    if folded == "GUIA" or folded.startswith("GUIA "):
+        return "guias", False, "Guia de apoio para os músicos, pelo nome."
     duvida = ambiguous(folded)
     if duvida:
         return None, True, duvida
@@ -318,6 +329,10 @@ def listar_faixas(blocks: list[str]) -> list[Faixa]:
         papel = papel_da_trilha(name)
         stem = stem_da_trilha(name, bloco)
         grupo, revisar, motivo = classificar_stem(stem, papel)
+        # Guia de apoio quase sempre esta mutada: mutada sem GUIA no nome, revisar.
+        if MUTADA_PATTERN.search(block) and grupo not in ("guias", "click", "regencia") and stem != "MONITOR":
+            revisar = True
+            motivo = f"Mutada: pode ser guia de apoio. {motivo}"
         faixas.append(
             Faixa(
                 trilha=name,

@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T21:37:47",
+  "atualizado": "2026-10-07T21:43:15",
   "grupos": [
     {
       "id": "click",
@@ -42,6 +42,12 @@
       "nome": "Voz",
       "master": "VOZ",
       "cor": "#ff4fa3"
+    },
+    {
+      "id": "guias",
+      "nome": "Guias",
+      "master": "GUIAS",
+      "cor": "#20b2aa"
     }
   ],
   "contagens": {
@@ -51,9 +57,10 @@
     "teclas": 1,
     "cordas": 4,
     "percussao": 2,
-    "voz": 1,
-    "fora": 1,
-    "revisar": 1,
+    "voz": 0,
+    "guias": 2,
+    "fora": 0,
+    "revisar": 2,
     "monitor": 1
   },
   "blocos": [
@@ -93,8 +100,8 @@
           "stem": "BASS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
-          "revisar": false,
-          "motivo": "Baixo entrou em Cordas."
+          "revisar": true,
+          "motivo": "Mutada: pode ser guia de apoio. Baixo entrou em Cordas."
         },
         {
           "trilha": "01 - BATERIA - NA HORA DE AMAR",
@@ -102,26 +109,26 @@
           "stem": "BATERIA",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
-          "revisar": false,
-          "motivo": "Percussão, pelo nome."
+          "revisar": true,
+          "motivo": "Mutada: pode ser guia de apoio. Percussão, pelo nome."
         },
         {
           "trilha": "01 - GUIA NA HORA DE AMAR - NA HORA DE AMAR",
           "bloco": "01 - NA HORA DE AMAR",
           "stem": "GUIA NA HORA DE AMAR",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "01 - GUIA VOZ - NA HORA DE AMAR",
           "bloco": "01 - NA HORA DE AMAR",
           "stem": "GUIA VOZ",
-          "grupo": "voz",
-          "grupo_nome": "Voz",
+          "grupo": "guias",
+          "grupo_nome": "Guias",
           "revisar": false,
-          "motivo": "Voz, pelo nome."
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "01 - GUITARRA BASE - NA HORA DE AMAR",

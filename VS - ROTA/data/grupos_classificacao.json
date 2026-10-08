@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T21:37:47",
+  "atualizado": "2026-10-07T21:43:14",
   "grupos": [
     {
       "id": "click",
@@ -42,6 +42,12 @@
       "nome": "Voz",
       "master": "VOZ",
       "cor": "#ff4fa3"
+    },
+    {
+      "id": "guias",
+      "nome": "Guias",
+      "master": "GUIAS",
+      "cor": "#20b2aa"
     }
   ],
   "contagens": {
@@ -52,8 +58,9 @@
     "cordas": 47,
     "percussao": 29,
     "voz": 2,
-    "fora": 31,
-    "revisar": 32,
+    "guias": 5,
+    "fora": 26,
+    "revisar": 27,
     "monitor": 34
   },
   "blocos": [
@@ -2141,10 +2148,10 @@
           "trilha": "24 - GUIA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "GUIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "24 - PERCUSSÃO - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
@@ -2236,10 +2243,10 @@
           "trilha": "25 - GUIA BARRIL - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "bloco": "25 - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
           "stem": "GUIA BARRIL",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "25 - SANFONA BASE - BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR",
@@ -2453,10 +2460,10 @@
           "trilha": "27 - GUIA CAMISA MANCHADA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "GUIA CAMISA MANCHADA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "27 - PIANOS - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
@@ -2760,10 +2767,10 @@
           "trilha": "29 - GUIA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "GUIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "29 - PERCUSSÃO - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
@@ -3004,10 +3011,10 @@
           "trilha": "31 - GUIA - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "bloco": "31 - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "GUIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Guia não é um naipe."
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
           "trilha": "31 - GUITARRA EX AMOR - NOVA IORQUE - MEU EX AMOR - O QUE TIVER QUE VIR VIRA",
