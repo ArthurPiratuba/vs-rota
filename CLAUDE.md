@@ -6,7 +6,7 @@ cada projeto é uma pasta com tudo o que é dele:
 
 | Projeto | Pasta | Repertório (pptx/pdf dos VS) |
 |---|---|---|
-| Show | `VS - ROTA/VS - ROTA.rpp` | `O:\OneDrive\Trabalho\Banda\Rota do Chopp\REPERTÓRIO\Repertório Rota do Chopp VS.pptx` |
+| Show | `VS - ROTA/VS - ROTA.rpp` | `VS - ROTA/REPERTÓRIO/Repertório Rota do Chopp VS.pptx` |
 | Laboratório | `VS - LAB/VS - LAB.rpp` | `VS - LAB/REPERTÓRIO/Repertório VS LAB.pptx` |
 
 Dentro de cada pasta: `projeto.json` (nome, `.rpp` e `pptx`), `ABERTO`,
@@ -34,9 +34,11 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
   o PDF fica ao lado.
 - No ROTA o slide 1 é a capa (`EXPORT_VIDEOS/THUMB PLAYLIST.jpg`, a foto da
   playlist) e o VS BLOCO N é o slide N+1 (`"slide_do_bloco_1": 2`). No LAB não há capa.
-- `Repertório Rota do Chopp.pptx` / `.pdf` em `O:\OneDrive\...\REPERTÓRIO`: os
-  blocos sem VS. **Nunca abra, edite, exporte nem faça backup dele**; é do usuário.
-  A pasta `REPERTÓRIO/` da raiz é uma cópia antiga; os scripts não a usam.
+- O repertório fica dentro do projeto; o do OneDrive (`O:\OneDrive\...\REPERTÓRIO`)
+  não é mais usado nem atualizado.
+- `Repertório Rota do Chopp.pptx` / `.pdf` (na pasta `REPERTÓRIO/` da raiz e no
+  OneDrive): os blocos sem VS. **Nunca abra, edite, exporte nem faça backup dele**;
+  é do usuário.
 
 ## Convenções de um bloco
 
