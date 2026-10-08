@@ -24,6 +24,7 @@ Sem --aplicar so mostra o plano. Com o Reaper ou o .pptx aberto nao grava.
 
     python scripts/adicionar_musicas_bloco.py 24 "essa cama nao vendo" "FLASHBACK@Re"
     python scripts/adicionar_musicas_bloco.py 24 "essa cama nao vendo" --aplicar
+    python scripts/adicionar_musicas_bloco.py 29 "SENTA NO COLINHO DO PAI" --posicao 2
     python scripts/adicionar_musicas_bloco.py --trocar "CAMA NÃO VENDO=ESSA CAMA EU NÃO VENDO"
 """
 
@@ -235,8 +236,12 @@ def run_xml(texto: str, vermelho: bool) -> str:
     return f"<a:r>{props}<a:t>{escape(texto)}</a:t></a:r>"
 
 
-def novo_slide(xml: str, musicas: list[Musica]) -> str:
-    """Cada musica entra como as do bloco 23: quebra, nome branco, tom vermelho."""
+def novo_slide(xml: str, musicas: list[Musica], posicao: int | None = None) -> str:
+    """Cada musica entra como as do bloco 23: quebra, nome branco, tom vermelho.
+
+    Com posicao (1 = primeira linha de musica), entram nessa linha e as de
+    depois descem; sem ela, vao para o fim.
+    """
     corpo_ini = xml.find("<p:txBody>")
     corpo_fim = xml.find("</p:txBody>", corpo_ini)
     paragrafos = list(re.finditer(r"<a:p>.*?</a:p>", xml[corpo_ini:corpo_fim], re.DOTALL))
@@ -246,13 +251,22 @@ def novo_slide(xml: str, musicas: list[Musica]) -> str:
     texto_p = p.group(0)
     sz = re.findall(r'<a:rPr lang="pt-BR" sz="(\d+)"', texto_p)
     sz = sz[-1] if sz else "7200"
-    extra = ""
-    for musica in musicas:
-        extra += f'<a:br><a:rPr lang="pt-BR" sz="{sz}" dirty="0"/></a:br>'
-        extra += run_xml(musica.slide + " ", False).replace("{sz}", sz)
-        extra += run_xml(musica.tom, True).replace("{sz}", sz)
-    corte = texto_p.find("<a:endParaRPr")
-    corte = corte if corte >= 0 else texto_p.rfind("</a:p>")
+    quebra = f'<a:br><a:rPr lang="pt-BR" sz="{sz}" dirty="0"/></a:br>'
+    linhas = [
+        run_xml(m.slide + " ", False).replace("{sz}", sz) + run_xml(m.tom, True).replace("{sz}", sz)
+        for m in musicas
+    ]
+    quebras = [m.start() for m in re.finditer(r"<a:br>", texto_p)]
+    if posicao is None or posicao > len(quebras) + 1:
+        corte = texto_p.find("<a:endParaRPr")
+        corte = corte if corte >= 0 else texto_p.rfind("</a:p>")
+        extra = "".join(quebra + linha for linha in linhas)
+    elif posicao == 1:
+        corte = texto_p.find("<a:r>")
+        extra = "".join(linha + quebra for linha in linhas)
+    else:
+        corte = quebras[posicao - 2]
+        extra = "".join(quebra + linha for linha in linhas)
     novo_p = texto_p[:corte] + extra + texto_p[corte:]
     ini = corpo_ini + p.start()
     return xml[:ini] + novo_p + xml[ini + len(texto_p) :]
@@ -357,21 +371,27 @@ def nome_do_bloco(texto_rpp: str, ordem: int) -> str:
     return nome
 
 
-def mudanca_acrescentar(texto_rpp: str, ordem: int, pedidos: list[str], conhecidas) -> Mudanca:
+def mudanca_acrescentar(
+    texto_rpp: str, ordem: int, pedidos: list[str], conhecidas, posicao: int | None = None
+) -> Mudanca:
     antigo = nome_do_bloco(texto_rpp, ordem)
     musicas = [interpretar(p, conhecidas) for p in pedidos]
     ja_tem = {chave(n) for n in antigo.split(" - ")}
     repetidas = [m.projeto for m in musicas if chave(m.projeto) in ja_tem]
     if repetidas:
         raise SystemExit(f"Ja estao no bloco {ordem}: {', '.join(repetidas)}")
-    novo = " - ".join([antigo] + [m.projeto for m in musicas])
+    partes = antigo.split(" - ")
+    if posicao is not None and not 1 <= posicao <= len(partes) + 1:
+        raise SystemExit(f"--posicao vai de 1 a {len(partes) + 1} no bloco {ordem}.")
+    em = len(partes) if posicao is None else posicao - 1
+    novo = " - ".join(partes[:em] + [m.projeto for m in musicas] + partes[em:])
     return Mudanca(
         ordem,
         antigo,
         novo,
         [m.slide for m in musicas],
         [f"+ projeto {m.projeto!r} | slide {m.slide!r} | tom {m.tom}" for m in musicas],
-        lambda xml: novo_slide(xml, musicas),
+        lambda xml: novo_slide(xml, musicas, posicao),
     )
 
 
@@ -423,6 +443,7 @@ def main() -> None:
     parser.add_argument("bloco", type=int, nargs="?")
     parser.add_argument("musicas", nargs="*", help='"NOME", "NOME@Tom" ou "NOME|Texto do Slide@Tom"')
     parser.add_argument("--trocar", help='"NOME ATUAL=NOME NOVO[|Texto do Slide]" em todo bloco que a tem')
+    parser.add_argument("--posicao", type=int, help="as musicas entram nessa posicao do bloco (1 = primeira); padrao: no fim")
     parser.add_argument("--aplicar", action="store_true", help="grava; sem isso so mostra o plano")
     parser.add_argument("--sem-video", action="store_true", help="nao refaz o mp4 dos blocos")
     args = parser.parse_args()
@@ -439,7 +460,7 @@ def main() -> None:
     else:
         if args.bloco is None or not args.musicas:
             parser.error("informe o bloco e as musicas, ou --trocar")
-        mudancas = [mudanca_acrescentar(texto_rpp, args.bloco, args.musicas, conhecidas)]
+        mudancas = [mudanca_acrescentar(texto_rpp, args.bloco, args.musicas, conhecidas, args.posicao)]
 
     membros: dict[str, str] = {}
     with zipfile.ZipFile(PPTX) as z:

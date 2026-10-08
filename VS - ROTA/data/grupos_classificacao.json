@@ -2702,11 +2702,11 @@
       ]
     },
     {
-      "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+      "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
       "faixas": [
         {
           "trilha": "29 - MONITOR",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2714,8 +2714,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "29 - CLICK - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - CLICK - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -2723,8 +2723,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "29 - REGÊNCIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - REGÊNCIA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -2732,8 +2732,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "29 - BASE FANTASIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - BASE FANTASIA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "BASE FANTASIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2741,8 +2741,8 @@
           "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
         },
         {
-          "trilha": "29 - CARRILHÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - CARRILHÃO - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "CARRILHÃO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2750,8 +2750,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - GUIA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - GUIA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "GUIA",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -2759,8 +2759,8 @@
           "motivo": "Guia não é um naipe."
         },
         {
-          "trilha": "29 - PERCUSSÃO - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - PERCUSSÃO - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -2768,8 +2768,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "29 - SANFONA - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - SANFONA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "SANFONA",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2777,8 +2777,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - STRINGS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - STRINGS - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "STRINGS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -2786,8 +2786,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "29 - TECLADOS - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - TECLADOS - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TECLADOS",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -2795,8 +2795,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "29 - TROMPETE 1 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - TROMPETE 1 VOZ - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TROMPETE 1 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -2804,8 +2804,8 @@
           "motivo": "Sopro ou metais, pelo nome."
         },
         {
-          "trilha": "29 - TROMPETE 2 VOZ - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
-          "bloco": "29 - DAI QUE MIORO - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "trilha": "29 - TROMPETE 2 VOZ - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
+          "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "TROMPETE 2 VOZ",
           "grupo": "metais",
           "grupo_nome": "Metais",

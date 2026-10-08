@@ -61,6 +61,9 @@ da importacao e fica como esta.
    `python scripts/exportar_blocos_video.py --projeto "VS - ROTA" --from-order N --to-order N`).
 5. Rodar de novo no mesmo bloco acrescenta mais musicas; musica que ja esta no
    bloco e recusada.
+6. Musica que entra no meio: `--posicao N` (1 = primeira). Ela entra nessa
+   posicao no nome e no slide, e as outras descem sem mudar. Ex.:
+   `29 "senta no colinho do pai" --posicao 2`.
 
 ## Renomear uma musica em todos os blocos
 
