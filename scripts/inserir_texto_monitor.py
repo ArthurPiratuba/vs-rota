@@ -28,10 +28,10 @@ import projeto  # noqa: E402
 
 WORKSPACE = projeto.WORKSPACE
 RPP = projeto.RPP
-# So os blocos VS: o slide N e o VS BLOCO N. O "Repertório Rota do Chopp.pptx"
-# (sem VS) e do usuario e nenhum script o abre.
+# So os blocos VS, em ordem a partir de SLIDE_DO_BLOCO_1 (projeto.json). O
+# "Repertório Rota do Chopp.pptx" (sem VS) e do usuario e nenhum script o abre.
 PPTX = projeto.PPTX
-SLIDE_DO_BLOCO_1 = 1
+SLIDE_DO_BLOCO_1 = projeto.SLIDE_DO_BLOCO_1
 MONITOR_DIR = WORKSPACE / "MONITOR"
 BASE_PNG = MONITOR_DIR / "base.png"
 FUNDO = (0, 0, 0)

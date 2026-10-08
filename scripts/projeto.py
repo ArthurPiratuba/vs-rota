@@ -8,8 +8,9 @@ basta para leva-lo.
 
     {"nome": "VS - ROTA", "rpp": "VS - ROTA.rpp", "pptx": "O:\\...\\Repertório Rota do Chopp VS.pptx"}
 
-"pptx" e o repertorio dos blocos VS (slide N = VS BLOCO N), relativo a pasta
-do projeto ou absoluto; o PDF fica ao lado, com o mesmo nome.
+"pptx" e o repertorio dos blocos VS, relativo a pasta do projeto ou absoluto;
+o PDF fica ao lado, com o mesmo nome. "slide_do_bloco_1" (padrao 1) e o slide
+do VS BLOCO 1; os outros seguem em ordem. Com capa no slide 1, use 2.
 
 O projeto vem, nesta ordem, de:
 - --projeto <nome ou pasta> na linha de comando (tirado do sys.argv aqui);
@@ -71,3 +72,4 @@ _config = json.loads((WORKSPACE / CONFIG).read_text(encoding="utf-8"))
 NOME: str = _config["nome"]
 RPP = WORKSPACE / _config["rpp"]
 PPTX = (WORKSPACE / _config["pptx"]).resolve()
+SLIDE_DO_BLOCO_1 = int(_config.get("slide_do_bloco_1", 1))

@@ -29,8 +29,11 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 
 ## Repertório (PowerPoint)
 
-- O `pptx` do `projeto.json` tem só os blocos VS, um slide por bloco, na ordem
-  (slide N = VS BLOCO N). É o único que os scripts editam; o PDF fica ao lado.
+- O `pptx` do `projeto.json` tem os blocos VS, um slide por bloco, na ordem,
+  a partir do slide `slide_do_bloco_1` (padrão 1). É o único que os scripts editam;
+  o PDF fica ao lado.
+- No ROTA o slide 1 é a capa (`EXPORT_VIDEOS/THUMB PLAYLIST.jpg`, a foto da
+  playlist) e o VS BLOCO N é o slide N+1 (`"slide_do_bloco_1": 2`). No LAB não há capa.
 - `Repertório Rota do Chopp.pptx` / `.pdf` em `O:\OneDrive\...\REPERTÓRIO`: os
   blocos sem VS. **Nunca abra, edite, exporte nem faça backup dele**; é do usuário.
   A pasta `REPERTÓRIO/` da raiz é uma cópia antiga; os scripts não a usam.
@@ -109,6 +112,6 @@ python -X utf8 scripts/exportar_blocos_video.py --projeto "VS - ROTA" [--from-or
 
 - `git diff` do `.rpp`: só o que o fluxo prometeu (no bloco novo, também o fim do
   cartaz do bloco que era o último).
-- Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco.
+- Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco (mais a capa, no ROTA).
 - mp3 em mono (`ffmpeg -i` mostra `mono`; o ffmpeg é o do `imageio_ffmpeg`) e mp4 em `EXPORT_VIDEOS`.
 - `EXPORT_REGIONS` e `EXPORT_VIDEOS` ficam fora do git.
