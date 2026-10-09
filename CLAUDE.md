@@ -52,7 +52,7 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 | Tracks | Pasta `NN - <nome>` (recolhida), depois `NN - MONITOR`, depois click, regência e o resto em ordem alfabética. Nomes: `NN - CLICK 82 - <nome>`, `NN - REGÊNCIA - <nome>`, `NN - <STEM> - <nome>`. |
 | Pan | **Click e regência sempre no L**; todo o resto no R. Click a -5 dB, o resto a 0 dB. |
 | Cores | Click e regência vermelhos; monitor amarelo; o resto com a cor da region. |
-| Grupos | Faders no início do projeto: CLICK, REGÊNCIA, METAIS, TECLAS, CORDAS, PERCUSSÃO, VOZ, GUIAS. Cada trilha vai a **um grupo no máximo, nunca dois**, pelo nome do stem (`scripts/grupos_tracks.py`), e não vai direto ao master. GUIAS pega as guias de apoio, referência para os músicos que não faz parte do VS (nome começando com GUIA, inclusive `GUIA VOZ`). VOZ pega `VOZ`, `SEGUNDA VOZ` (VOZ/VOCAL/CORO no nome); `TROMPETE 1 VOZ` e afins são a linha do instrumento e ficam no naipe. VS e backing ficam fora. Trilha mutada fora de GUIAS aparece como "revisar" no relatório: pode ser guia. Ajustes manuais em `data/correcoes_grupos.json`. |
+| Grupos | Faders no início do projeto: CLICK, REGÊNCIA, METAIS, TECLAS, CORDAS, PERCUSSÃO, VOZ, GUIAS, FECHADO. Cada trilha vai a **um grupo no máximo, nunca dois**, pelo nome do stem (`scripts/grupos_tracks.py`), e não vai direto ao master. GUIAS pega as guias de apoio, referência para os músicos que não faz parte do VS (nome começando com GUIA, inclusive `GUIA VOZ`). VOZ pega `VOZ`, `SEGUNDA VOZ` (VOZ/VOCAL/CORO no nome) e os `BACKING`; `TROMPETE 1 VOZ` e afins são a linha do instrumento e ficam no naipe. TECLAS pega também `FANTASIA` e `BASE FANTASIA`. FECHADO pega os VS, mix fechado (`VS`, `VS BLOCO`, `VS <parte do nome>`). Trilha mutada fora de GUIAS aparece como "revisar" no relatório: pode ser guia. Ajustes manuais em `data/correcoes_grupos.json`. |
 | Mute | Guia com o nome da música fica mutada quando o usuário pede; trilha mutada não entra nos exports. |
 | Monitor | Item de vídeo `MONITOR\base.png` com o cartaz no Video processor, gerado do slide. Começa no fim da region anterior (o bloco 1 em 0) e termina 1 ms antes do fim da sua (o último vai até o fim). |
 | Slide | `VS BLOCO N` (vermelho) e uma linha por música: nome em branco e tom em vermelho (`??` quando não se sabe; não invente tom). Em loop o BPM vai no lugar do tom. |
@@ -108,7 +108,8 @@ python -X utf8 scripts/exportar_blocos_video.py --projeto "VS - ROTA" [--from-or
 
 `python -X utf8 scripts/grupos_tracks.py --projeto "VS - ROTA" aplicar` refaz receives,
 `GROUP_FLAGS` e `MAINSEND` de todo o projeto; num projeto já certo não muda nada.
-`servir` abre o relatório para corrigir a classificação.
+`servir` abre o relatório para corrigir a classificação. `fora` grava
+`relatorio/fora.html` só com as trilhas que não estão em grupo (não mexe no `.rpp`).
 
 ## Conferir depois
 

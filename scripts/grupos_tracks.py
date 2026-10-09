@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Oito faders de grupo no início do projeto, na ordem do show.
+"""Nove faders de grupo no início do projeto, na ordem do show.
 
-Click, Regência, Metais, Teclas, Cordas, Percussão, Voz e Guias. Guias são
+Click, Regência, Metais, Teclas, Cordas, Percussão, Voz, Guias e Fechado.
+Fechado pega os VS (mix fechado), pelo nome. Guias são
 as trilhas de apoio (GUIA no nome): referência para os músicos, não fazem
 parte do VS e quase sempre estão mutadas.
 Cada fader é o barramento da família: volume, pan, mute, solo e medidor.
@@ -11,6 +12,7 @@ cada trilha está em um grupo no máximo, nunca em dois.
 
 from __future__ import annotations
 
+import html
 import json
 import re
 import sys
@@ -41,6 +43,7 @@ RPP = projeto.RPP
 CLASSIFICACAO_PATH = WORKSPACE / "data" / "grupos_classificacao.json"
 CORRECOES_PATH = WORKSPACE / "data" / "correcoes_grupos.json"
 HTML_PATH = WORKSPACE / "relatorio" / "grupos.html"
+FORA_PATH = WORKSPACE / "relatorio" / "fora.html"
 
 MUTE_MASTER_INDEX = 4
 MUTE_SLAVE_INDEX = 5
@@ -120,6 +123,14 @@ GRUPOS = (
         "bit": 128,
         "cor": "#20b2aa",
         "peakcol": rgb_to_peakcol(32, 178, 170),
+    },
+    {
+        "id": "fechado",
+        "nome": "Fechado",
+        "master": "FECHADO",
+        "bit": 256,
+        "cor": "#6b7a99",
+        "peakcol": rgb_to_peakcol(107, 122, 153),
     },
 )
 GRUPO_POR_ID = {grupo["id"]: grupo for grupo in GRUPOS}
@@ -249,16 +260,10 @@ def fold(text: str) -> str:
 
 
 def ambiguous(folded: str) -> str | None:
-    if folded.startswith("BACKING"):
-        return "Backing é um mix pronto, não um naipe."
-    if folded == "VS" or folded.startswith("VS ") or folded.startswith("VS-"):
-        return "VS é guia ou mix de referência, não um naipe."
     if "STRINGS E KEYS" in folded or "STRING E KEYS" in folded:
         return "O stem mistura cordas e teclas."
     if "SOPRO E SANFONA" in folded or "SANFONA E SOPRO" in folded:
         return "O stem mistura sopro e sanfona."
-    if folded == "FANTASIA" or folded.startswith("BASE FANTASIA"):
-        return "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
     return None
 
 
@@ -272,6 +277,12 @@ def classificar_stem(stem: str, papel: str | None) -> tuple[str | None, bool, st
         return None, False, "Monitor de cifra. Não entra em grupo."
     if folded == "GUIA" or folded.startswith("GUIA "):
         return "guias", False, "Guia de apoio para os músicos, pelo nome."
+    if folded.startswith("BACKING"):
+        return "voz", False, "Backing vocal, pelo nome."
+    if folded == "VS" or folded.startswith("VS ") or folded.startswith("VS-"):
+        return "fechado", False, "VS, mix fechado, pelo nome."
+    if "FANTASIA" in folded:
+        return "teclas", False, "Fantasia (base de teclado), pelo nome."
     duvida = ambiguous(folded)
     if duvida:
         return None, True, duvida
@@ -570,6 +581,77 @@ def gravar_html(faixas: list[Faixa]) -> None:
     HTML_PATH.write_text(render_html(faixas), encoding="utf-8")
 
 
+def render_fora(faixas: list[Faixa]) -> str:
+    fora = [faixa for faixa in faixas if faixa.grupo is None and faixa.stem != "MONITOR"]
+    blocos = blocos_json(fora)
+    secoes = []
+    for item in blocos:
+        linhas = "".join(
+            ('<tr class="revisar">' if faixa["revisar"] else "<tr>")
+            + f'<td><span class="stem">{html.escape(faixa["stem"])}</span>'
+            f'<span class="full">{html.escape(faixa["trilha"])}</span></td>'
+            f'<td class="motivo">{html.escape(faixa["motivo"])}</td></tr>'
+            for faixa in item["faixas"]
+        )
+        secoes.append(
+            f'<section><h2>{html.escape(item["bloco"])}</h2>'
+            f"<table><tr><th>Trilha</th><th>Por que ficou de fora</th></tr>{linhas}</table></section>"
+        )
+    corpo = "".join(secoes) or "<p>Todas as trilhas estão em um grupo.</p>"
+    resumo = f"{len(fora)} trilhas em {len(blocos)} blocos, fora do monitor."
+    return (
+        FORA_TEMPLATE.replace("__PROJETO__", html.escape(WORKSPACE.name))
+        .replace("__RESUMO__", resumo)
+        .replace("__CORPO__", corpo)
+    )
+
+
+def gerar_fora(rpp_path: Path) -> None:
+    text = rpp_path.read_text(encoding="utf-8", errors="replace")
+    faixas = aplicar_correcoes(listar_faixas(extract_track_blocks(text)), carregar_correcoes())
+    FORA_PATH.parent.mkdir(exist_ok=True)
+    FORA_PATH.write_text(render_fora(faixas), encoding="utf-8")
+    total = sum(1 for faixa in faixas if faixa.grupo is None and faixa.stem != "MONITOR")
+    print(f"Fora dos grupos: {total}.")
+    print(f"Relatório: {FORA_PATH}")
+
+
+FORA_TEMPLATE = """<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fora dos grupos - __PROJETO__</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 15px/1.45 "Segoe UI", sans-serif; background: #f4f0e8; color: #241c14; }
+  header { background: #241c14; color: #f4f0e8; padding: 16px 22px 14px; }
+  header h1 { margin: 0 0 4px; font-size: 20px; font-weight: 650; }
+  header p { margin: 0; color: #d9cfc2; font-size: 13px; }
+  main { max-width: 980px; margin: 0 auto; padding: 18px 16px 40px; }
+  section { background: white; border-radius: 12px; margin: 0 0 14px; overflow: hidden; box-shadow: 0 1px 0 rgba(36,28,20,.08); }
+  h2 { margin: 0; padding: 12px 14px; font-size: 15px; background: #efe8dc; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 8px 14px; vertical-align: top; border-top: 1px solid #efe8dc; }
+  th { font-size: 12px; letter-spacing: .04em; text-transform: uppercase; color: #6d6256; font-weight: 650; }
+  .stem { font-weight: 650; }
+  .full { display: block; color: #6d6256; font-size: 12px; font-weight: 400; }
+  .motivo { color: #6d6256; font-size: 13px; }
+  tr.revisar { background: #fff6e8; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Trilhas fora dos grupos - __PROJETO__</h1>
+  <p>__RESUMO__ Em destaque, as que pedem revisão. Para mudar, use o relatório de grupos (servir).</p>
+</header>
+<main>__CORPO__</main>
+</body>
+</html>
+"""
+
+
 def carregar_correcoes() -> list[dict]:
     if not CORRECOES_PATH.exists():
         return []
@@ -677,7 +759,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <body>
 <header>
   <h1>Grupos por bloco</h1>
-  <p>Seis faders, nesta ordem: Click, Regência, Metais, Teclas, Cordas, Percussão. O que não fecha em uma família fica de fora até você escolher.</p>
+  <p>Nove faders, nesta ordem: Click, Regência, Metais, Teclas, Cordas, Percussão, Voz, Guias e Fechado. O que não fecha em uma família fica de fora até você escolher.</p>
   <div class="totais" id="totais"></div>
 </header>
 <main id="lista"></main>
@@ -857,7 +939,10 @@ def main() -> None:
     if comando == "aplicar":
         aplicar(RPP, carregar_correcoes())
         return
-    raise SystemExit("Uso: python scripts/grupos_tracks.py [aplicar|servir]")
+    if comando == "fora":
+        gerar_fora(RPP)
+        return
+    raise SystemExit("Uso: python scripts/grupos_tracks.py [aplicar|servir|fora]")
 
 
 if __name__ == "__main__":

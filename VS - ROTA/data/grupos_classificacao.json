@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T21:43:14",
+  "atualizado": "2026-10-08T22:21:55",
   "grupos": [
     {
       "id": "click",
@@ -48,19 +48,26 @@
       "nome": "Guias",
       "master": "GUIAS",
       "cor": "#20b2aa"
+    },
+    {
+      "id": "fechado",
+      "nome": "Fechado",
+      "master": "FECHADO",
+      "cor": "#6b7a99"
     }
   ],
   "contagens": {
     "click": 34,
     "regencia": 32,
     "metais": 65,
-    "teclas": 63,
+    "teclas": 68,
     "cordas": 47,
     "percussao": 29,
-    "voz": 2,
+    "voz": 10,
     "guias": 5,
-    "fora": 26,
-    "revisar": 27,
+    "fechado": 13,
+    "fora": 0,
+    "revisar": 1,
     "monitor": 34
   },
   "blocos": [
@@ -274,10 +281,10 @@
           "trilha": "02 - BACKING - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "bloco": "02 - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "02 - SANFONA - AMOR CARRAPIXO - CASA CAIR - SOLA DA BOTA - GARAGEM DA VIZINHA",
@@ -333,10 +340,10 @@
           "trilha": "03 - VS BARCO - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "bloco": "03 - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
           "stem": "VS BARCO",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "03 - FLAUTA INÍCIO - BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA",
@@ -582,19 +589,19 @@
           "trilha": "06 - VS LUZ - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "bloco": "06 - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "stem": "VS LUZ",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "06 - BACKING - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "bloco": "06 - CATCHAQUEIRA - LUZ DA MINHA VIDA",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "06 - KEYS BASE - CATCHAQUEIRA - LUZ DA MINHA VIDA",
@@ -674,22 +681,22 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "07 - STRINGS E KEYS - CULPA É SUA - RISCA FACA - LUA E A NOITE",
+          "trilha": "07 - KEYS - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "bloco": "07 - CULPA É SUA - RISCA FACA - LUA E A NOITE",
-          "stem": "STRINGS E KEYS",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "O stem mistura cordas e teclas."
+          "stem": "KEYS",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
         },
         {
           "trilha": "07 - VS - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "bloco": "07 - CULPA É SUA - RISCA FACA - LUA E A NOITE",
           "stem": "VS",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "07 - GUITARRA 1 VOZ - CULPA É SUA - RISCA FACA - LUA E A NOITE",
@@ -831,10 +838,10 @@
           "trilha": "09 - VS ELE TE TRAI CAMA VAZIA - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
           "bloco": "09 - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
           "stem": "VS ELE TE TRAI CAMA VAZIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "09 - GUITARRA BASE - ELE TE TRAI - CAMA VAZIA - MEU EX AMOR",
@@ -917,10 +924,10 @@
           "trilha": "10 - VS FIM DE SEMANA - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "bloco": "10 - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
           "stem": "VS FIM DE SEMANA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "10 - METAIS - FIM DE SEMANA - GOSTO QUE ME ENROSCO - NOVELA DAS 8",
@@ -1003,10 +1010,10 @@
           "trilha": "11 - VS BLOCO - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "bloco": "11 - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
           "stem": "VS BLOCO",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "11 - GUITARRA SOLO 1 VOZ - GARÇOM - NINGUÉM SEGURA - MISTURINHA - ESSA CAMA EU NÃO VENDO - PRECISO TE FALAR - FLASHBACK",
@@ -1080,10 +1087,10 @@
           "trilha": "12 - VS BLOCO - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "bloco": "12 - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
           "stem": "VS BLOCO",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "12 - METAIS - GUARDANAPO - TRANSGÊNICA - CASO MARCADO",
@@ -1175,10 +1182,10 @@
           "trilha": "13 - VS LÁGRIMAS E PÁGINA - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "bloco": "13 - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
           "stem": "VS LÁGRIMAS E PÁGINA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "13 - METAIS FIQUE - LÁGRIMAS SOBRE A MESA - PÁGINA VIRADA - FIQUE",
@@ -1270,10 +1277,10 @@
           "trilha": "14 - BACKING - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "bloco": "14 - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "14 - GUITARRA 1 SOLO - MARIA TCHA TCHA - PRECISO TE ENCONTRAR - VOCÊ VAI VER",
@@ -1383,10 +1390,10 @@
           "trilha": "15 - BACKING - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "bloco": "15 - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "15 - CAVACO - MINEIRINHO - CHEIA DE MANIAS - DEUS ME LIVRE",
@@ -1564,10 +1571,10 @@
           "trilha": "17 - VS MELO DO ROLO HEYO HEYO - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
           "bloco": "17 - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
           "stem": "VS MELO DO ROLO HEYO HEYO",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "17 - GUITARRA BASE - NOVELA DAS 8 - MELÔ DO ROLO - HEYO HEYO",
@@ -1668,10 +1675,10 @@
           "trilha": "18 - BACKING - OLHOS NEGROS - ALÔ MEU AMOR",
           "bloco": "18 - OLHOS NEGROS - ALÔ MEU AMOR",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "18 - SANFONA - OLHOS NEGROS - ALÔ MEU AMOR",
@@ -1718,10 +1725,10 @@
           "trilha": "19 - VS BLOCO PEGANDO ÔNIBUS - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "bloco": "19 - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
           "stem": "VS BLOCO PEGANDO ÔNIBUS",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "19 - PERCUSSÃO - PEGANDO ÔNIBUS - BANDIDO DO AMOR - O QUE TIVER QUE VIR VIRA",
@@ -1795,10 +1802,10 @@
           "trilha": "20 - BACKING - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "bloco": "20 - PERIGOSA E LINDA - CUMPADI E CUMADI",
           "stem": "BACKING",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "20 - SANFONAS - PERIGOSA E LINDA - CUMPADI E CUMADI",
@@ -1890,19 +1897,19 @@
           "trilha": "21 - VS EU O COPO VOCÊ ME TIRA DO AR - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "bloco": "21 - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "stem": "VS EU O COPO VOCÊ ME TIRA DO AR",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "21 - BACKING REPRISES - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "bloco": "21 - REPRISES DE AMOR - EU O COPO E A SOLIDÃO - VOCÊ ME TIRA DO AR",
           "stem": "BACKING REPRISES",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         }
       ]
     },
@@ -1976,10 +1983,10 @@
           "trilha": "22 - SOPRO E SANFONA - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "bloco": "22 - SANTA CATARINA - BAILE BOM - DIGA LOCUTOR",
           "stem": "SOPRO E SANFONA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "O stem mistura sopro e sanfona."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "Definido no relatório: Fechado."
         }
       ]
     },
@@ -2071,19 +2078,19 @@
           "trilha": "23 - VS AGARRA VIRA E MEXE - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "bloco": "23 - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "stem": "VS AGARRA VIRA E MEXE",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "VS é guia ou mix de referência, não um naipe."
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         },
         {
           "trilha": "23 - BACKING AGARRA VIRA E MEXE - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "bloco": "23 - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
           "stem": "BACKING AGARRA VIRA E MEXE",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Backing é um mix pronto, não um naipe."
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Backing vocal, pelo nome."
         },
         {
           "trilha": "23 - SANFONA SOLO - VAGABUNDO - AGARRA AGARRA - VIRA E MEXE",
@@ -2130,10 +2137,10 @@
           "trilha": "24 - BASE FANTASIA - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "bloco": "24 - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
           "stem": "BASE FANTASIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Fantasia (base de teclado), pelo nome."
         },
         {
           "trilha": "24 - CARRILHÃO - ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ",
@@ -2451,10 +2458,10 @@
           "trilha": "27 - BASE FANTASIA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "bloco": "27 - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
           "stem": "BASE FANTASIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Fantasia (base de teclado), pelo nome."
         },
         {
           "trilha": "27 - GUIA CAMISA MANCHADA - CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA",
@@ -2573,10 +2580,10 @@
           "trilha": "28 - FANTASIA - CORONEL BOOGEY - MARCHA DO COELHO",
           "bloco": "28 - CORONEL BOOGEY - MARCHA DO COELHO",
           "stem": "FANTASIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Fantasia (base de teclado), pelo nome."
         },
         {
           "trilha": "28 - PERCUSSÃO - CORONEL BOOGEY - MARCHA DO COELHO",
@@ -2749,10 +2756,10 @@
           "trilha": "29 - BASE FANTASIA - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "bloco": "29 - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
           "stem": "BASE FANTASIA",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": true,
-          "motivo": "Fantasia pode ser pad, efeito ou outro naipe. Ficou de fora até você definir."
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Fantasia (base de teclado), pelo nome."
         },
         {
           "trilha": "29 - CARRILHÃO - DAI QUE MIORO - SENTA NO COLINHO DO PAI - LATINHA NA GOTEIRA - MORENAÇA - MISTURINHA",
@@ -3086,7 +3093,7 @@
           "grupo": "teclas",
           "grupo_nome": "Teclas",
           "revisar": false,
-          "motivo": "Tecla ou efeito, pelo nome."
+          "motivo": "Fantasia (base de teclado), pelo nome."
         }
       ]
     },
