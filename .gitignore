@@ -5,3 +5,4 @@ __pycache__/
 *.reapeaks
 peaks/
 *.bak
+*.reapindex
