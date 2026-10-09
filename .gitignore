@@ -4,3 +4,4 @@ EXPORT_VIDEOS
 __pycache__/
 *.reapeaks
 peaks/
+*.bak
