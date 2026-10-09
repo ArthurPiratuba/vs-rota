@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-09T12:58:13",
+  "atualizado": "2026-10-09T19:31:16",
   "grupos": [
     {
       "id": "click",
@@ -57,7 +57,7 @@
     }
   ],
   "contagens": {
-    "click": 35,
+    "click": 36,
     "regencia": 32,
     "metais": 65,
     "teclas": 68,
@@ -65,10 +65,10 @@
     "percussao": 29,
     "voz": 10,
     "guias": 5,
-    "fechado": 13,
+    "fechado": 14,
     "fora": 0,
-    "revisar": 1,
-    "monitor": 35
+    "revisar": 2,
+    "monitor": 36
   },
   "blocos": [
     {
@@ -2365,8 +2365,8 @@
           "stem": "BASE PIANO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
-          "revisar": false,
-          "motivo": "Tecla ou efeito, pelo nome."
+          "revisar": true,
+          "motivo": "Mutada: pode ser guia de apoio. Tecla ou efeito, pelo nome."
         },
         {
           "trilha": "26 - SANFONA BASE - BEIJA BEIJA - MARRECA - KERBFEST",
@@ -3294,6 +3294,38 @@
           "grupo_nome": "Click",
           "revisar": false,
           "motivo": "Click de todas as músicas."
+        }
+      ]
+    },
+    {
+      "bloco": "36 - A FESTA É COM O ROTA",
+      "faixas": [
+        {
+          "trilha": "36 - MONITOR",
+          "bloco": "36 - A FESTA É COM O ROTA",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "36 - CLICK - A FESTA É COM O ROTA",
+          "bloco": "36 - A FESTA É COM O ROTA",
+          "stem": "CLICK",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "36 - VS - A FESTA É COM O ROTA",
+          "bloco": "36 - A FESTA É COM O ROTA",
+          "stem": "VS",
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         }
       ]
     }
