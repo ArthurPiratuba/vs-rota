@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-08T22:21:55",
+  "atualizado": "2026-10-09T12:58:13",
   "grupos": [
     {
       "id": "click",
@@ -57,7 +57,7 @@
     }
   ],
   "contagens": {
-    "click": 34,
+    "click": 35,
     "regencia": 32,
     "metais": 65,
     "teclas": 68,
@@ -68,7 +68,7 @@
     "fechado": 13,
     "fora": 0,
     "revisar": 1,
-    "monitor": 34
+    "monitor": 35
   },
   "blocos": [
     {
@@ -3271,6 +3271,29 @@
           "grupo_nome": "Percussão",
           "revisar": false,
           "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "35 - LOOP DE FUMPA 135 BPM",
+      "faixas": [
+        {
+          "trilha": "35 - MONITOR",
+          "bloco": "35 - LOOP DE FUMPA 135 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "35 - CLICK 135 - LOOP DE FUMPA 135 BPM",
+          "bloco": "35 - LOOP DE FUMPA 135 BPM",
+          "stem": "CLICK 135",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
         }
       ]
     }
