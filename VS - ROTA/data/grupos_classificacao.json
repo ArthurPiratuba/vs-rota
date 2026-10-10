@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-09T21:24:34",
+  "atualizado": "2026-10-10T11:35:51",
   "grupos": [
     {
       "id": "click",
@@ -57,18 +57,18 @@
     }
   ],
   "contagens": {
-    "click": 38,
-    "regencia": 32,
+    "click": 43,
+    "regencia": 33,
     "metais": 65,
     "teclas": 68,
     "cordas": 47,
-    "percussao": 30,
-    "voz": 10,
+    "percussao": 34,
+    "voz": 11,
     "guias": 5,
     "fechado": 14,
     "fora": 0,
     "revisar": 2,
-    "monitor": 38
+    "monitor": 43
   },
   "blocos": [
     {
@@ -3211,11 +3211,11 @@
       ]
     },
     {
-      "bloco": "33 - LOOP DE VANEIRA 82 BPM",
+      "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
       "faixas": [
         {
           "trilha": "33 - MONITOR",
-          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3223,8 +3223,58 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "33 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
-          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "33 - CLICK 142 - A FESTA É COM ROTA DO CHOPP",
+          "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
+          "stem": "CLICK 142",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "33 - REGÊNCIA - A FESTA É COM ROTA DO CHOPP",
+          "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
+          "stem": "REGÊNCIA",
+          "grupo": "regencia",
+          "grupo_nome": "Regência",
+          "revisar": false,
+          "motivo": "Regência de todas as músicas."
+        },
+        {
+          "trilha": "33 - VOZ VS - A FESTA É COM ROTA DO CHOPP",
+          "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
+          "stem": "VOZ VS",
+          "grupo": "voz",
+          "grupo_nome": "Voz",
+          "revisar": false,
+          "motivo": "Voz, pelo nome."
+        },
+        {
+          "trilha": "33 - VS A FESTA É COM ROTA DO CHOPP - A FESTA É COM ROTA DO CHOPP",
+          "bloco": "33 - A FESTA É COM ROTA DO CHOPP",
+          "stem": "VS A FESTA É COM ROTA DO CHOPP",
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "34 - LOOP DE VANEIRA 82 BPM",
+      "faixas": [
+        {
+          "trilha": "34 - MONITOR",
+          "bloco": "34 - LOOP DE VANEIRA 82 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "34 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "34 - LOOP DE VANEIRA 82 BPM",
           "stem": "CLICK 82",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3232,8 +3282,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "33 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
-          "bloco": "33 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "34 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
+          "bloco": "34 - LOOP DE VANEIRA 82 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3243,11 +3293,11 @@
       ]
     },
     {
-      "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+      "bloco": "35 - LOOP DE VANEIRA 90 BPM",
       "faixas": [
         {
-          "trilha": "34 - MONITOR",
-          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "35 - MONITOR",
+          "bloco": "35 - LOOP DE VANEIRA 90 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3255,8 +3305,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "34 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
-          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "35 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
+          "bloco": "35 - LOOP DE VANEIRA 90 BPM",
           "stem": "CLICK 90",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3264,8 +3314,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "34 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
-          "bloco": "34 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "35 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
+          "bloco": "35 - LOOP DE VANEIRA 90 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3275,34 +3325,11 @@
       ]
     },
     {
-      "bloco": "35 - LOOP DE FUMPA 135 BPM",
-      "faixas": [
-        {
-          "trilha": "35 - MONITOR",
-          "bloco": "35 - LOOP DE FUMPA 135 BPM",
-          "stem": "MONITOR",
-          "grupo": null,
-          "grupo_nome": "Fora",
-          "revisar": false,
-          "motivo": "Monitor de cifra. Não entra em grupo."
-        },
-        {
-          "trilha": "35 - CLICK 135 - LOOP DE FUMPA 135 BPM",
-          "bloco": "35 - LOOP DE FUMPA 135 BPM",
-          "stem": "CLICK 135",
-          "grupo": "click",
-          "grupo_nome": "Click",
-          "revisar": false,
-          "motivo": "Click de todas as músicas."
-        }
-      ]
-    },
-    {
-      "bloco": "36 - LOOP DE FUMPA 140 BPM",
+      "bloco": "36 - LOOP DE VANEIRA 94 BPM",
       "faixas": [
         {
           "trilha": "36 - MONITOR",
-          "bloco": "36 - LOOP DE FUMPA 140 BPM",
+          "bloco": "36 - LOOP DE VANEIRA 94 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3310,13 +3337,22 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "36 - CLICK 140 - LOOP DE FUMPA 140 BPM",
-          "bloco": "36 - LOOP DE FUMPA 140 BPM",
-          "stem": "CLICK 140",
+          "trilha": "36 - CLICK 94 - LOOP DE VANEIRA 94 BPM",
+          "bloco": "36 - LOOP DE VANEIRA 94 BPM",
+          "stem": "CLICK 94",
           "grupo": "click",
           "grupo_nome": "Click",
           "revisar": false,
           "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "36 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM",
+          "bloco": "36 - LOOP DE VANEIRA 94 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
         }
       ]
     },
@@ -3353,11 +3389,11 @@
       ]
     },
     {
-      "bloco": "38 - A FESTA É COM O ROTA",
+      "bloco": "38 - LOOP DE MARCHA 135 BPM",
       "faixas": [
         {
           "trilha": "38 - MONITOR",
-          "bloco": "38 - A FESTA É COM O ROTA",
+          "bloco": "38 - LOOP DE MARCHA 135 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3365,22 +3401,155 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "38 - CLICK - A FESTA É COM O ROTA",
-          "bloco": "38 - A FESTA É COM O ROTA",
-          "stem": "CLICK",
+          "trilha": "38 - CLICK 135 - LOOP DE MARCHA 135 BPM",
+          "bloco": "38 - LOOP DE MARCHA 135 BPM",
+          "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
           "revisar": false,
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "38 - VS - A FESTA É COM O ROTA",
-          "bloco": "38 - A FESTA É COM O ROTA",
-          "stem": "VS",
-          "grupo": "fechado",
-          "grupo_nome": "Fechado",
+          "trilha": "38 - PERCUSSÃO - LOOP DE MARCHA 135 BPM",
+          "bloco": "38 - LOOP DE MARCHA 135 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
           "revisar": false,
-          "motivo": "VS, mix fechado, pelo nome."
+          "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "39 - LOOP DE MARCHA 138 BPM",
+      "faixas": [
+        {
+          "trilha": "39 - MONITOR",
+          "bloco": "39 - LOOP DE MARCHA 138 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "39 - CLICK 138 - LOOP DE MARCHA 138 BPM",
+          "bloco": "39 - LOOP DE MARCHA 138 BPM",
+          "stem": "CLICK 138",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "39 - PERCUSSÃO - LOOP DE MARCHA 138 BPM",
+          "bloco": "39 - LOOP DE MARCHA 138 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "40 - LOOP DE MARCHA 140 BPM",
+      "faixas": [
+        {
+          "trilha": "40 - MONITOR",
+          "bloco": "40 - LOOP DE MARCHA 140 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "40 - CLICK 140 - LOOP DE MARCHA 140 BPM",
+          "bloco": "40 - LOOP DE MARCHA 140 BPM",
+          "stem": "CLICK 140",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "40 - PERCUSSÃO - LOOP DE MARCHA 140 BPM",
+          "bloco": "40 - LOOP DE MARCHA 140 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "41 - CLICK DE MARCHA 135 BPM",
+      "faixas": [
+        {
+          "trilha": "41 - MONITOR",
+          "bloco": "41 - CLICK DE MARCHA 135 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "41 - CLICK 135 - CLICK DE MARCHA 135 BPM",
+          "bloco": "41 - CLICK DE MARCHA 135 BPM",
+          "stem": "CLICK 135",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        }
+      ]
+    },
+    {
+      "bloco": "42 - CLICK DE MARCHA 138 BPM",
+      "faixas": [
+        {
+          "trilha": "42 - MONITOR",
+          "bloco": "42 - CLICK DE MARCHA 138 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "42 - CLICK 138 - CLICK DE MARCHA 138 BPM",
+          "bloco": "42 - CLICK DE MARCHA 138 BPM",
+          "stem": "CLICK 138",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        }
+      ]
+    },
+    {
+      "bloco": "43 - CLICK DE MARCHA 140 BPM",
+      "faixas": [
+        {
+          "trilha": "43 - MONITOR",
+          "bloco": "43 - CLICK DE MARCHA 140 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "43 - CLICK 140 - CLICK DE MARCHA 140 BPM",
+          "bloco": "43 - CLICK DE MARCHA 140 BPM",
+          "stem": "CLICK 140",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
         }
       ]
     }

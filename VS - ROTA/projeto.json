@@ -1,6 +1,10 @@
 {
   "nome": "VS - ROTA",
   "rpp": "VS - ROTA.rpp",
-  "pptx": "REPERTÓRIO/Repertório Rota do Chopp VS.pptx",
-  "slide_do_bloco_1": 2
+  "pptx": "../REPERTÓRIO/Repertório Rota do Chopp - VS.pptx",
+  "slide_do_bloco_1": 2,
+  "completo": {
+    "antes": "../REPERTÓRIO/Repertório Rota do Chopp - AO VIVO.pptx",
+    "pptx": "../REPERTÓRIO/Repertório Rota do Chopp - COMPLETO.pptx"
+  }
 }

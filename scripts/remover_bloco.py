@@ -7,7 +7,8 @@ So o ultimo: os numeros sao sequenciais e nenhum outro bloco muda. Sai:
 - a pasta, o monitor e as tracks "NN - ..." do bloco; os faders de grupo sao
   refeitos por scripts/grupos_tracks.py;
 - o cartaz do bloco anterior volta a ir ate o fim da region dele;
-- o slide N do .pptx do repertorio, com o PDF exportado de novo;
+- o slide N do .pptx do repertorio, com o PDF exportado de novo (--sem-exports
+  deixa o PDF para depois);
 - a pasta ABERTO\\N - <nome> e EXPORT_REGIONS/EXPORT_VIDEOS do bloco.
 
 Para levar o bloco a outro projeto, copie a pasta dele antes.
@@ -44,8 +45,16 @@ from adicionar_bloco import (  # noqa: E402
     ajustar_monitor_anterior,
     regions,
 )
-from adicionar_musicas_bloco import PDF, exportar_pdf, pptx_aberto, reaper_aberto, safe_filename  # noqa: E402
+from adicionar_musicas_bloco import (  # noqa: E402
+    PDF,
+    backup_do_repertorio,
+    exportar_pdf,
+    pptx_aberto,
+    reaper_aberto,
+    safe_filename,
+)
 from backup_rpp import backup_rpp  # noqa: E402
+from montar_repertorio_completo import atualizar_completo  # noqa: E402
 from inserir_texto_monitor import PPTX, linhas_do_slide, slide_do_bloco  # noqa: E402
 from unificar_reaper import extract_track_blocks, get_track_name, replace_all_track_blocks  # noqa: E402
 
@@ -115,6 +124,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Tira o ultimo bloco do projeto.")
     parser.add_argument("ordem", type=int, help="numero do bloco; tem que ser o ultimo")
     parser.add_argument("--aplicar", action="store_true", help="grava; sem isso so mostra o plano")
+    parser.add_argument("--sem-exports", action="store_true", help="nao refaz o pdf (o slide sai do .pptx)")
     args = parser.parse_args()
 
     if pptx_aberto():
@@ -147,7 +157,7 @@ def main() -> None:
     print(f"  region {regs[ordem]['inicio']} .. {regs[ordem]['fim']} e playlist S&M")
     print(f"  {saem} tracks ({ordem:02d} - ...); faders de grupo refeitos")
     print(f"  cartaz do bloco {ordem - 1} volta a ir ate {regs[ordem - 1]['fim']}")
-    print(f"  slide {slide_do_bloco(ordem)}: {linhas}; pdf refeito")
+    print(f"  slide {slide_do_bloco(ordem)}: {linhas}; {'pdf fica para depois' if args.sem_exports else 'pdf refeito'}")
     print(f"  apaga ABERTO/{pasta.name} ({len(list(pasta.glob('*.mp3')))} mp3)")
     for e in exports:
         if e.exists():
@@ -163,9 +173,9 @@ def main() -> None:
 
     print(f"Backup .rpp: {backup_rpp(RPP)}")
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    shutil.copy2(PPTX, PPTX.with_name(f"{PPTX.stem}-{stamp}.pptx.bak"))
+    shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
     if PDF.exists():
-        shutil.copy2(PDF, PDF.with_name(f"{PDF.stem}-{stamp}.pdf.bak"))
+        shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
     print(f"Backup .pptx e .pdf: {stamp}")
 
     RPP.write_text(novo_texto, encoding="utf-8", newline="")
@@ -182,8 +192,10 @@ def main() -> None:
         raise SystemExit("O bloco nao saiu inteiro do .rpp.")
 
     pptx_tmp.replace(PPTX)
-    exportar_pdf(PPTX, PDF)
-    print(f"PDF: {PDF}")
+    if not args.sem_exports:
+        exportar_pdf(PPTX, PDF)
+        print(f"PDF: {PDF}")
+        atualizar_completo()
     shutil.rmtree(pasta)
     for e in exports:
         e.unlink(missing_ok=True)

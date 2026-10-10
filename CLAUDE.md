@@ -6,13 +6,14 @@ cada projeto é uma pasta com tudo o que é dele:
 
 | Projeto | Pasta | Repertório (pptx/pdf dos VS) |
 |---|---|---|
-| Show | `VS - ROTA/VS - ROTA.rpp` | `VS - ROTA/REPERTÓRIO/Repertório Rota do Chopp VS.pptx` |
+| Show | `VS - ROTA/VS - ROTA.rpp` | `REPERTÓRIO/Repertório Rota do Chopp - VS.pptx` (na raiz) |
 | Laboratório | `VS - LAB/VS - LAB.rpp` | `VS - LAB/REPERTÓRIO/Repertório VS LAB.pptx` |
 
 Dentro de cada pasta: `projeto.json` (nome, `.rpp` e `pptx`), `ABERTO`,
 `MONITOR`, `data`, `relatorio`, `Backups`, `EXPORT_REGIONS`, `EXPORT_VIDEOS`.
 Nenhum projeto lê nada do outro: copiar a pasta basta para levá-lo, e um projeto
-novo nasce de uma cópia. Os caminhos no `.rpp` são relativos à pasta.
+novo nasce de uma cópia. Os caminhos no `.rpp` são relativos à pasta. A exceção é
+o repertório do ROTA, que fica na `REPERTÓRIO/` da raiz (veja abaixo).
 
 Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 (nome de pasta da raiz ou caminho), ou rode de dentro da pasta dele
@@ -21,11 +22,14 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 ## Antes de gravar
 
 - Feche o **Reaper**: aberto, ele regrava o `.rpp` antigo e prende os mp3.
-- Feche o `.pptx` de repertório do projeto no PowerPoint: aberto, o arquivo fica travado.
+- Feche os `.pptx` de repertório no PowerPoint (o do projeto e, no ROTA, o COMPLETO): aberto, o arquivo fica travado.
 - Todo script mostra o plano sem `--aplicar` e só grava com ele. Confira o
   plano com o usuário antes de aplicar.
-- Backups: `.rpp` em `<projeto>/Backups/`; `.pptx` e `.pdf` ao lado deles, como
+- Backups: `.rpp` em `<projeto>/Backups/`; `.pptx` e `.pdf` em `Backups/` ao lado deles, como
   `-AAAA-MM-DD_HHMMSS.*.bak`.
+- **Saídas para a mesa Ui24** (`HWOUT` nas trilhas de grupo, `MASTERHWOUT` no master
+  do ROTA): nunca as altere. Os scripts não mexem nelas; confira no `git diff` do
+  `.rpp` que nenhuma dessas linhas mudou.
 
 ## Repertório (PowerPoint)
 
@@ -34,11 +38,16 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
   o PDF fica ao lado.
 - No ROTA o slide 1 é a capa (`EXPORT_VIDEOS/THUMB PLAYLIST.jpg`, a foto da
   playlist) e o VS BLOCO N é o slide N+1 (`"slide_do_bloco_1": 2`). No LAB não há capa.
-- O repertório fica dentro do projeto; o do OneDrive (`O:\OneDrive\...\REPERTÓRIO`)
-  não é mais usado nem atualizado.
-- `Repertório Rota do Chopp.pptx` / `.pdf` (na pasta `REPERTÓRIO/` da raiz e no
-  OneDrive): os blocos sem VS. **Nunca abra, edite, exporte nem faça backup dele**;
-  é do usuário.
+- Os repertórios do ROTA ficam juntos na `REPERTÓRIO/` da raiz, `.pptx` e `.pdf` de cada:
+  - `Repertório Rota do Chopp - VS`: os blocos VS, o `pptx` do `projeto.json`.
+  - `Repertório Rota do Chopp - AO VIVO`: os blocos sem VS. **É do usuário: os
+    scripts só o leem para montar o COMPLETO; nunca edite, exporte nem faça backup dele.**
+  - `Repertório Rota do Chopp - COMPLETO`: todos os slides do AO VIVO e depois os
+    blocos VS, sem a capa dos VS. Gerado por `scripts/montar_repertorio_completo.py`
+    (`"completo"` no `projeto.json`); os scripts de bloco o refazem sempre que refazem
+    o PDF dos VS. Não edite à mão: a próxima vez que for montado, perde-se.
+- O LAB não tem COMPLETO; o repertório dele fica dentro da pasta do projeto.
+- O do OneDrive (`O:\OneDrive\...\REPERTÓRIO`) não é mais usado nem atualizado.
 
 ## Convenções de um bloco
 
@@ -78,7 +87,9 @@ roteamento dos grupos, acrescenta o slide no fim do `.pptx`, exporta o PDF, o
 mp3 mono e o mp4 do bloco, e apaga os mp3 de entrada (`--manter-origem` para
 não apagar). Precisa de exatamente 1 click; regência é opcional. Para mutar uma
 trilha, aplique com `--sem-video`, troque `MUTESOLO 0 0 0` por `MUTESOLO 1 0 0`
-na track e refaça os dois exports do bloco.
+na track e refaça os dois exports do bloco. `--sem-exports` grava o bloco e o
+slide mas deixa o PDF, o mp3 e o mp4 para depois (para juntar vários ajustes e
+exportar uma vez só).
 
 ### Tirar o último bloco
 
@@ -87,7 +98,9 @@ python -X utf8 scripts/remover_bloco.py --projeto "VS - ROTA" N [--aplicar]
 ```
 
 Tira region, playlist, tracks, slide, pasta e exports do bloco N (só o último)
-e devolve ao anterior o cartaz até o fim. Para levar o bloco a outro projeto,
+e devolve ao anterior o cartaz até o fim (`--sem-exports`: o PDF fica para depois).
+Para pôr um bloco no meio, copie as pastas `ABERTO` dos que vêm depois, tire-os do
+fim para o começo e acrescente de novo na ordem nova (`--origem` com as cópias). Para levar o bloco a outro projeto,
 copie `ABERTO\N - <nome>` antes e use-a como `--origem` no `adicionar_bloco.py`
 de lá (com `--manter-origem`).
 
@@ -116,5 +129,6 @@ python -X utf8 scripts/exportar_blocos_video.py --projeto "VS - ROTA" [--from-or
 - `git diff` do `.rpp`: só o que o fluxo prometeu (no bloco novo, também o fim do
   cartaz do bloco que era o último).
 - Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco (mais a capa, no ROTA).
+  No ROTA, o COMPLETO com os slides do AO VIVO mais os blocos VS.
 - mp3 em mono (`ffmpeg -i` mostra `mono`; o ffmpeg é o do `imageio_ffmpeg`) e mp4 em `EXPORT_VIDEOS`.
 - `EXPORT_REGIONS` e `EXPORT_VIDEOS` ficam fora do git.

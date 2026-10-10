@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-07T21:43:15",
+  "atualizado": "2026-10-10T10:58:18",
   "grupos": [
     {
       "id": "click",
@@ -48,10 +48,16 @@
       "nome": "Guias",
       "master": "GUIAS",
       "cor": "#20b2aa"
+    },
+    {
+      "id": "fechado",
+      "nome": "Fechado",
+      "master": "FECHADO",
+      "cor": "#6b7a99"
     }
   ],
   "contagens": {
-    "click": 1,
+    "click": 2,
     "regencia": 1,
     "metais": 0,
     "teclas": 1,
@@ -59,9 +65,10 @@
     "percussao": 2,
     "voz": 0,
     "guias": 2,
+    "fechado": 1,
     "fora": 0,
     "revisar": 2,
-    "monitor": 1
+    "monitor": 2
   },
   "blocos": [
     {
@@ -174,6 +181,38 @@
           "grupo_nome": "Teclas",
           "revisar": false,
           "motivo": "Tecla ou efeito, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "02 - A FESTA É COM O ROTA",
+      "faixas": [
+        {
+          "trilha": "02 - MONITOR",
+          "bloco": "02 - A FESTA É COM O ROTA",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "02 - CLICK - A FESTA É COM O ROTA",
+          "bloco": "02 - A FESTA É COM O ROTA",
+          "stem": "CLICK",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "02 - VS - A FESTA É COM O ROTA",
+          "bloco": "02 - A FESTA É COM O ROTA",
+          "stem": "VS",
+          "grupo": "fechado",
+          "grupo_nome": "Fechado",
+          "revisar": false,
+          "motivo": "VS, mix fechado, pelo nome."
         }
       ]
     }

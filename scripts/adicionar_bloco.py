@@ -15,6 +15,7 @@ O bloco entra depois do ultimo, com o numero seguinte e o gap de 2 s:
   por scripts/grupos_tracks.py, com grupos_classificacao.json e grupos.html;
 - slide "VS BLOCO N" no fim do .pptx do repertorio, PDF exportado de novo;
 - EXPORT_REGIONS/NN - <nome>.mp3 (mono) e EXPORT_VIDEOS/NN - <nome>.mp4.
+  Com --sem-exports nao refaz o pdf nem exporta mp3 e mp4 (o slide entra no .pptx).
 
 Nome e slide seguem a grafia do adicionar_musicas_bloco.py:
 "NOME", "NOME@Tom", "NOME|Texto do Slide@Tom". Varias musicas viram
@@ -61,6 +62,7 @@ from adicionar_musicas_bloco import (  # noqa: E402
     MARKER_RE,
     PDF,
     VERMELHO,
+    backup_do_repertorio,
     exportar_pdf,
     gravar_pptx,
     interpretar,
@@ -70,6 +72,7 @@ from adicionar_musicas_bloco import (  # noqa: E402
     safe_filename,
 )
 from backup_rpp import backup_rpp  # noqa: E402
+from montar_repertorio_completo import atualizar_completo  # noqa: E402
 from inserir_texto_monitor import (  # noqa: E402
     PPTX,
     aplicar_na_track,
@@ -338,6 +341,9 @@ def main() -> None:
     parser.add_argument("--bpm", type=int, help="poe o BPM no nome do click: CLICK <bpm>.mp3")
     parser.add_argument("--aplicar", action="store_true", help="grava; sem isso so mostra o plano")
     parser.add_argument("--sem-video", action="store_true", help="nao exporta o mp4")
+    parser.add_argument(
+        "--sem-exports", action="store_true", help="nao exporta pdf, mp3 nem mp4 (o slide entra no .pptx)"
+    )
     parser.add_argument("--manter-origem", action="store_true", help="nao apaga os mp3 de entrada")
     args = parser.parse_args()
 
@@ -398,7 +404,10 @@ def main() -> None:
         )
     print(f"  slide {slide_do_bloco(ordem)}: {linhas_novo}")
     print(f"  cartaz do bloco {ultimo} passa a terminar 1 ms antes do fim da region")
-    print(f"  mp3 mono e {'sem mp4' if args.sem_video else 'mp4'} do bloco {ordem}; pdf refeito")
+    if args.sem_exports:
+        print("  sem pdf, mp3 e mp4: exporte depois")
+    else:
+        print(f"  mp3 mono e {'sem mp4' if args.sem_video else 'mp4'} do bloco {ordem}; pdf refeito")
 
     if not args.aplicar:
         pptx_tmp.unlink()
@@ -410,9 +419,9 @@ def main() -> None:
 
     print(f"Backup .rpp: {backup_rpp(RPP)}")
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    shutil.copy2(PPTX, PPTX.with_name(f"{PPTX.stem}-{stamp}.pptx.bak"))
+    shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
     if PDF.exists():
-        shutil.copy2(PDF, PDF.with_name(f"{PDF.stem}-{stamp}.pdf.bak"))
+        shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
     print(f"Backup .pptx e .pdf: {stamp}")
 
     pasta.mkdir()
@@ -438,18 +447,23 @@ def main() -> None:
     validar(RPP.read_text(encoding="utf-8"), bloco)
 
     pptx_tmp.replace(PPTX)
-    exportar_pdf(PPTX, PDF)
-    print(f"PDF: {PDF}")
-    faixa = ["--from-order", str(ordem), "--to-order", str(ordem)]
-    subprocess.run([sys.executable, str(_SCRIPTS / "exportar_regions_mp3.py"), "--mono", *faixa], check=True)
-    if not args.sem_video:
-        subprocess.run([sys.executable, str(_SCRIPTS / "exportar_blocos_video.py"), *faixa], check=True)
+    if not args.sem_exports:
+        exportar_pdf(PPTX, PDF)
+        print(f"PDF: {PDF}")
+        atualizar_completo()
+        faixa = ["--from-order", str(ordem), "--to-order", str(ordem)]
+        subprocess.run([sys.executable, str(_SCRIPTS / "exportar_regions_mp3.py"), "--mono", *faixa], check=True)
+        if not args.sem_video:
+            subprocess.run([sys.executable, str(_SCRIPTS / "exportar_blocos_video.py"), *faixa], check=True)
 
     if not args.manter_origem:
         for e in entradas:
             e.origem.unlink()
         print(f"Apagados da origem: {', '.join(e.origem.name for e in entradas)}")
-    print(f"Pronto: EXPORT_REGIONS e EXPORT_VIDEOS/{ordem:02d} - {safe_filename(nome)}")
+    if args.sem_exports:
+        print(f"Pronto, sem exports: falta o pdf e o mp3/mp4 do bloco {ordem}")
+    else:
+        print(f"Pronto: EXPORT_REGIONS e EXPORT_VIDEOS/{ordem:02d} - {safe_filename(nome)}")
 
 
 if __name__ == "__main__":

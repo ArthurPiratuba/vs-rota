@@ -6,11 +6,18 @@ fica la dentro: ABERTO, MONITOR, data, relatorio, Backups, EXPORT_*. Os
 scripts sao um so, na pasta scripts/ da raiz; copiar a pasta de um projeto
 basta para leva-lo.
 
-    {"nome": "VS - ROTA", "rpp": "VS - ROTA.rpp", "pptx": "REPERTÓRIO/Repertório Rota do Chopp VS.pptx", "slide_do_bloco_1": 2}
+    {"nome": "VS - LAB", "rpp": "VS - LAB.rpp", "pptx": "REPERTÓRIO/Repertório VS LAB.pptx"}
 
 "pptx" e o repertorio dos blocos VS, relativo a pasta do projeto ou absoluto;
 o PDF fica ao lado, com o mesmo nome. "slide_do_bloco_1" (padrao 1) e o slide
 do VS BLOCO 1; os outros seguem em ordem. Com capa no slide 1, use 2.
+
+"completo" (opcional) junta outro repertorio e os blocos VS num so, refeito
+sempre que o PDF dos VS e refeito (scripts/montar_repertorio_completo.py):
+
+    "completo": {"antes": "<pptx que vem antes>", "pptx": "<pptx completo>"}
+
+Os slides de "antes" entram inteiros; dos VS entram os blocos, sem a capa.
 
 O projeto vem, nesta ordem, de:
 - --projeto <nome ou pasta> na linha de comando (tirado do sys.argv aqui);
@@ -73,3 +80,6 @@ NOME: str = _config["nome"]
 RPP = WORKSPACE / _config["rpp"]
 PPTX = (WORKSPACE / _config["pptx"]).resolve()
 SLIDE_DO_BLOCO_1 = int(_config.get("slide_do_bloco_1", 1))
+_completo = _config.get("completo")
+COMPLETO = (WORKSPACE / _completo["pptx"]).resolve() if _completo else None
+ANTES_DO_COMPLETO = (WORKSPACE / _completo["antes"]).resolve() if _completo else None

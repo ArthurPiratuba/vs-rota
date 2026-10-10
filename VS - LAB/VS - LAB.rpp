@@ -104,6 +104,8 @@
   RULERLANE 2 8 "" 0 -1 0
   MARKER 1 0 "NA HORA DE AMAR" 1 21111016 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 1 732.551836734692 "" 1
+  MARKER 2 734.551836734692 "A FESTA É COM O ROTA" 1 32040992 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 2 879.29632653061 "" 1
   <PROJBAY
   >
   <TRACK {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
@@ -131,7 +133,8 @@
     FX 1
     TRACKID {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
     PERF 0
-    AUXRECV 10 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 11 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 24 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -160,7 +163,7 @@
     FX 1
     TRACKID {A08B881C-D40B-45B4-9FA9-2A8A8EE007C0}
     PERF 0
-    AUXRECV 11 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 12 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -217,7 +220,7 @@
     FX 1
     TRACKID {AC83754C-99D0-48F6-A396-87CA009EEB2C}
     PERF 0
-    AUXRECV 20 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 21 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -246,10 +249,10 @@
     FX 1
     TRACKID {F984B8C6-8140-418A-9B52-C869462BCBA8}
     PERF 0
-    AUXRECV 12 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 16 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 17 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 18 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 19 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -278,8 +281,8 @@
     FX 1
     TRACKID {12D197A3-97E1-496D-B2CC-6DF82A081AC2}
     PERF 0
-    AUXRECV 13 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 19 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 20 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -336,8 +339,37 @@
     FX 1
     TRACKID {3D8F22C8-5E8C-4FAC-8622-69844B723AB6}
     PERF 0
-    AUXRECV 14 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 15 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 16 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {FDFFAC92-50E3-4E6A-809C-C843226608E8}
+    NAME FECHADO
+    PEAKCOL 26835563
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 256 0 256
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FDFFAC92-50E3-4E6A-809C-C843226608E8}
+    PERF 0
+    AUXRECV 25 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1
     MAINSEND 1 0
   >
@@ -397,7 +429,7 @@
     <ITEM
       POSITION 0
       SNAPOFFS 0
-      LENGTH 732.551836734692
+      LENGTH 732.5508367347
       LOOP 1
       ALLTAKES 0
       FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
@@ -425,7 +457,7 @@
             |// Cartaz do bloco, texto editavel
             |font="Arial";
             |ini=0;
-            |fim=732.551836734692;
+            |fim=732.5508367347;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -1034,9 +1066,249 @@
       >
     >
   >
+  <TRACK {96B76393-1D56-41EB-8CE0-58CB6C0BC9B6}
+    NAME "02 - A FESTA É COM O ROTA"
+    PEAKCOL 32040992
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 2 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {96B76393-1D56-41EB-8CE0-58CB6C0BC9B6}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {ED91E87E-7E5E-40F5-8550-1B21AB67ECDA}
+    NAME "02 - MONITOR"
+    PEAKCOL 16842751
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {ED91E87E-7E5E-40F5-8550-1B21AB67ECDA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 732.551836734692
+      SNAPOFFS 0
+      LENGTH 146.7444897959
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6A3BC12C-158E-4D43-BE8B-74F4A522908B}
+      IID 522
+      NAME "VS BLOCO 2"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {927CDFE2-5012-4C3E-96AF-08292ED4BFFE}
+      <SOURCE VIDEO
+        FILE "MONITOR\base.png"
+      >
+      <TAKEFX
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VIDEO_EFFECT "Video processor" ""
+          <CODE
+            |// Cartaz do bloco, texto editavel
+            |font="Arial";
+            |ini=732.551836734692;
+            |fim=879.29632653061;
+            |(project_time<ini || project_time>=fim) ? 0 : (
+            |project_wh_valid===0 ? input_info(-2,project_w,project_h);
+            |gfx_a2=0;
+            |gfx_blit(-2,1);
+            |gfx_set(0,0,0,1);
+            |gfx_fillrect(0,0,project_w,project_h);
+            |px=project_h*0.13;
+            |gfx_setfont(px,font);
+            |#S=" ";
+            |gfx_str_measure(#S,spw,sph);
+            |#T="VS BLOCO 2";
+            |gfx_str_measure(#T,tw,th);
+            |widest=tw;
+            |#L="A Festa É com o Rota";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |n=2;
+            |step=px*1.35;
+            |total=step*n;
+            |maxw=project_w*0.92;
+            |maxh=project_h*0.88;
+            |scale=1;
+            |widest>maxw ? scale=maxw/widest;
+            |total*scale>maxh ? scale=maxh/total;
+            |px*=scale;
+            |gfx_setfont(px,font);
+            |gfx_str_measure(#S,spw,sph);
+            |gfx_str_measure(#T,tw,th);
+            |step=px*1.35;
+            |y=(project_h-step*n)*0.5;
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |y+=step;
+            |#L="A Festa É com o Rota";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |);
+          >
+          CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        >
+        PRESETNAME "Cartaz VS"
+        FXID {D5E3BEBD-4422-46C9-B07F-F5CFA4E9E761}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {7DA5E579-A19A-460E-94BD-9942901FB804}
+    NAME "02 - CLICK - A FESTA É COM O ROTA"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.562341 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 1 0 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7DA5E579-A19A-460E-94BD-9942901FB804}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 734.551836734692
+      SNAPOFFS 0
+      LENGTH 132.571428571429
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AC9BBDE2-8435-412B-9ED6-B85568018B5D}
+      IID 523
+      NAME CLICK
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {936D1589-1181-41F6-8BC3-075A02410B25}
+      <SOURCE MP3
+        FILE "ABERTO\2 - A FESTA É COM O ROTA\CLICK.mp3" 1
+      >
+    >
+  >
+  <TRACK {D95F636A-AA00-4B69-B90F-6B49AC7D302D}
+    NAME "02 - VS - A FESTA É COM O ROTA"
+    PEAKCOL 32040992
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 256 0 256
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D95F636A-AA00-4B69-B90F-6B49AC7D302D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 734.551836734692
+      SNAPOFFS 0
+      LENGTH 144.744489795918
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {760C9A8B-9FE1-43C9-A3B3-DF2EF080FE5B}
+      IID 524
+      NAME VS
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F03F4010-95C2-42C8-BAA3-012E72451990}
+      <SOURCE MP3
+        FILE "ABERTO\2 - A FESTA É COM O ROTA\VS.mp3" 1
+      >
+    >
+  >
   <EXTENSIONS
     <S&M_RGN_PLAYLIST rota 1
       1073741825 1
+      1073741826 1
     >
   >
 >

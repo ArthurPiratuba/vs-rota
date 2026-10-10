@@ -48,6 +48,7 @@ _SCRIPTS = Path(__file__).resolve().parent
 if str(_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(_SCRIPTS))
 from backup_rpp import backup_rpp  # noqa: E402
+from montar_repertorio_completo import atualizar_completo  # noqa: E402
 from inserir_texto_monitor import (  # noqa: E402
     PPTX,
     codigo_do_cartaz,
@@ -325,6 +326,13 @@ def pptx_aberto() -> bool:
         return True
 
 
+def backup_do_repertorio(arquivo: Path, stamp: str) -> Path:
+    """Caminho do backup de um .pptx/.pdf de repertorio, na pasta Backups ao lado dele."""
+    pasta = arquivo.parent / "Backups"
+    pasta.mkdir(exist_ok=True)
+    return pasta / f"{arquivo.stem}-{stamp}{arquivo.suffix}.bak"
+
+
 def exportar_pdf(pptx: Path, pdf: Path) -> None:
     """Exporta pelo PowerPoint, como o PDF original: todos os slides, 1 por pagina."""
     tmp = pdf.with_name(pdf.stem + ".novo.pdf")
@@ -535,11 +543,11 @@ def main() -> None:
 
     print(f"Backup .rpp: {backup_rpp(RPP)}")
     stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    backup_pptx = PPTX.with_name(f"{PPTX.stem}-{stamp}.pptx.bak")
+    backup_pptx = backup_do_repertorio(PPTX, stamp)
     shutil.copy2(PPTX, backup_pptx)
     print(f"Backup .pptx: {backup_pptx}")
     if PDF.exists():
-        backup_pdf = PDF.with_name(f"{PDF.stem}-{stamp}.pdf.bak")
+        backup_pdf = backup_do_repertorio(PDF, stamp)
         shutil.copy2(PDF, backup_pdf)
         print(f"Backup .pdf: {backup_pdf}")
 
@@ -552,6 +560,7 @@ def main() -> None:
     pptx_tmp.replace(PPTX)
     exportar_pdf(PPTX, PDF)
     print(f"PDF: {PDF}")
+    atualizar_completo()
     for velho, novo in mp3s:
         velho.rename(novo)
     renomeados = {novo for _, novo in mp3s}
