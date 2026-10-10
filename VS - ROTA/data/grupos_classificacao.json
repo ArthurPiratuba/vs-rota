@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-09T19:31:16",
+  "atualizado": "2026-10-09T21:24:34",
   "grupos": [
     {
       "id": "click",
@@ -57,18 +57,18 @@
     }
   ],
   "contagens": {
-    "click": 36,
+    "click": 38,
     "regencia": 32,
     "metais": 65,
     "teclas": 68,
     "cordas": 47,
-    "percussao": 29,
+    "percussao": 30,
     "voz": 10,
     "guias": 5,
     "fechado": 14,
     "fora": 0,
     "revisar": 2,
-    "monitor": 36
+    "monitor": 38
   },
   "blocos": [
     {
@@ -3298,11 +3298,11 @@
       ]
     },
     {
-      "bloco": "36 - A FESTA É COM O ROTA",
+      "bloco": "36 - LOOP DE FUMPA 140 BPM",
       "faixas": [
         {
           "trilha": "36 - MONITOR",
-          "bloco": "36 - A FESTA É COM O ROTA",
+          "bloco": "36 - LOOP DE FUMPA 140 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3310,8 +3310,63 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "36 - CLICK - A FESTA É COM O ROTA",
-          "bloco": "36 - A FESTA É COM O ROTA",
+          "trilha": "36 - CLICK 140 - LOOP DE FUMPA 140 BPM",
+          "bloco": "36 - LOOP DE FUMPA 140 BPM",
+          "stem": "CLICK 140",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        }
+      ]
+    },
+    {
+      "bloco": "37 - LOOP DE VANEIRA 97 BPM",
+      "faixas": [
+        {
+          "trilha": "37 - MONITOR",
+          "bloco": "37 - LOOP DE VANEIRA 97 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "37 - CLICK 97 - LOOP DE VANEIRA 97 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 97 BPM",
+          "stem": "CLICK 97",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "37 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 97 BPM",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "38 - A FESTA É COM O ROTA",
+      "faixas": [
+        {
+          "trilha": "38 - MONITOR",
+          "bloco": "38 - A FESTA É COM O ROTA",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "38 - CLICK - A FESTA É COM O ROTA",
+          "bloco": "38 - A FESTA É COM O ROTA",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3319,8 +3374,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "36 - VS - A FESTA É COM O ROTA",
-          "bloco": "36 - A FESTA É COM O ROTA",
+          "trilha": "38 - VS - A FESTA É COM O ROTA",
+          "bloco": "38 - A FESTA É COM O ROTA",
           "stem": "VS",
           "grupo": "fechado",
           "grupo_nome": "Fechado",
