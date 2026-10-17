@@ -3383,11 +3383,11 @@
       ]
     },
     {
-      "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+      "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
       "faixas": [
         {
           "trilha": "35 - MONITOR",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3395,8 +3395,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "35 - CLICK - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - CLICK - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3404,8 +3404,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "35 - REGÊNCIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - REGÊNCIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -3413,8 +3413,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "35 - BASS - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - BASS - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "BASS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3422,8 +3422,8 @@
           "motivo": "Baixo entrou em Cordas."
         },
         {
-          "trilha": "35 - BATERIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - BATERIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "BATERIA",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3431,8 +3431,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "GUIA NA HORA DE AMAR",
           "grupo": "guias",
           "grupo_nome": "Guias",
@@ -3440,8 +3440,8 @@
           "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
-          "trilha": "35 - GUIA VOZ - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - GUIA VOZ - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "GUIA VOZ",
           "grupo": "guias",
           "grupo_nome": "Guias",
@@ -3449,8 +3449,8 @@
           "motivo": "Guia de apoio para os músicos, pelo nome."
         },
         {
-          "trilha": "35 - GUITARRA BASE - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - GUITARRA BASE - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "GUITARRA BASE",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3458,8 +3458,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "35 - GUITARRA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - GUITARRA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "GUITARRA SOLO",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3467,8 +3467,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "35 - GUITARRA SOLO 2 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - GUITARRA SOLO 2 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "GUITARRA SOLO 2",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -3476,8 +3476,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "35 - PERCUSSÃO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - PERCUSSÃO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3485,8 +3485,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "35 - SANFONA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
-          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "trilha": "35 - SANFONA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
           "stem": "SANFONA SOLO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
