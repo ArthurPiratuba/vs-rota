@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-"""Acrescenta um bloco novo no fim do projeto, com todas as convencoes.
+"""Acrescenta um bloco novo ao projeto, com todas as convencoes.
+
+Loops e clicks (nome comecando com LOOP ou CLICK) ficam sempre no fim. Um bloco
+de musica entra logo depois do ultimo bloco de musica e empurra os loops e
+clicks do fim: numero +1 e a duracao do bloco novo mais 2 s depois na timeline,
+com pasta, tracks e cartaz. Loop ou click novo entra no fim. Os blocos de
+musica nunca mudam de numero. Loop e click nao tem slide no repertorio, pdf, mp3
+nem mp4: so o cartaz no .rpp.
 
 Os audios (mp3) vem de uma pasta de entrada, por padrao a raiz do projeto.
-O bloco entra depois do ultimo, com o numero seguinte e o gap de 2 s:
+O bloco entra 2 s depois do anterior:
 
 - pasta ABERTO\\N - <nome> com os audios (nomes em maiusculas, sem a palavra
   BLOCO; com --bpm o CLICK.mp3 vira CLICK <bpm>.mp3);
@@ -80,19 +87,19 @@ from inserir_texto_monitor import (  # noqa: E402
     codigo_do_cartaz,
     formato_numero,
     item_video,
+    linhas_do_cartaz,
     linhas_do_slide,
     proximo_iid,
+    sem_repertorio,
     slide_do_bloco,
 )
 from renomear_tracks_rpp import classify_role, stem_display  # noqa: E402
 from unificar_reaper import (  # noqa: E402
     GAP_SECONDS,
     extract_track_blocks,
-    format_rpp_name,
     get_track_name,
     make_folder_track,
     make_monitor_track,
-    region_color,
     replace_all_track_blocks,
 )
 
@@ -153,6 +160,107 @@ def regions(texto: str) -> dict[int, dict[str, str]]:
         if m.group(3):
             achadas[int(m.group(1))]["inicio"] = m.group(2)
     return achadas
+
+
+TRACK_DO_BLOCO = re.compile(r'^    NAME "?(\d{2}) - ', re.MULTILINE)
+MARKER_LINHA = re.compile(r"^  MARKER (\d+) (\S+) (.*)$", re.MULTILINE)
+# Inicio de region (nome com ou sem aspas): 1 tudo antes da cor, 2 numero, 3 nome, 4 cor, 5 o resto.
+MARKER_INICIO = re.compile(r'^(  MARKER (\d+) \S+ "?((?<=")[^"]*(?=")|(?<!")[^\s"]+(?=\s))"? \d+ )(\d+)( .*)$', re.MULTILINE)
+
+
+# Blocos de musica: cores variadas, sem vermelho (o vermelho e do click e da regencia).
+# O numero do bloco escolhe a cor, entao dois blocos seguidos nunca ficam iguais.
+PALETA_MUSICA = [
+    "#2fa8d8", "#e0a030", "#3cb371", "#c86fd8", "#8c6b4a", "#5b6ee8",
+    "#a6c43a", "#48c9b0", "#7a8c2e", "#9b59b6", "#4a7fa8", "#d4a373",
+]
+# Loops e clicks: uma cor por tipo, igual em todos do tipo.
+CORES_DE_LOOP = {"LOOP DE VANEIRA": "#00838f", "LOOP DE MARCHA": "#ff8c00", "CLICK": "#708090"}
+
+
+def reaper_cor(hexa: str) -> int:
+    r, g, b = (int(hexa[i : i + 2], 16) for i in (1, 3, 5))
+    return (r + 256 * g + 65536 * b) | 0x1000000
+
+
+def tipo_de_loop(nome: str) -> str:
+    """LOOP DE VANEIRA 82 BPM -> LOOP DE VANEIRA; todo click e CLICK."""
+    return "CLICK" if nome.startswith("CLICK") else re.sub(r"\s*\d+\s*BPM$", "", nome)
+
+
+def cor_do_bloco(ordem: int, nome: str, regs: dict[int, dict[str, str]], cores: dict[int, int]) -> int:
+    """Musica pela paleta; loop ou click com a cor do tipo (a dos outros do tipo, se ja houver)."""
+    if not sem_repertorio(nome):
+        return reaper_cor(PALETA_MUSICA[ordem % len(PALETA_MUSICA)])
+    tipo = tipo_de_loop(nome)
+    if tipo in CORES_DE_LOOP:
+        return reaper_cor(CORES_DE_LOOP[tipo])
+    for n, reg in sorted(regs.items()):
+        if sem_repertorio(reg.get("nome", "")) and tipo_de_loop(reg["nome"]) == tipo and n in cores:
+            return cores[n]
+    return reaper_cor(PALETA_MUSICA[ordem % len(PALETA_MUSICA)])
+
+
+def cores_das_regions(texto: str) -> dict[int, int]:
+    return {int(m.group(2)): int(m.group(4)) for m in MARKER_INICIO.finditer(texto) if m.group(3)}
+
+
+def bpm_do_nome(nome: str) -> int:
+    m = re.search(r"(\d+)\s*BPM$", nome)
+    return int(m.group(1)) if m else 0
+
+
+def posicao_do_bloco(regs: dict[int, dict[str, str]], nome: str) -> int:
+    """Musica entra antes dos loops e clicks do fim. Loop ou click entra junto dos do
+    seu tipo (vaneira, marcha, click), na ordem do BPM; tipo novo, no fim."""
+    ordem = max(regs) + 1
+    while ordem > 1 and sem_repertorio(regs[ordem - 1]["nome"]):
+        ordem -= 1
+    if not sem_repertorio(nome):
+        return ordem
+    tipo, bpm = tipo_de_loop(nome), bpm_do_nome(nome)
+    do_tipo = [n for n in range(ordem, max(regs) + 1) if tipo_de_loop(regs[n]["nome"]) == tipo]
+    if not do_tipo:
+        return max(regs) + 1
+    for n in do_tipo:
+        if bpm_do_nome(regs[n]["nome"]) > bpm:
+            return n
+    return do_tipo[-1] + 1
+
+
+def abrir_espaco(texto: str, ordem: int, delta: float) -> str:
+    """Blocos a partir de ordem: numero +1 e delta segundos depois (region, tracks, cartaz)."""
+
+    def mais(valor: str) -> str:
+        return format_time(float(valor) + delta)
+
+    def marker(m: re.Match) -> str:
+        n = int(m.group(1))
+        return m.group(0) if n < ordem else f"  MARKER {n + 1} {mais(m.group(2))} {m.group(3)}"
+
+    texto = MARKER_LINHA.sub(marker, texto)
+    tracks = []
+    for track in extract_track_blocks(texto):
+        m = TRACK_DO_BLOCO.search(track)
+        n = int(m.group(1)) if m else 0
+        if n >= ordem:
+            if re.search(r"^\s+<\w*ENV", track, re.MULTILINE):
+                raise SystemExit(f"{get_track_name(track)} tem envelope; nao sei mover.")
+            track = TRACK_DO_BLOCO.sub(lambda x: x.group(0).replace(f"{n:02d} - ", f"{n + 1:02d} - "), track, count=1)
+            track = track.replace(f'FILE "ABERTO\\{n} - ', f'FILE "ABERTO\\{n + 1} - ')
+            track = track.replace(f'NAME "VS BLOCO {n}"', f'NAME "VS BLOCO {n + 1}"')
+            track = track.replace(f'|#T="VS BLOCO {n}";', f'|#T="VS BLOCO {n + 1}";')
+            track = re.sub(
+                r"^(      POSITION )(\S+)$", lambda x: x.group(1) + mais(x.group(2)), track, flags=re.MULTILINE
+            )
+            track = re.sub(
+                r"^(\s+\|(?:ini|fim)=)([\d.]+);$",
+                lambda x: x.group(1) + mais(x.group(2)) + ";",
+                track,
+                flags=re.MULTILINE,
+            )
+        tracks.append(track)
+    return replace_all_track_blocks(texto, tracks)
 
 
 def ajustar_monitor_anterior(texto: str, ordem: int, linhas, inicio: str, fim: str) -> str:
@@ -251,11 +359,16 @@ def gravar_pptx_com_novos(membros: dict[str, str], destino: Path) -> None:
                 saida.writestr(nome, conteudo.encode("utf-8"))
 
 
-def montar_rpp(texto: str, bloco: BlockPlan, ultimo: int, fim_ultimo: str, linhas_anterior, linhas_novo) -> str:
+def montar_rpp(texto: str, bloco: BlockPlan, linhas_anterior, linhas_novo) -> str:
+    """Poe o bloco depois do anterior; com abrir_espaco antes, os seguintes ja estao 1 numero adiante."""
     ordem = bloco.order
-    # Cartaz do bloco novo: do fim da region anterior ao fim desta.
+    regs = regions(texto)
+    ultimo = ordem - 1
+    fim_ultimo = regs[ultimo]["fim"]
+    no_fim = ordem > max(regs)
+    # Cartaz do bloco novo: do fim da region anterior ao fim desta (1 ms antes, se nao for o ultimo).
     inicio_cartaz = fim_ultimo
-    fim_cartaz = format_time(bloco.end)
+    fim_cartaz = format_time(bloco.end) if no_fim else formato_numero(bloco.end - 0.001)
     monitor = aplicar_na_track(
         make_monitor_track(ordem),
         item_video(
@@ -267,11 +380,11 @@ def montar_rpp(texto: str, bloco: BlockPlan, ultimo: int, fim_ultimo: str, linha
             chunk_take_fx(codigo_do_cartaz(linhas_novo, inicio_cartaz, fim_cartaz)),
         ),
     )
-    regs = regions(texto)
-    inicio_anterior = regs[ultimo - 1]["fim"] if ultimo > 1 else regs[ultimo]["inicio"]
-    texto = ajustar_monitor_anterior(
-        texto, ultimo, linhas_anterior, inicio_anterior, formato_numero(float(fim_ultimo) - 0.001)
-    )
+    if no_fim:
+        inicio_anterior = regs[ultimo - 1]["fim"] if ultimo > 1 else regs[ultimo]["inicio"]
+        texto = ajustar_monitor_anterior(
+            texto, ultimo, linhas_anterior, inicio_anterior, formato_numero(float(fim_ultimo) - 0.001)
+        )
 
     # A pasta fica recolhida, como as outras.
     pasta = make_folder_track(ordem, bloco.song_name, bloco.peakcol).replace(
@@ -286,14 +399,22 @@ def montar_rpp(texto: str, bloco: BlockPlan, ultimo: int, fim_ultimo: str, linha
     existentes = extract_track_blocks(texto)
     if replace_all_track_blocks(texto, existentes) != texto:
         raise SystemExit("Roundtrip das tracks existentes nao e identico. Abortado.")
-    texto = replace_all_track_blocks(texto, existentes + tracks)
+    if no_fim:
+        antes = len(existentes)
+    else:
+        seguintes = [i for i, t in enumerate(existentes) if get_track_name(t).startswith(f"{ordem + 1:02d} - ")]
+        if not seguintes:
+            raise SystemExit(f"Tracks do bloco {ordem + 1} nao encontradas.")
+        antes = seguintes[0]
+    texto = replace_all_track_blocks(texto, existentes[:antes] + tracks + existentes[antes:])
 
     fim_re = re.compile(rf'^  MARKER {ultimo} {re.escape(fim_ultimo)} "" .*\n', re.MULTILINE)
     achados = list(fim_re.finditer(texto))
     if len(achados) != 1:
         raise SystemExit(f"Fim da region {ultimo}: {len(achados)} ocorrencias.")
     marcadores = (
-        f"  MARKER {ordem} {format_time(bloco.start)} {format_rpp_name(bloco.song_name)} "
+        # Sempre entre aspas: os scripts so leem a region com o nome entre aspas.
+        f"  MARKER {ordem} {format_time(bloco.start)} \"{bloco.song_name}\" "
         f"1 {bloco.peakcol} 1 R {ZERO_GUID} 0 1\n"
         f'  MARKER {ordem} {format_time(bloco.end)} "" 1\n'
     )
@@ -302,12 +423,14 @@ def montar_rpp(texto: str, bloco: BlockPlan, ultimo: int, fim_ultimo: str, linha
 
     playlist = list(PLAYLIST_LINE.finditer(texto))
     ids = [int(m.group(2)) for m in playlist]
-    if ids != [PLAYLIST_ID_BASE + n for n in range(1, ultimo + 1)]:
-        raise SystemExit(f"Playlist S&M nao e 1..{ultimo} em ordem.")
+    total = len(regs)
+    if ids != [PLAYLIST_ID_BASE + n for n in range(1, total + 1)]:
+        raise SystemExit(f"Playlist S&M nao e 1..{total} em ordem.")
+    # A playlist toca as regions pelo numero, em ordem: basta mais um no fim.
     ultimo_item = playlist[-1]
     texto = (
         texto[: ultimo_item.end()]
-        + f"\n{ultimo_item.group(1)}{PLAYLIST_ID_BASE + ordem} 1"
+        + f"\n{ultimo_item.group(1)}{PLAYLIST_ID_BASE + total + 1} 1"
         + texto[ultimo_item.end():]
     )
     return texto
@@ -315,8 +438,8 @@ def montar_rpp(texto: str, bloco: BlockPlan, ultimo: int, fim_ultimo: str, linha
 
 def validar(texto: str, bloco: BlockPlan) -> None:
     regs = regions(texto)
-    if max(regs) != bloco.order or regs[bloco.order]["nome"] != bloco.song_name:
-        raise SystemExit("Region nova nao ficou no fim.")
+    if sorted(regs) != list(range(1, len(regs) + 1)) or regs.get(bloco.order, {}).get("nome") != bloco.song_name:
+        raise SystemExit(f"Region nova nao ficou no bloco {bloco.order}.")
     prefixo = f"{bloco.order:02d} - "
     tracks = [t for t in extract_track_blocks(texto) if get_track_name(t).startswith(prefixo)]
     if len(tracks) != 2 + len(bloco.stems):
@@ -335,7 +458,7 @@ def validar(texto: str, bloco: BlockPlan) -> None:
 def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
-    parser = argparse.ArgumentParser(description="Acrescenta um bloco novo no fim do projeto.")
+    parser = argparse.ArgumentParser(description="Acrescenta um bloco novo (musica antes dos loops e clicks do fim).")
     parser.add_argument("musicas", nargs="+", help='"NOME", "NOME@Tom" ou "NOME|Texto do Slide@Tom"')
     parser.add_argument("--origem", type=Path, default=WORKSPACE, help="pasta com os mp3 (padrao: raiz)")
     parser.add_argument("--bpm", type=int, help="poe o BPM no nome do click: CLICK <bpm>.mp3")
@@ -352,43 +475,55 @@ def main() -> None:
     texto = RPP.read_text(encoding="utf-8")
     regs = regions(texto)
     ultimo = max(regs)
-    ordem = ultimo + 1
-    fim_ultimo = regs[ultimo]["fim"]
 
     musicas = [interpretar(p, referencias(texto)) for p in args.musicas]
     nome = " - ".join(m.projeto for m in musicas)
+    ordem = posicao_do_bloco(regs, nome)
+    fim_anterior = regs[ordem - 1]["fim"]
+    # Loops e clicks do fim que descem um numero para o bloco novo entrar antes deles.
+    empurrados = [(n, regs[n]["nome"]) for n in range(ordem, ultimo + 1)]
     pasta = ABERTO / f"{ordem} - {nome}"
     if pasta.exists():
         raise SystemExit(f"Pasta ja existe: {pasta}")
+    for n, nome_n in empurrados:
+        if not (ABERTO / f"{n} - {nome_n}").is_dir():
+            raise SystemExit(f"Pasta nao encontrada: ABERTO/{n} - {nome_n}")
 
     entradas = ler_entradas(args.origem.resolve(), args.bpm)
     stems = [e.plano for e in entradas]
-    inicio = float(fim_ultimo) + GAP_SECONDS
+    delta = GAP_SECONDS + max(s.duration for s in stems)
     bloco = BlockPlan(
         order=ordem,
         song_name=nome,
         zip_path=args.origem,
         folder_name=f"{ordem} - {nome}",
         stems=stems,
-        start=inicio,
-        end=inicio + max(s.duration for s in stems),
-        peakcol=region_color(ordem, ordem),
+        start=float(fim_anterior) + GAP_SECONDS,
+        end=float(fim_anterior) + delta,
+        peakcol=cor_do_bloco(ordem, nome, regs, cores_das_regions(texto)),
     )
 
-    membros = membros_do_pptx(ordem, musicas)
+    # Loop e click nao tem slide, pdf, mp3 nem mp4: o cartaz vem direto das musicas.
+    loop = sem_repertorio(nome)
     pptx_tmp = PPTX.with_name(PPTX.stem + ".novo.pptx")
-    gravar_pptx_com_novos(membros, pptx_tmp)
     try:
-        linhas_novo = linhas_do_slide(pptx_tmp, slide_do_bloco(ordem))
-        linhas_anterior = linhas_do_slide(PPTX, slide_do_bloco(ultimo))
-        if linhas_novo[0] != (f"VS BLOCO {ordem}", None) or [t for t, tom in linhas_novo if tom] != [
-            m.slide for m in musicas
-        ]:
-            raise SystemExit(f"Slide novo nao leu como esperado: {linhas_novo}")
-        novo_texto = montar_rpp(texto, bloco, ultimo, fim_ultimo, linhas_anterior, linhas_novo)
+        if loop:
+            linhas_novo = [(f"VS BLOCO {ordem}", None)] + [(m.slide, m.tom) for m in musicas]
+        else:
+            gravar_pptx_com_novos(membros_do_pptx(ordem, musicas), pptx_tmp)
+            linhas_novo = linhas_do_slide(pptx_tmp, slide_do_bloco(ordem))
+            if linhas_novo[0] != (f"VS BLOCO {ordem}", None) or [t for t, tom in linhas_novo if tom] != [
+                m.slide for m in musicas
+            ]:
+                raise SystemExit(f"Slide novo nao leu como esperado: {linhas_novo}")
+        linhas_anterior = linhas_do_cartaz(texto, ordem - 1)
+        if empurrados:
+            texto = abrir_espaco(texto, ordem, delta)
+        novo_texto = montar_rpp(texto, bloco, linhas_anterior, linhas_novo)
     except BaseException:
         pptx_tmp.unlink(missing_ok=True)
         raise
+    sem_exports = args.sem_exports or loop
 
     print(f"Bloco {ordem}: {nome}")
     print(f"  region: {format_time(bloco.start)} .. {format_time(bloco.end)} ({bloco.end - bloco.start:.1f} s)")
@@ -402,28 +537,42 @@ def main() -> None:
             f"    {'L' if pan < 0 else 'R'} {'-5 dB' if s.role == 'CLICK' else ' 0 dB'}  "
             f"{e.origem.name} -> {s.filename}  [{GRUPO_NOME.get(grupo, 'fora: ' + motivo)}]"
         )
-    print(f"  slide {slide_do_bloco(ordem)}: {linhas_novo}")
-    print(f"  cartaz do bloco {ultimo} passa a terminar 1 ms antes do fim da region")
-    if args.sem_exports:
+    if loop:
+        print(f"  cartaz (sem slide): {linhas_novo}")
+    else:
+        print(f"  slide {slide_do_bloco(ordem)}: {linhas_novo}")
+    if empurrados:
+        print(f"  loops e clicks do fim descem um numero e {delta:.1f} s:")
+        for n, nome_n in empurrados:
+            print(f"    {n} -> {n + 1}  {nome_n}")
+    else:
+        print(f"  cartaz do bloco {ordem - 1} passa a terminar 1 ms antes do fim da region")
+    if loop:
+        print("  loop/click: sem slide, pdf, mp3 e mp4")
+    elif args.sem_exports:
         print("  sem pdf, mp3 e mp4: exporte depois")
     else:
         print(f"  mp3 mono e {'sem mp4' if args.sem_video else 'mp4'} do bloco {ordem}; pdf refeito")
 
     if not args.aplicar:
-        pptx_tmp.unlink()
+        pptx_tmp.unlink(missing_ok=True)
         print("Plano apenas. Rode com --aplicar para gravar.")
         return
     if reaper_aberto():
-        pptx_tmp.unlink()
+        pptx_tmp.unlink(missing_ok=True)
         raise SystemExit("Feche o Reaper antes: ele regravaria o .rpp antigo.")
 
     print(f"Backup .rpp: {backup_rpp(RPP)}")
-    stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
-    if PDF.exists():
-        shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
-    print(f"Backup .pptx e .pdf: {stamp}")
+    if not loop:
+        stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+        shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
+        if PDF.exists():
+            shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
+        print(f"Backup .pptx e .pdf: {stamp}")
 
+    # Do ultimo para o primeiro, para um nome nunca cair em cima do outro.
+    for n, nome_n in reversed(empurrados):
+        (ABERTO / f"{n} - {nome_n}").rename(ABERTO / f"{n + 1} - {nome_n}")
     pasta.mkdir()
     for e in entradas:
         shutil.copy2(e.origem, pasta / e.plano.filename)
@@ -431,6 +580,14 @@ def main() -> None:
     validar(RPP.read_text(encoding="utf-8"), bloco)
 
     marcadores = json.loads(REGION_MARKERS.read_text(encoding="utf-8"))
+    for item in marcadores["starts"]:
+        if item["index"] >= ordem:
+            item["index"] += 1
+            item["start"] = format_time(float(item["start"]) + delta)
+    for item in marcadores["ends"]:
+        if item["index"] >= ordem:
+            item["index"] += 1
+            item["end"] = format_time(float(item["end"]) + delta)
     marcadores["starts"].append(
         {
             "index": ordem,
@@ -440,14 +597,17 @@ def main() -> None:
         }
     )
     marcadores["ends"].append({"index": ordem, "end": format_time(bloco.end), "tail": "1"})
+    marcadores["starts"].sort(key=lambda item: item["index"])
+    marcadores["ends"].sort(key=lambda item: item["index"])
     REGION_MARKERS.write_text(json.dumps(marcadores, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
     # Faders de grupo: refaz receives, GROUP_FLAGS e MAINSEND de todo o projeto.
     grupos_tracks.aplicar(RPP, grupos_tracks.carregar_correcoes())
     validar(RPP.read_text(encoding="utf-8"), bloco)
 
-    pptx_tmp.replace(PPTX)
-    if not args.sem_exports:
+    if not loop:
+        pptx_tmp.replace(PPTX)
+    if not sem_exports:
         exportar_pdf(PPTX, PDF)
         print(f"PDF: {PDF}")
         atualizar_completo()
@@ -460,7 +620,9 @@ def main() -> None:
         for e in entradas:
             e.origem.unlink()
         print(f"Apagados da origem: {', '.join(e.origem.name for e in entradas)}")
-    if args.sem_exports:
+    if loop:
+        print(f"Pronto: loop/click {ordem}, sem slide nem exports")
+    elif args.sem_exports:
         print(f"Pronto, sem exports: falta o pdf e o mp3/mp4 do bloco {ordem}")
     else:
         print(f"Pronto: EXPORT_REGIONS e EXPORT_VIDEOS/{ordem:02d} - {safe_filename(nome)}")

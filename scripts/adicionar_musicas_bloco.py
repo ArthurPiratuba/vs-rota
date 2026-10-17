@@ -72,7 +72,8 @@ PDF = PPTX.with_suffix(".pdf")
 ULTIMO_BLOCO_REFERENCIA = 23
 TOM_DESCONHECIDO = "??"
 MINUSCULAS = {"e", "o", "a", "os", "as", "de", "da", "do", "das", "dos", "na", "no", "nas", "nos"}
-MARKER_RE = re.compile(r'^  MARKER (\d+) ([0-9.]+) "(.*)"(.*)$', re.MULTILINE)
+# O Reaper grava sem aspas o nome de uma palavra so (MARATÁ): aceita os dois.
+MARKER_RE = re.compile(r'^  MARKER (\d+) ([0-9.]+) "?((?<=")[^"]*(?=")|(?<!")[^\s"]+(?=\s))"?(.*)$', re.MULTILINE)
 STRING_JSON_RE = re.compile(r'"((?:[^"\\]|\\.)*)"')
 CODE_RE = re.compile(r"^          <CODE\n(?:            \|.*\n)*          >\n", re.MULTILINE)
 VERMELHO = '<a:solidFill><a:srgbClr val="FF0000"/></a:solidFill>'

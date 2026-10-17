@@ -28,6 +28,7 @@ from exportar_blocos_video import (  # noqa: E402
     filtro_do_mix,
     parse_regions,
     safe_filename,
+    sem_repertorio,
     stems_do_bloco,
     volumes_dos_grupos,
 )
@@ -87,7 +88,8 @@ def main() -> None:
     args = parser.parse_args()
 
     text = RPP.read_text(encoding="utf-8")
-    regions = parse_regions(text)
+    # Loops e clicks nao tem mp3: so os blocos de musica.
+    regions = [r for r in parse_regions(text) if not sem_repertorio(r.name)]
     if args.from_order is not None:
         regions = [r for r in regions if r.index >= args.from_order]
     if args.to_order is not None:

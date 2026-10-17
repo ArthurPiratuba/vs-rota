@@ -8,7 +8,7 @@ So o ultimo: os numeros sao sequenciais e nenhum outro bloco muda. Sai:
   refeitos por scripts/grupos_tracks.py;
 - o cartaz do bloco anterior volta a ir ate o fim da region dele;
 - o slide N do .pptx do repertorio, com o PDF exportado de novo (--sem-exports
-  deixa o PDF para depois);
+  deixa o PDF para depois); loop e click nao tem slide;
 - a pasta ABERTO\\N - <nome> e EXPORT_REGIONS/EXPORT_VIDEOS do bloco.
 
 Para levar o bloco a outro projeto, copie a pasta dele antes.
@@ -55,7 +55,13 @@ from adicionar_musicas_bloco import (  # noqa: E402
 )
 from backup_rpp import backup_rpp  # noqa: E402
 from montar_repertorio_completo import atualizar_completo  # noqa: E402
-from inserir_texto_monitor import PPTX, linhas_do_slide, slide_do_bloco  # noqa: E402
+from inserir_texto_monitor import (  # noqa: E402
+    PPTX,
+    linhas_do_cartaz,
+    linhas_do_slide,
+    sem_repertorio,
+    slide_do_bloco,
+)
 from unificar_reaper import extract_track_blocks, get_track_name, replace_all_track_blocks  # noqa: E402
 
 
@@ -139,13 +145,15 @@ def main() -> None:
     if not pasta.is_dir():
         raise SystemExit(f"Pasta nao encontrada: {pasta}")
 
-    linhas = linhas_do_slide(PPTX, slide_do_bloco(ordem))
+    # Loop e click nao tem slide nem exports: so sai do .rpp e do ABERTO.
+    loop = sem_repertorio(nome)
+    linhas = linhas_do_cartaz(texto, ordem) if loop else linhas_do_slide(PPTX, slide_do_bloco(ordem))
     if linhas[0] != (f"VS BLOCO {ordem}", None):
         raise SystemExit(f"Slide {slide_do_bloco(ordem)} nao e o VS BLOCO {ordem}: {linhas}")
-    linhas_anterior = linhas_do_slide(PPTX, slide_do_bloco(ordem - 1))
-    novo_texto, saem = sem_o_bloco(texto, ordem, linhas_anterior)
+    novo_texto, saem = sem_o_bloco(texto, ordem, linhas_do_cartaz(texto, ordem - 1))
     pptx_tmp = PPTX.with_name(PPTX.stem + ".novo.pptx")
-    pptx_sem_o_slide(slide_do_bloco(ordem), pptx_tmp)
+    if not loop:
+        pptx_sem_o_slide(slide_do_bloco(ordem), pptx_tmp)
 
     arquivo = f"{ordem:02d} - {safe_filename(nome)}"
     exports = [
@@ -157,26 +165,30 @@ def main() -> None:
     print(f"  region {regs[ordem]['inicio']} .. {regs[ordem]['fim']} e playlist S&M")
     print(f"  {saem} tracks ({ordem:02d} - ...); faders de grupo refeitos")
     print(f"  cartaz do bloco {ordem - 1} volta a ir ate {regs[ordem - 1]['fim']}")
-    print(f"  slide {slide_do_bloco(ordem)}: {linhas}; {'pdf fica para depois' if args.sem_exports else 'pdf refeito'}")
+    if loop:
+        print(f"  loop/click, sem slide: {linhas}")
+    else:
+        print(f"  slide {slide_do_bloco(ordem)}: {linhas}; {'pdf fica para depois' if args.sem_exports else 'pdf refeito'}")
     print(f"  apaga ABERTO/{pasta.name} ({len(list(pasta.glob('*.mp3')))} mp3)")
     for e in exports:
         if e.exists():
             print(f"  apaga {e.relative_to(e.parents[1])}")
 
     if not args.aplicar:
-        pptx_tmp.unlink()
+        pptx_tmp.unlink(missing_ok=True)
         print("Plano apenas. Rode com --aplicar para gravar.")
         return
     if reaper_aberto():
-        pptx_tmp.unlink()
+        pptx_tmp.unlink(missing_ok=True)
         raise SystemExit("Feche o Reaper antes: ele regravaria o .rpp antigo.")
 
     print(f"Backup .rpp: {backup_rpp(RPP)}")
-    stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
-    shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
-    if PDF.exists():
-        shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
-    print(f"Backup .pptx e .pdf: {stamp}")
+    if not loop:
+        stamp = datetime.now().strftime("%Y-%m-%d_%H%M%S")
+        shutil.copy2(PPTX, backup_do_repertorio(PPTX, stamp))
+        if PDF.exists():
+            shutil.copy2(PDF, backup_do_repertorio(PDF, stamp))
+        print(f"Backup .pptx e .pdf: {stamp}")
 
     RPP.write_text(novo_texto, encoding="utf-8", newline="")
     marcadores = json.loads(REGION_MARKERS.read_text(encoding="utf-8"))
@@ -191,8 +203,9 @@ def main() -> None:
     ):
         raise SystemExit("O bloco nao saiu inteiro do .rpp.")
 
-    pptx_tmp.replace(PPTX)
-    if not args.sem_exports:
+    if not loop:
+        pptx_tmp.replace(PPTX)
+    if not loop and not args.sem_exports:
         exportar_pdf(PPTX, PDF)
         print(f"PDF: {PDF}")
         atualizar_completo()

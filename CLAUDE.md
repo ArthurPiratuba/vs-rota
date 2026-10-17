@@ -33,7 +33,7 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 
 ## Repertório (PowerPoint)
 
-- O `pptx` do `projeto.json` tem os blocos VS, um slide por bloco, na ordem,
+- O `pptx` do `projeto.json` tem os blocos VS de música, um slide por bloco, na ordem (loops e clicks não entram),
   a partir do slide `slide_do_bloco_1` (padrão 1). É o único que os scripts editam;
   o PDF fica ao lado.
 - No ROTA o slide 1 é a capa (`EXPORT_VIDEOS/THUMB PLAYLIST.jpg`, a foto da
@@ -53,20 +53,20 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
 
 | Onde | Convenção |
 |---|---|
-| Número | Sequencial. Bloco novo sempre **no fim**, nunca no meio. |
+| Número | Sequencial. **Loops e clicks** (nome começando com `LOOP` ou `CLICK`) ficam **sempre no fim**: bloco de música novo entra logo depois do último bloco de música e empurra os loops e clicks (número +1, mais tarde na timeline). O número dos loops não importa; o dos **blocos de música importa muito: nunca mude a ordem deles**, a não ser que o usuário peça explicitamente. Entre eles, **ficam sempre em ordem**: agrupados por tipo (vaneira, marcha, click; tipo novo no fim) e, dentro do tipo, pelo BPM do click, crescente. Loop ou click novo entra no lugar dele nessa ordem e empurra os seguintes (o `adicionar_bloco.py` faz isso). Loops e clicks **não têm slide no repertório (pptx/pdf) nem mp3/mp4 exportados**; só o cartaz no `.rpp`. |
 | Region | `MARKER N` com o nome do bloco, 2 s depois do fim do anterior (o bloco 1 em 0), cor `region_color`. Entra também na playlist S&M e em `data/region_markers.json`. |
 | Nome do bloco | Músicas em maiúsculas com acento, separadas por ` - ` (`ALÔ GALERA - ESSA CAMA EU NÃO VENDO`). Loop leva o BPM: `LOOP DE VANEIRA 82 BPM`. |
 | Pasta | `ABERTO\N - <nome>`, com os mp3 do bloco. |
 | Áudios | Nome em maiúsculas, sem a palavra BLOCO (`GAITA` vira `SANFONA`, `GUITA` vira `GUITARRA`, `BATERA` vira `BATERIA`). O click leva o BPM quando se sabe: `CLICK 82.mp3`. Contagem e regência separadas viram um só `REGÊNCIA E CONTAGEM.mp3`. |
 | Tracks | Pasta `NN - <nome>` (recolhida), depois `NN - MONITOR`, depois click, regência e o resto em ordem alfabética. Nomes: `NN - CLICK 82 - <nome>`, `NN - REGÊNCIA - <nome>`, `NN - <STEM> - <nome>`. |
 | Pan | **Click e regência sempre no L**; todo o resto no R. Click a -5 dB, o resto a 0 dB. |
-| Cores | Click e regência vermelhos; monitor amarelo; o resto com a cor da region. |
+| Cores | Click e regência vermelhos; monitor amarelo; o resto com a cor da region. Region de música: cor variada da paleta do `adicionar_bloco.py` (sem vermelho, duas seguidas nunca iguais). Loops e clicks: uma cor por tipo, igual em todos (vaneira, marcha, click). `scripts/cores_blocos.py --de N` recolore. |
 | Grupos | Faders no início do projeto: CLICK, REGÊNCIA, METAIS, TECLAS, CORDAS, PERCUSSÃO, VOZ, GUIAS, FECHADO. Cada trilha vai a **um grupo no máximo, nunca dois**, pelo nome do stem (`scripts/grupos_tracks.py`), e não vai direto ao master. GUIAS pega as guias de apoio, referência para os músicos que não faz parte do VS (nome começando com GUIA, inclusive `GUIA VOZ`). VOZ pega `VOZ`, `SEGUNDA VOZ` (VOZ/VOCAL/CORO no nome) e os `BACKING`; `TROMPETE 1 VOZ` e afins são a linha do instrumento e ficam no naipe. TECLAS pega também `FANTASIA` e `BASE FANTASIA`. FECHADO pega os VS, mix fechado (`VS`, `VS BLOCO`, `VS <parte do nome>`). Trilha mutada fora de GUIAS aparece como "revisar" no relatório: pode ser guia. Ajustes manuais em `data/correcoes_grupos.json`. |
 | Mute | Guia com o nome da música fica mutada quando o usuário pede; trilha mutada não entra nos exports. |
-| Monitor | Item de vídeo `MONITOR\base.png` com o cartaz no Video processor, gerado do slide. Começa no fim da region anterior (o bloco 1 em 0) e termina 1 ms antes do fim da sua (o último vai até o fim). |
+| Monitor | Item de vídeo `MONITOR\base.png` com o cartaz no Video processor, gerado do slide (em loop e click, que não têm slide, do texto que o cartaz já tem). Começa no fim da region anterior (o bloco 1 em 0) e termina 1 ms antes do fim da sua (o último vai até o fim). |
 | Slide | `VS BLOCO N` (vermelho) e uma linha por música: nome em branco e tom em vermelho (`??` quando não se sabe; não invente tom). Em loop o BPM vai no lugar do tom. |
 | PDF | Ao lado do `.pptx`, exportado pelo PowerPoint (COM via `pwsh`). |
-| Exports | `EXPORT_REGIONS/NN - <nome>.mp3` em **mono**, 320 kbps; `EXPORT_VIDEOS/NN - <nome>.mp4` com o cartaz. |
+| Exports | `EXPORT_REGIONS/NN - <nome>.mp3` em **mono**, 320 kbps; `EXPORT_VIDEOS/NN - <nome>.mp4` com o cartaz. Só dos blocos de música (os scripts de export pulam loops e clicks). |
 
 Grafia no slide: Título com `e/o/a/de/da/do/na/no/em...` minúsculos. Música que
 já existe nos blocos 1-23 do projeto usa o mesmo nome e o mesmo texto de slide de lá.
@@ -83,9 +83,11 @@ python -X utf8 scripts/adicionar_bloco.py --projeto "VS - ROTA" "NOME|Texto do S
 ```
 
 Ele cria a pasta, a region, as tracks, o monitor com cartaz, refaz o
-roteamento dos grupos, acrescenta o slide no fim do `.pptx`, exporta o PDF, o
+roteamento dos grupos, põe o slide do bloco no `.pptx`, exporta o PDF, o
 mp3 mono e o mp4 do bloco, e apaga os mp3 de entrada (`--manter-origem` para
-não apagar). Precisa de exatamente 1 click; regência é opcional. Para mutar uma
+não apagar). Bloco de música entra antes dos loops e clicks do fim: eles descem um
+número (pasta, tracks, region, cartaz). Loop ou click novo entra entre os do seu tipo, na ordem do BPM (os seguintes descem um número), sem slide,
+PDF, mp3 nem mp4. Precisa de exatamente 1 click; regência é opcional. Para mutar uma
 trilha, aplique com `--sem-video`, troque `MUTESOLO 0 0 0` por `MUTESOLO 1 0 0`
 na track e refaça os dois exports do bloco. `--sem-exports` grava o bloco e o
 slide mas deixa o PDF, o mp3 e o mp4 para depois (para juntar vários ajustes e
@@ -99,7 +101,7 @@ python -X utf8 scripts/remover_bloco.py --projeto "VS - ROTA" N [--aplicar]
 
 Tira region, playlist, tracks, slide, pasta e exports do bloco N (só o último)
 e devolve ao anterior o cartaz até o fim (`--sem-exports`: o PDF fica para depois).
-Para pôr um bloco no meio, copie as pastas `ABERTO` dos que vêm depois, tire-os do
+Para pôr um bloco no meio dos blocos de música (só se o usuário pedir), copie as pastas `ABERTO` dos que vêm depois, tire-os do
 fim para o começo e acrescente de novo na ordem nova (`--origem` com as cópias). Para levar o bloco a outro projeto,
 copie `ABERTO\N - <nome>` antes e use-a como `--origem` no `adicionar_bloco.py`
 de lá (com `--manter-origem`).
@@ -128,7 +130,7 @@ python -X utf8 scripts/exportar_blocos_video.py --projeto "VS - ROTA" [--from-or
 
 - `git diff` do `.rpp`: só o que o fluxo prometeu (no bloco novo, também o fim do
   cartaz do bloco que era o último).
-- Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco (mais a capa, no ROTA).
+- Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco de música (mais a capa, no ROTA).
   No ROTA, o COMPLETO com os slides do AO VIVO mais os blocos VS.
 - mp3 em mono (`ffmpeg -i` mostra `mono`; o ffmpeg é o do `imageio_ffmpeg`) e mp4 em `EXPORT_VIDEOS`.
 - `EXPORT_REGIONS` e `EXPORT_VIDEOS` ficam fora do git.

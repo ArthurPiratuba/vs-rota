@@ -39,7 +39,8 @@ FUNDO = (0, 0, 0)
 TAMANHO_PADRAO = 0.130
 A = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
 P = "{http://schemas.openxmlformats.org/presentationml/2006/main}"
-MARKER_RE = re.compile(r'^  MARKER (\d+) ([0-9.]+) "(.*)"')
+# O Reaper grava sem aspas o nome de uma palavra so (MARATÁ): aceita os dois.
+MARKER_RE = re.compile(r'^  MARKER (\d+) ([0-9.]+) "?((?<=")[^"]*(?=")|(?<!")[^\s"]+(?=\s))"?')
 TRACKHEIGHT_RE = re.compile(r"^    TRACKHEIGHT .+$", re.MULTILINE)
 FXCHAIN_RE = re.compile(r"\n    <FXCHAIN\n(?:.*\n)*?    >", re.MULTILINE)
 ITEM_RE = re.compile(r"\n    <ITEM\n(?:.*\n)*?    >", re.MULTILINE)
@@ -47,6 +48,34 @@ ITEM_RE = re.compile(r"\n    <ITEM\n(?:.*\n)*?    >", re.MULTILINE)
 
 def slide_do_bloco(order: int) -> int:
     return SLIDE_DO_BLOCO_1 + order - 1
+
+
+def sem_repertorio(nome: str) -> bool:
+    """Loops e clicks: sem slide no repertorio e sem mp3/mp4; o cartaz fica so no .rpp."""
+    return re.match(r"(LOOP|CLICK)\b", nome) is not None
+
+
+def linhas_do_cartaz(texto_rpp: str, order: int) -> list[tuple[str, str | None]]:
+    """As linhas do cartaz ja gravado no .rpp, no formato de linhas_do_slide."""
+    ini = texto_rpp.find(f'\n    NAME "{order:02d} - MONITOR"\n')
+    if ini < 0:
+        raise SystemExit(f"Track {order:02d} - MONITOR nao encontrada.")
+    fim = texto_rpp.find("\n  <TRACK", ini)
+    trecho = texto_rpp[ini : len(texto_rpp) if fim < 0 else fim]
+    codigo = "\n".join(l.strip()[1:] for l in trecho.splitlines() if l.strip().startswith("|"))
+    medidas = codigo[codigo.find("#T=") : codigo.find("\nn=")]
+    texto = r'"((?:[^"\\]|\\.)*)"'
+
+    def solto(s: str) -> str:
+        return re.sub(r"\\(.)", r"\1", s)
+
+    titulo = re.match(rf"#T={texto};", medidas)
+    if not titulo:
+        raise SystemExit(f"Cartaz do bloco {order} sem titulo.")
+    linhas: list[tuple[str, str | None]] = [(solto(titulo.group(1)), None)]
+    for m in re.finditer(rf"#L={texto};\ngfx_str_measure\(#L,lw,lh\);(?:\n#R={texto};)?", medidas):
+        linhas.append((solto(m.group(1)), solto(m.group(2)) if m.group(2) is not None else ""))
+    return linhas
 
 
 def eel_string(texto: str) -> str:
@@ -321,18 +350,21 @@ def formato_numero(valor: float) -> str:
 def main() -> None:
     png_solido(BASE_PNG, FUNDO)
     texto_rpp = RPP.read_text(encoding="utf-8")
-    ordens = sorted(
-        {
-            int(match.group(1))
-            for line in texto_rpp.splitlines()
-            if (match := MARKER_RE.match(line)) and match.group(3)
-        }
-    )
+    nomes = {
+        int(match.group(1)): match.group(3)
+        for line in texto_rpp.splitlines()
+        if (match := MARKER_RE.match(line)) and match.group(3)
+    }
+    ordens = sorted(nomes)
     iid = proximo_iid(texto_rpp)
     itens: dict[str, str] = {}
     resumo: list[str] = []
     for order in ordens:
-        linhas = linhas_do_slide(PPTX, slide_do_bloco(order))
+        # Loop e click nao tem slide: o cartaz fica com o texto que ja tem.
+        if sem_repertorio(nomes[order]):
+            linhas = linhas_do_cartaz(texto_rpp, order)
+        else:
+            linhas = linhas_do_slide(PPTX, slide_do_bloco(order))
         titulo = next(texto for texto, tom in linhas if tom is None)
         if not re.fullmatch(rf"VS BLOCO {order}", titulo, re.IGNORECASE):
             raise SystemExit(f"Slide do bloco {order} inesperado: {titulo!r}")

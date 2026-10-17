@@ -29,6 +29,7 @@ from inserir_texto_monitor import (  # noqa: E402
     PPTX,
     TAMANHO_PADRAO,
     linhas_do_slide,
+    sem_repertorio,
     slide_do_bloco,
 )
 
@@ -74,7 +75,8 @@ class Stem:
 
 
 def parse_regions(text: str) -> list[Region]:
-    pattern = re.compile(r'^\s*MARKER (\d+) ([\d.]+) "([^"]*)" \d+ \d+ 1 R', re.MULTILINE)
+    # Nome com ou sem aspas: o Reaper tira as aspas de nome de uma palavra so.
+    pattern = re.compile(r'^\s*MARKER (\d+) ([\d.]+) "?((?<=")[^"]*(?=")|(?<!")[^\s"]+(?=\s))"? \d+ \d+ 1 R', re.MULTILINE)
     starts = {int(m.group(1)): (float(m.group(2)), m.group(3)) for m in pattern.finditer(text)}
     regions: list[Region] = []
     for idx in sorted(starts):
@@ -376,7 +378,11 @@ def main() -> None:
     args = parser.parse_args()
 
     text = RPP.read_text(encoding="utf-8")
-    regions = [r for r in parse_regions(text) if args.from_order <= r.index <= args.to_order]
+    # Loops e clicks nao tem video: so os blocos de musica.
+    regions = [
+        r for r in parse_regions(text)
+        if args.from_order <= r.index <= args.to_order and not sem_repertorio(r.name)
+    ]
     if not regions:
         raise SystemExit("Nenhum bloco no intervalo.")
     blocks = extract_track_blocks(text)
