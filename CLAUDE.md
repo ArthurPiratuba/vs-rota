@@ -42,8 +42,10 @@ Rode tudo com `python -X utf8` e diga o projeto com `--projeto "VS - LAB"`
   - `Repertório Rota do Chopp - VS`: os blocos VS, o `pptx` do `projeto.json`.
   - `Repertório Rota do Chopp - AO VIVO`: os blocos sem VS. **É do usuário: os
     scripts só o leem para montar o COMPLETO; nunca edite, exporte nem faça backup dele.**
-  - `Repertório Rota do Chopp - COMPLETO`: todos os slides do AO VIVO e depois os
-    blocos VS, sem a capa dos VS. Gerado por `scripts/montar_repertorio_completo.py`
+  - `Repertório Rota do Chopp - COMPLETO`: todos os slides do AO VIVO e depois todos
+    os do VS, com a capa dos VS onde começam os blocos VS. O slide 1 é a capa
+    `REPERTÓRIO/Capa AO VIVO.jpg` (no padrão da capa dos VS, `"capa"` no `completo`
+    do `projeto.json`), no lugar da capa do AO VIVO. Gerado por `scripts/montar_repertorio_completo.py`
     (`"completo"` no `projeto.json`); os scripts de bloco o refazem sempre que refazem
     o PDF dos VS. Não edite à mão: a próxima vez que for montado, perde-se.
 - O LAB não tem COMPLETO; o repertório dele fica dentro da pasta do projeto.
@@ -131,6 +133,6 @@ python -X utf8 scripts/exportar_blocos_video.py --projeto "VS - ROTA" [--from-or
 - `git diff` do `.rpp`: só o que o fluxo prometeu (no bloco novo, também o fim do
   cartaz do bloco que era o último).
 - Slide lido de volta com `linhas_do_slide`; PDF com uma página por bloco de música (mais a capa, no ROTA).
-  No ROTA, o COMPLETO com os slides do AO VIVO mais os blocos VS.
+  No ROTA, o COMPLETO com os slides do AO VIVO mais os do VS (capa dos VS inclusive).
 - mp3 em mono (`ffmpeg -i` mostra `mono`; o ffmpeg é o do `imageio_ffmpeg`) e mp4 em `EXPORT_VIDEOS`.
 - `EXPORT_REGIONS` e `EXPORT_VIDEOS` ficam fora do git.

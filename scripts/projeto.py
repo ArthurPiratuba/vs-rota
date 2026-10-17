@@ -15,9 +15,12 @@ do VS BLOCO 1; os outros seguem em ordem. Com capa no slide 1, use 2.
 "completo" (opcional) junta outro repertorio e os blocos VS num so, refeito
 sempre que o PDF dos VS e refeito (scripts/montar_repertorio_completo.py):
 
-    "completo": {"antes": "<pptx que vem antes>", "pptx": "<pptx completo>"}
+    "completo": {"antes": "<pptx que vem antes>", "pptx": "<pptx completo>",
+                 "capa": "<imagem da capa do completo (opcional)>"}
 
-Os slides de "antes" entram inteiros; dos VS entram os blocos, sem a capa.
+Os slides de "antes" entram inteiros e depois os VS inteiros, com a capa deles
+onde comecam os blocos VS. Com "capa", a imagem ocupa o slide 1 no lugar da
+capa de "antes".
 
 O projeto vem, nesta ordem, de:
 - --projeto <nome ou pasta> na linha de comando (tirado do sys.argv aqui);
@@ -83,3 +86,4 @@ SLIDE_DO_BLOCO_1 = int(_config.get("slide_do_bloco_1", 1))
 _completo = _config.get("completo")
 COMPLETO = (WORKSPACE / _completo["pptx"]).resolve() if _completo else None
 ANTES_DO_COMPLETO = (WORKSPACE / _completo["antes"]).resolve() if _completo else None
+CAPA_DO_COMPLETO = (WORKSPACE / _completo["capa"]).resolve() if _completo and _completo.get("capa") else None
