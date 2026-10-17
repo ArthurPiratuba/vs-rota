@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-14T13:15:51",
+  "atualizado": "2026-10-17T17:32:34",
   "grupos": [
     {
       "id": "click",
@@ -57,18 +57,18 @@
     }
   ],
   "contagens": {
-    "click": 45,
-    "regencia": 34,
+    "click": 46,
+    "regencia": 35,
     "metais": 71,
-    "teclas": 71,
-    "cordas": 47,
-    "percussao": 35,
+    "teclas": 72,
+    "cordas": 51,
+    "percussao": 37,
     "voz": 11,
-    "guias": 6,
+    "guias": 8,
     "fechado": 14,
     "fora": 0,
     "revisar": 2,
-    "monitor": 45
+    "monitor": 46
   },
   "blocos": [
     {
@@ -3383,11 +3383,11 @@
       ]
     },
     {
-      "bloco": "35 - LOOP DE VANEIRA 82 BPM",
+      "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
       "faixas": [
         {
           "trilha": "35 - MONITOR",
-          "bloco": "35 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3395,8 +3395,121 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "35 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
-          "bloco": "35 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "35 - CLICK - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "CLICK",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "35 - REGÊNCIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "REGÊNCIA",
+          "grupo": "regencia",
+          "grupo_nome": "Regência",
+          "revisar": false,
+          "motivo": "Regência de todas as músicas."
+        },
+        {
+          "trilha": "35 - BASS - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "BASS",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Baixo entrou em Cordas."
+        },
+        {
+          "trilha": "35 - BATERIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "BATERIA",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "GUIA NA HORA DE AMAR",
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
+        },
+        {
+          "trilha": "35 - GUIA VOZ - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "GUIA VOZ",
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
+        },
+        {
+          "trilha": "35 - GUITARRA BASE - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "GUITARRA BASE",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - GUITARRA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "GUITARRA SOLO",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - GUITARRA SOLO 2 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "GUITARRA SOLO 2",
+          "grupo": "cordas",
+          "grupo_nome": "Cordas",
+          "revisar": false,
+          "motivo": "Corda, pelo nome."
+        },
+        {
+          "trilha": "35 - PERCUSSÃO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "PERCUSSÃO",
+          "grupo": "percussao",
+          "grupo_nome": "Percussão",
+          "revisar": false,
+          "motivo": "Percussão, pelo nome."
+        },
+        {
+          "trilha": "35 - SANFONA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "bloco": "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA",
+          "stem": "SANFONA SOLO",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+      "faixas": [
+        {
+          "trilha": "36 - MONITOR",
+          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "36 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
           "stem": "CLICK 82",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3404,8 +3517,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "35 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
-          "bloco": "35 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "36 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
+          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3415,11 +3528,11 @@
       ]
     },
     {
-      "bloco": "36 - LOOP DE VANEIRA 86 BPM",
+      "bloco": "37 - LOOP DE VANEIRA 86 BPM",
       "faixas": [
         {
-          "trilha": "36 - MONITOR",
-          "bloco": "36 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "37 - MONITOR",
+          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3427,8 +3540,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "36 - CLICK 86 - LOOP DE VANEIRA 86 BPM",
-          "bloco": "36 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "37 - CLICK 86 - LOOP DE VANEIRA 86 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
           "stem": "CLICK 86",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3436,8 +3549,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "36 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM",
-          "bloco": "36 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "37 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3447,11 +3560,11 @@
       ]
     },
     {
-      "bloco": "37 - LOOP DE VANEIRA 90 BPM",
+      "bloco": "38 - LOOP DE VANEIRA 90 BPM",
       "faixas": [
         {
-          "trilha": "37 - MONITOR",
-          "bloco": "37 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "38 - MONITOR",
+          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3459,8 +3572,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "37 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
-          "bloco": "37 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "38 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
+          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
           "stem": "CLICK 90",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3468,8 +3581,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "37 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
-          "bloco": "37 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "38 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
+          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3479,11 +3592,11 @@
       ]
     },
     {
-      "bloco": "38 - LOOP DE VANEIRA 94 BPM",
+      "bloco": "39 - LOOP DE VANEIRA 94 BPM",
       "faixas": [
         {
-          "trilha": "38 - MONITOR",
-          "bloco": "38 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "39 - MONITOR",
+          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3491,8 +3604,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "38 - CLICK 94 - LOOP DE VANEIRA 94 BPM",
-          "bloco": "38 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "39 - CLICK 94 - LOOP DE VANEIRA 94 BPM",
+          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
           "stem": "CLICK 94",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3500,8 +3613,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "38 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM",
-          "bloco": "38 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "39 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM",
+          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3511,11 +3624,11 @@
       ]
     },
     {
-      "bloco": "39 - LOOP DE VANEIRA 97 BPM",
+      "bloco": "40 - LOOP DE VANEIRA 97 BPM",
       "faixas": [
         {
-          "trilha": "39 - MONITOR",
-          "bloco": "39 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "40 - MONITOR",
+          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3523,8 +3636,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "39 - CLICK 97 - LOOP DE VANEIRA 97 BPM",
-          "bloco": "39 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "40 - CLICK 97 - LOOP DE VANEIRA 97 BPM",
+          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
           "stem": "CLICK 97",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3532,8 +3645,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "39 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM",
-          "bloco": "39 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "40 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM",
+          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3543,11 +3656,11 @@
       ]
     },
     {
-      "bloco": "40 - LOOP DE MARCHA 135 BPM",
+      "bloco": "41 - LOOP DE MARCHA 135 BPM",
       "faixas": [
         {
-          "trilha": "40 - MONITOR",
-          "bloco": "40 - LOOP DE MARCHA 135 BPM",
+          "trilha": "41 - MONITOR",
+          "bloco": "41 - LOOP DE MARCHA 135 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3555,8 +3668,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "40 - CLICK 135 - LOOP DE MARCHA 135 BPM",
-          "bloco": "40 - LOOP DE MARCHA 135 BPM",
+          "trilha": "41 - CLICK 135 - LOOP DE MARCHA 135 BPM",
+          "bloco": "41 - LOOP DE MARCHA 135 BPM",
           "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3564,8 +3677,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "40 - PERCUSSÃO - LOOP DE MARCHA 135 BPM",
-          "bloco": "40 - LOOP DE MARCHA 135 BPM",
+          "trilha": "41 - PERCUSSÃO - LOOP DE MARCHA 135 BPM",
+          "bloco": "41 - LOOP DE MARCHA 135 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3575,11 +3688,11 @@
       ]
     },
     {
-      "bloco": "41 - LOOP DE MARCHA 138 BPM",
+      "bloco": "42 - LOOP DE MARCHA 138 BPM",
       "faixas": [
         {
-          "trilha": "41 - MONITOR",
-          "bloco": "41 - LOOP DE MARCHA 138 BPM",
+          "trilha": "42 - MONITOR",
+          "bloco": "42 - LOOP DE MARCHA 138 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3587,8 +3700,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "41 - CLICK 138 - LOOP DE MARCHA 138 BPM",
-          "bloco": "41 - LOOP DE MARCHA 138 BPM",
+          "trilha": "42 - CLICK 138 - LOOP DE MARCHA 138 BPM",
+          "bloco": "42 - LOOP DE MARCHA 138 BPM",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3596,8 +3709,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "41 - PERCUSSÃO - LOOP DE MARCHA 138 BPM",
-          "bloco": "41 - LOOP DE MARCHA 138 BPM",
+          "trilha": "42 - PERCUSSÃO - LOOP DE MARCHA 138 BPM",
+          "bloco": "42 - LOOP DE MARCHA 138 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3607,11 +3720,11 @@
       ]
     },
     {
-      "bloco": "42 - LOOP DE MARCHA 140 BPM",
+      "bloco": "43 - LOOP DE MARCHA 140 BPM",
       "faixas": [
         {
-          "trilha": "42 - MONITOR",
-          "bloco": "42 - LOOP DE MARCHA 140 BPM",
+          "trilha": "43 - MONITOR",
+          "bloco": "43 - LOOP DE MARCHA 140 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3619,8 +3732,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "42 - CLICK 140 - LOOP DE MARCHA 140 BPM",
-          "bloco": "42 - LOOP DE MARCHA 140 BPM",
+          "trilha": "43 - CLICK 140 - LOOP DE MARCHA 140 BPM",
+          "bloco": "43 - LOOP DE MARCHA 140 BPM",
           "stem": "CLICK 140",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3628,8 +3741,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "42 - PERCUSSÃO - LOOP DE MARCHA 140 BPM",
-          "bloco": "42 - LOOP DE MARCHA 140 BPM",
+          "trilha": "43 - PERCUSSÃO - LOOP DE MARCHA 140 BPM",
+          "bloco": "43 - LOOP DE MARCHA 140 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3639,11 +3752,11 @@
       ]
     },
     {
-      "bloco": "43 - CLICK DE MARCHA 135 BPM",
+      "bloco": "44 - CLICK DE MARCHA 135 BPM",
       "faixas": [
         {
-          "trilha": "43 - MONITOR",
-          "bloco": "43 - CLICK DE MARCHA 135 BPM",
+          "trilha": "44 - MONITOR",
+          "bloco": "44 - CLICK DE MARCHA 135 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3651,8 +3764,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "43 - CLICK 135 - CLICK DE MARCHA 135 BPM",
-          "bloco": "43 - CLICK DE MARCHA 135 BPM",
+          "trilha": "44 - CLICK 135 - CLICK DE MARCHA 135 BPM",
+          "bloco": "44 - CLICK DE MARCHA 135 BPM",
           "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3662,11 +3775,11 @@
       ]
     },
     {
-      "bloco": "44 - CLICK DE MARCHA 138 BPM",
+      "bloco": "45 - CLICK DE MARCHA 138 BPM",
       "faixas": [
         {
-          "trilha": "44 - MONITOR",
-          "bloco": "44 - CLICK DE MARCHA 138 BPM",
+          "trilha": "45 - MONITOR",
+          "bloco": "45 - CLICK DE MARCHA 138 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3674,8 +3787,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "44 - CLICK 138 - CLICK DE MARCHA 138 BPM",
-          "bloco": "44 - CLICK DE MARCHA 138 BPM",
+          "trilha": "45 - CLICK 138 - CLICK DE MARCHA 138 BPM",
+          "bloco": "45 - CLICK DE MARCHA 138 BPM",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3685,11 +3798,11 @@
       ]
     },
     {
-      "bloco": "45 - CLICK DE MARCHA 140 BPM",
+      "bloco": "46 - CLICK DE MARCHA 140 BPM",
       "faixas": [
         {
-          "trilha": "45 - MONITOR",
-          "bloco": "45 - CLICK DE MARCHA 140 BPM",
+          "trilha": "46 - MONITOR",
+          "bloco": "46 - CLICK DE MARCHA 140 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3697,8 +3810,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "45 - CLICK 140 - CLICK DE MARCHA 140 BPM",
-          "bloco": "45 - CLICK DE MARCHA 140 BPM",
+          "trilha": "46 - CLICK 140 - CLICK DE MARCHA 140 BPM",
+          "bloco": "46 - CLICK DE MARCHA 140 BPM",
           "stem": "CLICK 140",
           "grupo": "click",
           "grupo_nome": "Click",

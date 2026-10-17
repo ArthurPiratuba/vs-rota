@@ -169,28 +169,30 @@
   MARKER 33 15301.62601714853 "" 1
   MARKER 34 15303.62601714853 "MARATÁ - LEVANTA A POEIRA - POLKA DO FRITZ" 9 27819850 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 34 15881.794180413835 "" 9
-  MARKER 35 15883.794180413835 "LOOP DE VANEIRA 82 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 35 16942.092955924039 "" 1
-  MARKER 36 16944.092955924039 "LOOP DE VANEIRA 86 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 36 17953.177037556692 "" 1
-  MARKER 37 17955.177037556692 "LOOP DE VANEIRA 90 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 37 18919.408874291385 "" 1
-  MARKER 38 18921.408874291385 "LOOP DE VANEIRA 94 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 38 19844.628466128121 "" 1
-  MARKER 39 19846.628466128121 "LOOP DE VANEIRA 97 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 39 20741.296221230161 "" 1
-  MARKER 40 20743.296221230161 "LOOP DE MARCHA 135 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 40 21641.150915107712 "" 1
-  MARKER 41 21643.150915107712 "LOOP DE MARCHA 138 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 41 22545.812139597507 "" 1
-  MARKER 42 22547.812139597507 "LOOP DE MARCHA 140 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 42 23449.585200821995 "" 1
-  MARKER 43 23451.585200821995 "CLICK DE MARCHA 135 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 43 24347.637445719956 "" 1
-  MARKER 44 24349.637445719956 "CLICK DE MARCHA 138 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 44 25250.574588577099 "" 1
-  MARKER 45 25252.574588577099 "CLICK DE MARCHA 140 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 45 26152.649690617916 "" 1
+  MARKER 35 15883.794180413835 "NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA" 1 24355796 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 35 16616.346017148528 "" 1
+  MARKER 36 16618.346017148528 "LOOP DE VANEIRA 82 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 36 17676.644792658732 "" 1
+  MARKER 37 17678.644792658732 "LOOP DE VANEIRA 86 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 37 18687.728874291384 "" 1
+  MARKER 38 18689.728874291384 "LOOP DE VANEIRA 90 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 38 19653.960711026077 "" 1
+  MARKER 39 19655.960711026077 "LOOP DE VANEIRA 94 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 39 20579.180302862813 "" 1
+  MARKER 40 20581.180302862813 "LOOP DE VANEIRA 97 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 40 21475.848057964853 "" 1
+  MARKER 41 21477.848057964853 "LOOP DE MARCHA 135 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 41 22375.702751842404 "" 1
+  MARKER 42 22377.702751842404 "LOOP DE MARCHA 138 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 42 23280.363976332199 "" 1
+  MARKER 43 23282.363976332199 "LOOP DE MARCHA 140 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 43 24184.137037556688 "" 1
+  MARKER 44 24186.137037556688 "CLICK DE MARCHA 135 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 44 25082.189282454648 "" 1
+  MARKER 45 25084.189282454648 "CLICK DE MARCHA 138 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 45 25985.126425311792 "" 1
+  MARKER 46 25987.126425311792 "CLICK DE MARCHA 140 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 46 26887.201527352609 "" 1
   <PROJBAY
   >
   <TRACK {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
@@ -253,16 +255,17 @@
     AUXRECV 374 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 380 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 394 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 398 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 402 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 406 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 410 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 414 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 418 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 422 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 426 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 429 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 432 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 407 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 411 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 415 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 419 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 423 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 427 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 431 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 435 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 439 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 442 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 445 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 15 0 1 0 0 0 0 -1:U -1
@@ -326,6 +329,7 @@
     AUXRECV 362 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 375 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 381 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 395 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 14 0 1 0 0 0 0 -1:U -1
@@ -526,6 +530,7 @@
     AUXRECV 382 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 384 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 385 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 404 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 10 0 1 0 0 0 0 -1:U -1
@@ -602,6 +607,10 @@
     AUXRECV 351 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 356 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 357 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 396 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 400 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 401 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 402 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 10 0 1 0 0 0 0 -1:U -1
@@ -658,14 +667,16 @@
     AUXRECV 301 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 323 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 353 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 395 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 399 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 397 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 403 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 407 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 411 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 415 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 419 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 423 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 408 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 412 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 416 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 420 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 424 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 428 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 432 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 436 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 12 0 1 0 0 0 0 -1:U -1
@@ -741,6 +752,8 @@
     AUXRECV 322 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 350 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 383 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 398 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 399 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -22507,8 +22520,729 @@
       >
     >
   >
+  <TRACK {F44E197A-6371-4D85-992A-599431AD778D}
+    NAME "35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 2 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F44E197A-6371-4D85-992A-599431AD778D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {380FD2E7-C61E-4599-9CFA-F07C2AB151EA}
+    NAME "35 - MONITOR"
+    PEAKCOL 16842751
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {380FD2E7-C61E-4599-9CFA-F07C2AB151EA}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 15881.794180413835
+      SNAPOFFS 0
+      LENGTH 734.5518367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BFD17782-829B-4283-B019-E609E5B24591}
+      IID 552
+      NAME "VS BLOCO 35"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {90B76CB1-3A53-4F3A-914A-4CD038DBF4CA}
+      <SOURCE VIDEO
+        FILE "MONITOR\base.png"
+      >
+      <TAKEFX
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VIDEO_EFFECT "Video processor" ""
+          <CODE
+            |// Cartaz do bloco, texto editavel
+            |font="Arial";
+            |ini=15881.794180413835;
+            |fim=16616.3450171485;
+            |(project_time<ini || project_time>=fim) ? 0 : (
+            |project_wh_valid===0 ? input_info(-2,project_w,project_h);
+            |gfx_a2=0;
+            |gfx_blit(-2,1);
+            |gfx_set(0,0,0,1);
+            |gfx_fillrect(0,0,project_w,project_h);
+            |px=project_h*0.13;
+            |gfx_setfont(px,font);
+            |#S=" ";
+            |gfx_str_measure(#S,spw,sph);
+            |#T="VS BLOCO 35";
+            |gfx_str_measure(#T,tw,th);
+            |widest=tw;
+            |#L="Na Hora de Amar";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |#L="Página de Amigos";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |#L="Dormi na Praça";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |n=4;
+            |step=px*1.35;
+            |total=step*n;
+            |maxw=project_w*0.92;
+            |maxh=project_h*0.88;
+            |scale=1;
+            |widest>maxw ? scale=maxw/widest;
+            |total*scale>maxh ? scale=maxh/total;
+            |px*=scale;
+            |gfx_setfont(px,font);
+            |gfx_str_measure(#S,spw,sph);
+            |gfx_str_measure(#T,tw,th);
+            |step=px*1.35;
+            |y=(project_h-step*n)*0.5;
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |y+=step;
+            |#L="Na Hora de Amar";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |#L="Página de Amigos";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |#L="Dormi na Praça";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |);
+          >
+          CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        >
+        PRESETNAME "Cartaz VS"
+        FXID {14213CFC-CE21-404B-A69D-90D4850F0BEF}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {010682BC-0847-4B63-A988-7D478CE97376}
+    NAME "35 - CLICK - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.562341 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 1 0 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {010682BC-0847-4B63-A988-7D478CE97376}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DDA60256-6B00-4B27-9607-FFF30712D83D}
+      IID 553
+      NAME CLICK
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {608E4DB3-7D01-4095-9B48-45F68F921D53}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\CLICK.mp3" 1
+      >
+    >
+  >
+  <TRACK {BB53273E-C48F-4A37-9505-7A60B5E0FDE2}
+    NAME "35 - REGÊNCIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 2 0 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BB53273E-C48F-4A37-9505-7A60B5E0FDE2}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {231A2B54-BDFC-4096-AFF9-FF1E7FAD0F54}
+      IID 554
+      NAME "REGÊNCIA E CONTAGEM"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F4A1FE2-D8B4-4FDC-9577-6D66476B9A0E}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\REGÊNCIA E CONTAGEM.mp3" 1
+      >
+    >
+  >
+  <TRACK {D3C3D0B4-DFDA-4C49-A615-F66BC2744763}
+    NAME "35 - BASS - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D3C3D0B4-DFDA-4C49-A615-F66BC2744763}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B912BFDE-06FA-425C-B273-107862EC2DD0}
+      IID 555
+      NAME BASS
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80920085-F116-4AA6-81F4-28AA210BC147}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\BASS.mp3" 1
+      >
+    >
+  >
+  <TRACK {BC7F41A3-513F-41C3-9501-C96B1D2909D0}
+    NAME "35 - BATERIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 32 0 32
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BC7F41A3-513F-41C3-9501-C96B1D2909D0}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B160D4E1-8CA4-4F5C-8A9C-FC64CEA8B0B6}
+      IID 556
+      NAME BATERIA
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {17B08C76-CE60-402B-B42F-AF5417C09D66}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\BATERIA.mp3" 1
+      >
+    >
+  >
+  <TRACK {62D79DF0-06CF-4995-BEB7-DAB3D8F482E4}
+    NAME "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 128 0 128
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {62D79DF0-06CF-4995-BEB7-DAB3D8F482E4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E352370-B17A-4218-905E-C135AF663A8D}
+      IID 557
+      NAME "GUIA NA HORA DE AMAR"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D4930583-397F-4840-970E-CA3E4B8D5761}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\GUIA NA HORA DE AMAR.mp3" 1
+      >
+    >
+  >
+  <TRACK {1561FC63-F974-4BC7-9F89-DE102C132DB8}
+    NAME "35 - GUIA VOZ - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 128 0 128
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1561FC63-F974-4BC7-9F89-DE102C132DB8}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D006AED8-C8DE-4048-ABF7-55AA725A77E2}
+      IID 558
+      NAME "GUIA VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EB8A6086-C715-4DC4-A6C6-B66ABBB76E20}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\GUIA VOZ.mp3" 1
+      >
+    >
+  >
+  <TRACK {022BFCCE-2AF9-4893-B713-B5AC9818C5CF}
+    NAME "35 - GUITARRA BASE - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {022BFCCE-2AF9-4893-B713-B5AC9818C5CF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DF732BF5-A67B-41BE-9053-745AD1422533}
+      IID 559
+      NAME "GUITARRA BASE"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E67744E-62DD-4348-9084-E076DC674EAA}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\GUITARRA BASE.mp3" 1
+      >
+    >
+  >
+  <TRACK {B9020C53-8603-4F7E-8D63-6341C93EF21A}
+    NAME "35 - GUITARRA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B9020C53-8603-4F7E-8D63-6341C93EF21A}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EE06EE00-3E04-4BD4-A414-4059AB07227D}
+      IID 560
+      NAME "GUITARRA SOLO"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FF3C2569-7310-4360-9883-D60AF35CFC5D}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\GUITARRA SOLO.mp3" 1
+      >
+    >
+  >
+  <TRACK {CDD15117-7899-4C23-BAAD-33C0650A1A50}
+    NAME "35 - GUITARRA SOLO 2 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 16 0 16
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CDD15117-7899-4C23-BAAD-33C0650A1A50}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8B5E4A79-3397-4B1B-BF7D-1CBB9EFEE9D3}
+      IID 561
+      NAME "GUITARRA SOLO 2"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EFA202FE-A8C3-49FF-81EB-5A2D0B1B6022}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\GUITARRA SOLO 2.mp3" 1
+      >
+    >
+  >
+  <TRACK {D7AF08B2-BA1D-4E9C-9519-52647CF23D59}
+    NAME "35 - PERCUSSÃO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 32 0 32
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D7AF08B2-BA1D-4E9C-9519-52647CF23D59}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49F3B486-7CBC-44D9-A56C-20F7FCFC53AD}
+      IID 562
+      NAME PERCUSSÃO
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C679F5B-C2DC-442D-BAF1-5604C786346B}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\PERCUSSÃO.mp3" 1
+      >
+    >
+  >
+  <TRACK {BDA4F5D8-9C50-49A5-B70E-FAFFAE1809C3}
+    NAME "35 - SANFONA SOLO - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA"
+    PEAKCOL 24355796
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 8 0 8
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BDA4F5D8-9C50-49A5-B70E-FAFFAE1809C3}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 15883.794180413835
+      SNAPOFFS 0
+      LENGTH 732.551836734694
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {391607A0-08F1-4831-BF7C-A08CF3E60683}
+      IID 563
+      NAME "SANFONA SOLO"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87A57389-C0ED-49A5-AED8-2E353B7E0B8E}
+      <SOURCE MP3
+        FILE "ABERTO\35 - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA\SANFONA SOLO.mp3" 1
+      >
+    >
+  >
   <TRACK {0054879A-6849-44FC-8E1B-E1E58121B29D}
-    NAME "35 - LOOP DE VANEIRA 82 BPM"
+    NAME "36 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -22535,7 +23269,7 @@
     MAINSEND 1 0
   >
   <TRACK {2EE62DD9-2FAA-450E-BA81-09317227132A}
-    NAME "35 - MONITOR"
+    NAME "36 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -22561,7 +23295,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 15881.794180413835
+      POSITION 16616.346017148528
       SNAPOFFS 0
       LENGTH 1060.2977755101999
       LOOP 1
@@ -22572,7 +23306,7 @@
       SEL 0
       IGUID {4FBC6726-4BB2-442D-8A00-91177EAD65DC}
       IID 509
-      NAME "VS BLOCO 35"
+      NAME "VS BLOCO 36"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -22590,8 +23324,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=15881.794180413835;
-            |fim=16942.091955924006;
+            |ini=16616.346017148528;
+            |fim=17676.643792658699;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -22602,7 +23336,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 35";
+            |#T="VS BLOCO 36";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -22651,7 +23385,7 @@
     >
   >
   <TRACK {39BE49EA-AB5F-49E1-857A-7BB1B9AE8F07}
-    NAME "35 - CLICK 82 - LOOP DE VANEIRA 82 BPM"
+    NAME "36 - CLICK 82 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -22678,7 +23412,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 15883.794180413835
+      POSITION 16618.346017148528
       SNAPOFFS 0
       LENGTH 1058.298775510204
       LOOP 1
@@ -22696,12 +23430,12 @@
       CHANMODE 0
       GUID {78006BDD-2C18-4029-92CC-2B8AC82E1208}
       <SOURCE MP3
-        FILE "ABERTO\35 - LOOP DE VANEIRA 82 BPM\CLICK 82.mp3" 1
+        FILE "ABERTO\36 - LOOP DE VANEIRA 82 BPM\CLICK 82.mp3" 1
       >
     >
   >
   <TRACK {58770AE9-9635-49C6-BD41-80CD9E6059EF}
-    NAME "35 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM"
+    NAME "36 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -22728,7 +23462,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 15883.794180413835
+      POSITION 16618.346017148528
       SNAPOFFS 0
       LENGTH 1058.298775510204
       LOOP 1
@@ -22746,12 +23480,12 @@
       CHANMODE 0
       GUID {3A6B0588-3E59-440F-9F46-8384EB75AEF3}
       <SOURCE MP3
-        FILE "ABERTO\35 - LOOP DE VANEIRA 82 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\36 - LOOP DE VANEIRA 82 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {7BEA8A10-C022-4295-87A6-730D0F88D511}
-    NAME "36 - LOOP DE VANEIRA 86 BPM"
+    NAME "37 - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -22778,7 +23512,7 @@
     MAINSEND 1 0
   >
   <TRACK {AC75E43F-BBF4-4E18-B6BC-4029A6C91FEF}
-    NAME "36 - MONITOR"
+    NAME "37 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -22804,7 +23538,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 16942.092955924039
+      POSITION 17676.644792658732
       SNAPOFFS 0
       LENGTH 1011.0840816327
       LOOP 1
@@ -22815,7 +23549,7 @@
       SEL 0
       IGUID {899003B5-0908-41B9-A879-272C59E332CA}
       IID 549
-      NAME "VS BLOCO 36"
+      NAME "VS BLOCO 37"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -22833,8 +23567,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=16942.092955924039;
-            |fim=17953.1760375567;
+            |ini=17676.644792658732;
+            |fim=18687.727874291391;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -22845,7 +23579,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 36";
+            |#T="VS BLOCO 37";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -22894,7 +23628,7 @@
     >
   >
   <TRACK {E61C8BD9-1082-407B-8C2A-F4AB0910CBDE}
-    NAME "36 - CLICK 86 - LOOP DE VANEIRA 86 BPM"
+    NAME "37 - CLICK 86 - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -22921,7 +23655,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 16944.092955924039
+      POSITION 17678.644792658732
       SNAPOFFS 0
       LENGTH 1009.084081632653
       LOOP 1
@@ -22939,12 +23673,12 @@
       CHANMODE 0
       GUID {4CD558EF-AB88-4945-B4EC-04933F5BB5B3}
       <SOURCE MP3
-        FILE "ABERTO\36 - LOOP DE VANEIRA 86 BPM\CLICK 86.mp3" 1
+        FILE "ABERTO\37 - LOOP DE VANEIRA 86 BPM\CLICK 86.mp3" 1
       >
     >
   >
   <TRACK {A34D3F6A-4FCC-4E99-B125-AE5E4828410B}
-    NAME "36 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM"
+    NAME "37 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -22971,7 +23705,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 16944.092955924039
+      POSITION 17678.644792658732
       SNAPOFFS 0
       LENGTH 1009.084081632653
       LOOP 1
@@ -22989,12 +23723,12 @@
       CHANMODE 0
       GUID {4FAA61BB-E1C4-4657-B48F-AAB38A74D754}
       <SOURCE MP3
-        FILE "ABERTO\36 - LOOP DE VANEIRA 86 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\37 - LOOP DE VANEIRA 86 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {54910DA8-1278-44E4-94DF-557A19CD4C58}
-    NAME "37 - LOOP DE VANEIRA 90 BPM"
+    NAME "38 - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23021,7 +23755,7 @@
     MAINSEND 1 0
   >
   <TRACK {5512DE50-0E61-4B6F-A1BC-46D2B8AFD77E}
-    NAME "37 - MONITOR"
+    NAME "38 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23047,7 +23781,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 17953.177037556692
+      POSITION 18687.728874291384
       SNAPOFFS 0
       LENGTH 966.23083673470001
       LOOP 1
@@ -23058,7 +23792,7 @@
       SEL 0
       IGUID {A3D023AC-D7FA-42B6-A12C-6AFE32C3C23B}
       IID 512
-      NAME "VS BLOCO 37"
+      NAME "VS BLOCO 38"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23076,8 +23810,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=17953.177037556692;
-            |fim=18919.407874291359;
+            |ini=18687.728874291384;
+            |fim=19653.959711026051;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23088,7 +23822,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 37";
+            |#T="VS BLOCO 38";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23137,7 +23871,7 @@
     >
   >
   <TRACK {55657961-9AF3-490F-91C1-F25E3580255A}
-    NAME "37 - CLICK 90 - LOOP DE VANEIRA 90 BPM"
+    NAME "38 - CLICK 90 - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23164,7 +23898,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 17955.177037556692
+      POSITION 18689.728874291384
       SNAPOFFS 0
       LENGTH 964.23183673469396
       LOOP 1
@@ -23182,12 +23916,12 @@
       CHANMODE 0
       GUID {3F85D72B-624E-4C29-BE37-3A337EE5D2C5}
       <SOURCE MP3
-        FILE "ABERTO\37 - LOOP DE VANEIRA 90 BPM\CLICK 90.mp3" 1
+        FILE "ABERTO\38 - LOOP DE VANEIRA 90 BPM\CLICK 90.mp3" 1
       >
     >
   >
   <TRACK {998627F4-A2F1-4057-8FCF-1F8F218651FE}
-    NAME "37 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM"
+    NAME "38 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23214,7 +23948,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 17955.177037556692
+      POSITION 18689.728874291384
       SNAPOFFS 0
       LENGTH 964.23183673469396
       LOOP 1
@@ -23232,12 +23966,12 @@
       CHANMODE 0
       GUID {FF7398DB-C5E3-43B3-9035-8AE046F4ECE5}
       <SOURCE MP3
-        FILE "ABERTO\37 - LOOP DE VANEIRA 90 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\38 - LOOP DE VANEIRA 90 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {99F94EB1-620B-48CA-A6C2-86CB74997AEC}
-    NAME "38 - LOOP DE VANEIRA 94 BPM"
+    NAME "39 - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23264,7 +23998,7 @@
     MAINSEND 1 0
   >
   <TRACK {CDEE9739-4E3B-43AA-86CD-CFC2C550A4D8}
-    NAME "38 - MONITOR"
+    NAME "39 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23290,7 +24024,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 18919.408874291385
+      POSITION 19653.960711026077
       SNAPOFFS 0
       LENGTH 925.21859183679999
       LOOP 1
@@ -23301,7 +24035,7 @@
       SEL 0
       IGUID {B9FE1149-8C4A-405C-BB58-DEB274864497}
       IID 515
-      NAME "VS BLOCO 38"
+      NAME "VS BLOCO 39"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23319,8 +24053,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=18919.408874291385;
-            |fim=19844.627466128157;
+            |ini=19653.960711026077;
+            |fim=20579.179302862849;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23331,7 +24065,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 38";
+            |#T="VS BLOCO 39";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23380,7 +24114,7 @@
     >
   >
   <TRACK {AB27BC1B-B42A-4FE8-9319-4A21B8062D36}
-    NAME "38 - CLICK 94 - LOOP DE VANEIRA 94 BPM"
+    NAME "39 - CLICK 94 - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23407,7 +24141,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 18921.408874291385
+      POSITION 19655.960711026077
       SNAPOFFS 0
       LENGTH 923.21959183673505
       LOOP 1
@@ -23425,12 +24159,12 @@
       CHANMODE 0
       GUID {DF5BA053-3A7A-46A7-B4F2-8180D913B017}
       <SOURCE MP3
-        FILE "ABERTO\38 - LOOP DE VANEIRA 94 BPM\CLICK 94.mp3" 1
+        FILE "ABERTO\39 - LOOP DE VANEIRA 94 BPM\CLICK 94.mp3" 1
       >
     >
   >
   <TRACK {9EFACC18-D871-4CC5-9FAD-A6714A4B87A4}
-    NAME "38 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM"
+    NAME "39 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23457,7 +24191,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 18921.408874291385
+      POSITION 19655.960711026077
       SNAPOFFS 0
       LENGTH 923.21959183673505
       LOOP 1
@@ -23475,12 +24209,12 @@
       CHANMODE 0
       GUID {A6A50EA7-607E-42C7-888B-FAA24ED1E05B}
       <SOURCE MP3
-        FILE "ABERTO\38 - LOOP DE VANEIRA 94 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\39 - LOOP DE VANEIRA 94 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {4357EC41-D5BD-4773-BAF6-BE2049CAE6F3}
-    NAME "39 - LOOP DE VANEIRA 97 BPM"
+    NAME "40 - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23507,7 +24241,7 @@
     MAINSEND 1 0
   >
   <TRACK {ACE585FC-D430-4AF9-80B6-290C8B0CA832}
-    NAME "39 - MONITOR"
+    NAME "40 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23533,7 +24267,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 19844.628466128121
+      POSITION 20579.180302862813
       SNAPOFFS 0
       LENGTH 896.666755102
       LOOP 1
@@ -23544,7 +24278,7 @@
       SEL 0
       IGUID {271CBE8A-15D4-4A1A-95FB-FE8B99A512F7}
       IID 518
-      NAME "VS BLOCO 39"
+      NAME "VS BLOCO 40"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23562,8 +24296,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=19844.628466128121;
-            |fim=20741.295221230157;
+            |ini=20579.180302862813;
+            |fim=21475.847057964849;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23574,7 +24308,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 39";
+            |#T="VS BLOCO 40";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23623,7 +24357,7 @@
     >
   >
   <TRACK {AE4B9261-47FA-4BB6-A9A8-5A52548637E8}
-    NAME "39 - CLICK 97 - LOOP DE VANEIRA 97 BPM"
+    NAME "40 - CLICK 97 - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23650,7 +24384,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 19846.628466128121
+      POSITION 20581.180302862813
       SNAPOFFS 0
       LENGTH 894.64163265306104
       LOOP 1
@@ -23668,12 +24402,12 @@
       CHANMODE 0
       GUID {787740D0-D1CC-4EF8-B683-24A553118E58}
       <SOURCE MP3
-        FILE "ABERTO\39 - LOOP DE VANEIRA 97 BPM\CLICK 97.mp3" 1
+        FILE "ABERTO\40 - LOOP DE VANEIRA 97 BPM\CLICK 97.mp3" 1
       >
     >
   >
   <TRACK {CE5A2D10-B7B3-4055-8B8B-219B94E6E472}
-    NAME "39 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM"
+    NAME "40 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23700,7 +24434,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 19846.628466128121
+      POSITION 20581.180302862813
       SNAPOFFS 0
       LENGTH 894.66775510204104
       LOOP 1
@@ -23718,12 +24452,12 @@
       CHANMODE 0
       GUID {3C07B614-BA0A-4F2A-A5A8-E0976F058201}
       <SOURCE MP3
-        FILE "ABERTO\39 - LOOP DE VANEIRA 97 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\40 - LOOP DE VANEIRA 97 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {BA1CF8FB-14B6-4CF6-B7DA-C88BEF2FB35B}
-    NAME "40 - LOOP DE MARCHA 135 BPM"
+    NAME "41 - LOOP DE MARCHA 135 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -23750,7 +24484,7 @@
     MAINSEND 1 0
   >
   <TRACK {D667AE8F-34DC-4B9B-B716-EEB262B5FEF4}
-    NAME "40 - MONITOR"
+    NAME "41 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23776,7 +24510,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 20741.296221230161
+      POSITION 21475.848057964853
       SNAPOFFS 0
       LENGTH 899.85369387759999
       LOOP 1
@@ -23787,7 +24521,7 @@
       SEL 0
       IGUID {7A34DF3A-1793-44DE-851D-A61C36F4E6D9}
       IID 521
-      NAME "VS BLOCO 40"
+      NAME "VS BLOCO 41"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23805,8 +24539,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=20741.296221230161;
-            |fim=21641.149915107759;
+            |ini=21475.848057964853;
+            |fim=22375.701751842451;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23817,7 +24551,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 40";
+            |#T="VS BLOCO 41";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -23866,7 +24600,7 @@
     >
   >
   <TRACK {7683005B-BC9E-46E0-A729-05707CD4A334}
-    NAME "40 - CLICK 135 - LOOP DE MARCHA 135 BPM"
+    NAME "41 - CLICK 135 - LOOP DE MARCHA 135 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23893,7 +24627,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 20743.296221230161
+      POSITION 21477.848057964853
       SNAPOFFS 0
       LENGTH 897.85469387755097
       LOOP 1
@@ -23911,12 +24645,12 @@
       CHANMODE 0
       GUID {85BD4AAD-E858-4BBF-BB86-29C3D2D81C21}
       <SOURCE MP3
-        FILE "ABERTO\40 - LOOP DE MARCHA 135 BPM\CLICK 135.mp3" 1
+        FILE "ABERTO\41 - LOOP DE MARCHA 135 BPM\CLICK 135.mp3" 1
       >
     >
   >
   <TRACK {8497793B-BD2D-45DF-AC2E-8F762F9A6197}
-    NAME "40 - PERCUSSÃO - LOOP DE MARCHA 135 BPM"
+    NAME "41 - PERCUSSÃO - LOOP DE MARCHA 135 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -23943,7 +24677,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 20743.296221230161
+      POSITION 21477.848057964853
       SNAPOFFS 0
       LENGTH 897.85469387755097
       LOOP 1
@@ -23961,12 +24695,12 @@
       CHANMODE 0
       GUID {03E6A6C9-9022-4D28-A12C-6F571F5628E2}
       <SOURCE MP3
-        FILE "ABERTO\40 - LOOP DE MARCHA 135 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\41 - LOOP DE MARCHA 135 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {63BBF6BE-410F-4229-8B1B-AA300B137740}
-    NAME "41 - LOOP DE MARCHA 138 BPM"
+    NAME "42 - LOOP DE MARCHA 138 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -23993,7 +24727,7 @@
     MAINSEND 1 0
   >
   <TRACK {C87FAC1F-ED41-4A47-8384-A95199C5EB8F}
-    NAME "41 - MONITOR"
+    NAME "42 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24019,7 +24753,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 21641.150915107712
+      POSITION 22375.702751842404
       SNAPOFFS 0
       LENGTH 904.6602244897
       LOOP 1
@@ -24030,7 +24764,7 @@
       SEL 0
       IGUID {0E5E68CB-9892-43C0-8488-D38EE9706D5D}
       IID 524
-      NAME "VS BLOCO 41"
+      NAME "VS BLOCO 42"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24048,8 +24782,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=21641.150915107712;
-            |fim=22545.811139597459;
+            |ini=22375.702751842404;
+            |fim=23280.362976332151;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24060,7 +24794,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 41";
+            |#T="VS BLOCO 42";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -24109,7 +24843,7 @@
     >
   >
   <TRACK {620CEC84-D597-4AAD-A55E-850DA20C25F7}
-    NAME "41 - CLICK 138 - LOOP DE MARCHA 138 BPM"
+    NAME "42 - CLICK 138 - LOOP DE MARCHA 138 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24136,7 +24870,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 21643.150915107712
+      POSITION 22377.702751842404
       SNAPOFFS 0
       LENGTH 902.66122448979604
       LOOP 1
@@ -24154,12 +24888,12 @@
       CHANMODE 0
       GUID {5B1A32EC-ADC3-43E8-9E6D-3BFC3B51719A}
       <SOURCE MP3
-        FILE "ABERTO\41 - LOOP DE MARCHA 138 BPM\CLICK 138.mp3" 1
+        FILE "ABERTO\42 - LOOP DE MARCHA 138 BPM\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {0F8F472A-AEA9-4171-8768-D0E6AD2C83B7}
-    NAME "41 - PERCUSSÃO - LOOP DE MARCHA 138 BPM"
+    NAME "42 - PERCUSSÃO - LOOP DE MARCHA 138 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24186,7 +24920,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 21643.150915107712
+      POSITION 22377.702751842404
       SNAPOFFS 0
       LENGTH 902.66122448979604
       LOOP 1
@@ -24204,12 +24938,12 @@
       CHANMODE 0
       GUID {86BB1CEF-D9A4-4967-9EF4-4720EDCAE37F}
       <SOURCE MP3
-        FILE "ABERTO\41 - LOOP DE MARCHA 138 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\42 - LOOP DE MARCHA 138 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {204F3561-CF1A-4221-9CD5-C1E2EB09E8E0}
-    NAME "42 - LOOP DE MARCHA 140 BPM"
+    NAME "43 - LOOP DE MARCHA 140 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24236,7 +24970,7 @@
     MAINSEND 1 0
   >
   <TRACK {9460144F-F805-48AE-965A-9A3DE396F6EA}
-    NAME "42 - MONITOR"
+    NAME "43 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24262,7 +24996,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 22545.812139597507
+      POSITION 23280.363976332199
       SNAPOFFS 0
       LENGTH 903.77206122450002
       LOOP 1
@@ -24273,7 +25007,7 @@
       SEL 0
       IGUID {540164E3-5723-480D-9FC1-A47EDB938CD8}
       IID 527
-      NAME "VS BLOCO 42"
+      NAME "VS BLOCO 43"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24291,8 +25025,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=22545.812139597507;
-            |fim=23449.584200821959;
+            |ini=23280.363976332199;
+            |fim=24184.136037556651;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24303,7 +25037,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 42";
+            |#T="VS BLOCO 43";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -24352,7 +25086,7 @@
     >
   >
   <TRACK {B10539F6-2B10-4AE0-9F7F-A08659786797}
-    NAME "42 - CLICK 140 - LOOP DE MARCHA 140 BPM"
+    NAME "43 - CLICK 140 - LOOP DE MARCHA 140 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24379,7 +25113,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 22547.812139597507
+      POSITION 23282.363976332199
       SNAPOFFS 0
       LENGTH 901.77306122448999
       LOOP 1
@@ -24397,12 +25131,12 @@
       CHANMODE 0
       GUID {F0DCC9F8-E844-498C-8242-91F707E1216F}
       <SOURCE MP3
-        FILE "ABERTO\42 - LOOP DE MARCHA 140 BPM\CLICK 140.mp3" 1
+        FILE "ABERTO\43 - LOOP DE MARCHA 140 BPM\CLICK 140.mp3" 1
       >
     >
   >
   <TRACK {C74194FB-C9BC-4E0B-9D4D-593D2496C059}
-    NAME "42 - PERCUSSÃO - LOOP DE MARCHA 140 BPM"
+    NAME "43 - PERCUSSÃO - LOOP DE MARCHA 140 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24429,7 +25163,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 22547.812139597507
+      POSITION 23282.363976332199
       SNAPOFFS 0
       LENGTH 901.77306122448999
       LOOP 1
@@ -24447,12 +25181,12 @@
       CHANMODE 0
       GUID {7D30B309-C255-41CD-9D76-2FEDC389FF24}
       <SOURCE MP3
-        FILE "ABERTO\42 - LOOP DE MARCHA 140 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\43 - LOOP DE MARCHA 140 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {4ABFF4CE-E034-4746-87A9-0F005E81C40F}
-    NAME "43 - CLICK DE MARCHA 135 BPM"
+    NAME "44 - CLICK DE MARCHA 135 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -24479,7 +25213,7 @@
     MAINSEND 1 0
   >
   <TRACK {AFBC9379-C024-4BF5-9AFA-88EB1C12B122}
-    NAME "43 - MONITOR"
+    NAME "44 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24505,7 +25239,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 23449.585200821995
+      POSITION 24184.137037556688
       SNAPOFFS 0
       LENGTH 898.051244898
       LOOP 1
@@ -24516,7 +25250,7 @@
       SEL 0
       IGUID {F27758EC-65F7-4190-AA24-3E6CF31B2E79}
       IID 530
-      NAME "VS BLOCO 43"
+      NAME "VS BLOCO 44"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24534,8 +25268,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=23449.585200821995;
-            |fim=24347.63644571996;
+            |ini=24184.137037556688;
+            |fim=25082.188282454652;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24546,7 +25280,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 43";
+            |#T="VS BLOCO 44";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -24595,7 +25329,7 @@
     >
   >
   <TRACK {19C0DAA2-8A50-4E82-8508-1DFE9A239026}
-    NAME "43 - CLICK 135 - CLICK DE MARCHA 135 BPM"
+    NAME "44 - CLICK 135 - CLICK DE MARCHA 135 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24622,7 +25356,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 23451.585200821995
+      POSITION 24186.137037556688
       SNAPOFFS 0
       LENGTH 896.05224489795899
       LOOP 1
@@ -24640,12 +25374,12 @@
       CHANMODE 0
       GUID {DF0C1BE5-C194-4D62-81F1-9F0D431893D3}
       <SOURCE MP3
-        FILE "ABERTO\43 - CLICK DE MARCHA 135 BPM\CLICK 135.mp3" 1
+        FILE "ABERTO\44 - CLICK DE MARCHA 135 BPM\CLICK 135.mp3" 1
       >
     >
   >
   <TRACK {5B9DF6E1-1EED-41C9-8A2E-C73D763F9BCF}
-    NAME "44 - CLICK DE MARCHA 138 BPM"
+    NAME "45 - CLICK DE MARCHA 138 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -24672,7 +25406,7 @@
     MAINSEND 1 0
   >
   <TRACK {A05FAB19-B175-43FD-9C8C-4AFD6C9F8541}
-    NAME "44 - MONITOR"
+    NAME "45 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24698,7 +25432,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 24347.637445719956
+      POSITION 25082.189282454648
       SNAPOFFS 0
       LENGTH 902.93614285709998
       LOOP 1
@@ -24709,7 +25443,7 @@
       SEL 0
       IGUID {43426E0E-97D0-4870-BCC6-B57BB9DB03A0}
       IID 532
-      NAME "VS BLOCO 44"
+      NAME "VS BLOCO 45"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24727,8 +25461,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=24347.637445719956;
-            |fim=25250.573588577059;
+            |ini=25082.189282454648;
+            |fim=25985.125425311751;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24739,7 +25473,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 44";
+            |#T="VS BLOCO 45";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -24788,7 +25522,7 @@
     >
   >
   <TRACK {A74B92C8-6B7A-4178-8646-78BE7E4A8810}
-    NAME "44 - CLICK 138 - CLICK DE MARCHA 138 BPM"
+    NAME "45 - CLICK 138 - CLICK DE MARCHA 138 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24815,7 +25549,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 24349.637445719956
+      POSITION 25084.189282454648
       SNAPOFFS 0
       LENGTH 900.93714285714304
       LOOP 1
@@ -24833,12 +25567,12 @@
       CHANMODE 0
       GUID {45EE8E08-9722-40DE-B588-59016B4D83C7}
       <SOURCE MP3
-        FILE "ABERTO\44 - CLICK DE MARCHA 138 BPM\CLICK 138.mp3" 1
+        FILE "ABERTO\45 - CLICK DE MARCHA 138 BPM\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {DE22BA4C-78B4-4A54-B6AC-17E910A98D73}
-    NAME "45 - CLICK DE MARCHA 140 BPM"
+    NAME "46 - CLICK DE MARCHA 140 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -24865,7 +25599,7 @@
     MAINSEND 1 0
   >
   <TRACK {474DBF7A-9288-4F5A-BD48-59C3DF33BEE0}
-    NAME "45 - MONITOR"
+    NAME "46 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24891,7 +25625,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 25250.574588577099
+      POSITION 25985.126425311792
       SNAPOFFS 0
       LENGTH 902.07510204079995
       LOOP 1
@@ -24902,7 +25636,7 @@
       SEL 0
       IGUID {798BB2FF-75F7-45EF-8982-E66B2377D375}
       IID 534
-      NAME "VS BLOCO 45"
+      NAME "VS BLOCO 46"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24920,8 +25654,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=25250.574588577099;
-            |fim=26152.649690617916;
+            |ini=25985.126425311792;
+            |fim=26887.201527352609;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24932,7 +25666,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 45";
+            |#T="VS BLOCO 46";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -24981,7 +25715,7 @@
     >
   >
   <TRACK {C22E9892-F552-4029-8915-53FA4AD456EA}
-    NAME "45 - CLICK 140 - CLICK DE MARCHA 140 BPM"
+    NAME "46 - CLICK 140 - CLICK DE MARCHA 140 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -25008,7 +25742,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 25252.574588577099
+      POSITION 25987.126425311792
       SNAPOFFS 0
       LENGTH 900.07510204081598
       LOOP 1
@@ -25026,7 +25760,7 @@
       CHANMODE 0
       GUID {CF42797C-2DB3-41BB-A8F2-65768F5A39E0}
       <SOURCE MP3
-        FILE "ABERTO\45 - CLICK DE MARCHA 140 BPM\CLICK 140.mp3" 1
+        FILE "ABERTO\46 - CLICK DE MARCHA 140 BPM\CLICK 140.mp3" 1
       >
     >
   >
@@ -25077,6 +25811,7 @@
       1073741867 1
       1073741868 1
       1073741869 1
+      1073741870 1
     >
   >
 >
