@@ -20,7 +20,8 @@ O bloco entra 2 s depois do anterior:
   outros blocos;
 - faders de grupo (CLICK, REGÊNCIA, METAIS, TECLAS, CORDAS, PERCUSSÃO) refeitos
   por scripts/grupos_tracks.py, com grupos_classificacao.json e grupos.html;
-- slide "VS BLOCO N" no fim do .pptx do repertorio, PDF exportado de novo;
+- slide "VS BLOCO N" em vermelho e o BPM do click em branco, menor, na mesma linha, no .pptx do repertorio,
+  PDF exportado de novo;
 - EXPORT_REGIONS/NN - <nome>.mp3 (mono) e EXPORT_VIDEOS/NN - <nome>.mp4.
   Com --sem-exports nao refaz o pdf nem exporta mp3 e mp4 (o slide entra no .pptx).
 
@@ -68,6 +69,7 @@ from adicionar_blocos_zip import (  # noqa: E402
 from adicionar_musicas_bloco import (  # noqa: E402
     MARKER_RE,
     PDF,
+    BRANCO,
     VERMELHO,
     backup_do_repertorio,
     exportar_pdf,
@@ -93,7 +95,7 @@ from inserir_texto_monitor import (  # noqa: E402
     sem_repertorio,
     slide_do_bloco,
 )
-from renomear_tracks_rpp import classify_role, stem_display  # noqa: E402
+from renomear_tracks_rpp import classify_role, extract_bpm, stem_display  # noqa: E402
 from unificar_reaper import (  # noqa: E402
     GAP_SECONDS,
     extract_track_blocks,
@@ -289,8 +291,65 @@ def ajustar_monitor_anterior(texto: str, ordem: int, linhas, inicio: str, fim: s
     return texto[:ini_track] + trecho + texto[fim_track:]
 
 
-def novo_slide_xml(modelo: str, ordem: int, musicas) -> str:
-    """Mesmo layout do slide anterior: titulo vermelho e uma linha por musica."""
+SZ_BPM = "4800"
+COR_BPM = "FFFFFF"
+_RUN_BPM = re.compile(
+    r"<a:r>(?:(?!</a:r>).)*?<a:t>([^<]*BPM)</a:t></a:r>",
+    re.DOTALL,
+)
+_TEXTO_BPM = re.compile(r"^\s*\d.*BPM\s*$")
+
+
+def _run_bpm(titulo: str, bpm: str) -> str:
+    cs = re.search(r"<a:cs [^/]*/>", titulo)
+    fonte = cs.group(0) if cs else ""
+    sz_titulo = re.search(r'sz="(\d+)"', titulo)
+    sz_t = int(sz_titulo.group(1)) if sz_titulo else 8800
+    # Sobe o BPM para o meio da altura do nome, em vez de sentar na base.
+    baseline = round((sz_t - int(SZ_BPM)) / 2 / int(SZ_BPM) * 100000)
+    return (
+        f'<a:r><a:rPr lang="pt-BR" sz="{SZ_BPM}" baseline="{baseline}" dirty="0">'
+        f'<a:solidFill><a:srgbClr val="{COR_BPM}"/></a:solidFill>'
+        f"{fonte}</a:rPr><a:t>{escape('  ' + bpm.strip())}</a:t></a:r>"
+    )
+
+
+def definir_bpm_no_titulo(xml: str, bpm: str | None) -> str:
+    """BPM em branco, menor, na mesma linha de VS BLOCO N. Sem bpm, tira."""
+    ini = xml.find("<p:txBody>")
+    fim = xml.find("</p:txBody>", ini)
+    if ini < 0 or fim < 0:
+        raise SystemExit("Slide sem texto.")
+    paragrafos = list(re.finditer(r"<a:p>.*?</a:p>", xml[ini:fim], re.DOTALL))
+    if not paragrafos:
+        raise SystemExit("Slide sem titulo.")
+    titulo = paragrafos[0]
+    trecho = titulo.group(0)
+    if "VS BLOCO" not in trecho:
+        raise SystemExit("Primeiro paragrafo nao e o titulo do bloco.")
+    achado = _RUN_BPM.search(trecho)
+    if achado and "VS BLOCO" not in achado.group(1):
+        trecho = trecho[: achado.start()] + trecho[achado.end() :]
+    if bpm:
+        run = _run_bpm(trecho, bpm)
+        fim_runs = trecho.find("<a:endParaRPr")
+        if fim_runs >= 0:
+            trecho = trecho[:fim_runs] + run + trecho[fim_runs:]
+        else:
+            fecha = trecho.rfind("</a:p>")
+            trecho = trecho[:fecha] + run + trecho[fecha:]
+    xml = xml[: ini + titulo.start()] + trecho + xml[ini + titulo.end() :]
+    fim = xml.find("</p:txBody>", ini)
+    paragrafos = list(re.finditer(r"<a:p>.*?</a:p>", xml[ini:fim], re.DOTALL))
+    seguinte = paragrafos[1] if len(paragrafos) > 1 else None
+    texto_seguinte = "".join(re.findall(r"<a:t>(.*?)</a:t>", seguinte.group(0))) if seguinte else ""
+    if seguinte and _TEXTO_BPM.match(texto_seguinte):
+        xml = xml[: ini + seguinte.start()] + xml[ini + seguinte.end() :]
+    return xml
+
+
+def novo_slide_xml(modelo: str, ordem: int, musicas, bpm: str | None) -> str:
+    """Mesmo layout do slide anterior: titulo vermelho, BPM e uma linha por musica."""
     titulo_re = re.compile(r"(<a:t>)VS BLOCO \d+(</a:t>)")
     if len(titulo_re.findall(modelo)) != 1:
         raise SystemExit("Slide modelo sem titulo VS BLOCO.")
@@ -298,12 +357,12 @@ def novo_slide_xml(modelo: str, ordem: int, musicas) -> str:
     ini = xml.find("<p:txBody>")
     fim = xml.find("</p:txBody>", ini)
     paragrafos = list(re.finditer(r"<a:p>.*?</a:p>", xml[ini:fim], re.DOTALL))
-    if len(paragrafos) != 2:
+    if len(paragrafos) < 2:
         raise SystemExit("Slide modelo fora do padrao (titulo + musicas).")
-    p = paragrafos[1]
+    p = paragrafos[-1]
     abertura = re.match(r"<a:p>(<a:pPr.*?</a:pPr>)?", p.group(0), re.DOTALL).group(0)
     sz = (re.findall(r'sz="(\d+)"', p.group(0)) or ["7200"])[-1]
-    simples = f'<a:rPr lang="pt-BR" sz="{sz}" dirty="0"/>'
+    simples = f'<a:rPr lang="pt-BR" sz="{sz}" dirty="0">{BRANCO}</a:rPr>'
     vermelho = f'<a:rPr lang="pt-BR" sz="{sz}" dirty="0">{VERMELHO}</a:rPr>'
     partes = []
     for i, musica in enumerate(musicas):
@@ -313,10 +372,10 @@ def novo_slide_xml(modelo: str, ordem: int, musicas) -> str:
         partes.append(f"<a:r>{vermelho}<a:t>{escape(musica.tom)}</a:t></a:r>")
     novo_p = abertura + "".join(partes) + "</a:p>"
     a, b = ini + p.start(), ini + p.end()
-    return xml[:a] + novo_p + xml[b:]
+    return definir_bpm_no_titulo(xml[:a] + novo_p + xml[b:], bpm)
 
 
-def membros_do_pptx(ordem: int, musicas) -> dict[str, str]:
+def membros_do_pptx(ordem: int, musicas, bpm: str | None) -> dict[str, str]:
     numero = slide_do_bloco(ordem)
     with zipfile.ZipFile(PPTX) as z:
         nomes = set(z.namelist())
@@ -344,7 +403,7 @@ def membros_do_pptx(ordem: int, musicas) -> dict[str, str]:
         "ppt/presentation.xml": pres,
         "ppt/_rels/presentation.xml.rels": rels,
         "[Content_Types].xml": tipos,
-        f"ppt/slides/slide{numero}.xml": novo_slide_xml(modelo, ordem, musicas),
+        f"ppt/slides/slide{numero}.xml": novo_slide_xml(modelo, ordem, musicas, bpm),
         f"ppt/slides/_rels/slide{numero}.xml.rels": modelo_rels,
     }
 
@@ -510,7 +569,14 @@ def main() -> None:
         if loop:
             linhas_novo = [(f"VS BLOCO {ordem}", None)] + [(m.slide, m.tom) for m in musicas]
         else:
-            gravar_pptx_com_novos(membros_do_pptx(ordem, musicas), pptx_tmp)
+            bpm_click = next(
+                (extract_bpm(e.plano.filename) for e in entradas if e.plano.role == "CLICK"),
+                None,
+            )
+            gravar_pptx_com_novos(
+                membros_do_pptx(ordem, musicas, f"{bpm_click} BPM" if bpm_click else None),
+                pptx_tmp,
+            )
             linhas_novo = linhas_do_slide(pptx_tmp, slide_do_bloco(ordem))
             if linhas_novo[0] != (f"VS BLOCO {ordem}", None) or [t for t, tom in linhas_novo if tom] != [
                 m.slide for m in musicas

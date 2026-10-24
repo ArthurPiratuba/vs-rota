@@ -1,5 +1,5 @@
 {
-  "atualizado": "2026-10-17T17:32:34",
+  "atualizado": "2026-10-24T13:14:05",
   "grupos": [
     {
       "id": "click",
@@ -57,18 +57,18 @@
     }
   ],
   "contagens": {
-    "click": 46,
-    "regencia": 35,
-    "metais": 71,
-    "teclas": 72,
+    "click": 47,
+    "regencia": 36,
+    "metais": 77,
+    "teclas": 75,
     "cordas": 51,
     "percussao": 37,
     "voz": 11,
-    "guias": 8,
+    "guias": 9,
     "fechado": 14,
     "fora": 0,
-    "revisar": 2,
-    "monitor": 46
+    "revisar": 4,
+    "monitor": 47
   },
   "blocos": [
     {
@@ -375,11 +375,11 @@
       ]
     },
     {
-      "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+      "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
       "faixas": [
         {
           "trilha": "04 - MONITOR",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -387,8 +387,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "04 - CLICK - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - CLICK - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "CLICK",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -396,8 +396,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "04 - REGÊNCIA - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - REGÊNCIA - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "REGÊNCIA",
           "grupo": "regencia",
           "grupo_nome": "Regência",
@@ -405,8 +405,8 @@
           "motivo": "Regência de todas as músicas."
         },
         {
-          "trilha": "04 - PERCUSSÃO - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - PERCUSSÃO - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -414,8 +414,8 @@
           "motivo": "Percussão, pelo nome."
         },
         {
-          "trilha": "04 - SANFONA BASE - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - SANFONA BASE - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "SANFONA BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -423,8 +423,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "04 - SANFONA SOLO - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - SANFONA SOLO - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "SANFONA SOLO",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -432,8 +432,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "04 - TECLADO BASE - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - TECLADO BASE - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "TECLADO BASE",
           "grupo": "teclas",
           "grupo_nome": "Teclas",
@@ -441,8 +441,8 @@
           "motivo": "Tecla ou efeito, pelo nome."
         },
         {
-          "trilha": "04 - BASS - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - BASS - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "BASS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -450,8 +450,8 @@
           "motivo": "Baixo entrou em Cordas."
         },
         {
-          "trilha": "04 - GUITARRA - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - GUITARRA - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "GUITARRA",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
@@ -459,8 +459,8 @@
           "motivo": "Corda, pelo nome."
         },
         {
-          "trilha": "04 - METAIS - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
-          "bloco": "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "trilha": "04 - METAIS - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
+          "bloco": "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE",
           "stem": "METAIS",
           "grupo": "metais",
           "grupo_nome": "Metais",
@@ -3418,8 +3418,8 @@
           "stem": "BASS",
           "grupo": "cordas",
           "grupo_nome": "Cordas",
-          "revisar": false,
-          "motivo": "Baixo entrou em Cordas."
+          "revisar": true,
+          "motivo": "Mutada: pode ser guia de apoio. Baixo entrou em Cordas."
         },
         {
           "trilha": "35 - BATERIA - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
@@ -3427,8 +3427,8 @@
           "stem": "BATERIA",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
-          "revisar": false,
-          "motivo": "Percussão, pelo nome."
+          "revisar": true,
+          "motivo": "Mutada: pode ser guia de apoio. Percussão, pelo nome."
         },
         {
           "trilha": "35 - GUIA NA HORA DE AMAR - NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS",
@@ -3496,11 +3496,11 @@
       ]
     },
     {
-      "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+      "bloco": "36 - FUTURISTA",
       "faixas": [
         {
           "trilha": "36 - MONITOR",
-          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "36 - FUTURISTA",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3508,8 +3508,130 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "36 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
-          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "36 - CLICK 135 - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "CLICK 135",
+          "grupo": "click",
+          "grupo_nome": "Click",
+          "revisar": false,
+          "motivo": "Click de todas as músicas."
+        },
+        {
+          "trilha": "36 - REGÊNCIA - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "REGÊNCIA",
+          "grupo": "regencia",
+          "grupo_nome": "Regência",
+          "revisar": false,
+          "motivo": "Regência de todas as músicas."
+        },
+        {
+          "trilha": "36 - BASE FANTASIA - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "BASE FANTASIA",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Fantasia (base de teclado), pelo nome."
+        },
+        {
+          "trilha": "36 - GUIA - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "GUIA",
+          "grupo": "guias",
+          "grupo_nome": "Guias",
+          "revisar": false,
+          "motivo": "Guia de apoio para os músicos, pelo nome."
+        },
+        {
+          "trilha": "36 - SANFONA BASE - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "SANFONA BASE",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
+        },
+        {
+          "trilha": "36 - SANFONA SOLO - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "SANFONA SOLO",
+          "grupo": "teclas",
+          "grupo_nome": "Teclas",
+          "revisar": false,
+          "motivo": "Tecla ou efeito, pelo nome."
+        },
+        {
+          "trilha": "36 - SAX 1 VOZ - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "SAX 1 VOZ",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        },
+        {
+          "trilha": "36 - SAX 2 VOZ - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "SAX 2 VOZ",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        },
+        {
+          "trilha": "36 - TROMBONE - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "TROMBONE",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        },
+        {
+          "trilha": "36 - TROMBONE OITAVA - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "TROMBONE OITAVA",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        },
+        {
+          "trilha": "36 - TROMPETE 1 VOZ - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "TROMPETE 1 VOZ",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        },
+        {
+          "trilha": "36 - TROMPETE 2 VOZ - FUTURISTA",
+          "bloco": "36 - FUTURISTA",
+          "stem": "TROMPETE 2 VOZ",
+          "grupo": "metais",
+          "grupo_nome": "Metais",
+          "revisar": false,
+          "motivo": "Sopro ou metais, pelo nome."
+        }
+      ]
+    },
+    {
+      "bloco": "37 - LOOP DE VANEIRA 82 BPM",
+      "faixas": [
+        {
+          "trilha": "37 - MONITOR",
+          "bloco": "37 - LOOP DE VANEIRA 82 BPM",
+          "stem": "MONITOR",
+          "grupo": null,
+          "grupo_nome": "Fora",
+          "revisar": false,
+          "motivo": "Monitor de cifra. Não entra em grupo."
+        },
+        {
+          "trilha": "37 - CLICK 82 - LOOP DE VANEIRA 82 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 82 BPM",
           "stem": "CLICK 82",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3517,8 +3639,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "36 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
-          "bloco": "36 - LOOP DE VANEIRA 82 BPM",
+          "trilha": "37 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM",
+          "bloco": "37 - LOOP DE VANEIRA 82 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3528,11 +3650,11 @@
       ]
     },
     {
-      "bloco": "37 - LOOP DE VANEIRA 86 BPM",
+      "bloco": "38 - LOOP DE VANEIRA 86 BPM",
       "faixas": [
         {
-          "trilha": "37 - MONITOR",
-          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "38 - MONITOR",
+          "bloco": "38 - LOOP DE VANEIRA 86 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3540,8 +3662,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "37 - CLICK 86 - LOOP DE VANEIRA 86 BPM",
-          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "38 - CLICK 86 - LOOP DE VANEIRA 86 BPM",
+          "bloco": "38 - LOOP DE VANEIRA 86 BPM",
           "stem": "CLICK 86",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3549,8 +3671,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "37 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM",
-          "bloco": "37 - LOOP DE VANEIRA 86 BPM",
+          "trilha": "38 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM",
+          "bloco": "38 - LOOP DE VANEIRA 86 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3560,11 +3682,11 @@
       ]
     },
     {
-      "bloco": "38 - LOOP DE VANEIRA 90 BPM",
+      "bloco": "39 - LOOP DE VANEIRA 90 BPM",
       "faixas": [
         {
-          "trilha": "38 - MONITOR",
-          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "39 - MONITOR",
+          "bloco": "39 - LOOP DE VANEIRA 90 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3572,8 +3694,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "38 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
-          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "39 - CLICK 90 - LOOP DE VANEIRA 90 BPM",
+          "bloco": "39 - LOOP DE VANEIRA 90 BPM",
           "stem": "CLICK 90",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3581,8 +3703,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "38 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
-          "bloco": "38 - LOOP DE VANEIRA 90 BPM",
+          "trilha": "39 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM",
+          "bloco": "39 - LOOP DE VANEIRA 90 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3592,11 +3714,11 @@
       ]
     },
     {
-      "bloco": "39 - LOOP DE VANEIRA 94 BPM",
+      "bloco": "40 - LOOP DE VANEIRA 94 BPM",
       "faixas": [
         {
-          "trilha": "39 - MONITOR",
-          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "40 - MONITOR",
+          "bloco": "40 - LOOP DE VANEIRA 94 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3604,8 +3726,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "39 - CLICK 94 - LOOP DE VANEIRA 94 BPM",
-          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "40 - CLICK 94 - LOOP DE VANEIRA 94 BPM",
+          "bloco": "40 - LOOP DE VANEIRA 94 BPM",
           "stem": "CLICK 94",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3613,8 +3735,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "39 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM",
-          "bloco": "39 - LOOP DE VANEIRA 94 BPM",
+          "trilha": "40 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM",
+          "bloco": "40 - LOOP DE VANEIRA 94 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3624,11 +3746,11 @@
       ]
     },
     {
-      "bloco": "40 - LOOP DE VANEIRA 97 BPM",
+      "bloco": "41 - LOOP DE VANEIRA 97 BPM",
       "faixas": [
         {
-          "trilha": "40 - MONITOR",
-          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "41 - MONITOR",
+          "bloco": "41 - LOOP DE VANEIRA 97 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3636,8 +3758,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "40 - CLICK 97 - LOOP DE VANEIRA 97 BPM",
-          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "41 - CLICK 97 - LOOP DE VANEIRA 97 BPM",
+          "bloco": "41 - LOOP DE VANEIRA 97 BPM",
           "stem": "CLICK 97",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3645,8 +3767,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "40 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM",
-          "bloco": "40 - LOOP DE VANEIRA 97 BPM",
+          "trilha": "41 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM",
+          "bloco": "41 - LOOP DE VANEIRA 97 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3656,11 +3778,11 @@
       ]
     },
     {
-      "bloco": "41 - LOOP DE MARCHA 135 BPM",
+      "bloco": "42 - LOOP DE MARCHA 135 BPM",
       "faixas": [
         {
-          "trilha": "41 - MONITOR",
-          "bloco": "41 - LOOP DE MARCHA 135 BPM",
+          "trilha": "42 - MONITOR",
+          "bloco": "42 - LOOP DE MARCHA 135 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3668,8 +3790,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "41 - CLICK 135 - LOOP DE MARCHA 135 BPM",
-          "bloco": "41 - LOOP DE MARCHA 135 BPM",
+          "trilha": "42 - CLICK 135 - LOOP DE MARCHA 135 BPM",
+          "bloco": "42 - LOOP DE MARCHA 135 BPM",
           "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3677,8 +3799,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "41 - PERCUSSÃO - LOOP DE MARCHA 135 BPM",
-          "bloco": "41 - LOOP DE MARCHA 135 BPM",
+          "trilha": "42 - PERCUSSÃO - LOOP DE MARCHA 135 BPM",
+          "bloco": "42 - LOOP DE MARCHA 135 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3688,11 +3810,11 @@
       ]
     },
     {
-      "bloco": "42 - LOOP DE MARCHA 138 BPM",
+      "bloco": "43 - LOOP DE MARCHA 138 BPM",
       "faixas": [
         {
-          "trilha": "42 - MONITOR",
-          "bloco": "42 - LOOP DE MARCHA 138 BPM",
+          "trilha": "43 - MONITOR",
+          "bloco": "43 - LOOP DE MARCHA 138 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3700,8 +3822,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "42 - CLICK 138 - LOOP DE MARCHA 138 BPM",
-          "bloco": "42 - LOOP DE MARCHA 138 BPM",
+          "trilha": "43 - CLICK 138 - LOOP DE MARCHA 138 BPM",
+          "bloco": "43 - LOOP DE MARCHA 138 BPM",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3709,8 +3831,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "42 - PERCUSSÃO - LOOP DE MARCHA 138 BPM",
-          "bloco": "42 - LOOP DE MARCHA 138 BPM",
+          "trilha": "43 - PERCUSSÃO - LOOP DE MARCHA 138 BPM",
+          "bloco": "43 - LOOP DE MARCHA 138 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3720,11 +3842,11 @@
       ]
     },
     {
-      "bloco": "43 - LOOP DE MARCHA 140 BPM",
+      "bloco": "44 - LOOP DE MARCHA 140 BPM",
       "faixas": [
         {
-          "trilha": "43 - MONITOR",
-          "bloco": "43 - LOOP DE MARCHA 140 BPM",
+          "trilha": "44 - MONITOR",
+          "bloco": "44 - LOOP DE MARCHA 140 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3732,8 +3854,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "43 - CLICK 140 - LOOP DE MARCHA 140 BPM",
-          "bloco": "43 - LOOP DE MARCHA 140 BPM",
+          "trilha": "44 - CLICK 140 - LOOP DE MARCHA 140 BPM",
+          "bloco": "44 - LOOP DE MARCHA 140 BPM",
           "stem": "CLICK 140",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3741,8 +3863,8 @@
           "motivo": "Click de todas as músicas."
         },
         {
-          "trilha": "43 - PERCUSSÃO - LOOP DE MARCHA 140 BPM",
-          "bloco": "43 - LOOP DE MARCHA 140 BPM",
+          "trilha": "44 - PERCUSSÃO - LOOP DE MARCHA 140 BPM",
+          "bloco": "44 - LOOP DE MARCHA 140 BPM",
           "stem": "PERCUSSÃO",
           "grupo": "percussao",
           "grupo_nome": "Percussão",
@@ -3752,11 +3874,11 @@
       ]
     },
     {
-      "bloco": "44 - CLICK DE MARCHA 135 BPM",
+      "bloco": "45 - CLICK DE MARCHA 135 BPM",
       "faixas": [
         {
-          "trilha": "44 - MONITOR",
-          "bloco": "44 - CLICK DE MARCHA 135 BPM",
+          "trilha": "45 - MONITOR",
+          "bloco": "45 - CLICK DE MARCHA 135 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3764,8 +3886,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "44 - CLICK 135 - CLICK DE MARCHA 135 BPM",
-          "bloco": "44 - CLICK DE MARCHA 135 BPM",
+          "trilha": "45 - CLICK 135 - CLICK DE MARCHA 135 BPM",
+          "bloco": "45 - CLICK DE MARCHA 135 BPM",
           "stem": "CLICK 135",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3775,11 +3897,11 @@
       ]
     },
     {
-      "bloco": "45 - CLICK DE MARCHA 138 BPM",
+      "bloco": "46 - CLICK DE MARCHA 138 BPM",
       "faixas": [
         {
-          "trilha": "45 - MONITOR",
-          "bloco": "45 - CLICK DE MARCHA 138 BPM",
+          "trilha": "46 - MONITOR",
+          "bloco": "46 - CLICK DE MARCHA 138 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3787,8 +3909,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "45 - CLICK 138 - CLICK DE MARCHA 138 BPM",
-          "bloco": "45 - CLICK DE MARCHA 138 BPM",
+          "trilha": "46 - CLICK 138 - CLICK DE MARCHA 138 BPM",
+          "bloco": "46 - CLICK DE MARCHA 138 BPM",
           "stem": "CLICK 138",
           "grupo": "click",
           "grupo_nome": "Click",
@@ -3798,11 +3920,11 @@
       ]
     },
     {
-      "bloco": "46 - CLICK DE MARCHA 140 BPM",
+      "bloco": "47 - CLICK DE MARCHA 140 BPM",
       "faixas": [
         {
-          "trilha": "46 - MONITOR",
-          "bloco": "46 - CLICK DE MARCHA 140 BPM",
+          "trilha": "47 - MONITOR",
+          "bloco": "47 - CLICK DE MARCHA 140 BPM",
           "stem": "MONITOR",
           "grupo": null,
           "grupo_nome": "Fora",
@@ -3810,8 +3932,8 @@
           "motivo": "Monitor de cifra. Não entra em grupo."
         },
         {
-          "trilha": "46 - CLICK 140 - CLICK DE MARCHA 140 BPM",
-          "bloco": "46 - CLICK DE MARCHA 140 BPM",
+          "trilha": "47 - CLICK 140 - CLICK DE MARCHA 140 BPM",
+          "bloco": "47 - CLICK DE MARCHA 140 BPM",
           "stem": "CLICK 140",
           "grupo": "click",
           "grupo_nome": "Click",

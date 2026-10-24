@@ -73,6 +73,9 @@ def linhas_do_cartaz(texto_rpp: str, order: int) -> list[tuple[str, str | None]]
     if not titulo:
         raise SystemExit(f"Cartaz do bloco {order} sem titulo.")
     linhas: list[tuple[str, str | None]] = [(solto(titulo.group(1)), None)]
+    bpm = re.search(rf"#B={texto};", medidas)
+    if bpm:
+        linhas.append((solto(bpm.group(1)), None))
     for m in re.finditer(rf"#L={texto};\ngfx_str_measure\(#L,lw,lh\);(?:\n#R={texto};)?", medidas):
         linhas.append((solto(m.group(1)), solto(m.group(2)) if m.group(2) is not None else ""))
     return linhas
@@ -92,6 +95,9 @@ def cor_do_run(run: ET.Element) -> str | None:
     return cor.attrib.get("val", "").upper()
 
 
+_LINHA_BPM = re.compile(r"^\d.*BPM$")
+
+
 def _fechar_linha(partes: list[tuple[str, bool]]) -> tuple[str, str | None] | None:
     if not any(texto.strip() for texto, _ in partes):
         return None
@@ -102,6 +108,26 @@ def _fechar_linha(partes: list[tuple[str, bool]]) -> tuple[str, str | None] | No
     if musica:
         return musica, tom or None
     return None
+
+
+def bpm_das_linhas(linhas: list[tuple[str, str | None]]) -> str | None:
+    """O BPM vai na mesma linha do titulo, em branco e menor. Na lista, e a linha seguinte."""
+    titulos = [texto for texto, tom in linhas if tom is None]
+    for texto in titulos[1:]:
+        if _LINHA_BPM.match(texto):
+            return texto
+    return None
+
+
+def _anexar_linha(linhas: list[tuple[str, str | None]], linha: tuple[str, str | None] | None) -> None:
+    if linha is None:
+        return
+    texto, tom = linha
+    if tom and re.fullmatch(r"VS BLOCO \d+", tom) and _LINHA_BPM.match(texto):
+        linhas.append((tom, None))
+        linhas.append((texto, None))
+        return
+    linhas.append(linha)
 
 
 def linhas_do_slide(pptx: Path, slide_number: int) -> list[tuple[str, str | None]]:
@@ -117,9 +143,7 @@ def linhas_do_slide(pptx: Path, slide_number: int) -> list[tuple[str, str | None
         for child in paragrafo:
             tag = child.tag.split("}")[-1]
             if tag == "br":
-                linha = _fechar_linha(partes)
-                if linha:
-                    linhas.append(linha)
+                _anexar_linha(linhas, _fechar_linha(partes))
                 partes = []
                 continue
             if tag != "r":
@@ -127,9 +151,7 @@ def linhas_do_slide(pptx: Path, slide_number: int) -> list[tuple[str, str | None
             texto = "".join(node.text or "" for node in child.iter(A + "t"))
             if texto:
                 partes.append((texto, cor_do_run(child) == "FF0000"))
-        linha = _fechar_linha(partes)
-        if linha:
-            linhas.append(linha)
+        _anexar_linha(linhas, _fechar_linha(partes))
     if not linhas:
         raise SystemExit(f"Slide {slide_number} sem linhas.")
     return linhas
@@ -168,6 +190,7 @@ def codigo_do_cartaz(linhas: list[tuple[str, str | None]], inicio: str, fim: str
     titulos = [texto for texto, tom in linhas if tom is None]
     pares = [(texto, tom) for texto, tom in linhas if tom is not None]
     titulo = titulos[0] if titulos else "VS"
+    bpm = bpm_das_linhas(linhas)
     corpo = [
         "// Cartaz do bloco, texto editavel",
         'font="Arial";',
@@ -187,6 +210,16 @@ def codigo_do_cartaz(linhas: list[tuple[str, str | None]], inicio: str, fim: str
         "gfx_str_measure(#T,tw,th);",
         "widest=tw;",
     ]
+    if bpm:
+        corpo.extend(
+            [
+                f'#B="{eel_string(bpm)}";',
+                "gfx_setfont(px*0.55,font);",
+                "gfx_str_measure(#B,bw,bh);",
+                "gfx_setfont(px,font);",
+                "tw+spw+bw>widest ? widest=tw+spw+bw;",
+            ]
+        )
     for musica, tom in pares:
         _medir_linha(corpo, musica, tom)
     corpo.extend(
@@ -205,11 +238,32 @@ def codigo_do_cartaz(linhas: list[tuple[str, str | None]], inicio: str, fim: str
             "gfx_str_measure(#T,tw,th);",
             "step=px*1.35;",
             "y=(project_h-step*n)*0.5;",
-            "gfx_set(1,0,0,1);",
-            "gfx_str_draw(#T,(project_w-tw)*0.5,y);",
-            "y+=step;",
         ]
     )
+    if bpm:
+        corpo.extend(
+            [
+                "gfx_setfont(px*0.55,font);",
+                "gfx_str_measure(#B,bw,bh);",
+                "gfx_setfont(px,font);",
+                "x=(project_w-tw-spw-bw)*0.5;",
+                "gfx_set(1,0,0,1);",
+                "gfx_str_draw(#T,x,y);",
+                "gfx_set(1,1,1,1);",
+                "gfx_setfont(px*0.55,font);",
+                "gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);",
+                "gfx_setfont(px,font);",
+                "y+=step;",
+            ]
+        )
+    else:
+        corpo.extend(
+            [
+                "gfx_set(1,0,0,1);",
+                "gfx_str_draw(#T,(project_w-tw)*0.5,y);",
+                "y+=step;",
+            ]
+        )
     for musica, tom in pares:
         _desenhar_linha(corpo, musica, tom)
     corpo.append(");")

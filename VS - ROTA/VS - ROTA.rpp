@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.82/win64" 1792268493 0
+<REAPER_PROJECT 0.1 "7.83/win64" 1792865739 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -7,7 +7,7 @@
   ENVATTACH 3
   POOLEDENVATTACH 0
   TCPUIFLAGS 0
-  MIXERUIFLAGS 11 48 30712
+  MIXERUIFLAGS 11 48 34263
   ENVFADESZ10 40
   PEAKGAIN 1
   FEEDBACK 0
@@ -19,9 +19,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 15303.62601714853
-  ZOOM 0.19356569436072 0 0
-  VZOOMEX 1 399
+  CURSOR 11065.936221230162
+  ZOOM 0.9569769991738 10476 0
+  VZOOMEX 1 2942
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -36,7 +36,7 @@
   RENDER_FILE ""
   RENDER_PATTERN $project
   RENDER_FMT 0 1 44100
-  RENDER_1X 0
+  RENDER_1X 0 0
   RENDER_RANGE 1 0 0 0 1000
   RENDER_RESAMPLE 3 0 1
   RENDER_ADDTOPROJ 0
@@ -68,8 +68,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 15303.62601714853 15881.794180413835
-  SELECTION2 15303.62601714853 15881.794180413835
+  SELECTION 11065.936221230162 11722.915813066897
+  SELECTION2 11065.936221230162 11722.915813066897
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -77,7 +77,7 @@
   MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
   MASTERHWOUT 0 0 1 0 0 0 0 -1
   MASTER_NCH 2 2
-  MASTER_VOLUME 0.71255818392288 0 -1 -1 1
+  MASTER_VOLUME 0.70858445955218 0 -1 -1 1
   MASTER_PANMODE 3
   MASTER_PANLAWFLAGS 3
   MASTER_FX 1
@@ -107,7 +107,7 @@
   MARKER 2 700.82953188775514 "" 1
   MARKER 3 702.82953188775514 "BARCO DO AMOR - SEM AMOR NINGUÉM VIVE - ROSTO DESMAQUIADO - VIDA COR DE ROSA" 1 24036843 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 3 1017.444928713152 "" 1
-  MARKER 4 1019.444928713152 "BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE" 1 26245887 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 4 1019.444928713152 "BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE" 1 26245887 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 4 1649.2534321145126 "" 1
   MARKER 5 1651.2534321145126 "CAMISA MANCHADA - ESTA NOITE COMO LEMBRANÇA" 1 28294610 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 5 2000.2412552437643 "" 1
@@ -149,8 +149,8 @@
   MARKER 23 10609.704384495468 "" 1
   MARKER 24 10611.704384495468 "ALÔ GALERA - ESSA CAMA EU NÃO VENDO - PINTOU UMA PAIXÃO - TRANSGÊNICA - ALGO ME DIZ" 1 30976047 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 24 11063.936221230162 "" 1
-  MARKER 25 11065.936221230162 "BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR" 1 19964128 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 25 11722.915813066897 "" 1
+  MARKER 25 11065.936221230162 "BARRIL DE CHOPP - OURO NA ESTRADA - BEBIDAS DE AMOR" 9 19964128 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 25 11722.915813066897 "" 9
   MARKER 26 11724.915813066897 "BEIJA BEIJA - MARRECA - KERBFEST" 1 24228668 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 26 12233.807241638326 "" 1
   MARKER 27 12235.807241638326 "CAMISA MANCHADA - FALTA O NOME - ESTRADA DA VIDA" 1 30961608 1 R {00000000-0000-0000-0000-000000000000} 0 1
@@ -167,32 +167,34 @@
   MARKER 32 15167.733772250571 "" 1
   MARKER 33 15169.733772250571 "A FESTA É COM ROTA DO CHOPP" 1 28727707 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 33 15301.62601714853 "" 1
-  MARKER 34 15303.62601714853 "MARATÁ - LEVANTA A POEIRA - POLKA DO FRITZ" 9 27819850 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 34 15881.794180413835 "" 9
+  MARKER 34 15303.62601714853 "MARATÁ - LEVANTA A POEIRA - POLKA DO FRITZ" 1 27819850 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 34 15881.794180413835 "" 1
   MARKER 35 15883.794180413835 "NA HORA DE AMAR - PÁGINA DE AMIGOS - DORMI NA PRAÇA - TEMPORAL DE AMOR - EVIDÊNCIAS" 1 24355796 1 R {00000000-0000-0000-0000-000000000000} 0 1
   MARKER 35 16616.346017148528 "" 1
-  MARKER 36 16618.346017148528 "LOOP DE VANEIRA 82 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 36 17676.644792658732 "" 1
-  MARKER 37 17678.644792658732 "LOOP DE VANEIRA 86 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 37 18687.728874291384 "" 1
-  MARKER 38 18689.728874291384 "LOOP DE VANEIRA 90 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 38 19653.960711026077 "" 1
-  MARKER 39 19655.960711026077 "LOOP DE VANEIRA 94 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 39 20579.180302862813 "" 1
-  MARKER 40 20581.180302862813 "LOOP DE VANEIRA 97 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 40 21475.848057964853 "" 1
-  MARKER 41 21477.848057964853 "LOOP DE MARCHA 135 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 41 22375.702751842404 "" 1
-  MARKER 42 22377.702751842404 "LOOP DE MARCHA 138 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 42 23280.363976332199 "" 1
-  MARKER 43 23282.363976332199 "LOOP DE MARCHA 140 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 43 24184.137037556688 "" 1
-  MARKER 44 24186.137037556688 "CLICK DE MARCHA 135 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 44 25082.189282454648 "" 1
-  MARKER 45 25084.189282454648 "CLICK DE MARCHA 138 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 45 25985.126425311792 "" 1
-  MARKER 46 25987.126425311792 "CLICK DE MARCHA 140 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
-  MARKER 46 26887.201527352609 "" 1
+  MARKER 36 16618.346017148528 FUTURISTA 1 30976047 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 36 17096.621935515876 "" 1
+  MARKER 37 17098.621935515876 "LOOP DE VANEIRA 82 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 37 18156.92071102608 "" 1
+  MARKER 38 18158.92071102608 "LOOP DE VANEIRA 86 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 38 19168.004792658732 "" 1
+  MARKER 39 19170.004792658732 "LOOP DE VANEIRA 90 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 39 20134.236629393425 "" 1
+  MARKER 40 20136.236629393425 "LOOP DE VANEIRA 94 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 40 21059.456221230161 "" 1
+  MARKER 41 21061.456221230161 "LOOP DE VANEIRA 97 BPM" 1 26182400 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 41 21956.123976332201 "" 1
+  MARKER 42 21958.123976332201 "LOOP DE MARCHA 135 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 42 22855.978670209752 "" 1
+  MARKER 43 22857.978670209752 "LOOP DE MARCHA 138 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 43 23760.639894699547 "" 1
+  MARKER 44 23762.639894699547 "LOOP DE MARCHA 140 BPM" 1 16813311 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 44 24664.412955924035 "" 1
+  MARKER 45 24666.412955924035 "CLICK DE MARCHA 135 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 45 25562.465200821996 "" 1
+  MARKER 46 25564.465200821996 "CLICK DE MARCHA 138 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 46 26465.402343679139 "" 1
+  MARKER 47 26467.402343679139 "CLICK DE MARCHA 140 BPM" 1 26247280 1 R {00000000-0000-0000-0000-000000000000} 0 1
+  MARKER 47 27367.477445719956 "" 1
   <PROJBAY
   >
   <TRACK {6CAFBF87-D8D4-4A1F-84EB-FD3BD78FBB7F}
@@ -201,7 +203,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.53526003901476 0 -1 -1 1
+    VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -256,16 +258,17 @@
     AUXRECV 380 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 394 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 407 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 411 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 415 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 419 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 423 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 427 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 431 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 435 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 439 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 442 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 421 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 425 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 429 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 433 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 437 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 441 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 445 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 449 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 453 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 456 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 459 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 15 0 1 0 0 0 0 -1:U -1
@@ -330,6 +333,7 @@
     AUXRECV 375 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 381 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 395 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 408 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 14 0 1 0 0 0 0 -1:U -1
@@ -430,6 +434,12 @@
     AUXRECV 389 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 390 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 391 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 413 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 414 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 415 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 416 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 417 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 418 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 11 0 1 0 0 0 0 -1:U -1
@@ -531,6 +541,9 @@
     AUXRECV 384 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 385 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 404 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 409 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 411 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 412 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 10 0 1 0 0 0 0 -1:U -1
@@ -669,14 +682,14 @@
     AUXRECV 353 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 397 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 403 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 408 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 412 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 416 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 420 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 424 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 428 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 432 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
-    AUXRECV 436 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 422 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 426 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 430 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 434 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 438 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 442 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 446 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 450 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
     HWOUT 12 0 1 0 0 0 0 -1:U -1
@@ -754,6 +767,7 @@
     AUXRECV 383 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 398 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     AUXRECV 399 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
+    AUXRECV 410 0 1 0 0 0 0 0 0 -1:U 0 -1 ''
     MIDIOUT -1 -1
     MAINSEND 1 0
   >
@@ -898,6 +912,11 @@
             |#T="VS BLOCO 1";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="140 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Alambique";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -930,8 +949,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Alambique";
             |gfx_str_measure(#L,lw,lh);
@@ -1624,6 +1651,11 @@
             |#T="VS BLOCO 2";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="137 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Amor Carrapixo";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mib";
@@ -1662,8 +1694,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Amor Carrapixo";
             |gfx_str_measure(#L,lw,lh);
@@ -2371,6 +2411,11 @@
             |#T="VS BLOCO 3";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="130 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Barco do Amor";
             |gfx_str_measure(#L,lw,lh);
             |#R="Fa";
@@ -2409,8 +2454,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Barco do Amor";
             |gfx_str_measure(#L,lw,lh);
@@ -2815,7 +2868,7 @@
     >
   >
   <TRACK {D1A81D76-F5DA-4200-91FF-BAD4F444F720}
-    NAME "04 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -2912,7 +2965,12 @@
             |#T="VS BLOCO 4";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
-            |#L="Barquinnha De Ouro";
+            |#B="188 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
+            |#L="Barquinha De Ouro";
             |gfx_str_measure(#L,lw,lh);
             |#R="Fa#";
             |gfx_str_measure(#R,rw,rh);
@@ -2944,10 +3002,18 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
-            |#L="Barquinnha De Ouro";
+            |#L="Barquinha De Ouro";
             |gfx_str_measure(#L,lw,lh);
             |#R="Fa#";
             |gfx_str_measure(#R,rw,rh);
@@ -2990,7 +3056,7 @@
     >
   >
   <TRACK {DA73CDEA-820C-4963-9126-A782D59DACAC}
-    NAME "04 - CLICK - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - CLICK - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -3035,12 +3101,12 @@
       CHANMODE 0
       GUID {EB209B1A-D304-49ED-B824-2CF4C99C745B}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\CLICK.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\CLICK.mp3" 1
       >
     >
   >
   <TRACK {9D04DC13-7941-44AB-B070-8A711BFAB013}
-    NAME "04 - REGÊNCIA - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - REGÊNCIA - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -3085,12 +3151,12 @@
       CHANMODE 0
       GUID {6E5A803B-E787-453F-A1E5-969EEE4BDE27}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\REGÊNCIA 2.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\REGÊNCIA 2.mp3" 1
       >
     >
   >
   <TRACK {C2D73C2A-BB17-472B-AEB1-A15EAC9E0A7F}
-    NAME "04 - PERCUSSÃO - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - PERCUSSÃO - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3135,12 +3201,12 @@
       CHANMODE 0
       GUID {D55FD8F8-F8DC-4A10-BB57-2330596CB9F8}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {A1B55BB4-3CB3-41C3-AB89-90460A6E4409}
-    NAME "04 - SANFONA BASE - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - SANFONA BASE - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3185,12 +3251,12 @@
       CHANMODE 0
       GUID {28BC5BBB-E546-42FF-9B45-53E57DD72BAB}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\SANFONA BASE.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\SANFONA BASE.mp3" 1
       >
     >
   >
   <TRACK {076B1EEF-5A27-448E-86D0-F7B14F45D2A4}
-    NAME "04 - SANFONA SOLO - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - SANFONA SOLO - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3235,12 +3301,12 @@
       CHANMODE 0
       GUID {A4B4ACA6-5A5C-4442-B020-7C75D48E111B}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\SANFONA SOLO.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\SANFONA SOLO.mp3" 1
       >
     >
   >
   <TRACK {7273AF6E-A3C5-43F2-A948-5F88F09FC1A1}
-    NAME "04 - TECLADO BASE - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - TECLADO BASE - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3285,12 +3351,12 @@
       CHANMODE 0
       GUID {7C602358-74FB-4446-99BF-20255D63451C}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\TECLADO BASE.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\TECLADO BASE.mp3" 1
       >
     >
   >
   <TRACK {8CBBC7BC-C200-4000-BEA9-CE7A93142510}
-    NAME "04 - BASS - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - BASS - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3335,12 +3401,12 @@
       CHANMODE 0
       GUID {4B970DF5-A7C0-426E-ACAC-5A584A415FA6}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\BASS.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\BASS.mp3" 1
       >
     >
   >
   <TRACK {42A35494-CB65-4C17-BE29-BC5191EFEF98}
-    NAME "04 - GUITARRA - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - GUITARRA - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3385,12 +3451,12 @@
       CHANMODE 0
       GUID {E1AEC877-16D6-45B7-8754-100166119890}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\GUITARRA.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\GUITARRA.mp3" 1
       >
     >
   >
   <TRACK {AF1FB557-DBE0-45CC-9120-2036FBEF1662}
-    NAME "04 - METAIS - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
+    NAME "04 - METAIS - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE"
     PEAKCOL 26245887
     BEAT -1
     AUTOMODE 0
@@ -3435,7 +3501,7 @@
       CHANMODE 0
       GUID {82BE0762-DD41-4BBA-BF18-9A20761C77AC}
       <SOURCE MP3
-        FILE "ABERTO\4 - BARQUINNHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\METAIS.mp3" 1
+        FILE "ABERTO\4 - BARQUINHA DE OURO - VOCÊ NÃO VALE NADA - MORANGO DO NORDESTE\METAIS.mp3" 1
       >
     >
   >
@@ -3537,6 +3603,11 @@
             |#T="VS BLOCO 5";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="168 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Camisa Manchada";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -3563,8 +3634,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Camisa Manchada";
             |gfx_str_measure(#L,lw,lh);
@@ -4046,6 +4125,11 @@
             |#T="VS BLOCO 6";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="180 / 200 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Catchaqueira";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -4072,8 +4156,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Catchaqueira";
             |gfx_str_measure(#L,lw,lh);
@@ -4605,6 +4697,11 @@
             |#T="VS BLOCO 7";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="142 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Culpa é Sua";
             |gfx_str_measure(#L,lw,lh);
             |#R="Ré";
@@ -4637,8 +4734,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Culpa é Sua";
             |gfx_str_measure(#L,lw,lh);
@@ -5230,6 +5335,11 @@
             |#T="VS BLOCO 8";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="175 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Do Outro Lado Da Cidade";
             |gfx_str_measure(#L,lw,lh);
             |#R="Fá";
@@ -5256,8 +5366,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Do Outro Lado Da Cidade";
             |gfx_str_measure(#L,lw,lh);
@@ -5639,6 +5757,11 @@
             |#T="VS BLOCO 9";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="142 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Ele te Trai";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -5671,8 +5794,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Ele te Trai";
             |gfx_str_measure(#L,lw,lh);
@@ -6164,6 +6295,11 @@
             |#T="VS BLOCO 10";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="134 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Fim De Semana";
             |gfx_str_measure(#L,lw,lh);
             |#R="La";
@@ -6196,8 +6332,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Fim De Semana";
             |gfx_str_measure(#L,lw,lh);
@@ -6689,6 +6833,11 @@
             |#T="VS BLOCO 11";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="140 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Garçom";
             |gfx_str_measure(#L,lw,lh);
             |#R="La";
@@ -6739,8 +6888,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Garçom";
             |gfx_str_measure(#L,lw,lh);
@@ -7375,6 +7532,11 @@
             |#T="VS BLOCO 12";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="137 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Guardanapo";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sib";
@@ -7407,8 +7569,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Guardanapo";
             |gfx_str_measure(#L,lw,lh);
@@ -7950,6 +8120,11 @@
             |#T="VS BLOCO 13";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="136 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Lágrimas Sobre a Mesa";
             |gfx_str_measure(#L,lw,lh);
             |#R="Re";
@@ -7982,8 +8157,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Lágrimas Sobre a Mesa";
             |gfx_str_measure(#L,lw,lh);
@@ -8475,6 +8658,11 @@
             |#T="VS BLOCO 14";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Maria Tcha Tcha Tcha";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -8507,8 +8695,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Maria Tcha Tcha Tcha";
             |gfx_str_measure(#L,lw,lh);
@@ -9150,6 +9346,11 @@
             |#T="VS BLOCO 15";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="188 / 196 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Mineirinho";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -9182,8 +9383,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Mineirinho";
             |gfx_str_measure(#L,lw,lh);
@@ -9875,6 +10084,11 @@
             |#T="VS BLOCO 16";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="180 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Nosso Amor Terminou";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -9901,8 +10115,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Nosso Amor Terminou";
             |gfx_str_measure(#L,lw,lh);
@@ -10434,6 +10656,11 @@
             |#T="VS BLOCO 17";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="136 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Novela das 8";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -10466,8 +10693,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Novela das 8";
             |gfx_str_measure(#L,lw,lh);
@@ -11059,6 +11294,11 @@
             |#T="VS BLOCO 18";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="192 / 200 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Olhos Negros";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -11085,8 +11325,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Olhos Negros";
             |gfx_str_measure(#L,lw,lh);
@@ -11668,6 +11916,11 @@
             |#T="VS BLOCO 19";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="137 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Pegando Ônibus";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -11700,8 +11953,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Pegando Ônibus";
             |gfx_str_measure(#L,lw,lh);
@@ -12043,6 +12304,11 @@
             |#T="VS BLOCO 20";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="190 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Perigosa e Linda";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -12069,8 +12335,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Perigosa e Linda";
             |gfx_str_measure(#L,lw,lh);
@@ -12602,6 +12876,11 @@
             |#T="VS BLOCO 21";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="140 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Reprises De Amor";
             |gfx_str_measure(#L,lw,lh);
             |#R="Si";
@@ -12634,8 +12913,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Reprises De Amor";
             |gfx_str_measure(#L,lw,lh);
@@ -13177,6 +13464,11 @@
             |#T="VS BLOCO 22";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="140 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Santa Catarina";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sol";
@@ -13209,8 +13501,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Santa Catarina";
             |gfx_str_measure(#L,lw,lh);
@@ -13702,6 +14002,11 @@
             |#T="VS BLOCO 23";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="188 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Vagabundo";
             |gfx_str_measure(#L,lw,lh);
             |#R="SIBm";
@@ -13734,8 +14039,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Vagabundo";
             |gfx_str_measure(#L,lw,lh);
@@ -14427,6 +14740,11 @@
             |#T="VS BLOCO 24";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Alô Galera";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -14471,8 +14789,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Alô Galera";
             |gfx_str_measure(#L,lw,lh);
@@ -15184,6 +15510,11 @@
             |#T="VS BLOCO 25";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="136 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Barril de Chopp";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sib-Mib";
@@ -15216,8 +15547,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Barril de Chopp";
             |gfx_str_measure(#L,lw,lh);
@@ -15909,6 +16248,11 @@
             |#T="VS BLOCO 26";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Beija Beija";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -15941,8 +16285,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Beija Beija";
             |gfx_str_measure(#L,lw,lh);
@@ -16534,6 +16886,11 @@
             |#T="VS BLOCO 27";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="168 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Camisa Manchada";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mi";
@@ -16566,8 +16923,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Camisa Manchada";
             |gfx_str_measure(#L,lw,lh);
@@ -17159,6 +17524,11 @@
             |#T="VS BLOCO 28";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="130 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Coronel Boogey";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -17185,8 +17555,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Coronel Boogey";
             |gfx_str_measure(#L,lw,lh);
@@ -18368,6 +18746,11 @@
             |#T="VS BLOCO 29";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Dai Que Mioro";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -18412,8 +18795,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Dai Que Mioro";
             |gfx_str_measure(#L,lw,lh);
@@ -19125,6 +19516,11 @@
             |#T="VS BLOCO 30";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="135 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Heyo Heyo";
             |gfx_str_measure(#L,lw,lh);
             |#R="Mib";
@@ -19157,8 +19553,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Heyo Heyo";
             |gfx_str_measure(#L,lw,lh);
@@ -20000,6 +20404,11 @@
             |#T="VS BLOCO 31";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Nova Iorque";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -20032,8 +20441,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Nova Iorque";
             |gfx_str_measure(#L,lw,lh);
@@ -20192,7 +20609,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
@@ -20775,6 +21192,11 @@
             |#T="VS BLOCO 32";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="138 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Ponto Chick";
             |gfx_str_measure(#L,lw,lh);
             |#R="Sib-Mib";
@@ -20807,8 +21229,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Ponto Chick";
             |gfx_str_measure(#L,lw,lh);
@@ -21500,6 +21930,11 @@
             |#T="VS BLOCO 33";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="142 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="A Festa É com Rota do Chopp";
             |gfx_str_measure(#L,lw,lh);
             |#R="Fa";
@@ -21520,8 +21955,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="A Festa É com Rota do Chopp";
             |gfx_str_measure(#L,lw,lh);
@@ -21790,7 +22233,7 @@
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -21843,6 +22286,11 @@
             |#T="VS BLOCO 34";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="137 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Maratá";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -21875,8 +22323,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Maratá";
             |gfx_str_measure(#L,lw,lh);
@@ -21939,7 +22395,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 1 0 1
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -21989,7 +22445,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 2 0 2
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22039,7 +22495,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22089,7 +22545,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 128 0 128
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22139,7 +22595,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22189,7 +22645,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 8 0 8
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22239,7 +22695,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22289,7 +22745,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22339,7 +22795,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22389,7 +22845,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22439,7 +22895,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22489,7 +22945,7 @@
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 4 0 4
-    TRACKHEIGHT 0 1 0 0 0 0 0
+    TRACKHEIGHT 0 0 0 0 0 0 0
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
@@ -22534,6 +22990,7 @@
     BUSCOMP 2 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
@@ -22543,7 +23000,7 @@
     FX 1
     TRACKID {F44E197A-6371-4D85-992A-599431AD778D}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
   >
   <TRACK {380FD2E7-C61E-4599-9CFA-F07C2AB151EA}
@@ -22560,6 +23017,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
@@ -22569,16 +23027,16 @@
     FX 1
     TRACKID {380FD2E7-C61E-4599-9CFA-F07C2AB151EA}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
       POSITION 15881.794180413835
       SNAPOFFS 0
-      LENGTH 734.5518367347
+      LENGTH 734.55183673470003
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {BFD17782-829B-4283-B019-E609E5B24591}
@@ -22616,6 +23074,11 @@
             |#T="VS BLOCO 35";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
+            |#B="176-190 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
             |#L="Na Hora de Amar";
             |gfx_str_measure(#L,lw,lh);
             |#R="??";
@@ -22660,8 +23123,16 @@
             |gfx_str_measure(#T,tw,th);
             |step=px*1.35;
             |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
             |gfx_set(1,0,0,1);
-            |gfx_str_draw(#T,(project_w-tw)*0.5,y);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
             |y+=step;
             |#L="Na Hora de Amar";
             |gfx_str_measure(#L,lw,lh);
@@ -22717,7 +23188,9 @@
           >
           CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
         >
+        MULTIFXLINK 0
         PRESETNAME "Cartaz VS"
+        FLOATPOS 0 0 0 0
         FXID {14213CFC-CE21-404B-A69D-90D4850F0BEF}
         WAK 0 0
       >
@@ -22748,16 +23221,16 @@
     FX 1
     TRACKID {010682BC-0847-4B63-A988-7D478CE97376}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {DDA60256-6B00-4B27-9607-FFF30712D83D}
@@ -22798,16 +23271,16 @@
     FX 1
     TRACKID {BB53273E-C48F-4A37-9505-7A60B5E0FDE2}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {231A2B54-BDFC-4096-AFF9-FF1E7FAD0F54}
@@ -22848,16 +23321,16 @@
     FX 1
     TRACKID {D3C3D0B4-DFDA-4C49-A615-F66BC2744763}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {B912BFDE-06FA-425C-B273-107862EC2DD0}
@@ -22898,16 +23371,16 @@
     FX 1
     TRACKID {BC7F41A3-513F-41C3-9501-C96B1D2909D0}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {B160D4E1-8CA4-4F5C-8A9C-FC64CEA8B0B6}
@@ -22948,16 +23421,16 @@
     FX 1
     TRACKID {62D79DF0-06CF-4995-BEB7-DAB3D8F482E4}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {1E352370-B17A-4218-905E-C135AF663A8D}
@@ -22998,16 +23471,16 @@
     FX 1
     TRACKID {1561FC63-F974-4BC7-9F89-DE102C132DB8}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {D006AED8-C8DE-4048-ABF7-55AA725A77E2}
@@ -23048,16 +23521,16 @@
     FX 1
     TRACKID {022BFCCE-2AF9-4893-B713-B5AC9818C5CF}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {DF732BF5-A67B-41BE-9053-745AD1422533}
@@ -23079,7 +23552,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 1 1 -1 -1 1
+    VOLPAN 0.55760551322897 1 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -23088,7 +23561,7 @@
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
     LANEREC -1 -1 -1 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 64
     GROUP_FLAGS 0 0 0 0 0 16 0 16
@@ -23098,16 +23571,16 @@
     FX 1
     TRACKID {B9020C53-8603-4F7E-8D63-6341C93EF21A}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {EE06EE00-3E04-4BD4-A414-4059AB07227D}
@@ -23148,16 +23621,16 @@
     FX 1
     TRACKID {CDD15117-7899-4C23-BAAD-33C0650A1A50}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {8B5E4A79-3397-4B1B-BF7D-1CBB9EFEE9D3}
@@ -23198,16 +23671,16 @@
     FX 1
     TRACKID {D7AF08B2-BA1D-4E9C-9519-52647CF23D59}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {49F3B486-7CBC-44D9-A56C-20F7FCFC53AD}
@@ -23248,16 +23721,16 @@
     FX 1
     TRACKID {BDA4F5D8-9C50-49A5-B70E-FAFFAE1809C3}
     PERF 0
-    MIDIOUT -1
+    MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
       POSITION 15883.794180413835
       SNAPOFFS 0
-      LENGTH 732.551836734694
+      LENGTH 732.55183673469401
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
       MUTE 0 0
       SEL 0
       IGUID {391607A0-08F1-4831-BF7C-A08CF3E60683}
@@ -23273,8 +23746,764 @@
       >
     >
   >
+  <TRACK {DBB79FBB-88F7-4DE2-9C2E-BBCB2D3EFAE1}
+    NAME "36 - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 1 1
+    BUSCOMP 2 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {DBB79FBB-88F7-4DE2-9C2E-BBCB2D3EFAE1}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+  >
+  <TRACK {707E9932-3C33-478E-BA65-E5C861CC1D5F}
+    NAME "36 - MONITOR"
+    PEAKCOL 16842751
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {707E9932-3C33-478E-BA65-E5C861CC1D5F}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 16616.346017148528
+      SNAPOFFS 0
+      LENGTH 480.27591836729999
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {071D805E-67BA-4FB4-A290-778E71EAB342}
+      IID 564
+      NAME "VS BLOCO 36"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E0A16A73-018C-4276-A0E4-50A1E548B64A}
+      <SOURCE VIDEO
+        FILE "MONITOR\base.png"
+      >
+      <TAKEFX
+        SHOW 0
+        LASTSEL 0
+        DOCKED 0
+        BYPASS 0 0 0
+        <VIDEO_EFFECT "Video processor" ""
+          <CODE
+            |// Cartaz do bloco, texto editavel
+            |font="Arial";
+            |ini=16616.346017148528;
+            |fim=17096.6209355159;
+            |(project_time<ini || project_time>=fim) ? 0 : (
+            |project_wh_valid===0 ? input_info(-2,project_w,project_h);
+            |gfx_a2=0;
+            |gfx_blit(-2,1);
+            |gfx_set(0,0,0,1);
+            |gfx_fillrect(0,0,project_w,project_h);
+            |px=project_h*0.13;
+            |gfx_setfont(px,font);
+            |#S=" ";
+            |gfx_str_measure(#S,spw,sph);
+            |#T="VS BLOCO 36";
+            |gfx_str_measure(#T,tw,th);
+            |widest=tw;
+            |#B="135 BPM";
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |tw+spw+bw>widest ? widest=tw+spw+bw;
+            |#L="Futurista";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |linew=lw+spw+rw;
+            |linew>widest ? widest=linew;
+            |n=2;
+            |step=px*1.35;
+            |total=step*n;
+            |maxw=project_w*0.92;
+            |maxh=project_h*0.88;
+            |scale=1;
+            |widest>maxw ? scale=maxw/widest;
+            |total*scale>maxh ? scale=maxh/total;
+            |px*=scale;
+            |gfx_setfont(px,font);
+            |gfx_str_measure(#S,spw,sph);
+            |gfx_str_measure(#T,tw,th);
+            |step=px*1.35;
+            |y=(project_h-step*n)*0.5;
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_measure(#B,bw,bh);
+            |gfx_setfont(px,font);
+            |x=(project_w-tw-spw-bw)*0.5;
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#T,x,y);
+            |gfx_set(1,1,1,1);
+            |gfx_setfont(px*0.55,font);
+            |gfx_str_draw(#B,x+tw+spw,y+(th-bh)*0.5);
+            |gfx_setfont(px,font);
+            |y+=step;
+            |#L="Futurista";
+            |gfx_str_measure(#L,lw,lh);
+            |#R="??";
+            |gfx_str_measure(#R,rw,rh);
+            |x=(project_w-lw-spw-rw)*0.5;
+            |gfx_set(1,1,1,1);
+            |gfx_str_draw(#L,x,y);
+            |gfx_set(1,0,0,1);
+            |gfx_str_draw(#R,x+lw+spw,y);
+            |y+=step;
+            |);
+          >
+          CODEPARM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+        >
+        MULTIFXLINK 0
+        PRESETNAME "Cartaz VS"
+        FLOATPOS 0 0 0 0
+        FXID {F07F689F-3352-4343-94BE-52804E653B09}
+        WAK 0 0
+      >
+    >
+  >
+  <TRACK {74CBD4C5-840D-4AC7-92BF-BA382B925941}
+    NAME "36 - CLICK 135 - FUTURISTA"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.562341 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 1 0 1
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {74CBD4C5-840D-4AC7-92BF-BA382B925941}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A1196F7-C232-4596-949E-882AFD81D4D2}
+      IID 565
+      NAME "CLICK 135"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {31AEF151-92D1-46C1-9881-5F94EC2C556C}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\CLICK 135.mp3" 1
+      >
+    >
+  >
+  <TRACK {01E35C33-9332-4429-AB01-D8B3F953B8F8}
+    NAME "36 - REGÊNCIA - FUTURISTA"
+    PEAKCOL 25198847
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 -1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 2 0 2
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {01E35C33-9332-4429-AB01-D8B3F953B8F8}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0F461A9F-6BAD-47D5-98E0-C843E4DC398E}
+      IID 566
+      NAME "CONTAGEM E REGÊNCIA"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2D98D62-81C9-44FA-833A-F402B1FAC9F4}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\CONTAGEM E REGÊNCIA.mp3" 1
+      >
+    >
+  >
+  <TRACK {7A9C20F2-BA4D-49B4-8F90-2424582224F7}
+    NAME "36 - BASE FANTASIA - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 8 0 8
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {7A9C20F2-BA4D-49B4-8F90-2424582224F7}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {78C939DF-B05A-46AF-8EE7-5145FF24356B}
+      IID 567
+      NAME "BASE FANTASIA"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2956C9BE-94A7-4BB7-B460-BBA3F8061AEA}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\BASE FANTASIA.mp3" 1
+      >
+    >
+  >
+  <TRACK {D1CF0835-8A9B-41FD-B164-2D91D8A9E874}
+    NAME "36 - GUIA - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 128 0 128
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {D1CF0835-8A9B-41FD-B164-2D91D8A9E874}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9C53C1C1-D4D4-48C0-BFCE-E61EBE99F717}
+      IID 568
+      NAME GUIA
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {84BA9501-3AAD-453E-8636-B780BE342F94}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\GUIA.mp3" 1
+      >
+    >
+  >
+  <TRACK {6ED7DA93-9DFD-43C2-80CA-B8539CA9B40C}
+    NAME "36 - SANFONA BASE - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 8 0 8
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6ED7DA93-9DFD-43C2-80CA-B8539CA9B40C}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B818A8B5-5BC7-4DC5-9D91-B628DED453F7}
+      IID 569
+      NAME "SANFONA BASE"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E98CA49F-757B-420F-A93E-7D41E43959E9}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\SANFONA BASE.mp3" 1
+      >
+    >
+  >
+  <TRACK {24A78761-1C38-407E-9D88-B57467821834}
+    NAME "36 - SANFONA SOLO - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 8 0 8
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {24A78761-1C38-407E-9D88-B57467821834}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {64BE8FE7-83B5-4EAA-90AE-EC4F798C689D}
+      IID 570
+      NAME "SANFONA SOLO"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BC3040EF-DC19-461C-9C35-A7471C05EF59}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\SANFONA SOLO.mp3" 1
+      >
+    >
+  >
+  <TRACK {8C82F735-D1D0-437A-9BEB-5EBE89440A90}
+    NAME "36 - SAX 1 VOZ - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {8C82F735-D1D0-437A-9BEB-5EBE89440A90}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD2569A3-4596-45BD-A5D3-9BC32BBD1287}
+      IID 571
+      NAME "SAX 1 VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C08F4601-2B44-46C7-A2B5-D117855CAAF0}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\SAX 1 VOZ.mp3" 1
+      >
+    >
+  >
+  <TRACK {F75733B5-F162-49E2-99DE-AD2CFA78A032}
+    NAME "36 - SAX 2 VOZ - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {F75733B5-F162-49E2-99DE-AD2CFA78A032}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {19CF7632-85AC-42C3-8C5B-96251A67E62F}
+      IID 572
+      NAME "SAX 2 VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1405D96-CF6F-4EAB-9CBC-3CD12519AE41}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\SAX 2 VOZ.mp3" 1
+      >
+    >
+  >
+  <TRACK {52320388-863F-4F19-BC4F-FD82D4D5A8BB}
+    NAME "36 - TROMBONE - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {52320388-863F-4F19-BC4F-FD82D4D5A8BB}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B56D4CBF-7AA2-451F-B875-E8E7CA3B35AB}
+      IID 573
+      NAME TROMBONE
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {306198FA-B8EF-47E8-89CF-B4E8945754CE}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\TROMBONE.mp3" 1
+      >
+    >
+  >
+  <TRACK {6ED5E09D-B67B-4F01-B09F-3E489764E754}
+    NAME "36 - TROMBONE OITAVA - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6ED5E09D-B67B-4F01-B09F-3E489764E754}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1DAE25D8-0880-4FC9-B97C-E34C050FEF77}
+      IID 574
+      NAME "TROMBONE OITAVA"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0523C423-78CD-48C3-A82A-B28018B086AD}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\TROMBONE OITAVA.mp3" 1
+      >
+    >
+  >
+  <TRACK {1617C980-733A-4D6E-8426-655D1262591A}
+    NAME "36 - TROMPETE 1 VOZ - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1617C980-733A-4D6E-8426-655D1262591A}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4012B291-099F-42E6-9EA9-45906508AF5B}
+      IID 575
+      NAME "TROMPETE 1 VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35E18BCB-80BB-42F0-871A-87668CD67509}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\TROMPETE 1 VOZ.mp3" 1
+      >
+    >
+  >
+  <TRACK {21F0084F-4998-4C6A-B5AC-377CDA8ABCC9}
+    NAME "36 - TROMPETE 2 VOZ - FUTURISTA"
+    PEAKCOL 30976047
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 1 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 2 -1
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    GROUP_FLAGS 0 0 0 0 0 4 0 4
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {21F0084F-4998-4C6A-B5AC-377CDA8ABCC9}
+    PERF 0
+    MIDIOUT -1 -1
+    MAINSEND 0 0
+    <ITEM
+      POSITION 16618.346017148528
+      SNAPOFFS 0
+      LENGTH 478.275918367347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0 0 1 0 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4CCEC230-6F81-4C79-949F-288DDE145E8E}
+      IID 576
+      NAME "TROMPETE 2 VOZ"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80111F03-57CE-4D0B-8838-80F78419010D}
+      <SOURCE MP3
+        FILE "ABERTO\36 - FUTURISTA\TROMPETE 2 VOZ.mp3" 1
+      >
+    >
+  >
   <TRACK {0054879A-6849-44FC-8E1B-E1E58121B29D}
-    NAME "36 - LOOP DE VANEIRA 82 BPM"
+    NAME "37 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23301,7 +24530,7 @@
     MAINSEND 1 0
   >
   <TRACK {2EE62DD9-2FAA-450E-BA81-09317227132A}
-    NAME "36 - MONITOR"
+    NAME "37 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23327,7 +24556,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 16616.346017148528
+      POSITION 17096.621935515876
       SNAPOFFS 0
       LENGTH 1060.2977755101999
       LOOP 1
@@ -23338,7 +24567,7 @@
       SEL 0
       IGUID {4FBC6726-4BB2-442D-8A00-91177EAD65DC}
       IID 509
-      NAME "VS BLOCO 36"
+      NAME "VS BLOCO 37"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23356,8 +24585,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=16616.346017148528;
-            |fim=17676.643792658699;
+            |ini=17096.621935515876;
+            |fim=18156.919711026047;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23368,7 +24597,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 36";
+            |#T="VS BLOCO 37";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23417,7 +24646,7 @@
     >
   >
   <TRACK {39BE49EA-AB5F-49E1-857A-7BB1B9AE8F07}
-    NAME "36 - CLICK 82 - LOOP DE VANEIRA 82 BPM"
+    NAME "37 - CLICK 82 - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23444,7 +24673,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 16618.346017148528
+      POSITION 17098.621935515876
       SNAPOFFS 0
       LENGTH 1058.298775510204
       LOOP 1
@@ -23462,12 +24691,12 @@
       CHANMODE 0
       GUID {78006BDD-2C18-4029-92CC-2B8AC82E1208}
       <SOURCE MP3
-        FILE "ABERTO\36 - LOOP DE VANEIRA 82 BPM\CLICK 82.mp3" 1
+        FILE "ABERTO\37 - LOOP DE VANEIRA 82 BPM\CLICK 82.mp3" 1
       >
     >
   >
   <TRACK {58770AE9-9635-49C6-BD41-80CD9E6059EF}
-    NAME "36 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM"
+    NAME "37 - PERCUSSÃO - LOOP DE VANEIRA 82 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23494,7 +24723,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 16618.346017148528
+      POSITION 17098.621935515876
       SNAPOFFS 0
       LENGTH 1058.298775510204
       LOOP 1
@@ -23512,12 +24741,12 @@
       CHANMODE 0
       GUID {3A6B0588-3E59-440F-9F46-8384EB75AEF3}
       <SOURCE MP3
-        FILE "ABERTO\36 - LOOP DE VANEIRA 82 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\37 - LOOP DE VANEIRA 82 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {7BEA8A10-C022-4295-87A6-730D0F88D511}
-    NAME "37 - LOOP DE VANEIRA 86 BPM"
+    NAME "38 - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23544,7 +24773,7 @@
     MAINSEND 1 0
   >
   <TRACK {AC75E43F-BBF4-4E18-B6BC-4029A6C91FEF}
-    NAME "37 - MONITOR"
+    NAME "38 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23570,7 +24799,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 17676.644792658732
+      POSITION 18156.92071102608
       SNAPOFFS 0
       LENGTH 1011.0840816327
       LOOP 1
@@ -23581,7 +24810,7 @@
       SEL 0
       IGUID {899003B5-0908-41B9-A879-272C59E332CA}
       IID 549
-      NAME "VS BLOCO 37"
+      NAME "VS BLOCO 38"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23599,8 +24828,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=17676.644792658732;
-            |fim=18687.727874291391;
+            |ini=18156.92071102608;
+            |fim=19168.003792658739;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23611,7 +24840,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 37";
+            |#T="VS BLOCO 38";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23660,7 +24889,7 @@
     >
   >
   <TRACK {E61C8BD9-1082-407B-8C2A-F4AB0910CBDE}
-    NAME "37 - CLICK 86 - LOOP DE VANEIRA 86 BPM"
+    NAME "38 - CLICK 86 - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23687,7 +24916,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 17678.644792658732
+      POSITION 18158.92071102608
       SNAPOFFS 0
       LENGTH 1009.084081632653
       LOOP 1
@@ -23705,12 +24934,12 @@
       CHANMODE 0
       GUID {4CD558EF-AB88-4945-B4EC-04933F5BB5B3}
       <SOURCE MP3
-        FILE "ABERTO\37 - LOOP DE VANEIRA 86 BPM\CLICK 86.mp3" 1
+        FILE "ABERTO\38 - LOOP DE VANEIRA 86 BPM\CLICK 86.mp3" 1
       >
     >
   >
   <TRACK {A34D3F6A-4FCC-4E99-B125-AE5E4828410B}
-    NAME "37 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM"
+    NAME "38 - PERCUSSÃO - LOOP DE VANEIRA 86 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23737,7 +24966,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 17678.644792658732
+      POSITION 18158.92071102608
       SNAPOFFS 0
       LENGTH 1009.084081632653
       LOOP 1
@@ -23755,12 +24984,12 @@
       CHANMODE 0
       GUID {4FAA61BB-E1C4-4657-B48F-AAB38A74D754}
       <SOURCE MP3
-        FILE "ABERTO\37 - LOOP DE VANEIRA 86 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\38 - LOOP DE VANEIRA 86 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {54910DA8-1278-44E4-94DF-557A19CD4C58}
-    NAME "38 - LOOP DE VANEIRA 90 BPM"
+    NAME "39 - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23787,7 +25016,7 @@
     MAINSEND 1 0
   >
   <TRACK {5512DE50-0E61-4B6F-A1BC-46D2B8AFD77E}
-    NAME "38 - MONITOR"
+    NAME "39 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -23813,7 +25042,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 18687.728874291384
+      POSITION 19168.004792658732
       SNAPOFFS 0
       LENGTH 966.23083673470001
       LOOP 1
@@ -23824,7 +25053,7 @@
       SEL 0
       IGUID {A3D023AC-D7FA-42B6-A12C-6AFE32C3C23B}
       IID 512
-      NAME "VS BLOCO 38"
+      NAME "VS BLOCO 39"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -23842,8 +25071,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=18687.728874291384;
-            |fim=19653.959711026051;
+            |ini=19168.004792658732;
+            |fim=20134.235629393399;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -23854,7 +25083,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 38";
+            |#T="VS BLOCO 39";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -23903,7 +25132,7 @@
     >
   >
   <TRACK {55657961-9AF3-490F-91C1-F25E3580255A}
-    NAME "38 - CLICK 90 - LOOP DE VANEIRA 90 BPM"
+    NAME "39 - CLICK 90 - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -23930,7 +25159,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 18689.728874291384
+      POSITION 19170.004792658732
       SNAPOFFS 0
       LENGTH 964.23183673469396
       LOOP 1
@@ -23948,12 +25177,12 @@
       CHANMODE 0
       GUID {3F85D72B-624E-4C29-BE37-3A337EE5D2C5}
       <SOURCE MP3
-        FILE "ABERTO\38 - LOOP DE VANEIRA 90 BPM\CLICK 90.mp3" 1
+        FILE "ABERTO\39 - LOOP DE VANEIRA 90 BPM\CLICK 90.mp3" 1
       >
     >
   >
   <TRACK {998627F4-A2F1-4057-8FCF-1F8F218651FE}
-    NAME "38 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM"
+    NAME "39 - PERCUSSÃO - LOOP DE VANEIRA 90 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -23980,7 +25209,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 18689.728874291384
+      POSITION 19170.004792658732
       SNAPOFFS 0
       LENGTH 964.23183673469396
       LOOP 1
@@ -23998,12 +25227,12 @@
       CHANMODE 0
       GUID {FF7398DB-C5E3-43B3-9035-8AE046F4ECE5}
       <SOURCE MP3
-        FILE "ABERTO\38 - LOOP DE VANEIRA 90 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\39 - LOOP DE VANEIRA 90 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {99F94EB1-620B-48CA-A6C2-86CB74997AEC}
-    NAME "39 - LOOP DE VANEIRA 94 BPM"
+    NAME "40 - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -24030,7 +25259,7 @@
     MAINSEND 1 0
   >
   <TRACK {CDEE9739-4E3B-43AA-86CD-CFC2C550A4D8}
-    NAME "39 - MONITOR"
+    NAME "40 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24056,7 +25285,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 19653.960711026077
+      POSITION 20134.236629393425
       SNAPOFFS 0
       LENGTH 925.21859183679999
       LOOP 1
@@ -24067,7 +25296,7 @@
       SEL 0
       IGUID {B9FE1149-8C4A-405C-BB58-DEB274864497}
       IID 515
-      NAME "VS BLOCO 39"
+      NAME "VS BLOCO 40"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24085,8 +25314,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=19653.960711026077;
-            |fim=20579.179302862849;
+            |ini=20134.236629393425;
+            |fim=21059.455221230197;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24097,7 +25326,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 39";
+            |#T="VS BLOCO 40";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -24146,7 +25375,7 @@
     >
   >
   <TRACK {AB27BC1B-B42A-4FE8-9319-4A21B8062D36}
-    NAME "39 - CLICK 94 - LOOP DE VANEIRA 94 BPM"
+    NAME "40 - CLICK 94 - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24173,7 +25402,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 19655.960711026077
+      POSITION 20136.236629393425
       SNAPOFFS 0
       LENGTH 923.21959183673505
       LOOP 1
@@ -24191,12 +25420,12 @@
       CHANMODE 0
       GUID {DF5BA053-3A7A-46A7-B4F2-8180D913B017}
       <SOURCE MP3
-        FILE "ABERTO\39 - LOOP DE VANEIRA 94 BPM\CLICK 94.mp3" 1
+        FILE "ABERTO\40 - LOOP DE VANEIRA 94 BPM\CLICK 94.mp3" 1
       >
     >
   >
   <TRACK {9EFACC18-D871-4CC5-9FAD-A6714A4B87A4}
-    NAME "39 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM"
+    NAME "40 - PERCUSSÃO - LOOP DE VANEIRA 94 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -24223,7 +25452,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 19655.960711026077
+      POSITION 20136.236629393425
       SNAPOFFS 0
       LENGTH 923.21959183673505
       LOOP 1
@@ -24241,12 +25470,12 @@
       CHANMODE 0
       GUID {A6A50EA7-607E-42C7-888B-FAA24ED1E05B}
       <SOURCE MP3
-        FILE "ABERTO\39 - LOOP DE VANEIRA 94 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\40 - LOOP DE VANEIRA 94 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {4357EC41-D5BD-4773-BAF6-BE2049CAE6F3}
-    NAME "40 - LOOP DE VANEIRA 97 BPM"
+    NAME "41 - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -24273,7 +25502,7 @@
     MAINSEND 1 0
   >
   <TRACK {ACE585FC-D430-4AF9-80B6-290C8B0CA832}
-    NAME "40 - MONITOR"
+    NAME "41 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24299,7 +25528,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 20579.180302862813
+      POSITION 21059.456221230161
       SNAPOFFS 0
       LENGTH 896.666755102
       LOOP 1
@@ -24310,7 +25539,7 @@
       SEL 0
       IGUID {271CBE8A-15D4-4A1A-95FB-FE8B99A512F7}
       IID 518
-      NAME "VS BLOCO 40"
+      NAME "VS BLOCO 41"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24328,8 +25557,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=20579.180302862813;
-            |fim=21475.847057964849;
+            |ini=21059.456221230161;
+            |fim=21956.122976332197;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24340,7 +25569,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 40";
+            |#T="VS BLOCO 41";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Vaneira";
@@ -24389,7 +25618,7 @@
     >
   >
   <TRACK {AE4B9261-47FA-4BB6-A9A8-5A52548637E8}
-    NAME "40 - CLICK 97 - LOOP DE VANEIRA 97 BPM"
+    NAME "41 - CLICK 97 - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24416,7 +25645,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 20581.180302862813
+      POSITION 21061.456221230161
       SNAPOFFS 0
       LENGTH 894.64163265306104
       LOOP 1
@@ -24434,12 +25663,12 @@
       CHANMODE 0
       GUID {787740D0-D1CC-4EF8-B683-24A553118E58}
       <SOURCE MP3
-        FILE "ABERTO\40 - LOOP DE VANEIRA 97 BPM\CLICK 97.mp3" 1
+        FILE "ABERTO\41 - LOOP DE VANEIRA 97 BPM\CLICK 97.mp3" 1
       >
     >
   >
   <TRACK {CE5A2D10-B7B3-4055-8B8B-219B94E6E472}
-    NAME "40 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM"
+    NAME "41 - PERCUSSÃO - LOOP DE VANEIRA 97 BPM"
     PEAKCOL 26182400
     BEAT -1
     AUTOMODE 0
@@ -24466,7 +25695,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 20581.180302862813
+      POSITION 21061.456221230161
       SNAPOFFS 0
       LENGTH 894.66775510204104
       LOOP 1
@@ -24484,12 +25713,12 @@
       CHANMODE 0
       GUID {3C07B614-BA0A-4F2A-A5A8-E0976F058201}
       <SOURCE MP3
-        FILE "ABERTO\40 - LOOP DE VANEIRA 97 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\41 - LOOP DE VANEIRA 97 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {BA1CF8FB-14B6-4CF6-B7DA-C88BEF2FB35B}
-    NAME "41 - LOOP DE MARCHA 135 BPM"
+    NAME "42 - LOOP DE MARCHA 135 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24516,7 +25745,7 @@
     MAINSEND 1 0
   >
   <TRACK {D667AE8F-34DC-4B9B-B716-EEB262B5FEF4}
-    NAME "41 - MONITOR"
+    NAME "42 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24542,7 +25771,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 21475.848057964853
+      POSITION 21956.123976332201
       SNAPOFFS 0
       LENGTH 899.85369387759999
       LOOP 1
@@ -24553,7 +25782,7 @@
       SEL 0
       IGUID {7A34DF3A-1793-44DE-851D-A61C36F4E6D9}
       IID 521
-      NAME "VS BLOCO 41"
+      NAME "VS BLOCO 42"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24571,8 +25800,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=21475.848057964853;
-            |fim=22375.701751842451;
+            |ini=21956.123976332201;
+            |fim=22855.977670209799;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24583,7 +25812,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 41";
+            |#T="VS BLOCO 42";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -24632,7 +25861,7 @@
     >
   >
   <TRACK {7683005B-BC9E-46E0-A729-05707CD4A334}
-    NAME "41 - CLICK 135 - LOOP DE MARCHA 135 BPM"
+    NAME "42 - CLICK 135 - LOOP DE MARCHA 135 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24659,7 +25888,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 21477.848057964853
+      POSITION 21958.123976332201
       SNAPOFFS 0
       LENGTH 897.85469387755097
       LOOP 1
@@ -24677,12 +25906,12 @@
       CHANMODE 0
       GUID {85BD4AAD-E858-4BBF-BB86-29C3D2D81C21}
       <SOURCE MP3
-        FILE "ABERTO\41 - LOOP DE MARCHA 135 BPM\CLICK 135.mp3" 1
+        FILE "ABERTO\42 - LOOP DE MARCHA 135 BPM\CLICK 135.mp3" 1
       >
     >
   >
   <TRACK {8497793B-BD2D-45DF-AC2E-8F762F9A6197}
-    NAME "41 - PERCUSSÃO - LOOP DE MARCHA 135 BPM"
+    NAME "42 - PERCUSSÃO - LOOP DE MARCHA 135 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24709,7 +25938,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 21477.848057964853
+      POSITION 21958.123976332201
       SNAPOFFS 0
       LENGTH 897.85469387755097
       LOOP 1
@@ -24727,12 +25956,12 @@
       CHANMODE 0
       GUID {03E6A6C9-9022-4D28-A12C-6F571F5628E2}
       <SOURCE MP3
-        FILE "ABERTO\41 - LOOP DE MARCHA 135 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\42 - LOOP DE MARCHA 135 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {63BBF6BE-410F-4229-8B1B-AA300B137740}
-    NAME "42 - LOOP DE MARCHA 138 BPM"
+    NAME "43 - LOOP DE MARCHA 138 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24759,7 +25988,7 @@
     MAINSEND 1 0
   >
   <TRACK {C87FAC1F-ED41-4A47-8384-A95199C5EB8F}
-    NAME "42 - MONITOR"
+    NAME "43 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -24785,7 +26014,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 22375.702751842404
+      POSITION 22855.978670209752
       SNAPOFFS 0
       LENGTH 904.6602244897
       LOOP 1
@@ -24796,7 +26025,7 @@
       SEL 0
       IGUID {0E5E68CB-9892-43C0-8488-D38EE9706D5D}
       IID 524
-      NAME "VS BLOCO 42"
+      NAME "VS BLOCO 43"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -24814,8 +26043,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=22375.702751842404;
-            |fim=23280.362976332151;
+            |ini=22855.978670209752;
+            |fim=23760.638894699499;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -24826,7 +26055,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 42";
+            |#T="VS BLOCO 43";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -24875,7 +26104,7 @@
     >
   >
   <TRACK {620CEC84-D597-4AAD-A55E-850DA20C25F7}
-    NAME "42 - CLICK 138 - LOOP DE MARCHA 138 BPM"
+    NAME "43 - CLICK 138 - LOOP DE MARCHA 138 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -24902,7 +26131,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 22377.702751842404
+      POSITION 22857.978670209752
       SNAPOFFS 0
       LENGTH 902.66122448979604
       LOOP 1
@@ -24920,12 +26149,12 @@
       CHANMODE 0
       GUID {5B1A32EC-ADC3-43E8-9E6D-3BFC3B51719A}
       <SOURCE MP3
-        FILE "ABERTO\42 - LOOP DE MARCHA 138 BPM\CLICK 138.mp3" 1
+        FILE "ABERTO\43 - LOOP DE MARCHA 138 BPM\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {0F8F472A-AEA9-4171-8768-D0E6AD2C83B7}
-    NAME "42 - PERCUSSÃO - LOOP DE MARCHA 138 BPM"
+    NAME "43 - PERCUSSÃO - LOOP DE MARCHA 138 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -24952,7 +26181,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 22377.702751842404
+      POSITION 22857.978670209752
       SNAPOFFS 0
       LENGTH 902.66122448979604
       LOOP 1
@@ -24970,12 +26199,12 @@
       CHANMODE 0
       GUID {86BB1CEF-D9A4-4967-9EF4-4720EDCAE37F}
       <SOURCE MP3
-        FILE "ABERTO\42 - LOOP DE MARCHA 138 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\43 - LOOP DE MARCHA 138 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {204F3561-CF1A-4221-9CD5-C1E2EB09E8E0}
-    NAME "43 - LOOP DE MARCHA 140 BPM"
+    NAME "44 - LOOP DE MARCHA 140 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -25002,7 +26231,7 @@
     MAINSEND 1 0
   >
   <TRACK {9460144F-F805-48AE-965A-9A3DE396F6EA}
-    NAME "43 - MONITOR"
+    NAME "44 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -25028,7 +26257,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 23280.363976332199
+      POSITION 23760.639894699547
       SNAPOFFS 0
       LENGTH 903.77206122450002
       LOOP 1
@@ -25039,7 +26268,7 @@
       SEL 0
       IGUID {540164E3-5723-480D-9FC1-A47EDB938CD8}
       IID 527
-      NAME "VS BLOCO 43"
+      NAME "VS BLOCO 44"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -25057,8 +26286,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=23280.363976332199;
-            |fim=24184.136037556651;
+            |ini=23760.639894699547;
+            |fim=24664.411955923999;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -25069,7 +26298,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 43";
+            |#T="VS BLOCO 44";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Loop de Marcha";
@@ -25118,7 +26347,7 @@
     >
   >
   <TRACK {B10539F6-2B10-4AE0-9F7F-A08659786797}
-    NAME "43 - CLICK 140 - LOOP DE MARCHA 140 BPM"
+    NAME "44 - CLICK 140 - LOOP DE MARCHA 140 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -25145,7 +26374,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 23282.363976332199
+      POSITION 23762.639894699547
       SNAPOFFS 0
       LENGTH 901.77306122448999
       LOOP 1
@@ -25163,12 +26392,12 @@
       CHANMODE 0
       GUID {F0DCC9F8-E844-498C-8242-91F707E1216F}
       <SOURCE MP3
-        FILE "ABERTO\43 - LOOP DE MARCHA 140 BPM\CLICK 140.mp3" 1
+        FILE "ABERTO\44 - LOOP DE MARCHA 140 BPM\CLICK 140.mp3" 1
       >
     >
   >
   <TRACK {C74194FB-C9BC-4E0B-9D4D-593D2496C059}
-    NAME "43 - PERCUSSÃO - LOOP DE MARCHA 140 BPM"
+    NAME "44 - PERCUSSÃO - LOOP DE MARCHA 140 BPM"
     PEAKCOL 16813311
     BEAT -1
     AUTOMODE 0
@@ -25195,7 +26424,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 23282.363976332199
+      POSITION 23762.639894699547
       SNAPOFFS 0
       LENGTH 901.77306122448999
       LOOP 1
@@ -25213,12 +26442,12 @@
       CHANMODE 0
       GUID {7D30B309-C255-41CD-9D76-2FEDC389FF24}
       <SOURCE MP3
-        FILE "ABERTO\43 - LOOP DE MARCHA 140 BPM\PERCUSSÃO.mp3" 1
+        FILE "ABERTO\44 - LOOP DE MARCHA 140 BPM\PERCUSSÃO.mp3" 1
       >
     >
   >
   <TRACK {4ABFF4CE-E034-4746-87A9-0F005E81C40F}
-    NAME "44 - CLICK DE MARCHA 135 BPM"
+    NAME "45 - CLICK DE MARCHA 135 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -25245,7 +26474,7 @@
     MAINSEND 1 0
   >
   <TRACK {AFBC9379-C024-4BF5-9AFA-88EB1C12B122}
-    NAME "44 - MONITOR"
+    NAME "45 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -25271,7 +26500,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 24184.137037556688
+      POSITION 24664.412955924035
       SNAPOFFS 0
       LENGTH 898.051244898
       LOOP 1
@@ -25282,7 +26511,7 @@
       SEL 0
       IGUID {F27758EC-65F7-4190-AA24-3E6CF31B2E79}
       IID 530
-      NAME "VS BLOCO 44"
+      NAME "VS BLOCO 45"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -25300,8 +26529,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=24184.137037556688;
-            |fim=25082.188282454652;
+            |ini=24664.412955924035;
+            |fim=25562.464200822;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -25312,7 +26541,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 44";
+            |#T="VS BLOCO 45";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -25361,7 +26590,7 @@
     >
   >
   <TRACK {19C0DAA2-8A50-4E82-8508-1DFE9A239026}
-    NAME "44 - CLICK 135 - CLICK DE MARCHA 135 BPM"
+    NAME "45 - CLICK 135 - CLICK DE MARCHA 135 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -25388,7 +26617,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 24186.137037556688
+      POSITION 24666.412955924035
       SNAPOFFS 0
       LENGTH 896.05224489795899
       LOOP 1
@@ -25406,12 +26635,12 @@
       CHANMODE 0
       GUID {DF0C1BE5-C194-4D62-81F1-9F0D431893D3}
       <SOURCE MP3
-        FILE "ABERTO\44 - CLICK DE MARCHA 135 BPM\CLICK 135.mp3" 1
+        FILE "ABERTO\45 - CLICK DE MARCHA 135 BPM\CLICK 135.mp3" 1
       >
     >
   >
   <TRACK {5B9DF6E1-1EED-41C9-8A2E-C73D763F9BCF}
-    NAME "45 - CLICK DE MARCHA 138 BPM"
+    NAME "46 - CLICK DE MARCHA 138 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -25438,7 +26667,7 @@
     MAINSEND 1 0
   >
   <TRACK {A05FAB19-B175-43FD-9C8C-4AFD6C9F8541}
-    NAME "45 - MONITOR"
+    NAME "46 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -25464,7 +26693,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 25082.189282454648
+      POSITION 25562.465200821996
       SNAPOFFS 0
       LENGTH 902.93614285709998
       LOOP 1
@@ -25475,7 +26704,7 @@
       SEL 0
       IGUID {43426E0E-97D0-4870-BCC6-B57BB9DB03A0}
       IID 532
-      NAME "VS BLOCO 45"
+      NAME "VS BLOCO 46"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -25493,8 +26722,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=25082.189282454648;
-            |fim=25985.125425311751;
+            |ini=25562.465200821996;
+            |fim=26465.401343679099;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -25505,7 +26734,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 45";
+            |#T="VS BLOCO 46";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -25554,7 +26783,7 @@
     >
   >
   <TRACK {A74B92C8-6B7A-4178-8646-78BE7E4A8810}
-    NAME "45 - CLICK 138 - CLICK DE MARCHA 138 BPM"
+    NAME "46 - CLICK 138 - CLICK DE MARCHA 138 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -25581,7 +26810,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 25084.189282454648
+      POSITION 25564.465200821996
       SNAPOFFS 0
       LENGTH 900.93714285714304
       LOOP 1
@@ -25599,12 +26828,12 @@
       CHANMODE 0
       GUID {45EE8E08-9722-40DE-B588-59016B4D83C7}
       <SOURCE MP3
-        FILE "ABERTO\45 - CLICK DE MARCHA 138 BPM\CLICK 138.mp3" 1
+        FILE "ABERTO\46 - CLICK DE MARCHA 138 BPM\CLICK 138.mp3" 1
       >
     >
   >
   <TRACK {DE22BA4C-78B4-4A54-B6AC-17E910A98D73}
-    NAME "46 - CLICK DE MARCHA 140 BPM"
+    NAME "47 - CLICK DE MARCHA 140 BPM"
     PEAKCOL 26247280
     BEAT -1
     AUTOMODE 0
@@ -25631,7 +26860,7 @@
     MAINSEND 1 0
   >
   <TRACK {474DBF7A-9288-4F5A-BD48-59C3DF33BEE0}
-    NAME "46 - MONITOR"
+    NAME "47 - MONITOR"
     PEAKCOL 16842751
     BEAT -1
     AUTOMODE 0
@@ -25657,7 +26886,7 @@
     MIDIOUT -1 -1
     MAINSEND 1 0
     <ITEM
-      POSITION 25985.126425311792
+      POSITION 26465.402343679139
       SNAPOFFS 0
       LENGTH 902.07510204079995
       LOOP 1
@@ -25668,7 +26897,7 @@
       SEL 0
       IGUID {798BB2FF-75F7-45EF-8982-E66B2377D375}
       IID 534
-      NAME "VS BLOCO 46"
+      NAME "VS BLOCO 47"
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
@@ -25686,8 +26915,8 @@
           <CODE
             |// Cartaz do bloco, texto editavel
             |font="Arial";
-            |ini=25985.126425311792;
-            |fim=26887.201527352609;
+            |ini=26465.402343679139;
+            |fim=27367.477445719956;
             |(project_time<ini || project_time>=fim) ? 0 : (
             |project_wh_valid===0 ? input_info(-2,project_w,project_h);
             |gfx_a2=0;
@@ -25698,7 +26927,7 @@
             |gfx_setfont(px,font);
             |#S=" ";
             |gfx_str_measure(#S,spw,sph);
-            |#T="VS BLOCO 46";
+            |#T="VS BLOCO 47";
             |gfx_str_measure(#T,tw,th);
             |widest=tw;
             |#L="Click de Marcha";
@@ -25747,7 +26976,7 @@
     >
   >
   <TRACK {C22E9892-F552-4029-8915-53FA4AD456EA}
-    NAME "46 - CLICK 140 - CLICK DE MARCHA 140 BPM"
+    NAME "47 - CLICK 140 - CLICK DE MARCHA 140 BPM"
     PEAKCOL 25198847
     BEAT -1
     AUTOMODE 0
@@ -25774,7 +27003,7 @@
     MIDIOUT -1 -1
     MAINSEND 0 0
     <ITEM
-      POSITION 25987.126425311792
+      POSITION 26467.402343679139
       SNAPOFFS 0
       LENGTH 900.07510204081598
       LOOP 1
@@ -25792,7 +27021,7 @@
       CHANMODE 0
       GUID {CF42797C-2DB3-41BB-A8F2-65768F5A39E0}
       <SOURCE MP3
-        FILE "ABERTO\46 - CLICK DE MARCHA 140 BPM\CLICK 140.mp3" 1
+        FILE "ABERTO\47 - CLICK DE MARCHA 140 BPM\CLICK 140.mp3" 1
       >
     >
   >
@@ -25844,6 +27073,7 @@
       1073741868 1
       1073741869 1
       1073741870 1
+      1073741871 1
     >
   >
 >

@@ -77,6 +77,7 @@ MARKER_RE = re.compile(r'^  MARKER (\d+) ([0-9.]+) "?((?<=")[^"]*(?=")|(?<!")[^\
 STRING_JSON_RE = re.compile(r'"((?:[^"\\]|\\.)*)"')
 CODE_RE = re.compile(r"^          <CODE\n(?:            \|.*\n)*          >\n", re.MULTILINE)
 VERMELHO = '<a:solidFill><a:srgbClr val="FF0000"/></a:solidFill>'
+BRANCO = '<a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>'
 
 
 @dataclass
@@ -233,8 +234,8 @@ def cartaz_atual_confere(texto: str, ordem: int) -> bool:
 
 
 def run_xml(texto: str, vermelho: bool) -> str:
-    cor = VERMELHO if vermelho else ""
-    props = f'<a:rPr lang="pt-BR" sz="{{sz}}" dirty="0">{cor}</a:rPr>' if cor else '<a:rPr lang="pt-BR" sz="{sz}" dirty="0"/>'
+    cor = VERMELHO if vermelho else BRANCO
+    props = f'<a:rPr lang="pt-BR" sz="{{sz}}" dirty="0">{cor}</a:rPr>'
     return f"<a:r>{props}<a:t>{escape(texto)}</a:t></a:r>"
 
 
@@ -274,22 +275,50 @@ def novo_slide(xml: str, musicas: list[Musica], posicao: int | None = None) -> s
     return xml[:ini] + novo_p + xml[ini + len(texto_p) :]
 
 
+_RUN_TEXTO = re.compile(
+    r"(<a:r><a:rPr[^>]*?(?:/>|>(?:(?!</a:rPr>).)*</a:rPr>)<a:t>)([^<]*)(</a:t></a:r>)",
+    re.DOTALL,
+)
+
+
 def trocar_no_slide(xml: str, velho: str, novo: str) -> str:
     """Troca o texto branco de uma musica, mantendo a formatacao do run."""
-    run_re = re.compile(
-        r"(<a:r><a:rPr[^>]*?(?:/>|>(?:(?!</a:rPr>).)*</a:rPr>)<a:t>)([^<]*)(</a:t></a:r>)",
-        re.DOTALL,
-    )
-    achados = [
-        m for m in run_re.finditer(xml)
-        if "FF0000" not in m.group(1) and unescape(m.group(2)).strip() == velho
-    ]
-    if len(achados) != 1:
+    brancos = [m for m in _RUN_TEXTO.finditer(xml) if "FF0000" not in m.group(1)]
+    achados = [m for m in brancos if unescape(m.group(2)).strip() == velho]
+    if len(achados) == 1:
+        m = achados[0]
+        texto = unescape(m.group(2))
+        sobra = texto[len(texto.rstrip()) :]
+        return xml[: m.start(2)] + escape(novo + sobra) + xml[m.end(2) :]
+    if achados:
         raise SystemExit(f"Slide: esperava 1 run com {velho!r}, achei {len(achados)}.")
-    m = achados[0]
-    texto = unescape(m.group(2))
-    sobra = texto[len(texto.rstrip()) :]
-    return xml[: m.start(2)] + escape(novo + sobra) + xml[m.end(2) :]
+
+    # O nome as vezes esta partido em runs seguidos (Barquinnha + De Ouro).
+    grupos: list[list[re.Match]] = []
+    atual: list[re.Match] = []
+    for m in brancos:
+        if atual:
+            meio = xml[atual[-1].end() : m.start()]
+            if "<a:t>" in meio or "<a:br" in meio or "</a:p>" in meio or "FF0000" in meio:
+                grupos.append(atual)
+                atual = []
+        atual.append(m)
+    if atual:
+        grupos.append(atual)
+    partidos = []
+    for grupo in grupos:
+        full = "".join(unescape(m.group(2)) for m in grupo)
+        if full.strip() == velho:
+            partidos.append((grupo, full))
+    if len(partidos) != 1:
+        raise SystemExit(f"Slide: esperava 1 run com {velho!r}, achei {len(partidos)}.")
+    grupo, full = partidos[0]
+    esquerda = len(full) - len(full.lstrip())
+    direita = full[len(full.rstrip()) :]
+    for m in reversed(grupo[1:]):
+        xml = xml[: m.start(2)] + xml[m.end(2) :]
+    primeiro = grupo[0]
+    return xml[: primeiro.start(2)] + escape(full[:esquerda] + novo + direita) + xml[primeiro.end(2) :]
 
 
 def gravar_pptx(origem: Path, membros: dict[str, str], destino: Path) -> None:
